@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QUITEXML xmlns="http://www.quite.com/general/ns/quitexml/">
+<ITEMS>
+<DICT N='0'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>Nup</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Trim unused space from sheets: no</S>
+    <S N='1'>Allow pages to be scaled: no</S>
+    <S N='2'>Margins: left 0.00, top 0.00, right 0.00, bottom 0.00 points</S>
+    <S N='3'>Horizontal spacing (points): 0 </S>
+    <S N='4'>Vertical spacing (points): 0 </S>
+    <S N='5'>Add frames around each page: no</S>
+    <S N='6'>Sheet size: 7.480 x 0.394 inches / 190.0 x 10.0 mm</S>
+    <S N='7'>Sheet orientation: wide</S>
+    <S N='8'>Layout: rows 1 down, columns 2 across</S>
+    <S N='9'>Align: centre</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <F N='BMgn'>0.0000</F>
+    <F N='CropDist'>10.0000</F>
+    <F N='CropLength'>20.0000</F>
+    <B N='CropMarks'>0</B>
+    <A N='CropStyle'>Corners</A>
+    <F N='CropWidth'>0.3000</F>
+    <A N='DoScaling'>ToFit</A>
+    <B N='EvenMirrorHorizontal'>0</B>
+    <B N='EvenMirrorVertical'>0</B>
+    <I N='FitAcross'>2</I>
+    <I N='FitDown'>1</I>
+    <F N='FixedScale'>0.7000</F>
+    <B N='Frames'>0</B>
+    <S N='HSpace'>0 </S>
+    <F N='LMgn'>0.0000</F>
+    <B N='NewDoc'>0</B>
+    <DICT N='Page'>      <ITEMS>
+      <S N='Created'>D:20190822153649</S>
+      <F N='Height'>28.3465</F>
+      <A N='Type'>Blank</A>
+      <F N='Width'>552.7559</F>
+      </ITEMS>    </DICT>
+
+    <A N='PageOrientation'>Wide</A>
+    <I N='PosX'>584</I>
+    <I N='PosY'>358</I>
+    
+    <F N='RMgn'>0.0000</F>
+    <A N='SheetAlign'>C</A>
+    <B N='SheetAlignIndependent'>0</B>
+    <DICT N='Source'>      <ITEMS>
+      <A N='SourceType'>CurrentAVDoc</A>
+      </ITEMS>    </DICT>
+
+    <F N='TMgn'>0.0000</F>
+    <B N='Trim'>0</B>
+    <I N='UIVer'>2</I>
+    <B N='UseMgn'>1</B>
+    <B N='UseScale'>0</B>
+    <S N='VSpace'>0 </S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<A N='Category'>CommandList_V1</A>
+<B N='DoPrompt'>0</B>
+<S N='Requires'>qi2base</S>
+<DICT N='Stats'>  <ITEMS>
+  <I N='Count'>1</I>
+  <S N='Created'>D:20190821181600</S>
+  <S N='Edited'>D:20190822153653</S>
+  <S N='Updated'>D:20190821181736</S>
+  </ITEMS></DICT>
+
+<A N='UIMode'>None</A>
+</ITEMS>
+</QUITEXML>

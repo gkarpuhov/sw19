@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <data>
+        <email host="smtp.yandex.ru" timeout="5000">
+            <adress mail="robot@fineart-print.ru" display="Поддержка FineArtPrint"/>
+            <credentials login="robot@fineart-print.ru" password="gdliyrasiytsqmjm"/>
+        </email>
+    </data>
+    <yandex auth="y0_AgAEA7qkZbKiAAnuBgAAAAEIIhBdAADz9OzomQBLrbm5cZrLN78BeV8VyA" parallel="1" timeout="60">
+        <sync>
+            <!-- log: 0 - без лога; 1 - только ошибки; 2 - все события -->
+            <!-- namefilter: шаблон регулярного выражения для имени файла -->
+            <!-- removesource: 0 - не удалять; 1 - переместить в корзину; 2 - полное удаление -->
+            <item id="Рыдкин 170_330х482_4+0" filter="\.pdf$" subfolder="false" refresh="600" removesource="1" log="2" overwiteexists="true" enabled="false">
+                <source>disk:/rydkin/170_330х482_4+0</source>
+				<dest>D:\__SWITCH\_Incoming\yandex\ryd\170_330х482_4+0</dest>
+            </item>	 
+            <item id="Рыдкин 250_330х482_4+0" filter="\.pdf$" subfolder="false" refresh="600" removesource="1" log="2" overwiteexists="true" enabled="false">
+                <source>disk:/rydkin/250_330х482_4+0</source>
+				<dest>D:\__SWITCH\_Incoming\yandex\ryd\250_330х482_4+0</dest>
+            </item>
+            <item id="Рыдкин 170_330х700_4+0" filter="\.pdf$" subfolder="false" refresh="600" removesource="1" log="2" overwiteexists="true" enabled="false">
+                <source>disk:/rydkin/170_330х700_4+0</source>
+				<dest>D:\__SWITCH\_Incoming\yandex\ryd\170_330х700_4+0</dest>
+            </item>	
+                <item id="Рыдкин 250_330х700_4+0" filter="\.pdf$" subfolder="false" refresh="600" removesource="1" log="2" overwiteexists="true" enabled="false">
+                <source>disk:/rydkin/250_330х700_4+0</source>
+				<dest>D:\__SWITCH\_Incoming\yandex\ryd\250_330х700_4+0</dest>
+            </item>	  
+        </sync>
+		<temp>D:\__SWITCH\Temp\84746xx</temp>
+    </yandex>
+    <woci auth="y0_AgAEA7qkZbKiAAnuBgAAAAEIIhBdAADz9OzomQBLrbm5cZrLN78BeV8VyA" parallel="3" timeout="60">
+        <sync>
+            <!-- log: 0 - без лога; 1 - только ошибки; 2 - все события -->
+            <!-- namefilter: шаблон регулярного выражения для имени файла -->
+            <!-- removesource: 0 - не удалять; 1 - переместить в корзину; 2 - полное удаление -->
+            <item id="WOCI" filter="\.jpe?g$" subfolder="true" refresh="60" removesource="1" log="2" overwiteexists="true" enabled="false">
+                <source>disk:/ПЕЧАТЬ Моифотостраницы</source>
+			<dest>D:\__SWITCH\_Incoming\woci</dest>
+            </item>
+        </sync>
+		<temp>D:\__SWITCH\Temp\woci92567</temp>
+    </woci>  
+    <!-- logmode: автоматически обновляется список актуальных продуктов -->
+    <!-- timeout: максимальное время ожидания ответа при запросе к удаленному серверу -->
+    <periodica auth="Bearer 05d75abe756bd9622d8f45968812daa0812d5455bf5d5868c3af182125ef6996" parallel="1" timeout="30" logmode="true">
+        <sync>
+            <item id="PRD" filter="ready" refresh="900" log="2" overwiteexists="true" enabled="false">
+                <source>https://api.periodica.press/api/printshops/fine-art</source>
+				<dest>D:\__SWITCH\_Incoming\prd</dest>
+            </item>
+        </sync>
+		<temp>D:\__SWITCH\Temp\i7p9uhk0</temp>
+		<error>D:\__SWITCH\Karantin\prd</error>
+        <msg>
+            <item>g.karpuhov@fineart-print.ru</item>
+        </msg>
+        <products>
+        </products>
+    </periodica>
+    <fastprint auth="(a1J-jyBjl" parallel="1" timeout="30">
+	    <sync>
+		    <item id="FSP" filter="ready" refresh="300" log="2" overwiteexists="true" enabled="true">
+			    <source>http://korp.fastprint.info/digitalapi</source>
+			    <dest>D:\__SWITCH\Flows\SI2\Hotfolders\Incoming\FSP</dest>
+		    </item>
+	    </sync>
+	    <temp>D:\__SWITCH\Temp\fsp91h50</temp>
+	    <error>D:\__SWITCH\Karantin\fsp</error>
+	    <msg>
+		    <item>g.karpuhov@fineart-print.ru</item>
+	    </msg>
+    </fastprint>
+    <vru auth="y0_AgAEA7qkZbKiAAnuBgAAAAEIIhBdAADz9OzomQBLrbm5cZrLN78BeV8VyA" parallel="4" timeout="300">
+        <sync>
+            <!-- log: 0 - без лога; 1 - только ошибки; 2 - все события -->
+            <!-- namefilter: шаблон регулярного выражения для имени файла -->
+            <!-- removesource: 0 - не удалять; 1 - переместить в корзину; 2 - полное удаление -->
+            <item id="VRU" filter="\.jpe?g$" subfolder="true" refresh="60" jobtime="" removesource="0" log="2" overwiteexists="true" enabled="false">
+                <source>disk:/smartproj/vru_to_fap/fotocard</source>
+			    <dest>D:\__SWITCH\Flows\SI2\Hotfolders\Incoming\VRU</dest>
+            </item>
+        </sync>
+		<temp>D:\__SWITCH\Temp\vru46h409</temp>
+		<resources>D:\__SWITCH\Flows\SI2\Temp\vru</resources>		
+	    <msg>
+		    <item>g.karpuhov@fineart-print.ru</item>
+	    </msg>		
+    </vru>  	
+</root>

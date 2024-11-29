@@ -1,0 +1,78 @@
+-------------------------------------------------------------------
+Mgosoft PDF Merger Command Line
+Homepage: http://www.mgosoft.com
+E-mail  : support@mgosoft.com
+-------------------------------------------------------------------
+Usage: pdfmerger <-i PDF File> [options]
+
+-i <string>	:Specify input pdf files.
+
+-o <string>	:Specify output pdf file.
+
+-l <string>	:Specify log file for output message.
+
+-w <string>	:Set open pdf file password. 
+
+-r <string>	:Register.
+
+
+===Information===
+
+-ft <string>	:Set 'title' to PDF file.
+
+-fs <string>	:Set 'subject' to PDF file.
+
+-fa <string>	:Set 'author' to PDF file.
+
+-fk <string>	:Set 'keywords' to PDF file.
+
+-fc <string>	:Set 'creator' to PDF file. 
+
+-fp <string>	:Set 'producer' to PDF file.
+
+
+===Text stamping===
+
+-tt <string>	:The content of the stamp.
+
+-ts <int>	:Set the font size, default is 16 point.
+
+-tc <int>	:Specify the text color,range from 0-16777215,default is 255(red).
+
+-tp <int>	:The Position of stamps.
+		1 = Stamps on the Top-Left of the page. (default)
+		2 = Stamps on the Top-Center of the page.
+		3 = Stamps on the Top-Right of the page.
+		4 = Stamps on the Right-Center of the page.
+		5 = Stamps on the Right-Bottom of the page.
+		6 = Stamps on the Bottom-Center of the page.
+		7 = Stamps on the Left-Bottom of the page.
+		8 = Stamps on the Left-Center of the page.
+		9 = Stamps on the Center of the page.
+
+-tr <int>	:The Angle for stamps,range from 0-360.
+
+-tx <int>	:Offset from current position.
+		e.g -tx 10 Move to right 10 point
+		e.g -tx "-10" Move to left 10 point
+
+-ty <int>	:Offset from current position.
+		e.g -ty 10 Move to bottom 10 point
+		e.g -ty "-10" Move to top 10 point
+
+-tg		:Placed text watermark under the existing content. 
+
+-------------------------------------------------------------------
+Example:
+
+pdfmerger -i C:\input.pdf 1,3 -i C:\input2.pdf 5-10 -o C:\merged.pdf -ft title -fp producer
+
+pdfmerger -i "C:\in put\" 1,3-8,10 -w password -o "C:\merged 2.pdf" -l c:\out.log
+
+pdfmerger -i C:\input.pdf 1,3 -i C:\input2.pdf 5-10 -o C:\merged.pdf -tt watermark -ts 32 -tp 9 -ty "-10"
+
+pdfmerger -r "yourlicensecode"
+
+-------------------------------------------------------------------
+Please notice, if your input parameter contain space(s), you must use quotation mark to include them, 
+for example: "C:\in put.pdf" "C:\out put\"

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+Basic tags: 
+S : SECTION
+C : COMPONENT
+A : ATTRIBUTE 
+
+Basic attributes:
+N : NAME
+Type: TYPE OF CONTENT (Integer, Float, Boolean or other)
+RegExp: REGULAR EXPRESSION (for check content if nessary)
+
+A string of path without filename should always ending slash (for Windows backslash,  for xPath and URI - normal slash)!
+Sample for Windows: C:\Folder1\Folder2\
+Sample for xPath or URI: file://Folder1/Folder2/
+
+-->
+
+<DRPXML N='ProductList_CBK' Version='2.1.0' Date='2018-03-22'>
+<!-- Переменная %UCID% - Universal CID: универсальный CID для стандартных продуктов. -->
+<!-- Переменная %CID% указывает на непосредственный идентификатор  конфигурации -->
+
+<S N='#'>
+    <C N='BLK' I='0'><!-- Деталь продукта -->
+	    <A N='Template'>^(5|7)3FBLT?W?P?_\d+X\d+</A>
+        <A N='Value'>TCS_73FBL_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Блок FB длинный</A>
+    </C>
+    <C N='BLK' I='1'><!-- Деталь продукта -->
+	    <A N='Template'>^(5|7)3FBST?W?P?_\d+X\d+</A>
+        <A N='Value'>TCS_73FBS_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Блок FB короткий</A>
+    </C>	
+    <C N='BLK' I='2'><!-- Деталь продукта -->
+	    <A N='Template'>^(5|7)BH1?(W|L|L1|K|LK|L1K|WW)?C?T?_\d+X\d+</A>
+        <A N='Value'>TCS_7B_PH_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>LayFlat Фотохимия</A>
+    </C>
+    <C N='BLK' I='3'><!-- Деталь продукта -->
+	    <A N='Template'>^(5|7)BD1?P?(W|L|K|LK|TW)?C?T?_\d+X\d+</A>
+        <A N='Value'>TCS_7BDP_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>LayFlat с паспарту</A>
+    </C>	
+    <C N='BLK' I='4'><!-- Деталь продукта -->
+	    <A N='Template'>^(5|7)3T?W?_\d+X\d+</A>
+        <A N='Value'>TCS_73_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Блок классика</A>
+    </C>
+    <C N='BLK' I='5'><!-- Деталь продукта -->
+	    <A N='Template'>^(5|7|3)KHS(W|P|B|L|D)?T?_\d+X\d+</A>
+        <A N='Value'>TCS_KHS8_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Блок КШС</A>
+    </C>		
+    <C N='CVR' I='6'><!-- Деталь продукта -->
+	    <A N='Template'>^(5|7)(BD|BH)1?P?_300X(300|400)</A>
+        <A N='Value'>TCS_53_BD_CVR_WF.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Обложка большого формата, которая не влезает в Индигу с учетом загибов. Сюда тоже попадут с окнами (W), где законтовка не нужна</A>
+    </C>	
+    <C N='CVR' I='7'><!-- Деталь продукта -->
+	    <A N='Template'>^53FBS_400X300</A>
+        <A N='Value'>TCS_53_FB_CVR_WF.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Обложка большого формата, которая не влезает в Индигу с учетом загибов. Сюда тоже попадут с окнами (W), где законтовка не нужна</A>
+    </C>	
+    <C N='CVR' I='8'><!-- Деталь продукта -->
+        <A N='Template'>^(5|7)(BD|BH)1?P?_\d+X\d+</A>
+        <A N='Value'>TCS_53_BD_CVR.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Обложка на все лицо с законтовкой</A>
+    </C>		
+    <C N='CVR' I='9'><!-- Деталь продукта -->
+	    <A N='Template'>^(5|7)(BD|BH)1?P?W_\d+X\d+</A>
+        <A N='Value'>TCS_BD_WINDOWS_CVR.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Обложка окно LayFlat</A>
+    </C>	
+    <C N='CVR' I='10'><!-- Деталь продукта -->
+	    <A N='Template'>^7(3FBL|KHS)_\d+X\d+</A>
+        <A N='Value'>TCS_73_CVR.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Обложка продукта 73FBL</A>
+    </C>	
+    <C N='CVR' I='11'><!-- Деталь продукта -->
+	    <A N='Template'>^5(3FBL|3FBS|KHS|KHSL)_\d+X\d+</A>
+        <A N='Value'>TCS_53_CVR.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Обложка продукта 53FBL</A>
+    </C>	
+    <C N='CVR' I='12'><!-- Деталь продукта -->
+	    <A N='Template'>^(5|7)(3FBL|3FBS|KHS|3)W_\d+X\d+</A>
+        <A N='Value'>TCS_FB_WINDOWS_CVR.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Обложка продукта 53FBLW</A>
+    </C>	
+    <C N='CVR' I='13'><!-- Деталь продукта -->
+	    <A N='Template'>^5(BD|BH)P?(TW|WW)_\d+X\d+</A>
+        <A N='Value'>TCS_BD_WINDOW_NOBLEED_CVR.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Обложка продукта 53FBLW</A>
+    </C>	
+	<C N='CVR' I='14'><!-- Деталь продукта -->
+	    <A N='Template'>^3KHS_\d+X\d+</A>
+        <A N='Value'>TCS_30_CVR.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Обложка КШС</A>
+    </C>	
+    <C N='FRZ' I='15'><!-- Деталь продукта -->
+	    <A N='Template'>^(5|7)3FB(L|S)T?W?P?_300X400</A>
+        <A N='Value'>TCS_73_KALKA_300x400.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Калька</A>
+    </C>	
+    <C N='FRZ' I='16'><!-- Деталь продукта -->
+	    <A N='Template'>^(5|7)3FB(L|S)T?W?P?_\d+X\d+</A>
+        <A N='Value'>TCS_73_KALKA.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Калька</A>
+    </C>	
+    <C N='FRZ' I='17'><!-- Деталь продукта -->
+	    <A N='Template'>^(5|7)BD1?P?(W|L|K|LK|TW)?C?T?_\d+X\d+</A>
+        <A N='Value'>TCS_BD_KALKA.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Калька</A>
+    </C>	
+    <C N='FRZ' I='18'><!-- Деталь продукта -->
+	    <A N='Template'>^(5|7)KHS</A>
+        <A N='Value'>TCS_KHS_KALKA.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Калька</A>
+    </C>	
+    <C N='BLK' I='19'><!-- Деталь продукта -->
+	    <A N='Template'>^PH1_\d+X\d+</A>
+        <A N='Value'>TCS_PSTR1_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Постер</A>
+    </C>	
+    <C N='BLK' I='20'><!-- Деталь продукта -->
+	    <A N='Template'>^CAN1_\d+X\d+</A>
+        <A N='Value'>TCS_PSTRCV_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Холст</A>
+    </C>	
+    <C N='BLK' I='21'><!-- Деталь продукта -->
+	    <A N='Template'>^PROOF_\d+X\d+</A>
+        <A N='Value'>TCS_FROOF.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Цветопроба</A>
+    </C>	
+    <C N='BLK' I='22'><!-- Деталь продукта -->
+	    <A N='Template'>^SLM1_\d+X\d+</A>
+        <A N='Value'>TCS_SLM1_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Кашированные карточки</A>
+    </C>	
+    <C N='BLK' I='23'><!-- Деталь продукта -->
+	    <A N='Template'>^SLM1P_\d+X\d+</A>
+        <A N='Value'>TCS_SLM1_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Кашированные карточки</A>
+    </C>		
+
+    <C N='JOB' I='24'><!-- Деталь продукта -->
+	    <A N='Template'>.+</A>
+        <A N='Value'>JOB.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Job Blank</A>
+    </C>	
+    <C N='BLK' I='25'><!-- Деталь продукта -->
+	    <A N='Template'>^(BOMBE|BUREAU|KOFR|SLIVER|KACC)</A>
+        <A N='Value'>NULL_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Подарочная коробка</A>
+    </C>		
+</S>
+
+	<S N='CRD1_210X148'>
+		<C N='BLK'><!-- Деталь продукта -->
+			<A N='Value'>TCS_CRD1_210X148.xml</A>
+			<A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+			<A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+			<A N='Comment'>Карточки</A>
+		</C>
+	</S>
+
+  <S N='3KHSB_165X210'>
+    <C N='CVR'>
+      <A N='Value'>TCS_33_LC_165x210_CVR.xml</A>
+      <A N='Path'>%ConfigFolder%\%CID%\Products\</A>
+      <A N='CheckID' type='Boolean'>false</A>
+      <A N='Comment'>Мягкая облоджа с логотипом</A>
+    </C>
+  </S>
+  
+  <S N='3KHSB_220X280'>
+    <C N='CVR'>
+      <A N='Value'>TCS_33_LC_220x280_CVR.xml</A>
+      <A N='Path'>%ConfigFolder%\%CID%\Products\</A>
+      <A N='CheckID' type='Boolean'>false</A>
+      <A N='Comment'>Мягкая облоджа с логотипом</A>
+    </C>
+  </S>  
+  
+    <S N='3KHSD_220X280'>
+    <C N='CVR'>
+      <A N='Value'>TCS_33_LightGlanez_220x280_CVR.xml</A>
+      <A N='Path'>%ConfigFolder%\%CID%\Products\</A>
+      <A N='CheckID' type='Boolean'>false</A>
+      <A N='Comment'>Мягкая облоджа с логотипом</A>
+    </C>
+  </S> 
+  
+  <S N='73FBS'>
+    <C N='CVR'>
+      <A N='Value'>TCS_73_CVR_WF.xml</A>
+      <A N='Path'>%ConfigFolder%\%CID%\Products\</A>
+      <A N='CheckID' type='Boolean'>false</A>
+      <A N='Comment'>Мягкая облоджа с логотипом</A>
+    </C>
+  </S> 
+  
+  <S N='5BHWW'>
+    <C N='PRN'>
+      <A N='Value'>TCS_PATTERN.xml</A>
+      <A N='Path'>%ConfigFolder%\%CID%\Products\</A>
+      <A N='CheckID' type='Boolean'>false</A>
+      <A N='Comment'>Калька</A>
+    </C>
+  </S>
+  
+  <S N='73FBLP'>
+    <C N='CVR'>
+      <A N='Value'>TCS_PATTERN_CVR.xml</A>
+      <A N='Path'>%ConfigFolder%\%CID%\Products\</A>
+      <A N='CheckID' type='Boolean'>false</A>
+      <A N='Comment'>Калька</A>
+    </C>
+  </S>
+  
+  <S N='73FBSP'>
+    <C N='CVR'>
+      <A N='Value'>TCS_PATTERN_CVR.xml</A>
+      <A N='Path'>%ConfigFolder%\%CID%\Products\</A>
+      <A N='CheckID' type='Boolean'>false</A>
+      <A N='Comment'>Калька</A>
+    </C>
+  </S>
+  
+  <S N='7KHSP'>
+    <C N='CVR'>
+      <A N='Value'>TCS_PATTERN_CVR.xml</A>
+      <A N='Path'>%ConfigFolder%\%CID%\Products\</A>
+      <A N='CheckID' type='Boolean'>false</A>
+      <A N='Comment'>Калька</A>
+    </C>
+  </S>
+  
+  <S N='CLP'>
+    <C N='BLK'>
+      <A N='Value'>CLP.xml</A>
+      <A N='Path'>%ConfigFolder%\%CID%\Products\</A>
+      <A N='CheckID' type='Boolean'>false</A>
+      <A N='Comment'>Калька</A>
+    </C>
+  </S>
+  
+  <S N='KLSET_300X400'>
+    <C N='BLK'>
+      <A N='Value'>TCS_73_KALKA_300x400_SET_BLK.xml</A>
+      <A N='Path'>%ConfigFolder%\%CID%\Products\</A>
+      <A N='CheckID' type='Boolean'>false</A>
+      <A N='Comment'>Калька</A>
+    </C>
+  </S>   
+
+  <S N='KLSET_250X350'>
+    <C N='BLK'>
+      <A N='Value'>TCS_73_KALKA_300x400_SET_BLK.xml</A>
+      <A N='Path'>%ConfigFolder%\%CID%\Products\</A>
+      <A N='CheckID' type='Boolean'>false</A>
+      <A N='Comment'>Калька</A>
+    </C>
+  </S> 
+  
+  <S N='KLSET'>
+    <C N='BLK'>
+      <A N='Value'>TCS_73_KALKA_SET_BLK.xml</A>
+      <A N='Path'>%ConfigFolder%\%CID%\Products\</A>
+      <A N='CheckID' type='Boolean'>false</A>
+      <A N='Comment'>Калька</A>
+    </C>
+  </S>  
+  
+  <S N='KLCARD'>
+    <C N='BLK'>
+      <A N='Value'>TCS_73_KALKA_CARDSET_BLK.xml</A>
+      <A N='Path'>%ConfigFolder%\%CID%\Products\</A>
+      <A N='CheckID' type='Boolean'>false</A>
+      <A N='Comment'>Калька</A>
+    </C>
+  </S>    
+  
+  
+</DRPXML>

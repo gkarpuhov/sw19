@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+Basic tags: 
+S : SECTION
+C : COMPONENT
+A : ATTRIBUTE 
+
+Basic attributes:
+N : NAME
+Type: TYPE OF CONTENT (Integer, Float, Boolean or other)
+RegExp: REGULAR EXPRESSION (for check content if nessary)
+
+A string of path without filename should always ending slash (for Windows backslash,  for xPath and URI - normal slash)!
+Sample for Windows: C:\Folder1\Folder2\
+Sample for xPath or URI: file://Folder1/Folder2/
+
+-->
+
+<DRPXML N='ProductList_VRU' Version='2.1.0' Date='2018-03-22'>
+<!-- Переменная %UCID% - Universal CID: универсальный CID для стандартных продуктов. -->
+<!-- Переменная %CID% указывает на непосредственный идентификатор  конфигурации -->
+
+<S N='#'>
+
+    <C N='CVR' I='0'><!-- Деталь продукта -->
+	    <A N='Template'>^7</A>
+        <A N='Value'>73_CVR.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'></A>
+    </C>	
+    <C N='CVR' I='1'><!-- Деталь продукта -->
+	    <A N='Template'>^53FI</A>
+        <A N='Value'>53_FI_CVR.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'></A>
+    </C>		
+    <C N='CVR' I='2'><!-- Деталь продукта -->
+	    <A N='Template'>^5</A>
+        <A N='Value'>53_CVR.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'></A>
+    </C>	
+    <C N='CVR' I='3'><!-- Деталь продукта -->
+	    <A N='Template'>^3</A>
+        <A N='Value'>30_CVR.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'></A>
+    </C>		
+    <C N='BLK' I='4'><!-- Деталь продукта -->
+	    <A N='Template'>^(5|7)3(I|FI|B2)?T?_(ONLINE_)?\d+X\d+</A>
+        <A N='Value'>73_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Блок КБС</A>
+    </C>	
+    <C N='INS' I='5'><!-- Деталь продукта -->
+	    <A N='Template'>^(5|7)3(I|FI|B2)?T?_\d+X\d+</A>
+        <A N='Value'>73_INS.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Персонализация КБС</A>
+    </C>	
+    <C N='BLK' I='6'><!-- Деталь продукта -->
+	    <A N='Template'>^(3|5|7)BT?_\d+X\d+</A>
+        <A N='Value'>7B_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Блок LayFlat</A>
+    </C>	
+    <C N='INS' I='7'><!-- Деталь продукта -->
+	    <A N='Template'>^(3|5|7)BT?_\d+X\d+</A>
+        <A N='Value'>7B_INS.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Персонализация LayFlat</A>
+    </C>
+    <C N='BLK' I='8'><!-- Деталь продукта -->
+	    <A N='Template'>^(3|5|7)BVT?_\d+X\d+</A>
+        <A N='Value'>7BV_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Блок LayFlat</A>
+    </C>	
+    <C N='INS' I='9'><!-- Деталь продукта -->
+	    <A N='Template'>^(3|5|7)BVT?_\d+X\d+</A>
+        <A N='Value'>7BV_INS.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Персонализация LayFlat</A>
+    </C>	
+    <C N='BLK' I='10'><!-- Деталь продукта -->
+	    <A N='Template'>^(5|7)3FBLT?_\d+X\d+</A>
+        <A N='Value'>73FBL_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Блок FBL</A>
+    </C>
+    <C N='INS' I='11'><!-- Деталь продукта -->
+	    <A N='Template'>^(5|7)3FBLT?_\d+X\d+</A>
+        <A N='Value'>73FBL_INS.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Блок FBL</A>
+    </C>	
+    <C N='BLK' I='12'><!-- Деталь продукта -->
+	    <A N='Template'>^(5|7)3FBST?_\d+X\d+</A>
+        <A N='Value'>73FBS_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Блок FBS</A>
+    </C>	
+    <C N='INS' I='13'><!-- Деталь продукта -->
+	    <A N='Template'>^(5|7)3FBST?_\d+X\d+</A>
+        <A N='Value'>73FBS_INS.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Блок FBS</A>
+    </C>		
+	
+    <C N='JOB' I='14'><!-- Деталь продукта -->
+	    <A N='Template'>.+</A>
+        <A N='Value'>JOB.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Job Blank</A>
+    </C>		
+</S>
+
+<S N='PNRB2'>
+    <C N='BLK'><!-- Деталь продукта -->
+        <A N='Value'>PNRB2_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'></A>
+    </C>
+    <C N='CVR'><!-- Деталь продукта -->
+        <A N='Value'>PNRB2_CVR.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Обложка продукта</A>
+    </C>
+</S>
+
+<S N='FLD2'>
+    <C N='BLK'><!-- Деталь продукта -->
+        <A N='Value'>FLD2W_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Блок продукта</A>
+    </C>
+    <C N='CVR'><!-- Деталь продукта -->
+        <A N='Value'>73_CVR.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Обложка продукта</A>
+    </C>
+</S>
+
+<S N='FLD4'>
+    <C N='BLK'><!-- Деталь продукта -->
+        <A N='Value'>FLD4W_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Блок продукта FLD2W</A>
+    </C>
+    <C N='CVR'><!-- Деталь продукта -->
+        <A N='Value'>73_CVR.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Обложка продукта FLD2W</A>
+    </C>
+</S>
+
+<S N='CRD1'>
+    <C N='BLK'><!-- Деталь продукта -->
+        <A N='Value'>CRD1_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Блок продукта</A>
+    </C>
+</S>
+
+<S N='CRD2'>
+    <C N='BLK'><!-- Деталь продукта -->
+        <A N='Value'>CRD2_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Блок продукта</A>
+    </C>
+</S>
+
+
+</DRPXML>

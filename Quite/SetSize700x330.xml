@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QUITEXML xmlns="http://www.quite.com/general/ns/quitexml/">
+<ITEMS>
+<DICT N='0'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>Nup</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Trim unused space from sheets: no</S>
+    <S N='1'>Allow pages to be scaled: no</S>
+    <S N='2'>Margins and crop marks: none</S>
+    <S N='3'>Sheet size: 27.559 x 12.992 inches / 700.0 x 330.0 mm</S>
+    <S N='4'>Sheet orientation: wide</S>
+    <S N='5'>Layout: rows 1 down, columns 1 across</S>
+    <S N='6'>Align: centre, independent</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <F N='BMgn'>0.0000</F>
+    <F N='CropDist'>10.0000</F>
+    <F N='CropLength'>20.0000</F>
+    <B N='CropMarks'>0</B>
+    <A N='CropStyle'>Corners</A>
+    <F N='CropWidth'>0.3000</F>
+    <A N='DoScaling'>ToFit</A>
+    <B N='EvenMirrorHorizontal'>0</B>
+    <B N='EvenMirrorVertical'>0</B>
+    <I N='FitAcross'>1</I>
+    <I N='FitDown'>1</I>
+    <F N='FixedScale'>0.7000</F>
+    <B N='Frames'>0</B>
+    <S N='HSpace'>0 </S>
+    <F N='LMgn'>0.0000</F>
+    <B N='NewDoc'>0</B>
+    <DICT N='Page'>      <ITEMS>
+      <S N='Created'>D:20240620203649</S>
+      <F N='Height'>935.4330</F>
+      <A N='Type'>Blank</A>
+      <F N='Width'>1984.2520</F>
+      </ITEMS>    </DICT>
+
+    <A N='PageOrientation'>Wide</A>
+    <I N='PosX'>744</I>
+    <I N='PosY'>340</I>
+    
+    <F N='RMgn'>0.0000</F>
+    <A N='SheetAlign'>C</A>
+    <B N='SheetAlignIndependent'>1</B>
+    <DICT N='Source'>      <ITEMS>
+      <A N='SourceType'>CurrentAVDoc</A>
+      </ITEMS>    </DICT>
+
+    <F N='TMgn'>0.0000</F>
+    <B N='Trim'>0</B>
+    <I N='UIVer'>2</I>
+    <B N='UseMgn'>0</B>
+    <B N='UseScale'>0</B>
+    <S N='VSpace'>0 </S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus5</S>
+    <S N='FullName'>Quite Imposing Plus 5.2</S>
+    <S N='Name'>Quite Imposing Plus 5</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<A N='Category'>CommandList_V1</A>
+<B N='DoPrompt'>0</B>
+<S N='Requires'>qi2base</S>
+<DICT N='Stats'>  <ITEMS>
+  <I N='Count'>2</I>
+  <S N='Created'>D:20240620100248</S>
+  <S N='Edited'>D:20240620203656</S>
+  <S N='Updated'>D:20240620100515</S>
+  </ITEMS></DICT>
+
+<A N='UIMode'>None</A>
+</ITEMS>
+</QUITEXML>

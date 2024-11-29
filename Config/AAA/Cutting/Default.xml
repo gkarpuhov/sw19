@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DRPXML>
+<A N='ID'>Default</A>
+	<S N='Description'>
+		<A N='Ru'>Резальная машина (760мм)</A>
+		<A N='En'>Резальная машина (760мм)</A>
+	</S>
+	<!-- Определяет  Margins файла продукта если неопределено -->	
+	<S N='Margins'>
+        <A N="Left">2</A>
+        <A N="Top">0</A>
+        <A N="Right">2</A>
+        <A N="Bottom">0</A>
+		<A N="MirrorLeftRight">true</A>		
+	</S>
+	<!-- Определяет  Bleeds файла продукта если неопределено -->
+	<S N="Bleeds">
+		<A N="UseTrimBox">true</A>
+        <A N="Left">2</A>
+        <A N="Top">2</A>
+        <A N="Right">2</A>
+        <A N="Bottom">2</A>
+		<A N="MirrorLeftRight">true</A>
+	</S>	
+	<S N='SubstrateList'>
+		<C N='Params'>
+			<A N='Filter' Type='Boolean'>true</A>
+		</C>
+		<C N='List'>
+			<A>.+</A>
+		</C>
+	</S>	
+</DRPXML>

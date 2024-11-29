@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+Basic tags: 
+S : SECTION
+C : COMPONENT
+A : ATTRIBUTE 
+
+Basic attributes:
+N : NAME
+Type: TYPE OF CONTENT (Integer, Float, Boolean or other)
+RegExp: REGULAR EXPRESSION (for check content if nessary)
+
+A string of path without filename should always ending slash (for Windows backslash,  for xPath and URI - normal slash)!
+Sample for Windows: C:\Folder1\Folder2\
+Sample for xPath or URI: file://Folder1/Folder2/
+
+-->
+
+<DRPXML N='PressList_VRU' Version='2.0.1' Date='2018-03-16'>
+<!-- Переменная %UCID% - Universal CID: универсальный CID для стандартных продуктов. -->
+<!-- Переменная %CID% указывает на непосредственный идентификатор  конфигурации -->
+
+<S N='Null'>
+    <A N='Value'>Null.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Presses\</A>
+    <A N='Comment'>Без печати</A>
+</S>
+<S N='Indigo7600'>
+    <A N='Value'>Indigo7600.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Presses\</A>
+    <A N='Comment'>HP Indigo Digital Press 7600</A>
+</S>
+  <S N='Indigo7900'>
+    <A N='Value'>Indigo7900.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Presses\</A>
+    <A N='Comment'>HP Indigo Digital Press 7900</A>
+  </S> 
+<S N='Indigo12000'>
+    <A N='Value'>Indigo12000.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Presses\</A>
+    <A N='Comment'>HP Indigo Digital Press 12000</A>
+</S>
+<S N='Konica14000'>
+    <A N='Value'>Konica14000.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Presses\</A>
+    <A N='Comment'>Konica Minolta AccurioPress C14000</A>
+</S>
+<S N='Konica12000'>
+    <A N='Value'>Konica12000.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Presses\</A>
+    <A N='Comment'>Konica Minolta AccurioPress C12000</A>
+</S>
+<S N='Canon8400_1'>
+    <A N='Value'>Canon8400_1.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Presses\</A>
+    <A N='Comment'>Canon iPF 8400</A>
+</S>
+</DRPXML>

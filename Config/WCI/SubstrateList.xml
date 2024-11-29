@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+Basic tags: 
+S : SECTION
+C : COMPONENT
+A : ATTRIBUTE 
+
+Basic attributes:
+N : NAME
+Type: TYPE OF CONTENT (Integer, Float, Boolean or other)
+RegExp: REGULAR EXPRESSION (for check content if nessary)
+
+A string of path without filename should always ending slash (for Windows backslash,  for xPath and URI - normal slash)!
+Sample for Windows: C:\Folder1\Folder2\
+Sample for xPath or URI: file://Folder1/Folder2/
+
+-->
+
+<DRPXML>
+<S N='PLAIN'>
+    <A N='Value'>PLAIN.xml</A>
+    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+    <A N='Comment'>Офисная бумага формата А4</A>
+</S>
+<S N='JOB_PPP'>
+    <A N='Value'>JOB_PPP.xml</A>
+    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+    <A N='Comment'>Офисная бумага формата А4</A>
+</S>
+<S N='ULTIMATE_WHITE_240'>
+    <A N='Value'>ULTIMATE_WHITE_240.xml</A>
+    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+    <A N='Comment'>Высококачественная белая бумага для фотопроектов 330x482, 240 г/кв.м</A>
+</S>
+</DRPXML>

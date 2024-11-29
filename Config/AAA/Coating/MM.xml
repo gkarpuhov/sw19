@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+Basic tags: 
+S : SECTION
+C : COMPONENT
+A : ATTRIBUTE 
+
+Basic attributes:
+N : NAME
+Type: TYPE OF CONTENT (Integer, Float , Boolean or other)
+RegExp: REGULAR EXPRESSION (for check content if nessary)
+
+A string of path without filename should always ending slash (for Windows backslash,  for xPath and URI - normal slash)!
+Sample for Windows: C:\Folder1\Folder2\
+Sample for xPath or URI: file://Folder1/Folder2/
+
+-->
+
+<DRPXML N='00' Version='2.0.0' Date='2015-09-25'>
+<A N='ID'>MM</A><!-- код покрытия (Coating)-->
+<S N='Description'>
+    <A N='Ru'>Матовое двухстороннее ламинирование, PP, 28 мкм</A>
+    <A N='En'>Matte Double-Side Lamination, PP, 28 mkm</A>
+</S>
+<S N='ShortDescription'>
+    <A N='Ru'>Ламинация: Матовая 1+1 (PP,28)</A>
+    <A N='En'>Lam.: Matte  1+1  (PP, 28)</A>
+</S>
+<S N='Media'>
+    <A N='Roll' Type='Boolean'>true</A><!-- тип: рулон (true) или иное (false) -->
+    <A N='Duplex' Type='Boolean'>true</A>
+    <A N='Weight' Type='Integer'>10</A><!-- вес, gsm -->
+    <A N='Thickness' Type='Float'>0,025</A><!-- толщина, мм -->
+</S>
+<S N='Price'>
+    <A N='Value' Type='Float'>0,00</A>
+    <A N='Currency'>USD</A>
+    <A N='Measure' >SQM</A>
+</S>
+
+</DRPXML>

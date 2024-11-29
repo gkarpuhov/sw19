@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JDF Type="Combined" ID="rootNodeId" Status="Waiting" Version="1.3"  Types="DigitalPrinting ColorSpaceConversion LayoutPreparation" DescriptiveName="">
+   <Comment Name="JobSpec"></Comment>
+   <ResourcePool>
+  	  <ColorantControl Class="Parameter" ID="CC001" ProcessColorModel="DeviceCMYK" Status="Available">
+	  </ColorantControl>      
+      <Media Class="Consumable" DescriptiveName="" ID="MED000"  Status="Available"/>
+      <Media Class="Consumable" DescriptiveName="" ID="MED001"  Status="Available"/>
+		<TransferFunctionControl ID="TFC001" Class="Parameter" Status="Available" TransferFunctionSource="Custom">
+			<TransferCurvePool>
+				<TransferCurveSet Name="Paper">
+					<TransferCurve Separation="All" DescriptiveName="" Curve=""/>
+				</TransferCurveSet>
+			</TransferCurvePool>
+		</TransferFunctionControl>		  
+      <ColorSpaceConversionParams Class="Parameter" ICCProfileUsage="UseSupplied" ID="CSCP001" Status="Available">
+         <FileSpec MimeType="ICC Profile" ResourceUsage="FinalTargetDevice" URL=""/>
+         <ColorSpaceConversionOp IgnoreEmbeddedICC="true" Operation="Retag" SourceCS="CMYK" SourceObjects="All">
+            <FileSpec ResourceUsage="SourceProfile" MimeType="ICC Profile" URL=""/>
+         </ColorSpaceConversionOp>
+         <ColorSpaceConversionOp Operation="Convert" SourceCS="RGB" SourceObjects="All">
+            <FileSpec ResourceUsage="SourceProfile" MimeType="ICC Profile" URL=""/>
+         </ColorSpaceConversionOp>
+      </ColorSpaceConversionParams>
+      <DigitalPrintingParams Class="Parameter" ID="DPP001" Status="Available" NoOp="true" Collate="" PartIDKeys="SheetIndex">
+         <MediaRef rRef="MED000"/>
+         <DigitalPrintingParams SheetIndex="0">
+            <MediaRef rRef="MED001"/>
+         </DigitalPrintingParams>
+      </DigitalPrintingParams>
+      <RunList Class="Parameter" ID="RL001" Status="Available">
+            <LayoutElement>
+               <FileSpec MimeType="application/pdf" URL=""/>
+            </LayoutElement>
+      </RunList>
+	  <RunList Class="Parameter" ID="RL002" Directory="" Status="Unavailable"/>	  
+      <LayoutPreparationParams Class="Parameter" ID="LPP001" Status="Available"/>
+      <Component ID="Component" ComponentType="FinalProduct" Status="Unavailable" Class="Quantity"/>
+   </ResourcePool>
+   <ResourceLinkPool>
+      <ColorantControlLink rRef="CC001" Usage="Input" />      
+      <MediaLink rRef="MED000" Usage="Input"/>
+      <MediaLink rRef="MED001" Usage="Input"/>
+	  <TransferFunctionControlLink rRef="TFC001" Usage="Input" />		  
+      <ColorSpaceConversionParamsLink rRef="CSCP001" Usage="Input"/>
+      <DigitalPrintingParamsLink rRef="DPP001" Usage="Input"/>
+      <RunListLink rRef="RL001" Usage="Input"/>
+	  <RunListLink rRef="RL002" Usage="Output"/>	  
+      <LayoutPreparationParamsLink rRef="LPP001" Usage="Input"/>
+      <ComponentLink Amount="" Usage="Output" rRef="Component"/>
+   </ResourceLinkPool>
+</JDF>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+Basic tags: 
+S : SECTION
+C : COMPONENT
+A : ATTRIBUTE 
+
+Basic attributes:
+N : NAME
+Type: TYPE OF CONTENT (Integer, Float, Boolean or other)
+RegExp: REGULAR EXPRESSION (for check content if nessary)
+
+A string of path without filename should always ending slash (for Windows backslash,  for xPath and URI - normal slash)!
+Sample for Windows: C:\Folder1\Folder2\
+Sample for xPath or URI: file://Folder1/Folder2/
+
+-->
+
+<DRPXML N='CoatingList_PPP' Version='2.0.1' Date='2018-03-16'>
+<!-- Переменная %UCID% - Universal CID: универсальный CID для стандартных продуктов. -->
+<!-- Переменная %CID% указывает на непосредственный идентификатор  конфигурации -->
+
+<S N='00'>
+    <A N='Value'>00.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Coating\</A>
+    <A N='Comment'>Отсутствие покрытия</A>
+</S>
+<S N='G0'>
+    <A N='Value'>G0.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Coating\</A>
+    <A N='Comment'>Глянцевая односторонняя ламинация с лицевой стороны, PP, 25 мкм</A>
+</S>
+<S N='M0'>
+    <A N='Value'>M0.xml</A>
+    <A N='Path'>%ConfigFolder%\%CID%\Coating\</A>
+    <A N='Comment'>Матовая односторонняя ламинация с лицевой стороны, PP, 28 мкм</A>
+</S>
+<S N='X3'>
+    <A N='Value'>X3.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Coating\</A>
+    <A N='Comment'>Неизвестно</A>
+</S>
+
+</DRPXML>

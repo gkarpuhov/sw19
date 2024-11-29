@@ -1,0 +1,1 @@
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe -i D:\__SWITCH\Flows\SI2\Tools\getyadisk\getyadisk.exe

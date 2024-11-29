@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+Basic tags: 
+S : SECTION
+C : COMPONENT
+A : ATTRIBUTE 
+
+Basic attributes:
+N : NAME
+Type: TYPE OF CONTENT (Integer, Float, Boolean or other)
+RegExp: REGULAR EXPRESSION (for check content if nessary)
+
+A string of path without filename should always ending slash (for Windows backslash,  for xPath and URI - normal slash)!
+Sample for Windows: C:\Folder1\Folder2\
+Sample for xPath or URI: file://Folder1/Folder2/
+
+-->
+
+<DRPXML>
+<S N='00'>
+    <A N='Value'>00.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Coating\</A>
+    <A N='Comment'>Отсутствие покрытия</A>
+</S>
+<S N='G0'>
+    <A N='Value'>G0.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Coating\</A>
+    <A N='Comment'>Глянцевая односторонняя ламинация с лицевой стороны, PP, 25 мкм</A>
+</S>
+<S N='M0'>
+    <A N='Value'>M0.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Coating\</A>
+    <A N='Comment'>Матовая односторонняя ламинация с лицевой стороны, PP, 28 мкм</A>
+</S>
+<S N='V0'>
+    <A N='Value'>V0.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Coating\</A>
+    <A N='Comment'>Матовая тактильная ("Вельвет") односторонняя ламинация с лицевой стороны, PP, 30 мкм</A>
+</S>
+<S N='GG'>
+    <A N='Value'>GG.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Coating\</A>
+    <A N='Comment'>Глянцевая двухсторонняя ламинация, PP, 25 мкм</A>
+</S>
+<S N='MM'>
+    <A N='Value'>MM.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Coating\</A>
+    <A N='Comment'>Матовая двухсторонняя ламинация, PP, 28 мкм</A>
+</S>
+<S N='VV'>
+    <A N='Value'>VV.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Coating\</A>
+    <A N='Comment'>Матовая тактильная ("Вельвет") двухсторонняя ламинация, PP, 30 мкм</A>
+</S>
+</DRPXML>

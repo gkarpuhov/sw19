@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QUITEXML xmlns="http://www.quite.com/general/ns/quitexml/">
+<ITEMS>
+<DICT N='0'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>PageTools</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Action: Delete pages</S>
+    <S N='1'>Range: From page 2 to page LAST</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <A N='Action'>DeletePages</A>
+    <I N='Copies'>2</I>
+    <I N='PosX'>742</I>
+    <I N='PosY'>374</I>
+    <S N='Requires'>qi3alphabase[QI 3.0/QHI 3.0 alpha]</S>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Both</A>
+        <I N='From'>1</I>
+        <A N='RangeType'>SubDoc</A>
+        <I N='To'>1</I>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<A N='Category'>CommandList_V1</A>
+<B N='DoPrompt'>0</B>
+<S N='Requires'>qi2base</S>
+<DICT N='Stats'>  <ITEMS>
+  <S N='Created'>D:20190915130221</S>
+  <S N='Edited'>D:20190915130346</S>
+  </ITEMS></DICT>
+
+<A N='UIMode'>None</A>
+</ITEMS>
+</QUITEXML>

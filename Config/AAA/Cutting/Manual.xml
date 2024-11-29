@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DRPXML>
+<A N='ID'>Manual</A>
+	<S N='Description'>
+		<A N='Ru'>Широкоформатный резак</A>
+		<A N='En'>Широкоформатный резак</A>
+	</S>
+	<S N='CuttingArea'>
+		<A N='Width'>2000</A>
+		<A N='Height'>2000</A>
+	</S>
+	<S N='MaximalMargins'>
+		<A N='Left'>0</A>
+		<A N='Top'>0</A>
+		<A N='Right'>0</A>
+		<A N='Bottom'>0</A>
+	</S>
+	<S N='Bleeds'>
+		<A N='MaxWidth'>0</A>
+		<A N='MaxHeight'>0</A>
+		<A N='MinWidth'>0</A>
+		<A N='MinHeight'>0</A>
+	</S>	
+	<S N='Marking' Enabled='false'>
+		<A N='BarCode'>false</A>
+	</S>
+	<S N='SubstrateList'>
+		<C N='Params'>
+			<A N='Filter' Type='Boolean'>true</A>
+		</C>
+		<C N='List'>
+			<A>.+</A>
+		</C>
+	</S>
+</DRPXML>

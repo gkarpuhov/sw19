@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DRPXML>
+  <S>
+    <A N="RequiredRegistration">3</A>
+    <C N="Layout">
+      <C N="Duplex">
+        <A N="Value">false</A>
+      </C>
+      <C N="PagesOnSpreadAcrossWidth">
+        <A N="Value">1</A>
+      </C>
+      <C N="PagesOnSpreadAcrossHeight">
+        <A N="Value">1</A>
+      </C>
+      <C N="PageRatio">
+        <A N="Value">1</A>
+      </C>
+    </C>
+    <C N="BleedsCorrecting">
+      <A N="Allow">true</A>
+      <A N="DuplicatePages">9999</A>
+      <A N="DuplicatePagesCollate">true</A>
+      <C N="Tiling">
+        <A N="Overlap">0</A>
+        <A N="UseTrimBox">false</A>
+        <A N="Columns">1</A>
+        <A N="Rows">1</A>
+      </C>
+      <C N="MARKS" Process="Quite">
+        <A N="Allow">true</A>
+        <A N="Value">M-SIMPLEX_CUTTER.xml</A>
+        <A N="Path">%DefaultFolder%\Quite\%UCID%\</A>
+      </C>
+      <C N="MARKS" Process="Pitstop">
+        <A N="Allow">false</A>
+        <A N="Value">Add Penguin.eal</A>
+        <A N="Path">%DefaultFolder%\Pitstop\%UCID%\</A>
+      </C>
+      <C N="SetCrop" DefaultCropW="" DefaultCropH="" CropPosition="">
+        <A N="UseTrimBox">false</A>
+        <A N="Left">60</A>
+        <A N="Top">77.7</A>
+        <A N="Right">62.5</A>
+        <A N="Bottom">124.8</A>
+        <A N="MirrorLeftRight">false</A>
+      </C>
+      <C N="SetTrim">
+        <A N="Left">0</A>
+        <A N="Top">0</A>
+        <A N="Right">0</A>
+        <A N="Bottom">0</A>
+        <A N="MirrorLeftRight">false</A>
+      </C>
+    </C>
+    <C N="Imposition">
+      <C N="Template">
+        <C N="NUP">
+          <A N="Value">I-SIMPLEX-CUTTER_107x107_8.xml</A>
+          <A N="Path">%DefaultFolder%\Quite\%CID%\</A>
+          <A N="Allow">true</A>
+        </C>
+        <C N="SNR">
+          <A N="Value">I-SIMPLEX-CUTTER_107x107_8.xml</A>
+          <A N="Path">%DefaultFolder%\Quite\%CID%\</A>
+          <A N="Allow">true</A>
+        </C>
+      </C>
+      <C N="JobsAssembler">
+        <A N="Allow">false</A>
+        <A N="Key">%CID%</A>
+      </C>
+      <C N="Duplex">
+        <A N="Value">false</A>
+      </C>
+      <C N="RotatePages">
+        <A N="Value" />
+      </C>
+      <C N="MaxRows">
+        <A N="Value">0</A>
+      </C>
+      <C N="MaxColumns">
+        <A N="Value">0</A>
+      </C>
+      <C N="DivideSheetAcrossWidth">
+        <A N="Value">1</A>
+      </C>
+      <C N="DivideSheetAcrossHeight">
+        <A N="Value">1</A>
+      </C>
+      <C N="FrontSafetySheet">
+        <A N="Value">false</A>
+      </C>
+      <C N="BackSafetySheet">
+        <A N="Value">false</A>
+      </C>
+      <C N="IgnorePrintableArea">
+        <A N="Value">false</A>
+      </C>
+      <C N="UseOnlyStepAndRepeat">
+        <A N="Value">false</A>
+      </C>
+      <C N="MultiNupMode">
+        <A N="Value">true</A>
+      </C>
+      <C N="UseNupFill">
+        <A N="Value">false</A>
+      </C>
+      <C N="Bleeds">
+        <A N="UseTrimBox">true</A>
+        <A N="Left">0</A>
+        <A N="Top">0</A>
+        <A N="Right">0</A>
+        <A N="Bottom">0</A>
+        <A N="MirrorLeftRight">false</A>
+      </C>
+      <C N="Margins">
+        <A N="Left">0</A>
+        <A N="Top">0</A>
+        <A N="Right">0</A>
+        <A N="Bottom">0</A>
+        <A N="MirrorLeftRight">false</A>
+      </C>
+    </C>
+    <C N="Press">
+      <C N="Duplex">
+        <A N="Value">false</A>
+      </C>
+      <C N="Collate">
+        <A N="Value">true</A>
+      </C>
+      <C N="Reverse">
+        <A N="Value">false</A>
+      </C>
+      <C N="FaceUp">
+        <A N="Value">true</A>
+      </C>
+      <C N="PressList">
+        <C N="Params">
+          <A N="Filter">true</A>
+        </C>
+        <A N="Default">Indigo7600</A>
+        <C N="List">
+          <A>Indigo7600</A>
+          <A>Konica14000</A>		  
+        </C>
+      </C>
+      <C N="SubstrateList">
+        <C N="Params">
+          <A N="Filter">true</A>
+        </C>
+        <A N="Default">SA_MATT_80</A>
+        <C N="List">
+          <A>SA_MATT_80</A>
+        </C>
+      </C>
+    </C>
+    <C N="PostPress">
+      <C N="CoatingList">
+        <C N="Params">
+          <A N="Filter">true</A>
+        </C>
+        <A N="Default">00</A>
+        <C N="List">
+          <A>00</A>
+          <A>G0</A>
+          <A>M0</A>
+        </C>
+      </C>
+      <C N="CuttingList">
+        <C N="Params">
+          <A N="Filter">true</A>
+        </C>
+        <A N="Default">Default</A>
+        <C N="List">
+          <A>Default</A>
+        </C>
+      </C>
+    </C>
+  </S>
+</DRPXML>

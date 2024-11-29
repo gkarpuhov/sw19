@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QUITEXML xmlns="http://www.quite.com/general/ns/quitexml/">
+<ITEMS>
+<DICT N='0'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>PageTools</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Action: Delete pages</S>
+    <S N='1'>Range: From page 4 to page LAST</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <A N='Action'>DeletePages</A>
+    <I N='Copies'>2</I>
+    <I N='PosX'>582</I>
+    <I N='PosY'>374</I>
+    <S N='Requires'>qi3alphabase[QI 3.0/QHI 3.0 alpha]</S>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Both</A>
+        <I N='From'>5</I>
+        <A N='RangeType'>SubDoc</A>
+        <S N='To'>LAST</S>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='1'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>PageTools</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Action: Delete pages</S>
+    <S N='1'>Range: From page 2 to page 2</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <A N='Action'>DeletePages</A>
+    <I N='Copies'>2</I>
+    <I N='PosX'>747</I>
+    <I N='PosY'>382</I>
+    <S N='Requires'>qi3alphabase[QI 3.0/QHI 3.0 alpha]</S>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Both</A>
+        <I N='From'>2</I>
+        <A N='RangeType'>SubDoc</A>
+        <I N='To'>2</I>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus3</S>
+    <S N='FullName'>Quite Imposing Plus 3.0f</S>
+    <S N='Name'>Quite Imposing Plus 3</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='2'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>PageSizes</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Action: Make all pages the same size</S>
+    <S N='1'>Scale: Scale width and height equally</S>
+    <S N='2'>Rotate: Clockwise if needed</S>
+    <S N='3'>Size: 2.874 x 1.772 inches / 73.0 x 45.0 mm</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <B N='AdvancedUI'>0</B>
+    <DICT N='FixedSize'>      <ITEMS>
+      <S N='Created'>D:20180916163640</S>
+      <F N='Height'>127.5591</F>
+      <S N='Name'>JobPreview</S>
+      <A N='Type'>Blank</A>
+      <F N='Width'>206.9291</F>
+      </ITEMS>    </DICT>
+
+    <A N='FixedSizeOrientation'>Wide</A>
+    <B N='NewDoc'>0</B>
+    <I N='PosX'>742</I>
+    <I N='PosY'>324</I>
+    <S N='Requires'>qi3alphabase[QI 3.0/QHI 3.0 alpha]</S>
+    <A N='Rotate'>None</A>
+    <A N='Scale'>Uniform</A>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <I N='From'>1</I>
+        <A N='RangeType'>SubDoc</A>
+        <I N='To'>1</I>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus3</S>
+    <S N='FullName'>Quite Imposing Plus 3.0f</S>
+    <S N='Name'>Quite Imposing Plus 3</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='3'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>PageSizes</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Action: Make all pages the same size</S>
+    <S N='1'>Scale: Scale width and height equally</S>
+    <S N='2'>Rotate: Clockwise if needed</S>
+    <S N='3'>Size: 1.772 x 1.772 inches / 45.0 x 45.0 mm</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <B N='AdvancedUI'>0</B>
+    <DICT N='FixedSize'>      <ITEMS>
+      <S N='Created'>D:20180916170019</S>
+      <F N='Height'>127.5591</F>
+      <S N='Name'>JobPreviewBlk</S>
+      <A N='Type'>Blank</A>
+      <F N='Width'>127.5591</F>
+      </ITEMS>    </DICT>
+
+    <A N='FixedSizeOrientation'>Tall</A>
+    <B N='NewDoc'>0</B>
+    <I N='PosX'>742</I>
+    <I N='PosY'>324</I>
+    <S N='Requires'>qi3alphabase[QI 3.0/QHI 3.0 alpha]</S>
+    <A N='Rotate'>None</A>
+    <A N='Scale'>Uniform</A>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <I N='From'>2</I>
+        <A N='RangeType'>SubDoc</A>
+        <I N='To'>3</I>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus3</S>
+    <S N='FullName'>Quite Imposing Plus 3.0f</S>
+    <S N='Name'>Quite Imposing Plus 3</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='4'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>Nup</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Trim unused space from sheets: no</S>
+    <S N='1'>Allow pages to be scaled: no</S>
+    <S N='2'>Margins: left 39.69, top 148.82, right 0.00, bottom 0.00 points</S>
+    <S N='3'>Horizontal spacing (points): 22.6772 </S>
+    <S N='4'>Vertical spacing (points): 0 </S>
+    <S N='5'>Add frames around each page: no</S>
+    <S N='6'>Sheet background: Page 1 to 1 of file /D/__SWITCH/Flows/SI2/Temp/Job_Ticket_Vru.pdf</S>
+    <S N='7'>Layout: rows 1 down, columns 3 across</S>
+    <S N='8'>Align: top left</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <F N='BMgn'>0.0000</F>
+    <F N='CropDist'>10.0000</F>
+    <F N='CropLength'>20.0000</F>
+    <B N='CropMarks'>0</B>
+    <A N='CropStyle'>Corners</A>
+    <F N='CropWidth'>0.3000</F>
+    <A N='DoScaling'>ToFit</A>
+    <B N='EvenMirrorHorizontal'>0</B>
+    <B N='EvenMirrorVertical'>0</B>
+    <I N='FitAcross'>3</I>
+    <I N='FitDown'>1</I>
+    <F N='FixedScale'>0.7000</F>
+    <B N='Frames'>1</B>
+    <S N='HSpace'>14.1732 </S>
+    <F N='LMgn'>53.8583</F>
+    <B N='NewDoc'>0</B>
+    <DICT N='Page'>      <ITEMS>
+      <S N='Created'>D:20210401123228</S>
+      <I N='From'>0</I>
+      <S N='Path'>D:\__SWITCH\Flows\SI2\Temp\Job_Ticket_CBK.pdf</S>
+      <I N='Repeat'>1</I>
+      <I N='To'>0</I>
+      <A N='Type'>Background</A>
+      </ITEMS>    </DICT>
+
+    <A N='PageOrientation'>Best</A>
+    <I N='PosX'>1287</I>
+    <I N='PosY'>426</I>
+    <F N='RMgn'>0.0000</F>
+    <S N='Requires'>qi4alphabase[QI 4.0/QHI 4.0 alpha]</S>
+    <A N='SheetAlign'>TL</A>
+    <B N='SheetAlignIndependent'>0</B>
+    <DICT N='Source'>      <ITEMS>
+      <A N='SourceType'>CurrentAVDoc</A>
+      </ITEMS>    </DICT>
+
+    <F N='TMgn'>175.7480</F>
+    <B N='Trim'>0</B>
+    <I N='UIVer'>2</I>
+    <B N='UseMgn'>1</B>
+    <B N='UseScale'>0</B>
+    <S N='VSpace'>0 </S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus3</S>
+    <S N='FullName'>Quite Imposing Plus 3.0f</S>
+    <S N='Name'>Quite Imposing Plus 3</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='5'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>StickOnPages</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Source: File: D:\__SWITCH\Flows\SI2\Temp\Blank_41x41_white.pdf</S>
+    <S N='1'>Source: Range: all pages</S>
+    <S N='2'>Target: Range: all pages</S>
+    <S N='3'>Origin: top left</S>
+    <S N='4'>Offset: horizontal 59.81 points, vertical 181.70 points</S>
+    <S N='5'>Scale: 100.00%</S>
+    <S N='6'>Rotate: 0°</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <A N='Align'>TL</A>
+    <S N='Path'>[KLISHE]</S>
+    <I N='PosX'>939</I>
+    <I N='PosY'>426</I>
+    <B N='PreserveAspectRatio'>1</B>
+    <A N='Range'>AllDoc</A>
+    <S N='Requires'>qi4alphabase[QI 4.0/QHI 4.0 alpha]</S>
+    <A N='Rotate'>R0</A>
+    <F N='ScaleBy'>1.0000</F>
+    <A N='ScaleMode'>Fixed</A>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Both</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <F N='XOff'>59.8110</F>
+    <F N='YOff'>181.7008</F>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<A N='Category'>CommandList_V1</A>
+<B N='DoPrompt'>0</B>
+<S N='Requires'>qi2base</S>
+<DICT N='Stats'>  <ITEMS>
+  <I N='Count'>35</I>
+  <S N='Created'>D:20180504151334</S>
+  <S N='Edited'>D:20211208161037</S>
+  <S N='Updated'>D:20191117152742</S>
+  </ITEMS></DICT>
+
+<A N='UIMode'>None</A>
+</ITEMS>
+</QUITEXML>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cf:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:cf="http://www.enfocus.com/PitStop/18/PitStopServerCLI_Configuration.xsd">
+
+ <cf:Versioning>
+  <cf:Version>9</cf:Version>
+  <cf:VersioningStrategy>BestEffort</cf:VersioningStrategy>
+ </cf:Versioning>
+
+  <cf:Initialize>
+    <cf:TempPath>[PitstopTemp]</cf:TempPath>
+    <cf:ProcessingMethod>EnforceInternal</cf:ProcessingMethod>
+  </cf:Initialize>
+  
+ <cf:Process>
+  <cf:InputPDF>
+   <cf:InputPath>[Input]</cf:InputPath>
+  </cf:InputPDF>
+  <cf:OutputPDF>
+   <cf:OutputPath>[Output]</cf:OutputPath>
+    <cf:SaveOptions>
+      <cf:PerformFullSave>true</cf:PerformFullSave>
+      <cf:Optimization>FileSize</cf:Optimization>
+    </cf:SaveOptions>    
+  </cf:OutputPDF>
+  <cf:Reports>
+   <cf:ReportPDF>
+    <cf:ReportPath>[Report]</cf:ReportPath>
+   </cf:ReportPDF>
+  </cf:Reports>
+  <cf:Mutators>
+   <cf:ActionList>[ActionList]</cf:ActionList>
+  </cf:Mutators>
+  <cf:CertifiedPDF>
+   <cf:CertifiedPDFAction>MakeUncertified</cf:CertifiedPDFAction>
+   <cf:SessionComment></cf:SessionComment>
+  </cf:CertifiedPDF>
+  <cf:Language>enUS</cf:Language>
+  <cf:MeasurementUnit>Millimeter</cf:MeasurementUnit>
+ </cf:Process>
+
+</cf:Configuration>

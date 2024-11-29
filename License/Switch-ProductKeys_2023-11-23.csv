@@ -1,0 +1,22 @@
+productKey,isActive,isExpired,hostname,activationDate,endDate,productName,majorVersion,activatedBy,isTrialKey,isVolumeKey,isMaintenanceKey,maintenanceEndDate
+SW1ws0-BACAAS-1DjK58-BKdsDU-5p8gk8,True,False,WIN-19D5FC9BA1G,2018-12-29T00:00:00.000Z,,Switch Core Engine,1,d.stepanov@fineart-print.ru,False,False,True,2019-12-31T00:00:00.000Z
+SW1ws0-BASAAS-1D9K58-BK6ADq-5H2E4N,False,True,WIN-19D5FC9BA1G,2018-10-18T00:00:00.000Z,2018-11-30T00:00:00.000Z,Switch Core Engine,1,d.stepanov@fineart-print.ru,False,False,True,2018-11-30T00:00:00.000Z
+SW1ws0-BASAAS-1iUK58-BKdWkp-0eTFn8,False,True,WIN-19D5FC9BA1G,2018-12-01T00:00:00.000Z,2019-02-28T00:00:00.000Z,Switch Core Engine,1,d.stepanov@fineart-print.ru,False,False,True,2019-02-28T00:00:00.000Z
+SW1ws0-BASAAS-1jUK58-BKQFMq-JbHbqF,False,True,WIN-19D5FC9BA1G,2018-12-01T00:00:00.000Z,2018-12-08T00:00:00.000Z,Switch Core Engine,1,d.stepanov@fineart-print.ru,False,False,True,2019-02-28T00:00:00.000Z
+SWM0t0-BACAAS-1C2j08-BKJ9Lo-43j7h8,True,False,WIN-19D5FC9BA1G,2018-12-29T00:00:00.000Z,,Scripting Module,1,d.stepanov@fineart-print.ru,False,False,False,
+SWM0t0-BASAAS-10Th08-BK0myE-1DPGaE,False,True,WIN-19D5FC9BA1G,2018-10-18T00:00:00.000Z,2018-11-30T00:00:00.000Z,Scripting Module,1,d.stepanov@fineart-print.ru,False,False,False,
+SWM0t0-BASAAS-1QRi08-BKPk11-MyKjgB,False,True,WIN-19D5FC9BA1G,2018-12-01T00:00:00.000Z,2019-02-28T00:00:00.000Z,Scripting Module,1,d.stepanov@fineart-print.ru,False,False,False,
+SWM0t0-BASAAS-1URi08-BKexry-8mkK07,False,True,WIN-19D5FC9BA1G,2018-12-01T00:00:00.000Z,2018-12-08T00:00:00.000Z,Scripting Module,1,d.stepanov@fineart-print.ru,False,False,False,
+SWM1t0-BACAAS-1D2j08-BKoc8y-G1iuoL,True,False,WIN-19D5FC9BA1G,2018-12-29T00:00:00.000Z,,SwitchClient Module,1,d.stepanov@fineart-print.ru,False,False,False,
+SWM1t0-BASAAS-11Th08-BKw08m-KF8Gy6,False,True,WIN-19D5FC9BA1G,2018-10-18T00:00:00.000Z,2018-11-30T00:00:00.000Z,SwitchClient Module,1,d.stepanov@fineart-print.ru,False,False,False,
+SWM1t0-BASAAS-1RRi08-BKajHR-FUKEF9,False,True,WIN-19D5FC9BA1G,2018-12-01T00:00:00.000Z,2019-02-28T00:00:00.000Z,SwitchClient Module,1,d.stepanov@fineart-print.ru,False,False,False,
+SWM1t0-BASAAS-1VRi08-BKh37L-10cNMJ,False,True,WIN-19D5FC9BA1G,2018-12-01T00:00:00.000Z,2018-12-08T00:00:00.000Z,SwitchClient Module,1,d.stepanov@fineart-print.ru,False,False,False,
+SWMq11-BASAAS-1M4i08-BK0Rjf-EqxtmG,False,True,WIN-19D5FC9BA1G,2018-10-18T00:00:00.000Z,2018-10-31T00:00:00.000Z,Performance Module,1,d.stepanov@fineart-print.ru,False,False,False,
+SWMys0-BACAAS-1A2j08-BKFENX-3UwcaA,True,False,WIN-19D5FC9BA1G,2019-01-25T00:00:00.000Z,,Configurator Module,1,d.stepanov@fineart-print.ru,False,False,False,
+SWMys0-BASAAS-1NRi08-BKj12x-8zRhRM,False,True,WIN-19D5FC9BA1G,2018-12-01T00:00:00.000Z,2019-02-28T00:00:00.000Z,Configurator Module,1,d.stepanov@fineart-print.ru,False,False,False,
+SWMys0-BASAAS-1SRi08-BK86pC-55p68H,False,True,WIN-19D5FC9BA1G,2018-12-01T00:00:00.000Z,2018-12-08T00:00:00.000Z,Configurator Module,1,d.stepanov@fineart-print.ru,False,False,False,
+SWMys0-BASAAS-1ySh08-BK4Rws-8ZpQ16,False,True,WIN-19D5FC9BA1G,2018-10-18T00:00:00.000Z,2018-11-30T00:00:00.000Z,Configurator Module,1,d.stepanov@fineart-print.ru,False,False,False,
+SWMzs0-BACAAS-1B2j08-BKmnFa-1zMbcL,True,False,WIN-19D5FC9BA1G,2018-12-29T00:00:00.000Z,,Metadata Module,1,d.stepanov@fineart-print.ru,False,False,False,
+SWMzs0-BASAAS-1PRi08-BKEhXM-2iyoPG,False,True,WIN-19D5FC9BA1G,2018-12-01T00:00:00.000Z,2019-02-28T00:00:00.000Z,Metadata Module,1,d.stepanov@fineart-print.ru,False,False,False,
+SWMzs0-BASAAS-1TRi08-BKgSwd-4qd8nH,False,True,WIN-19D5FC9BA1G,2018-12-01T00:00:00.000Z,2018-12-08T00:00:00.000Z,Metadata Module,1,d.stepanov@fineart-print.ru,False,False,False,
+SWMzs0-BASAAS-1zSh08-BKF964-4Maiv4,False,True,WIN-19D5FC9BA1G,2018-10-18T00:00:00.000Z,2018-11-30T00:00:00.000Z,Metadata Module,1,d.stepanov@fineart-print.ru,False,False,False,

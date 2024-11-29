@@ -1,0 +1,248 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {},
+    ".NETCoreApp,Version=v6.0/win-x64": {
+      "cube6core/1.0.0": {
+        "dependencies": {
+          "Grigory.Common": "1.0.0",
+          "Magick.NET.SystemWindowsMedia": "7.3.0",
+          "Microsoft.NETCore.ILDAsm": "8.0.0",
+          "System.CodeDom": "8.0.0",
+          "System.Drawing.Common": "8.0.8",
+          "System.Windows.Extensions": "8.0.0",
+          "lcmsNET": "1.1.0",
+          "GdPicture.NET.14.Core": "14.1.0.81",
+          "Interop.Photoshop": "1.0.0.0"
+        },
+        "runtime": {
+          "cube6core.dll": {}
+        }
+      },
+      "lcmsNET/1.1.0": {
+        "dependencies": {
+          "System.Memory": "4.5.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/lcmsNET.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Magick.NET.Core/13.10.0": {
+        "runtime": {
+          "lib/netstandard21/Magick.NET.Core.dll": {
+            "assemblyVersion": "13.10.0.0",
+            "fileVersion": "13.10.0.0"
+          }
+        }
+      },
+      "Magick.NET.SystemWindowsMedia/7.3.0": {
+        "dependencies": {
+          "Magick.NET.Core": "13.10.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Magick.NET.SystemWindowsMedia.dll": {
+            "assemblyVersion": "7.3.0.0",
+            "fileVersion": "7.3.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.ILDAsm/8.0.0": {
+        "dependencies": {
+          "runtime.win-x64.Microsoft.NETCore.ILDAsm": "8.0.0"
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "runtime": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "runtime.win-x64.Microsoft.NETCore.ILDAsm/8.0.0": {
+        "native": {
+          "runtimes/win-x64/native/ildasm.exe": {
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.CodeDom/8.0.0": {
+        "runtime": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.Drawing.Common/8.0.8": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.824.36606"
+          }
+        }
+      },
+      "System.Management/8.0.0": {
+        "dependencies": {
+          "System.CodeDom": "8.0.0"
+        },
+        "runtime": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.Memory/4.5.5": {},
+      "System.Windows.Extensions/8.0.0": {
+        "runtime": {
+          "runtimes/win/lib/net6.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Grigory.Common/1.0.0": {
+        "dependencies": {
+          "Magick.NET.SystemWindowsMedia": "7.3.0",
+          "Microsoft.NETCore.ILDAsm": "8.0.0",
+          "System.Drawing.Common": "8.0.8",
+          "System.Management": "8.0.0",
+          "System.Windows.Extensions": "8.0.0",
+          "lcmsNET": "1.1.0"
+        },
+        "runtime": {
+          "Grigory.Common.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GdPicture.NET.14.Core/14.1.0.81": {
+        "runtime": {
+          "GdPicture.NET.14.Core.dll": {
+            "assemblyVersion": "14.1.0.81",
+            "fileVersion": "14.1.0.81"
+          }
+        }
+      },
+      "Interop.Photoshop/1.0.0.0": {
+        "runtime": {
+          "Interop.Photoshop.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "cube6core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "lcmsNET/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QE/5h7YKcdHhNkr8Q2KT9mJlI2xbkQ4YLILkdG+BVlaopMS8p/ZLL30/SDkWOuMbKjAWiFj3hpt7lQdcU5TqlQ==",
+      "path": "lcmsnet/1.1.0",
+      "hashPath": "lcmsnet.1.1.0.nupkg.sha512"
+    },
+    "Magick.NET.Core/13.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qss+Y4/K6SiGwbyCThqTl9ykevnSzFuT4AMIaymq8jN+6kimKjMHf4rvtagLWQ+vPH9xU1+pX6MmBOZe+D+fyA==",
+      "path": "magick.net.core/13.10.0",
+      "hashPath": "magick.net.core.13.10.0.nupkg.sha512"
+    },
+    "Magick.NET.SystemWindowsMedia/7.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ThpdQbRPPhJ7VBudevqI+fSM6NspB+uVuJFEc3dm+2QijluPJoqE1PWI+mLsm7lu0xJptBGw2UNbvSUcxt0zLw==",
+      "path": "magick.net.systemwindowsmedia/7.3.0",
+      "hashPath": "magick.net.systemwindowsmedia.7.3.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.ILDAsm/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hYjpT+EBA9lofXJidHFVSaxH11FwothwNAzYOfp62+4pt4HX4Cj4q5Hor97hSU2N8aIOu/5UEBaaTOf+RV2+uw==",
+      "path": "microsoft.netcore.ildasm/8.0.0",
+      "hashPath": "microsoft.netcore.ildasm.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "hashPath": "microsoft.win32.systemevents.8.0.0.nupkg.sha512"
+    },
+    "runtime.win-x64.Microsoft.NETCore.ILDAsm/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/RrEkj8XW2C2yVq46TwfG4Rq2mVCXax5+UZLTXqTeWU+nE+vg9qNtRkB4ljcoQaJUYDC32NEHjYvP1yIDWsQUg==",
+      "path": "runtime.win-x64.microsoft.netcore.ildasm/8.0.0",
+      "hashPath": "runtime.win-x64.microsoft.netcore.ildasm.8.0.0.nupkg.sha512"
+    },
+    "System.CodeDom/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WTlRjL6KWIMr/pAaq3rYqh0TJlzpouaQ/W1eelssHgtlwHAH25jXTkUphTYx9HaIIf7XA6qs/0+YhtLEQRkJ+Q==",
+      "path": "system.codedom/8.0.0",
+      "hashPath": "system.codedom.8.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/8.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4ZM1wvLjz9nVVExsfPAaSl/qOvU+QNedJL5rQ+2Wbow+iGeyO0e7XN07707rMBgaffEeeLrCZBwC0oHUuvRdPw==",
+      "path": "system.drawing.common/8.0.8",
+      "hashPath": "system.drawing.common.8.0.8.nupkg.sha512"
+    },
+    "System.Management/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jrK22i5LRzxZCfGb+tGmke2VH7oE0DvcDlJ1HAKYU8cPmD8XnpUT0bYn2Gy98GEhGjtfbR/sxKTVb+dE770pfA==",
+      "path": "system.management/8.0.0",
+      "hashPath": "system.management.8.0.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
+    },
+    "System.Windows.Extensions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Obg3a90MkOw9mYKxrardLpY2u0axDMrSmy4JCdq2cYbelM2cUwmUir5Bomvd1yxmPL9h5LVHU1tuKBZpUjfASg==",
+      "path": "system.windows.extensions/8.0.0",
+      "hashPath": "system.windows.extensions.8.0.0.nupkg.sha512"
+    },
+    "Grigory.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GdPicture.NET.14.Core/14.1.0.81": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.Photoshop/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+Basic tags: 
+S : SECTION
+C : COMPONENT
+A : ATTRIBUTE 
+
+Basic attributes:
+N : NAME
+Type: TYPE OF CONTENT (Integer, Float , Boolean or other)
+RegExp: REGULAR EXPRESSION (for check content if nessary)
+
+A string of path without filename should always ending slash (for Windows backslash,  for xPath and URI - normal slash)!
+Sample for Windows: C:\Folder1\Folder2\
+Sample for xPath or URI: file://Folder1/Folder2/
+
+-->
+
+<DRPXML N='JOB_CBK' Version='2.0.0' Date='2015-09-04'>
+<A N='ID'>JOB_CBK</A><!-- код материала (Substrate)-->
+<S N='Description'>
+    <A N='Ru'>Специальная бумага для Job-листов из Taopix (CBK)</A>
+    <A N='En'>Special Paper for Taopix job-tickets (CBK)</A>
+</S>
+<S N='Media'>
+    <A N='Roll' Type='Boolean'>false</A><!-- тип: рулон (true) или лист (false) -->
+    <A N='Duplex' Type='Boolean'>true</A><!-- возможность двухсторонней печати -->
+    <A N='Width' Type='Float'>297</A><!-- ширина, мм -->
+    <A N='Height' Type='Float'>210</A><!-- высота для листа или длина для рулона, мм -->
+    <A N='Weight' Type='Integer'>80</A><!-- вес, gsm -->
+    <A N='Thickness' Type='Float'>0,1</A><!-- толщина, мм -->
+    <A N='Coated' Type='Boolean'>false</A><!-- мелованная: true; немелованная: false-->
+    <A N='GlossLevel' RegExp='G|S|M'>M</A><!-- глянцевость поверхности: G - глянцевая (Glossy), S - полуматовая (Semi-matte), M -матовая (Matte)-->
+</S>
+<S N='UnprintableMargins'><!-- незапечатываемые поля, мм -->
+    <A N='Left' Type='Float'>0</A>
+    <A N='Top' Type='Float'>0</A>
+    <A N='Right' Type='Float'>0</A>
+    <A N='Bottom' Type='Float'>0</A>
+</S>
+<S N='Jdf'>
+    <A N='Name'>JOB_CBK</A>
+    <A N='OutputFolder'>JOB_CBK</A>
+
+</S>
+<S N='ColorManagement'>
+    <A N='Required' Type='Boolean'>false</A><!-- требуется ли нестандартный CMS-->
+    <A N='OutputProfile' Inks='CMYK'>EuroscaleCoated.icc</A><!-- выходной профиль -->
+</S>
+<S N='CoatingList'>
+    <C N='Params'>
+        <A N='Filter' Type='Boolean'>true</A> <!-- true - использовать ТОЛЬКО позиции из ниже расположенного списка; false - использовать все позиции каталога, кроме включенных в спиcок -->
+    </C>
+    <C N='List'>
+        <A N='0' Type='String'>00</A>
+        <A N='1' Type='String'>X3</A>
+    </C>
+    <A N='Comment'>Список идентификаторов (ID) из соответствующего каталога, доступных  или недоступных для данного материала (определяется в компоненте Params)</A>
+</S>
+<S N='Price'>
+    <A N='Value' Type='Float'>0,05</A>
+    <A N='Currency'>USD</A>
+    <A N='Measure' >UNIT</A>
+</S>
+
+</DRPXML>

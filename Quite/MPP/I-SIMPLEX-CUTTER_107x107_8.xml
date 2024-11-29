@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QUITEXML>
+<ITEMS>
+<DICT N='0'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>Shuffle</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Group size: 18</S>
+    <S N='1'>Shuffle type: Normal, or perfect bound</S>
+    <S N='2'>Rule: 1 2 3 4 5 6 7 8 8 10 11 12 13 14 15 16 17 18</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <I N='GroupSize'>8</I>
+    <B N='NewDoc'>0</B>
+    <S N='Order'>1 2 3 4 5 6 7 8</S>
+    <I N='PosX'>742</I>
+    <I N='PosY'>336</I>
+    <I N='PreviewCols'>6</I>
+    <I N='PreviewRows'>3</I>
+    <A N='Type'>Normal</A>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='1'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>Nup</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Trim unused space from sheets: no</S>
+    <S N='1'>Allow pages to be scaled: no</S>
+    <S N='2'>Margins: left 0.00, top 0.00, right 0.00, bottom 0.00 points</S>
+    <S N='3'>Horizontal spacing (points): 0 </S>
+    <S N='4'>Vertical spacing (points): 0 </S>
+    <S N='5'>Add frames around each page: no</S>
+    <S N='6'>Sheet background: Page 1 to 1 of file D:\__SWITCH\Flows\SI2\Temp\MaxPaperMarks.pdf</S>
+    <S N='7'>Layout: rows 3 down, columns 5 across</S>
+    <S N='8'>Align: centre</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <F N='BMgn'>0.0000</F>
+    <F N='CropDist'>10.0000</F>
+    <F N='CropLength'>20.0000</F>
+    <B N='CropMarks'>0</B>
+    <A N='CropStyle'>Corners</A>
+    <F N='CropWidth'>0.3000</F>
+    <A N='DoScaling'>ToFit</A>
+    <B N='EvenMirrorHorizontal'>0</B>
+    <B N='EvenMirrorVertical'>0</B>
+    <I N='FitAcross'>4</I>
+    <I N='FitDown'>2</I>
+    <F N='FixedScale'>0.7000</F>
+    <B N='Frames'>0</B>
+    <S N='HSpace'>0 </S>
+    <F N='LMgn'>0.0000</F>
+    <B N='NewDoc'>0</B>
+    <DICT N='Page'>      <ITEMS>
+      <S N='Created'>D:20200524203447</S>
+      <I N='From'>0</I>
+      <S N='Path'>D:\__SWITCH\Flows\SI2\Temp\MaxPaperMarks.pdf</S>
+      <I N='Repeat'>1</I>
+      <I N='To'>0</I>
+      <A N='Type'>Background</A>
+      </ITEMS>    </DICT>
+
+    <A N='PageOrientation'>Best</A>
+    <I N='PosX'>744</I>
+    <I N='PosY'>358</I>
+    <F N='RMgn'>0.0000</F>
+    <S N='Requires'>qi4alphabase[QI 4.0/QHI 4.0 alpha]</S>
+    <A N='SheetAlign'>C</A>
+    <B N='SheetAlignIndependent'>0</B>
+    <DICT N='Source'>      <ITEMS>
+      <A N='SourceType'>CurrentAVDoc</A>
+      </ITEMS>    </DICT>
+
+    <F N='TMgn'>0.0000</F>
+    <B N='Trim'>0</B>
+    <I N='UIVer'>2</I>
+    <B N='UseMgn'>1</B>
+    <B N='UseScale'>0</B>
+    <S N='VSpace'>0 </S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='2'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>AddNumbers</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all odd numbered pages</S>
+    <S N='1'>Font: Helvetica 6.0 point</S>
+    <S N='2'>Origin: top centre</S>
+    <S N='3'>Offset: horizontal 0.00 points, vertical 5.10 points</S>
+    <S N='4'>Prefix text: &apos;Sheet &apos;</S>
+    <S N='5'>Suffix text: &apos; / FRONT / [Doc:FileName]&apos;</S>
+    <S N='6'>Use registration colour: no</S>
+    <S N='7'>Repeat each number 2 time(s) then increase by 1</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <I N='AdvanceNumber'>1</I>
+    <B N='AdvancedUI'>1</B>
+    <S N='After'></S>
+    <A N='Align'>R</A>
+    <S N='Before'>MPP 1 WINDOW | 8 110x110 STICKERS  [COATING]   Date: [Date:%d/%m/%y]  Sheet  </S>
+    <I N='EveryNPages'>1</I>
+    <S N='FirstNum'>001</S>
+    <S N='Font'>Helvetica,Bold;Arial,Bold;Arial-BoldMT</S>
+    <B N='NoNum'>0</B>
+    <I N='PosX'>710</I>
+    <I N='PosY'>225</I>
+    <B N='RegInk'>0</B>
+    <I N='RepeatNumber'>1</I>
+    <S N='Requires'>qi4alphabase[QI 4.0/QHI 4.0 alpha]</S>
+    <A N='Rotate'>R270</A>
+    <F N='Size'>10.0000</F>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Both</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <A N='UIFieldSel'>[Date:%d/%m/%y]</A>
+    <F N='XOff'>36.8504</F>
+    <F N='YOff'>0.0000</F>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus3</S>
+    <S N='FullName'>Quite Imposing Plus 3.0</S>
+    <S N='Name'>Quite Imposing Plus 3</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<A N='Category'>CommandList_V1</A>
+<B N='DoPrompt'>0</B>
+<S N='Requires'>qi2base</S>
+<DICT N='Stats'>  <ITEMS>
+  <I N='Count'>2131</I>
+  <S N='Created'>D:20130111235145</S>
+  <S N='Edited'>D:20220318153740</S>
+  <S N='Updated'>D:20150212171754</S>
+  </ITEMS></DICT>
+
+<A N='UIMode'>None</A>
+</ITEMS>
+</QUITEXML>
+

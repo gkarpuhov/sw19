@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DRPXML>
+<!-- Переменная %UCID% - Universal CID: универсальный CID для стандартных продуктов. -->
+<!-- Переменная %CID% указывает на непосредственный идентификатор  конфигурации -->
+
+<S N='00'>
+    <A N='Value'>00.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Coating\</A>
+    <A N='Comment'>Отсутствие покрытия</A>
+</S>
+<S N='G0'>
+    <A N='Value'>G0.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Coating\</A>
+    <A N='Comment'>Глянцевая односторонняя ламинация с лицевой стороны, PP, 25 мкм</A>
+</S>
+<S N='M0'>
+    <A N='Value'>M0.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Coating\</A>
+    <A N='Comment'>Матовая односторонняя ламинация с лицевой стороны, PP, 28 мкм</A>
+</S>
+  <S N='MM'>
+    <A N='Value'>MM.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Coating\</A>
+    <A N='Comment'>Матовая двухсторонняя ламинация, PP, 28 мкм</A>
+  </S>
+</DRPXML>

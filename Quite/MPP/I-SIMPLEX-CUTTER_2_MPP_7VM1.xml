@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QUITEXML>
+<ITEMS>
+<DICT N='0'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>Shuffle</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Group size: 18</S>
+    <S N='1'>Shuffle type: Normal, or perfect bound</S>
+    <S N='2'>Rule: 1 2 3 4 5 6 7 8 8 10 11 12 13 14 15 16 17 18</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <I N='GroupSize'>2</I>
+    <B N='NewDoc'>0</B>
+    <S N='Order'>1 2</S>
+    <I N='PosX'>742</I>
+    <I N='PosY'>336</I>
+    <I N='PreviewCols'>6</I>
+    <I N='PreviewRows'>3</I>
+    <A N='Type'>Normal</A>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='1'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>Nup</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Create a new document</S>
+    <S N='1'>Trim unused space from sheets: no</S>
+    <S N='2'>Allow pages to be scaled: no</S>
+    <S N='3'>Margins and crop marks: none</S>
+    <S N='4'>Sheet background: Page 1 to 1 of file D:\__SWITCH\Flows\SI2\Temp\MaxPaperMarks.pdf</S>
+    <S N='5'>Layout: rows 2 down, columns 2 across</S>
+    <S N='6'>Align: centre, independent</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <F N='BMgn'>0.0000</F>
+    <F N='CropDist'>10.0000</F>
+    <F N='CropLength'>20.0000</F>
+    <B N='CropMarks'>0</B>
+    <A N='CropStyle'>Corners</A>
+    <F N='CropWidth'>0.3000</F>
+    <A N='DoScaling'>ToFit</A>
+    <B N='EvenMirrorHorizontal'>0</B>
+    <B N='EvenMirrorVertical'>0</B>
+    <I N='FitAcross'>2</I>
+    <I N='FitDown'>1</I>
+    <F N='FixedScale'>0.7000</F>
+    <B N='Frames'>0</B>
+    <S N='HSpace'>0 </S>
+    <F N='LMgn'>0.0000</F>
+    <B N='NewDoc'>0</B>
+    <DICT N='Page'>      <ITEMS>
+      <S N='Created'>D:20221124144048</S>
+      <I N='From'>0</I>
+      <S N='Path'>D:\__SWITCH\Flows\SI2\Temp\MaxPaperMarks.pdf</S>
+      <I N='Repeat'>1</I>
+      <I N='To'>0</I>
+      <A N='Type'>Background</A>
+      </ITEMS>    </DICT>
+
+    <A N='PageOrientation'>Best</A>
+    <I N='PosX'>1064</I>
+    <I N='PosY'>478</I>
+    <F N='RMgn'>0.0000</F>
+    <S N='Requires'>qi4alphabase[QI 4.0/QHI 4.0 alpha]</S>
+    <A N='SheetAlign'>C</A>
+    <B N='SheetAlignIndependent'>1</B>
+    <DICT N='Source'>      <ITEMS>
+      <A N='SourceType'>CurrentAVDoc</A>
+      </ITEMS>    </DICT>
+
+    <F N='TMgn'>0.0000</F>
+    <B N='Trim'>0</B>
+    <I N='UIVer'>2</I>
+    <B N='UseMgn'>1</B>
+    <B N='UseScale'>0</B>
+    <S N='VSpace'>0 </S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='2'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>AddNumbers</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all odd numbered pages</S>
+    <S N='1'>Font: Helvetica 6.0 point</S>
+    <S N='2'>Origin: top centre</S>
+    <S N='3'>Offset: horizontal 0.00 points, vertical 5.10 points</S>
+    <S N='4'>Prefix text: &apos;Sheet &apos;</S>
+    <S N='5'>Suffix text: &apos; / FRONT / [Doc:FileName]&apos;</S>
+    <S N='6'>Use registration colour: no</S>
+    <S N='7'>Repeat each number 2 time(s) then increase by 1</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <I N='AdvanceNumber'>1</I>
+    <B N='AdvancedUI'>1</B>
+    <S N='After'></S>
+    <A N='Align'>R</A>
+    <S N='Before'>MPP VYPUSK 2 STICKERS 162x205 Date: [Date:%d/%m/%y]  Sheet  </S>
+    <I N='EveryNPages'>1</I>
+    <S N='FirstNum'>001</S>
+    <S N='Font'>Helvetica,Bold;Arial,Bold;Arial-BoldMT</S>
+    <B N='NoNum'>0</B>
+    <I N='PosX'>710</I>
+    <I N='PosY'>225</I>
+    <B N='RegInk'>0</B>
+    <I N='RepeatNumber'>1</I>
+    <S N='Requires'>qi4alphabase[QI 4.0/QHI 4.0 alpha]</S>
+    <A N='Rotate'>R270</A>
+    <F N='Size'>10.0000</F>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Both</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <A N='UIFieldSel'>[Date:%d/%m/%y]</A>
+    <F N='XOff'>42.5197</F>
+    <F N='YOff'>0.0000</F>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus3</S>
+    <S N='FullName'>Quite Imposing Plus 3.0</S>
+    <S N='Name'>Quite Imposing Plus 3</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='3'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>AddMaskingTape</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all pages</S>
+    <S N='1'>Mask co-ordinates: Horizontal, vertical offset 0.00, 739.84 Width 1366.30 Height 15.59 points</S>
+    <S N='2'>Origin: bottom centre</S>
+    <S N='3'>Colour: Default (white)</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <A N='Origin'>BC</A>
+    <I N='PosX'>1079</I>
+    <I N='PosY'>445</I>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Both</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <S N='XYWHList'>0 739.8425 1366.2992 15.5906 </S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='4'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>AddMaskingTape</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all pages</S>
+    <S N='1'>Mask co-ordinates: Horizontal, vertical offset 0.00, 0.00 Width 5.67 Height 935.43 points</S>
+    <S N='2'>Origin: top centre</S>
+    <S N='3'>Colour: Default (white)</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <A N='Origin'>TC</A>
+    <I N='PosX'>1079</I>
+    <I N='PosY'>445</I>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Both</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <S N='XYWHList'>0 0 5.6693 935.4331 </S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='5'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>AddMaskingTape</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all pages</S>
+    <S N='1'>Mask co-ordinates: Horizontal, vertical offset 222.52, 0.00 Width 5.67 Height 935.43 points</S>
+    <S N='2'>Origin: left</S>
+    <S N='3'>Colour: Default (white)</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <A N='Origin'>L</A>
+    <I N='PosX'>1079</I>
+    <I N='PosY'>445</I>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Both</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <S N='XYWHList'>222.5197 0 5.6693 935.4331 </S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='6'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>AddMaskingTape</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all pages</S>
+    <S N='1'>Mask co-ordinates: Horizontal, vertical offset 1139.53, 0.00 Width 5.67 Height 935.43 points</S>
+    <S N='2'>Origin: left</S>
+    <S N='3'>Colour: Default (white)</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <A N='Origin'>L</A>
+    <I N='PosX'>1079</I>
+    <I N='PosY'>445</I>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Both</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <S N='XYWHList'>1139.5276 0 5.6693 935.4331 </S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='7'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>AddMaskingTape</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all pages</S>
+    <S N='1'>Mask co-ordinates: Horizontal, vertical offset 0.00, 161.57 Width 1133.86 Height 5.67 points</S>
+    <S N='2'>Origin: bottom centre</S>
+    <S N='3'>Colour: Default (white)</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <A N='Origin'>BC</A>
+    <I N='PosX'>1079</I>
+    <I N='PosY'>445</I>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Both</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <S N='XYWHList'>0 161.5748 1133.8583 5.6693 </S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<A N='Category'>CommandList_V1</A>
+<B N='DoPrompt'>0</B>
+<S N='Requires'>qi2base</S>
+<DICT N='Stats'>  <ITEMS>
+  <I N='Count'>2131</I>
+  <S N='Created'>D:20130111235145</S>
+  <S N='Edited'>D:20221124154441</S>
+  <S N='Updated'>D:20150212171754</S>
+  </ITEMS></DICT>
+
+<A N='UIMode'>None</A>
+</ITEMS>
+</QUITEXML>
+

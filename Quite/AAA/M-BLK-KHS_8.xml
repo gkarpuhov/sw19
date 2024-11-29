@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QUITEXML>
+<ITEMS>
+<DICT N='0'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>InsertBlanks</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Where: after last page</S>
+    <S N='1'>Number of pages: 1</S>
+    <S N='2'>Page size: same as page 1</S>
+    <S N='3'>Condition: If number of pages is Odd</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <A N='Action'>Blanks</A>
+    <A N='Condition'>If</A>
+    <A N='ConditionRelation'>Odd</A>
+    <I N='Count'>1</I>
+    <I N='PageNum'>1</I>
+    <I N='PosX'>722</I>
+    <I N='PosY'>244</I>
+    <S N='Requires'>qi3alphabase[QI 3.0/QHI 3.0 alpha]</S>
+    <I N='SizeAsPage'>1</I>
+    <DICT N='Source'>      <ITEMS>
+      <A N='SourceType'>None</A>
+      </ITEMS>    </DICT>
+
+    <A N='WhatSize'>SameAsPage</A>
+    <A N='Where'>AtEnd</A>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus3</S>
+    <S N='FullName'>Quite Imposing Plus 3.0f</S>
+    <S N='Name'>Quite Imposing Plus 3</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='1'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>Nup</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Trim unused space from sheets: no</S>
+    <S N='1'>Allow pages to be scaled: no</S>
+    <S N='2'>Margins: left 0.00, top 0.00, right 0.00, bottom 0.00 points</S>
+    <S N='3'>Horizontal spacing (points): 0 </S>
+    <S N='4'>Vertical spacing (points): 0 </S>
+    <S N='5'>Add frames around each page: no</S>
+    <S N='6'>Sheet size: 1.000 x 1.000 inches / 25.4 x 25.4 mm</S>
+    <S N='7'>Sheet orientation: tall</S>
+    <S N='8'>Layout: rows 1 down, columns 1 across</S>
+    <S N='9'>Align: centre, independent</S>
+    <S N='10'>Registration colour: All separations</S>
+    <S N='11'>PDF/X handling: Ignore PDF/X</S>
+    <S N='12'>Bleed handling: Use trim box</S>
+    <S N='13'>Annotations and form fields: Ignore</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <F N='BMgn'>0.0000</F>
+    <A N='BleedMode'>Use</A>
+    <F N='CropDist'>10.0000</F>
+    <F N='CropLength'>20.0000</F>
+    <B N='CropMarks'>0</B>
+    <A N='CropStyle'>Corners</A>
+    <F N='CropWidth'>0.3000</F>
+    <A N='DoScaling'>ToFit</A>
+    <B N='EvenMirrorHorizontal'>0</B>
+    <B N='EvenMirrorVertical'>0</B>
+    <I N='FitAcross'>1</I>
+    <I N='FitDown'>1</I>
+    <F N='FixedScale'>0.7000</F>
+    <A N='Flatten'>None</A>
+    <B N='Frames'>0</B>
+    <S N='HSpace'>0 </S>
+    <F N='LMgn'>0.0000</F>
+    <B N='NewDoc'>0</B>
+    <A N='PDFX'>IgnoreAll</A>
+    <DICT N='Page'>      <ITEMS>
+      <S N='Created'>D:20151005132723</S>
+      <F N='Height'>72.0000</F>
+      <S N='Name'>SI2P</S>
+      <A N='Type'>Blank</A>
+      <F N='Width'>72.0000</F>
+      </ITEMS>    </DICT>
+
+    <A N='PageOrientation'>Tall</A>
+    <I N='PosX'>749</I>
+    <I N='PosY'>303</I>
+    <F N='RMgn'>0.0000</F>
+    <A N='RegColour'>AllSeps</A>
+    <A N='SheetAlign'>C</A>
+    <B N='SheetAlignIndependent'>1</B>
+    <DICT N='Source'>      <ITEMS>
+      <A N='SourceType'>CurrentAVDoc</A>
+      </ITEMS>    </DICT>
+
+    <F N='TMgn'>0.0000</F>
+    <B N='Trim'>0</B>
+    <I N='UIVer'>2</I>
+    <B N='UseMgn'>1</B>
+    <B N='UseScale'>0</B>
+    <S N='VSpace'>0 </S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus3</S>
+    <S N='FullName'>Quite Imposing Plus 3.0f</S>
+    <S N='Name'>Quite Imposing Plus 3</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='2'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>DefineBleed</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all odd numbered pages</S>
+    <S N='1'>Request: bleed left 0.00, right 0.00, top 0.00, bottom 0.00 points</S>
+    <S N='2'>Bleed area is outside visible: no</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <F N='BMgn'>0.0000</F>
+    <F N='LMgn'>0.0000</F>
+    <F N='Margin'>8.5039</F>
+    <B N='Outside'>0</B>
+    <I N='PosX'>741</I>
+    <I N='PosY'>279</I>
+    <F N='RMgn'>0.0000</F>
+    <A N='Request'>Margin</A>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Odd</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <F N='TMgn'>0.0000</F>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus3</S>
+    <S N='FullName'>Quite Imposing Plus 3.0f</S>
+    <S N='Name'>Quite Imposing Plus 3</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='3'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>DefineBleed</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all even numbered pages</S>
+    <S N='1'>Request: bleed left 0.00, right 0.00, top 0.00, bottom 0.00 points</S>
+    <S N='2'>Bleed area is outside visible: no</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <F N='BMgn'>0.0000</F>
+    <F N='LMgn'>0.0000</F>
+    <F N='Margin'>0.0000</F>
+    <B N='Outside'>0</B>
+    <I N='PosX'>741</I>
+    <I N='PosY'>279</I>
+    <F N='RMgn'>0.0000</F>
+    <A N='Request'>Margin</A>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Even</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <F N='TMgn'>0.0000</F>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus3</S>
+    <S N='FullName'>Quite Imposing Plus 3.0f</S>
+    <S N='Name'>Quite Imposing Plus 3</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='4'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>Nup</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Trim unused space from sheets: no</S>
+    <S N='1'>Allow pages to be scaled: no</S>
+    <S N='2'>Margins: left 14.17, top 14.17, right 14.17, bottom 14.17 points</S>
+    <S N='3'>Horizontal spacing (points): 0 </S>
+    <S N='4'>Vertical spacing (points): 0 </S>
+    <S N='5'>Add frames around each page: no</S>
+    <S N='6'>Sheet size: 1.000 x 1.000 inches / 25.4 x 25.4 mm</S>
+    <S N='7'>Sheet orientation: wide</S>
+    <S N='8'>Layout: rows 1 down, columns 1 across</S>
+    <S N='9'>Align: centre, independent</S>
+    <S N='10'>Registration colour: Black</S>
+    <S N='11'>PDF/X handling: Ignore PDF/X</S>
+    <S N='12'>Bleed handling: Use trim box</S>
+    <S N='13'>Annotations and form fields: Ignore</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <F N='BMgn'>0.0000</F>
+    <A N='BleedMode'>Ignore</A>
+    <F N='CropDist'>8.5039</F>
+    <F N='CropLength'>20.0001</F>
+    <B N='CropMarks'>0</B>
+    <A N='CropStyle'>Corners</A>
+    <F N='CropWidth'>0.2999</F>
+    <A N='DoScaling'>ToFit</A>
+    <B N='EvenMirrorHorizontal'>1</B>
+    <B N='EvenMirrorVertical'>0</B>
+    <I N='FitAcross'>1</I>
+    <I N='FitDown'>1</I>
+    <F N='FixedScale'>0.7000</F>
+    <A N='Flatten'>None</A>
+    <B N='Frames'>0</B>
+    <S N='HSpace'>0 </S>
+    <F N='LMgn'>2.8346</F>
+    <B N='NewDoc'>0</B>
+    <A N='PDFX'>IgnoreAll</A>
+    <DICT N='Page'>      <ITEMS>
+      <S N='Created'>D:20151002185548</S>
+      <F N='Height'>72.0000</F>
+      <S N='Name'>SI2</S>
+      <A N='Type'>Blank</A>
+      <F N='Width'>72.0000</F>
+      </ITEMS>    </DICT>
+
+    <A N='PageOrientation'>Tall</A>
+    <I N='PosX'>749</I>
+    <I N='PosY'>303</I>
+    <F N='RMgn'>2.8346</F>
+    <A N='RegColour'>Black</A>
+    <S N='Requires'>qi3alphabase[QI 3.0/QHI 3.0 alpha]</S>
+    <A N='SheetAlign'>C</A>
+    <B N='SheetAlignIndependent'>1</B>
+    <DICT N='Source'>      <ITEMS>
+      <A N='SourceType'>CurrentAVDoc</A>
+      </ITEMS>    </DICT>
+
+    <F N='TMgn'>0.0000</F>
+    <B N='Trim'>0</B>
+    <I N='UIVer'>2</I>
+    <B N='UseMgn'>1</B>
+    <B N='UseScale'>0</B>
+    <S N='VSpace'>0 </S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus3</S>
+    <S N='FullName'>Quite Imposing Plus 3.0f</S>
+    <S N='Name'>Quite Imposing Plus 3</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='5'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>AddMaskingTape</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all pages</S>
+    <S N='1'>Mask co-ordinates: Horizontal, vertical offset 0.00, 0.00 Width 5.67 Height 850.39 points</S>
+    <S N='2'>Origin: left</S>
+    <S N='3'>Colour: Default (white)</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <A N='Origin'>L</A>
+    <I N='PosX'>759</I>
+    <I N='PosY'>265</I>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Even</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <S N='XYWHList'>0 0 5.6693 850.3937 </S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='6'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>AddMaskingTape</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all pages</S>
+    <S N='1'>Mask co-ordinates: Horizontal, vertical offset 0.00, 0.00 Width 5.67 Height 850.39 points</S>
+    <S N='2'>Origin: right</S>
+    <S N='3'>Colour: Default (white)</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <A N='Origin'>R</A>
+    <I N='PosX'>759</I>
+    <I N='PosY'>265</I>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Odd</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <S N='XYWHList'>0 0 5.6693 850.3937 </S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='7'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>AddNumbers</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all odd numbered pages</S>
+    <S N='1'>Font: Helvetica,Bold;Arial,Bold;Arial-BoldMT 6.0 point</S>
+    <S N='2'>Origin: bottom left</S>
+    <S N='3'>Offset: horizontal 3.69 points, vertical 0.00 points</S>
+    <S N='4'>Prefix text: &apos; | [Doc:NumPages] | [MARKCODE]   [PRODUCTCODE]   Qty: [QTY]   [COATING]&apos;</S>
+    <S N='5'>Suffix text: &apos;&apos;</S>
+    <S N='6'>Colour: Default (black)</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <I N='AdvanceNumber'>1</I>
+    <B N='AdvancedUI'>1</B>
+    <S N='After'></S>
+    <A N='Align'>BR</A>
+    <S N='Before'>[MARKCODE]   [PRODUCTCODE]   Qty: [QTY]   [COATING] | [Doc:NumPages] | </S>
+    <I N='EveryNPages'>1</I>
+    <S N='FirstNum'>1</S>
+    <S N='Font'>Helvetica,Bold;Arial,Bold;Arial-BoldMT</S>
+    <B N='NoNum'>0</B>
+    <I N='PosX'>768</I>
+    <I N='PosY'>326</I>
+    <B N='RegInk'>0</B>
+    <I N='RepeatNumber'>1</I>
+    <S N='Requires'>qi4alphabase[QI 4.0/QHI 4.0 alpha]</S>
+    <A N='Rotate'>R270</A>
+    <F N='Size'>6.0000</F>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Odd</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <A N='UIFieldSel'>[Sys:ComputerName]</A>
+    <F N='XOff'>4.5354</F>
+    <F N='YOff'>5.6693</F>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='8'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>AddNumbers</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all even numbered pages</S>
+    <S N='1'>Font: Helvetica,Bold;Arial,Bold;Arial-BoldMT 6.0 point</S>
+    <S N='2'>Origin: right</S>
+    <S N='3'>Offset: horizontal 3.69 points, vertical 0.00 points</S>
+    <S N='4'>Prefix text: &apos;[COATING]   Qty: [QTY]   [PRODUCTCODE]   [MARKCODE] | [Doc:NumPages] |&apos;</S>
+    <S N='5'>Suffix text: &apos;&apos;</S>
+    <S N='6'>Colour: Default (black)</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <I N='AdvanceNumber'>1</I>
+    <B N='AdvancedUI'>1</B>
+    <S N='After'></S>
+    <A N='Align'>BL</A>
+    <S N='Before'>[COATING]   Qty: [QTY]   [PRODUCTCODE]   [MARKCODE] | [Doc:NumPages] | </S>
+    <I N='EveryNPages'>1</I>
+    <S N='FirstNum'>1</S>
+    <S N='Font'>Helvetica,Bold;Arial,Bold;Arial-BoldMT</S>
+    <B N='NoNum'>0</B>
+    <I N='PosX'>789</I>
+    <I N='PosY'>233</I>
+    <B N='RegInk'>0</B>
+    <I N='RepeatNumber'>1</I>
+    <S N='Requires'>qi4alphabase[QI 4.0/QHI 4.0 alpha]</S>
+    <A N='Rotate'>R270</A>
+    <F N='Size'>6.0000</F>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Even</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <A N='UIFieldSel'>[Sys:ComputerName]</A>
+    <F N='XOff'>0.8504</F>
+    <F N='YOff'>5.6693</F>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='9'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>SimpleBooklet</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Order: single binding (saddle stitch)</S>
+    <S N='1'>Sheet size: large enough for 100% scale</S>
+    <S N='2'>Front and back: normal</S>
+    <S N='3'>Align: centre pages top to bottom, pull to centre</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <B N='AddBlanks'>0</B>
+    <A N='Align'>CentreSpine</A>
+    <A N='Backs'>Inline</A>
+    <F N='CropDist'>10.0000</F>
+    <F N='CropLength'>20.0000</F>
+    <B N='CropMarks'>0</B>
+    <A N='CropStyle'>Corners</A>
+    <F N='CropWidth'>0.3000</F>
+    <A N='Fields'>None</A>
+    <F N='Margin'>0.0000</F>
+    <B N='NewDoc'>0</B>
+    <B N='NoScale'>0</B>
+    <I N='PagesPerSig'>8</I>
+    <A N='Paginate'>Multiple</A>
+    <I N='PosX'>762</I>
+    <I N='PosY'>338</I>
+    <B N='SingleSided'>0</B>
+    <A N='Sizing'>Sufficient</A>
+    <B N='Valid'>1</B>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus3</S>
+    <S N='FullName'>Quite Imposing Plus 3.0f</S>
+    <S N='Name'>Quite Imposing Plus 3</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='10'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>AddMaskingTape</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all pages</S>
+    <S N='1'>Mask co-ordinates: Horizontal, vertical offset 0.00, 0.00 Width 2.83 Height 8.50 points</S>
+    <S N='2'>Origin: top centre</S>
+    <S N='3'>Colour: Default (white)</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <A N='Origin'>TC</A>
+    <I N='PosX'>599</I>
+    <I N='PosY'>325</I>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Both</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <S N='XYWHList'>0 0 2.8346 5.6693 </S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='11'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>AddMaskingTape</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all pages</S>
+    <S N='1'>Mask co-ordinates: Horizontal, vertical offset 0.00, 0.00 Width 2.83 Height 8.50 points</S>
+    <S N='2'>Origin: bottom centre</S>
+    <S N='3'>Colour: Default (white)</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <A N='Origin'>BC</A>
+    <I N='PosX'>599</I>
+    <I N='PosY'>325</I>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Both</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <S N='XYWHList'>0 0 2.8346 5.6693 </S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='12'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>AddNumbers</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all pages</S>
+    <S N='1'>Font: Helvetica,Bold;Arial,Bold;Arial-BoldMT 12.0 point</S>
+    <S N='2'>Origin: top centre</S>
+    <S N='3'>Offset: horizontal 0.00 points, vertical 0.00 points</S>
+    <S N='4'>Prefix text: &apos;|&apos;</S>
+    <S N='5'>Suffix text: &apos;&apos;</S>
+    <S N='6'>Colour: Default (black)</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <I N='AdvanceNumber'>1</I>
+    <B N='AdvancedUI'>1</B>
+    <S N='After'></S>
+    <A N='Align'>BC</A>
+    <S N='Before'>|</S>
+    <I N='EveryNPages'>1</I>
+    <S N='Font'>Helvetica,Bold;Arial,Bold;Arial-BoldMT</S>
+    <B N='NoNum'>1</B>
+    <I N='PosX'>608</I>
+    <I N='PosY'>386</I>
+    <B N='RegInk'>0</B>
+    <I N='RepeatNumber'>1</I>
+    <S N='Requires'>qi4alphabase[QI 4.0/QHI 4.0 alpha]</S>
+    <A N='Rotate'>R0</A>
+    <F N='Size'>12.0000</F>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Both</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <A N='UIFieldSel'>[Sys:ComputerName]</A>
+    <F N='XOff'>0.0000</F>
+    <F N='YOff'>-2.8346</F>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='13'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>AddNumbers</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all pages</S>
+    <S N='1'>Font: Helvetica,Bold;Arial,Bold;Arial-BoldMT 12.0 point</S>
+    <S N='2'>Origin: bottom centre</S>
+    <S N='3'>Offset: horizontal 0.00 points, vertical 0.00 points</S>
+    <S N='4'>Prefix text: &apos;I&apos;</S>
+    <S N='5'>Suffix text: &apos;&apos;</S>
+    <S N='6'>Colour: Default (black)</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <I N='AdvanceNumber'>1</I>
+    <B N='AdvancedUI'>1</B>
+    <S N='After'></S>
+    <A N='Align'>TC</A>
+    <S N='Before'>I</S>
+    <I N='EveryNPages'>1</I>
+    <S N='Font'>Helvetica,Bold;Arial,Bold;Arial-BoldMT</S>
+    <B N='NoNum'>1</B>
+    <I N='PosX'>608</I>
+    <I N='PosY'>386</I>
+    <B N='RegInk'>0</B>
+    <I N='RepeatNumber'>1</I>
+    <S N='Requires'>qi4alphabase[QI 4.0/QHI 4.0 alpha]</S>
+    <A N='Rotate'>R0</A>
+    <F N='Size'>12.0000</F>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Both</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <A N='UIFieldSel'>[Sys:ComputerName]</A>
+    <F N='XOff'>0.0000</F>
+    <F N='YOff'>5.6693</F>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='14'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>DefineBleed</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all pages</S>
+    <S N='1'>Request: bleed all round 14.17 points</S>
+    <S N='2'>Bleed area is outside visible: no</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <F N='BMgn'>8.5039</F>
+    <F N='LMgn'>8.5039</F>
+    <F N='Margin'>14.1732</F>
+    <B N='Outside'>0</B>
+    <I N='PosX'>741</I>
+    <I N='PosY'>279</I>
+    <F N='RMgn'>8.5039</F>
+    <A N='Request'>Margin</A>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Odd</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <F N='TMgn'>8.5039</F>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus3</S>
+    <S N='FullName'>Quite Imposing Plus 3.0f</S>
+    <S N='Name'>Quite Imposing Plus 3</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='15'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>DefineBleed</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all even numbered pages</S>
+    <S N='1'>Request: bleed left 0.00, right 0.00, top 0.00, bottom 0.00 points</S>
+    <S N='2'>Bleed area is outside visible: no</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <F N='BMgn'>8.5039</F>
+    <F N='LMgn'>8.5039</F>
+    <F N='Margin'>0.0000</F>
+    <B N='Outside'>0</B>
+    <I N='PosX'>741</I>
+    <I N='PosY'>279</I>
+    <F N='RMgn'>8.5039</F>
+    <A N='Request'>Margin</A>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Even</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <F N='TMgn'>8.5039</F>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus3</S>
+    <S N='FullName'>Quite Imposing Plus 3.0f</S>
+    <S N='Name'>Quite Imposing Plus 3</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<A N='Category'>CommandList_V1</A>
+<B N='DoPrompt'>0</B>
+<S N='Requires'>qi2base</S>
+<DICT N='Stats'>  <ITEMS>
+  <I N='Count'>2139</I>
+  <S N='Created'>D:20130111235145</S>
+  <S N='Edited'>D:20221102120517</S>
+  <S N='Updated'>D:20191004153227</S>
+  </ITEMS></DICT>
+
+<A N='UIMode'>None</A>
+</ITEMS>
+</QUITEXML>
+

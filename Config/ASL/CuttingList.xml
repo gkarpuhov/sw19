@@ -1,0 +1,32 @@
+<DRPXML>
+	<S N='Default'>
+		<A N='Value'>Default.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Cutting\</A>
+		<A N='Comment'>Резальная машина (760мм)</A>
+	</S>
+	<S N='Manual'>
+		<A N='Value'>Manual.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Cutting\</A>
+		<A N='Comment'>Широкоформатный резак</A>
+	</S>
+	<S N='Aerocut'>
+		<A N='Value'>Aerocut.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Cutting\</A>
+		<A N='Comment'>Автоматическая резка AeroСut</A>
+	</S>
+	<S N='AerocutPrime'>
+		<A N='Value'>AerocutPrime.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Cutting\</A>
+		<A N='Comment'>Автоматическая резка AeroСut Prime</A>
+	</S>
+        <S N='Echo'>
+		<A N='Value'>Echo.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Cutting\</A>
+		<A N='Comment'>Режущий плоттер IECHO</A>
+	</S>
+	<S N='Null'>
+		<A N='Value'>Null.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Cutting\</A>
+		<A N='Comment'>Без резки</A>
+	</S>	
+</DRPXML>

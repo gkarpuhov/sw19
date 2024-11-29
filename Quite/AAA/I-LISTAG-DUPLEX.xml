@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QUITEXML>
+<ITEMS>
+<DICT N='0'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>Shuffle</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Group size: 13</S>
+    <S N='1'>Shuffle type: Normal, or perfect bound</S>
+    <S N='2'>Rule: 1 2 3 4 5 6 7 8 9 10 11 12 13</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <I N='GroupSize'>13</I>
+    <B N='NewDoc'>0</B>
+    <S N='Order'>1 2 3 4 5 6 7 8 9 10 11 12 13</S>
+    <I N='PosX'>742</I>
+    <I N='PosY'>276</I>
+    <I N='PreviewCols'>2</I>
+    <I N='PreviewRows'>2</I>
+    <A N='Type'>Normal</A>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='1'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>StepAndRepeat</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Trim unused space from sheets: no</S>
+    <S N='1'>Allow pages to be scaled: no</S>
+    <S N='2'>Margins and crop marks: none</S>
+    <S N='3'>Sheet size: 1.000 x 1.000 inches / 25.4 x 25.4 mm</S>
+    <S N='4'>Sheet orientation: wide</S>
+    <S N='5'>Layout: rows 1 down, columns 1 across</S>
+    <S N='6'>Align: centre</S>
+    <S N='7'>Registration colour: Black</S>
+    <S N='8'>PDF/X handling: Ignore PDF/X</S>
+    <S N='9'>Bleed handling: Use trim box</S>
+    <S N='10'>Annotations and form fields: Ignore</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <F N='BMgn'>0.0000</F>
+    <A N='BleedMode'>Use</A>
+    <F N='CropDist'>10.0000</F>
+    <F N='CropLength'>20.0000</F>
+    <B N='CropMarks'>0</B>
+    <A N='CropStyle'>Corners</A>
+    <F N='CropWidth'>0.3000</F>
+    <A N='DoScaling'>ToFit</A>
+    <B N='EvenMirrorHorizontal'>0</B>
+    <B N='EvenMirrorVertical'>0</B>
+    <I N='FitAcross'>1</I>
+    <I N='FitDown'>1</I>
+    <F N='FixedScale'>0.7000</F>
+    <A N='Flatten'>None</A>
+    <B N='Frames'>0</B>
+    <S N='HSpace'>0 </S>
+    <F N='LMgn'>0.0000</F>
+    <B N='NewDoc'>0</B>
+    <A N='PDFX'>IgnoreAll</A>
+    <DICT N='Page'>      <ITEMS>
+      <S N='Created'>D:20220328190152</S>
+      <F N='Height'>72.0000</F>
+      <S N='Name'>SI2S</S>
+      <A N='Type'>Blank</A>
+      <F N='Width'>69.4488</F>
+      </ITEMS>    </DICT>
+
+    <A N='PageOrientation'>Wide</A>
+    <I N='PosX'>840</I>
+    <I N='PosY'>414</I>
+    <F N='RMgn'>0.0000</F>
+    <A N='RegColour'>Black</A>
+    <A N='SheetAlign'>C</A>
+    <B N='SheetAlignIndependent'>0</B>
+    <DICT N='Source'>      <ITEMS>
+      <A N='SourceType'>CurrentAVDoc</A>
+      </ITEMS>    </DICT>
+
+    <F N='TMgn'>0.0000</F>
+    <B N='Trim'>0</B>
+    <I N='UIVer'>2</I>
+    <B N='UseMgn'>1</B>
+    <B N='UseScale'>0</B>
+    <S N='VSpace'>0 </S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus3</S>
+    <S N='FullName'>Quite Imposing Plus 3.0f</S>
+    <S N='Name'>Quite Imposing Plus 3</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='2'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>AddNumbers</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all odd numbered pages</S>
+    <S N='1'>Font: Helvetica,Bold;Arial,Bold;Arial-BoldMT 6.0 point</S>
+    <S N='2'>Origin: top left</S>
+    <S N='3'>Offset: horizontal 28.35 points, vertical 8.50 points</S>
+    <S N='4'>Prefix text: &apos;[NASYSTEM]  [CID]  [SUBSTRATE]  [COATING]  FRONT- Sheet &apos;</S>
+    <S N='5'>Suffix text: &apos;&apos;</S>
+    <S N='6'>Colour: Default (black)</S>
+    <S N='7'>Add text every 2 pages</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <I N='AdvanceNumber'>1</I>
+    <B N='AdvancedUI'>1</B>
+    <S N='After'></S>
+    <A N='Align'>TL</A>
+    <S N='Before'>[NASYSTEM]  [CID]  [SUBSTRATE]  [COATING]  FRONT- Sheet </S>
+    <I N='EveryNPages'>1</I>
+    <S N='FirstNum'>1</S>
+    <S N='Font'>Helvetica,Bold;Arial,Bold;Arial-BoldMT</S>
+    <B N='NoNum'>0</B>
+    <I N='PosX'>1070</I>
+    <I N='PosY'>461</I>
+    <B N='RegInk'>0</B>
+    <I N='RepeatNumber'>2</I>
+    <S N='Requires'>qi4alphabase[QI 4.0/QHI 4.0 alpha]</S>
+    <A N='Rotate'>R0</A>
+    <F N='Size'>6.0000</F>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Odd</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <A N='UIFieldSel'>[Sys:ComputerName]</A>
+    <F N='XOff'>99.2126</F>
+    <F N='YOff'>14.1732</F>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='3'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>AddNumbers</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all even numbered pages</S>
+    <S N='1'>Font: Helvetica,Bold;Arial,Bold;Arial-BoldMT 6.0 point</S>
+    <S N='2'>Origin: top right</S>
+    <S N='3'>Offset: horizontal 28.35 points, vertical 8.50 points</S>
+    <S N='4'>Prefix text: &apos;[NASYSTEM]  [CID]  [SUBSTRATE]  [COATING]  BACK - Sheet &apos;</S>
+    <S N='5'>Suffix text: &apos;&apos;</S>
+    <S N='6'>Colour: Default (black)</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <I N='AdvanceNumber'>1</I>
+    <B N='AdvancedUI'>1</B>
+    <S N='After'></S>
+    <A N='Align'>TR</A>
+    <S N='Before'>[NASYSTEM]  [CID]  [SUBSTRATE]  [COATING]  BACK - Sheet </S>
+    <I N='EveryNPages'>1</I>
+    <S N='FirstNum'>1</S>
+    <S N='Font'>Helvetica,Bold;Arial,Bold;Arial-BoldMT</S>
+    <B N='NoNum'>0</B>
+    <I N='PosX'>768</I>
+    <I N='PosY'>386</I>
+    <B N='RegInk'>0</B>
+    <I N='RepeatNumber'>2</I>
+    <S N='Requires'>qi4alphabase[QI 4.0/QHI 4.0 alpha]</S>
+    <A N='Rotate'>R0</A>
+    <F N='Size'>6.0000</F>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Even</A>
+        <A N='RangeType'>AllDoc</A>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <A N='UIFieldSel'>[Sys:ComputerName]</A>
+    <F N='XOff'>99.2126</F>
+    <F N='YOff'>14.1732</F>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus4</S>
+    <S N='FullName'>Quite Imposing Plus 4.0g</S>
+    <S N='Name'>Quite Imposing Plus 4</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<A N='Category'>CommandList_V1</A>
+<B N='DoPrompt'>0</B>
+<S N='Requires'>qi2base</S>
+<DICT N='Stats'>  <ITEMS>
+  <I N='Count'>2131</I>
+  <S N='Created'>D:20130111235145</S>
+  <S N='Edited'>D:20220425180147</S>
+  <S N='Updated'>D:20150212171754</S>
+  </ITEMS></DICT>
+
+<A N='UIMode'>None</A>
+</ITEMS>
+</QUITEXML>
+

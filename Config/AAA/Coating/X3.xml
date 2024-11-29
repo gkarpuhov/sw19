@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+Basic tags: 
+S : SECTION
+C : COMPONENT
+A : ATTRIBUTE 
+
+Basic attributes:
+N : NAME
+Type: TYPE OF CONTENT (Integer, Float , Boolean or other)
+RegExp: REGULAR EXPRESSION (for check content if nessary)
+
+A string of path without filename should always ending slash (for Windows backslash,  for xPath and URI - normal slash)!
+Sample for Windows: C:\Folder1\Folder2\
+Sample for xPath or URI: file://Folder1/Folder2/
+
+-->
+
+<DRPXML N='X3' Version='2.0.0' Date='2015-09-25'>
+<A N='ID'>X3</A><!-- код покрытия (Coating)-->
+<S N='Description'>
+    <A N='Ru'>Покрытие неизвестно</A>
+    <A N='En'>Coating Undefined</A>
+</S>
+<S N='ShortDescription'>
+    <A N='Ru'>Лам.: Неизвестно (X3)</A>
+    <A N='En'>Lam.: UNDEFINED (X3)</A>
+</S>
+<S N='Media'>
+    <A N='Roll' Type='Boolean'>true</A><!-- тип: рулон (true) или иное (false) -->
+    <A N='Duplex' Type='Boolean'>false</A>
+    <A N='Weight' Type='Integer'>00</A><!-- вес, gsm -->
+    <A N='Thickness' Type='Float'>0,0</A><!-- толщина, мм -->
+</S>
+<S N='Price'>
+    <A N='Value' Type='Float'>0,00</A>
+    <A N='Currency'>USD</A>
+    <A N='Measure' >SQM</A>
+</S>
+
+</DRPXML>

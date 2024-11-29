@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QUITEXML>
+<ITEMS>
+<DICT N='0'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>StepAndRepeat</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Trim unused space from sheets: no</S>
+    <S N='1'>Allow pages to be scaled: no</S>
+    <S N='2'>Margins: left 0.00, top 0.00, right 0.00, bottom 0.00 points</S>
+    <S N='3'>Horizontal spacing (points): 0 </S>
+    <S N='4'>Vertical spacing (points): 0 </S>
+    <S N='5'>Crop style 1, width 0.28, length 19.84, distance 5.67 (points)</S>
+    <S N='6'>Add frames around each page: no</S>
+    <S N='7'>Sheet size: 1.000 x 1.000 inches / 25.4 x 25.4 mm</S>
+    <S N='8'>Sheet orientation: wide</S>
+    <S N='9'>Layout: rows 1 down, columns 1 across</S>
+    <S N='10'>Align: centre</S>
+    <S N='11'>Registration colour: Black</S>
+    <S N='12'>PDF/X handling: Ignore PDF/X</S>
+    <S N='13'>Bleed handling: Use trim box</S>
+    <S N='14'>Annotations and form fields: Ignore</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <F N='BMgn'>0.0000</F>
+    <A N='BleedMode'>Use</A>
+    <F N='CropDist'>-28.3464</F>
+    <F N='CropLength'>28.3465</F>
+    <B N='CropMarks'>1</B>
+    <A N='CropStyle'>Corners</A>
+    <F N='CropWidth'>0.8504</F>
+    <A N='DoScaling'>ToFit</A>
+    <B N='EvenMirrorHorizontal'>0</B>
+    <B N='EvenMirrorVertical'>0</B>
+    <I N='FitAcross'>1</I>
+    <I N='FitDown'>1</I>
+    <F N='FixedScale'>0.7000</F>
+    <A N='Flatten'>None</A>
+    <B N='Frames'>0</B>
+    <S N='HSpace'>0 </S>
+    <F N='LMgn'>0.0000</F>
+    <B N='NewDoc'>0</B>
+    <A N='PDFX'>IgnoreAll</A>
+    <DICT N='Page'>      <ITEMS>
+      <S N='Created'>D:20180630125431</S>
+      <F N='Height'>72.0000</F>
+      <S N='Name'>SI2</S>
+      <A N='Type'>Blank</A>
+      <F N='Width'>72.0000</F>
+      </ITEMS>    </DICT>
+
+    <A N='PageOrientation'>Wide</A>
+    <I N='PosX'>749</I>
+    <I N='PosY'>288</I>
+    
+    <F N='RMgn'>0.0000</F>
+    <A N='RegColour'>Black</A>
+    <A N='SheetAlign'>C</A>
+    <B N='SheetAlignIndependent'>1</B>
+    <DICT N='Source'>      <ITEMS>
+      <A N='SourceType'>CurrentAVDoc</A>
+      </ITEMS>    </DICT>
+
+    <F N='TMgn'>0.0000</F>
+    <B N='Trim'>0</B>
+    <I N='UIVer'>2</I>
+    <B N='UseMgn'>1</B>
+    <B N='UseScale'>0</B>
+    <S N='VSpace'>0 </S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus3</S>
+    <S N='FullName'>Quite Imposing Plus 3.0f</S>
+    <S N='Name'>Quite Imposing Plus 3</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<A N='Category'>CommandList_V1</A>
+<S N='Requires'>qi2base</S>
+<DICT N='Stats'>  <ITEMS>
+  <I N='Count'>2131</I>
+  <S N='Created'>D:20130111235145</S>
+  <S N='Edited'>D:20151105162051</S>
+  <S N='Updated'>D:20150212171754</S>
+  </ITEMS></DICT>
+
+<A N='UIMode'>None</A>
+</ITEMS>
+</QUITEXML>
+

@@ -1,0 +1,3 @@
+curl -X GET http://127.0.0.1:3000/v1/asw/webgettemplate/197157460 -H "Authorization:key111" -H "Content-Type: application/json; charset=utf-8" 
+curl -X GET http://127.0.0.1:3000/v1/asw/webgettemplatelist -H "Authorization:key111" -H "Content-Type: application/json; charset=utf-8" -o "c:\Temp\templates.json"
+curl -X POST http://127.0.0.1:3000/v1/asw/webgettemplatecalc -H "Authorization:key111" -H "Content-Type: application/json; charset=utf-8" -d {\"toorder\":{\"customerid\":3894,\"managerid\":15,\"typesave\":1},\"templid\":197157460,\"quantity\":30}

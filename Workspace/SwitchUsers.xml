@@ -1,0 +1,41 @@
+<Users_And_Groups Switch_version="19" Switch_minor_version="100">
+ <Users_list>
+  <User_item User_ldap="0" User_full_name="" User_hidden="0" User_RD_access="NoAccess" User_dashboard_access="NoAccess" User_fpassword="#WDqmjxY84OMybkQXGDU20Kuwlayq92Ht5FiWJpF5SEw=" User_name="a.mishina" User_view_message="0" User_email="" User_jobclient_access="0" User_view_all_jobs="0"/>
+  <User_item User_ldap="0" User_full_name="Administrator" User_hidden="0" User_RD_access="FullAccess" User_dashboard_access="FullAccess" User_fpassword="#PuWdVxkU8KoVe2zjONgsq2bU+ae7Mqw9zYpE0BZD9Ug=" User_name="Administrator" User_view_message="1" User_email="" User_jobclient_access="1" User_view_all_jobs="1"/>
+  <User_item User_ldap="0" User_full_name="" User_hidden="0" User_RD_access="NoAccess" User_dashboard_access="NoAccess" User_fpassword="#gmtDicazKiOmGhbHvyf9vGB/q3NBscJUu6vEa1xf/+8=" User_name="ASOnline" User_view_message="0" User_email="" User_jobclient_access="0" User_view_all_jobs="0"/>
+  <User_item User_ldap="0" User_full_name="" User_hidden="0" User_RD_access="NoAccess" User_dashboard_access="NoAccess" User_fpassword="#OA+2qX17/myWZJ/FKOaQ5ZLsVe5UeYnwh6gdldc1STA=" User_name="m.fedulova" User_view_message="0" User_email="" User_jobclient_access="0" User_view_all_jobs="0"/>
+  <User_item User_ldap="0" User_full_name="" User_hidden="0" User_RD_access="NoAccess" User_dashboard_access="FullAccess" User_fpassword="#y/KXF/QmSm+4F5pvT1P6m0kjWjDStfNkXRFPZg8+yjg=" User_name="n.kashprovskiy" User_view_message="1" User_email="" User_jobclient_access="1" User_view_all_jobs="1"/>
+  <User_item User_ldap="0" User_full_name="" User_hidden="0" User_RD_access="NoAccess" User_dashboard_access="NoAccess" User_fpassword="#Cip7ixh2PlqymcRmaCno/jPqqYgIFeJBaFD/Li/TVe8=" User_name="o.varnavskaya@fineart-print.ru" User_view_message="0" User_email="o.varnavskaya@fineart-print.ru" User_jobclient_access="0" User_view_all_jobs="0"/>
+  <User_item User_ldap="0" User_full_name="" User_hidden="0" User_RD_access="NoAccess" User_dashboard_access="NoAccess" User_fpassword="#7xiKfIYrSRyMiHDW3GNEfcVy55FBgnOtZR4Pc1Si6GM=" User_name="Periodika" User_view_message="0" User_email="" User_jobclient_access="0" User_view_all_jobs="0"/>
+  <User_item User_ldap="0" User_full_name="" User_hidden="0" User_RD_access="NoAccess" User_dashboard_access="NoAccess" User_fpassword="#mexCKuY/IcMTvvluMxY+X/+APdZQsLQIG7+aJRxX75M=" User_name="Remote" User_view_message="0" User_email="" User_jobclient_access="0" User_view_all_jobs="0"/>
+  <User_item User_ldap="0" User_full_name="" User_hidden="0" User_RD_access="NoAccess" User_dashboard_access="NoAccess" User_fpassword="#NjJ4R7QO0d5N0NRYpY56LcTR0D395+D4N8cAOrEaHhk=" User_name="TcsProduction" User_view_message="0" User_email="" User_jobclient_access="0" User_view_all_jobs="0"/>
+ </Users_list>
+ <Groups_list>
+  <Group_item Group_view_message="1" Group_name="Administrators" Group_JobClient_access="1" Group_view_all_jobs="1" User_dashboard_access="FullAccess" Group_RD_access="FullAccess" Group_ldap="0" Group_Build_In="1">
+   <Group_manager_item>
+    <User_item User_ldap="0" User_full_name="Administrator" User_hidden="0" User_RD_access="FullAccess" User_dashboard_access="FullAccess" User_fpassword="#00NFIhEq2pVnvjnoLKBpXd4ydSkPAEyr56F61h4SRnQ=" User_name="Administrator" User_view_message="1" User_email="" User_jobclient_access="1" User_view_all_jobs="1"/>
+   </Group_manager_item>
+   <Group_member_item>
+    <User_item User_ldap="0" User_full_name="Administrator" User_hidden="0" User_RD_access="FullAccess" User_dashboard_access="FullAccess" User_fpassword="#4jl8H7kZOz/97uQPym17sBz/xWriZwVOiZPu9IHVJhE=" User_name="Administrator" User_view_message="1" User_email="" User_jobclient_access="1" User_view_all_jobs="1"/>
+    <User_item User_ldap="0" User_full_name="" User_hidden="0" User_RD_access="NoAccess" User_dashboard_access="FullAccess" User_fpassword="#25oSEhmyipc8FxSmYt9iC6OWYkA5y/ipxw8x8sig1vs=" User_name="n.kashprovskiy" User_view_message="1" User_email="" User_jobclient_access="1" User_view_all_jobs="1"/>
+    <User_item User_ldap="0" User_full_name="" User_hidden="0" User_RD_access="NoAccess" User_dashboard_access="NoAccess" User_fpassword="#j8brqsnlT714Ag3fRqABRoHHN8gtoynfIECY461hZTI=" User_name="o.varnavskaya@fineart-print.ru" User_view_message="0" User_email="o.varnavskaya@fineart-print.ru" User_jobclient_access="0" User_view_all_jobs="0"/>
+   </Group_member_item>
+  </Group_item>
+  <Group_item Group_view_message="0" Group_name="Clients" Group_JobClient_access="0" Group_view_all_jobs="0" User_dashboard_access="NoAccess" Group_RD_access="NoAccess" Group_ldap="0" Group_Build_In="0">
+   <Group_manager_item/>
+   <Group_member_item>
+    <User_item User_ldap="0" User_full_name="" User_hidden="0" User_RD_access="NoAccess" User_dashboard_access="NoAccess" User_fpassword="#ui8AQIiVi3i563Vz0orLiciGSsWS/iwa3+Ro2XWlf7E=" User_name="ASOnline" User_view_message="0" User_email="" User_jobclient_access="0" User_view_all_jobs="0"/>
+    <User_item User_ldap="0" User_full_name="" User_hidden="0" User_RD_access="NoAccess" User_dashboard_access="NoAccess" User_fpassword="#EXzv9ePhfqCSbjcBEyn675MHBcok3afZuGorEKiOQCk=" User_name="Periodika" User_view_message="0" User_email="" User_jobclient_access="0" User_view_all_jobs="0"/>
+    <User_item User_ldap="0" User_full_name="" User_hidden="0" User_RD_access="NoAccess" User_dashboard_access="NoAccess" User_fpassword="#OPpuP5xNGwlzpPRB8tIziag8uFP5a6RHRjnfL152pOE=" User_name="Remote" User_view_message="0" User_email="" User_jobclient_access="0" User_view_all_jobs="0"/>
+    <User_item User_ldap="0" User_full_name="" User_hidden="0" User_RD_access="NoAccess" User_dashboard_access="NoAccess" User_fpassword="#srYEgpbpn4A+NyEVhJwMVMA/m5XjyihmxCbwlsFQRuo=" User_name="TcsProduction" User_view_message="0" User_email="" User_jobclient_access="0" User_view_all_jobs="0"/>
+   </Group_member_item>
+  </Group_item>
+  <Group_item Group_view_message="1" Group_name="prepress" Group_JobClient_access="1" Group_view_all_jobs="0" User_dashboard_access="NoAccess" Group_RD_access="NoAccess" Group_ldap="0" Group_Build_In="0">
+   <Group_manager_item/>
+   <Group_member_item>
+    <User_item User_ldap="0" User_full_name="" User_hidden="0" User_RD_access="NoAccess" User_dashboard_access="NoAccess" User_fpassword="#4NhJSUW/U02mxlkhv9+9TZtP/DH10StJnCpXzdrJB6s=" User_name="a.mishina" User_view_message="0" User_email="" User_jobclient_access="0" User_view_all_jobs="0"/>
+    <User_item User_ldap="0" User_full_name="" User_hidden="0" User_RD_access="NoAccess" User_dashboard_access="NoAccess" User_fpassword="#vtSSXb28ub8zO01tCFT1I4EEZkDsPRBhVn76UVVh6jY=" User_name="m.fedulova" User_view_message="0" User_email="" User_jobclient_access="0" User_view_all_jobs="0"/>
+   </Group_member_item>
+  </Group_item>
+ </Groups_list>
+</Users_And_Groups>

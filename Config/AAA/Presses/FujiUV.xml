@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+Basic tags: 
+S : SECTION
+C : COMPONENT
+A : ATTRIBUTE 
+
+Basic attributes:
+N : NAME
+Type: TYPE OF CONTENT (Integer, Float , Boolean or other)
+RegExp: REGULAR EXPRESSION (for check content if nessary)
+
+A string of path without filename should always ending slash (for Windows backslash,  for xPath and URI - normal slash)!
+Sample for Windows: C:\Folder1\Folder2\
+Sample for xPath or URI: file://Folder1/Folder2/
+
+-->
+
+<DRPXML N='FujiUV' Version='2.0.0' Date='2015-09-04'>
+	<A N='ID'>FujiUV</A><!-- код печатной машины (Press)-->
+	<S N='Description'>
+		<A N='Ru'>Листовая УФ печать Fuji</A>
+		<A N='En'>Листовая УФ печать Fuji</A>
+	</S>
+	<S N='Media'>
+		<A N='Roll' Type='Boolean'>true</A><!-- тип: рулон (true) или лист (false) -->
+		<A N='IgnoreRoll' Type='Boolean'>false</A><!-- игнорировать тип рулон/лист : true или false -->
+		<A N='Duplex' Type='Boolean'>false</A><!-- возможность двухсторонней печати -->
+		<A N='MaxWidth' Type='Float'>2000</A><!-- максимальная ширина, мм -->
+		<A N='MaxHeight' Type='Float'>50000</A><!-- максимальная высота для листа или длина для рулона, мм -->
+		<A N='MinWidth' Type='Float'>330</A><!-- мин. ширина, мм -->
+		<A N='MinHeight' Type='Float'>482</A><!-- мин. высота для листа или длина для рулона, мм -->
+		<A N='MaxWeight' Type='Integer'>1000</A><!-- макс. вес, gsm -->
+		<A N='MinWeight' Type='Integer'>80</A><!-- мин. вес, gsm -->
+		<A N='MaxThickness' Type='Float'>1,000</A><!-- макс. толщина, мм -->
+		<A N='MinThickness' Type='Float'>0,100</A><!-- мин. толщина, мм -->
+	</S>
+	<S N='PrintableArea'><!-- максимальная область печати, мм -->
+		<A N='Width' Type='Float'>700</A>
+		<A N='Height' Type='Float'>1000</A>
+	</S>
+	<S N='UnprintableMargins'><!-- незапечатываемые поля, мм -->
+		<A N='Left' Type='Float'>0</A>
+		<A N='Top' Type='Float'>0</A>
+		<A N='Right' Type='Float'>0</A>
+		<A N='Bottom' Type='Float'>0</A>
+	</S>
+	<S N='Jdf'>
+		<A N='Name'>FujiUV</A>
+		<A N='OutputFolder'>FujiUV</A>
+		<A N='OutputFilename'>%ORDERNUMBER%-%ITEMID%-%JOBID%%VERSION%-t%CID%_%PRODUCTKEYCODE%-%PRODUCTPARTCODE%-s%SUBSTRATE%-N%ORDERSINCOMPOSITE%-Q%PRNQTY%%IMPSYMBOL%</A>
+	</S>
+	<S N='Rip'>
+		<A N='Name'>FujiUV</A>
+		<A N='OutputFolder'>FujiUV</A>
+	</S>
+	<S N='DefaultColorManagement' Enabled='false'>
+		<A N='Convert' Action='' Key='' Type='Pitstop' Location='local'/>
+		<RIP>
+			<A N='CMYK'></A>
+			<A N='RGB'></A>
+			<A N='OUT'></A>
+			<A N='DLP'></A>
+		</RIP>
+	</S>
+	<S N='SubstrateList'>
+		<C N='Params'>
+			<A N='Filter' Type='Boolean'>true</A> <!-- true - использовать ТОЛЬКО позиции из ниже расположенного списка; false - использовать все позиции каталога, кроме включенных в спиcок -->
+		</C>
+		<C N='List'>
+			<A>.+</A>
+		</C>
+	</S>
+</DRPXML>

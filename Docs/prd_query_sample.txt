@@ -1,0 +1,1 @@
+curl -X GET -H "Authorization:Bearer 05d75abe756bd9622d8f45968812daa0812d5455bf5d5868c3af182125ef6996" https://api.periodica.press/api/printshops/fine-art/orders?with_statuses[]=ready

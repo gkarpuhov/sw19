@@ -1,0 +1,143 @@
+-------------------------------------------------------------------
+Mgosoft Image To PDF Command Line
+Homepage: http://www.mgosoft.com
+E-mail  : support@mgosoft.com
+Version : 8.6.2
+-------------------------------------------------------------------
+Usage: imagetopdf <-i Image File> [options]
+
+-i <string>	:Specify input files or folder.
+
+-o <string>	:Specify output pdf file or folder.
+		-o c:\mypdf\	Specify output pdf file into folder c:\mypdf\
+		-o c:\mypdf.pdf	Combine all files into one PDF file.
+
+-b <int>	:Set Bookmarks.
+		-b 1	use the page number as bookmarks.
+		-b 2	use the short filename as bookmarks.
+		-b 3	use the full filename as bookmarks.
+
+-g <int>	:Set page rotate. "90", "180", "270"
+
+-d <int>	:Set image dpi (72-1200), invalid if set "-s".
+
+-s <string>	:Set page size.
+		 Support: "A3, A4, A5, B5, Letter, Legal", 
+		 or set custom size. 
+		 e.g. -s "600x800" is set page width 600, height 800.
+		 e.g. -s "A4" is set paper A4.
+
+-p <int>	:Set image position, valid if set "-s".
+		-p 1	Fit page(default).
+		-p 2	Stretch.
+		-p 3	Center.
+
+-r <string>	:Register.
+
+
+===PDF Viewer===
+
+-vs <int>	:Document options
+		-vs 1   Show page only
+		-vs 2   Show the bookmark panel
+		-vs 3   Show the thumbnail panel
+
+-vz <int>	:Display & zoom
+		-vz 1   Fit to width of page
+		-vz 2   Fit one full page to window
+
+-vr		:Resize window to the initial page
+
+-vc		:Center window on screen
+
+-vf		:Open in full screen mode
+
+-vm		:Hide Menu bar
+
+-vt		:Hide Toolbars
+
+-vw		:Hide Window controls
+
+===PDF Encrypt===
+
+-eu <string>	:Set 'user password'.
+
+-en <string>	:Set 'owner password'.
+
+-el <int>	:Set encrypt level 128 or 40.
+
+-ee <int>	:Set restrictions for encryption.
+		-e 0	all disallowed.
+		-e 4	permit print.
+		-e 8	permit modify.
+		-e 16	permit copy.
+		-e 12	permit print + modify.
+		-e 20	permit print + copy.
+		-e 24	permit modify + copy.
+		-e 28	all allowed.
+
+===PDF Information===
+
+-ft <string>	:Set 'title' to PDF file.
+
+-fs <string>	:Set 'subject' to PDF file.
+
+-fa <string>	:Set 'author' to PDF file.
+
+-fk <string>	:Set 'keywords' to PDF file.
+
+-fc <string>	:Set 'creator' to PDF file.
+
+-fp <string>	:Set 'producer' to PDF file.
+
+===TIFF recompress===
+
+-cc <string>	:Set color tiff recompress,"lzw","zip","packbits","jpeg", default is "jpeg".
+
+-cg <string>	:Set graycale tiff recompress,"lzw","zip","packbits","jpeg", default is "jpeg".
+
+-cb <string>	:Set black-white tiff recompress,"lzw","zip","g3","g4", default is "g4".
+
+-cq <int>	:Set Jpeg quality (0-100,default is 75) if selected jpeg compress arithmetic.
+
+-cw 		:Skew correct for black/white tiff file.
+
+===Text stamping===
+
+-mt <string>	:The content of the stamp.
+
+-ms <int>	:Set the font size, default is 16 point.
+
+-mc <int>	:Specify the text color,range from 0-16777215,default is 255(red).
+
+-mp <int>	:The Position of stamps.
+		1  = Stamps on the Top-Left of the page. (default)
+		2  = Stamps on the Top-Center of the page.
+		3  = Stamps on the Top-Right of the page.
+		4  = Stamps on the Right-Center of the page.
+		5  = Stamps on the Right-Bottom of the page.
+		6  = Stamps on the Bottom-Center of the page.
+		7  = Stamps on the Left-Bottom of the page.
+		8  = Stamps on the Left-Center of the page.
+		9  = Stamps on the Center of the page.
+
+-------------------------------------------------------------------
+Example:
+
+imagetopdf -i C:\image\ -o c:\output.pdf
+
+imagetopdf -i C:\in.jpg -i C:\in.tif -i c:\in.bmp -o "C:\out put.pdf" -cc jpeg -cq 90 -fc creater -b 3 
+
+imagetopdf -i C:\image\ -o c:\output.pdf -eu user -en owner -el 128 -ee 12
+
+imagetopdf -i C:\image\ -o c:\output.pdf -mt "watermark" -ms 20 -mc 255 -mp 9
+
+imagetopdf -i C:\image\ -o c:\output.pdf -s a4 -p 2 -vs 3 -vm
+
+imagetopdf -i C:\image\ -o c:\output.pdf -d 150 -g 90
+
+imagetopdf -r "yourlicensecode"
+
+-------------------------------------------------------------------
+Please notice, if your input parameter contain space(s), you must use quotation mark to include them, 
+for example: "C:\in put\" "C:\out put.pdf"

@@ -1,0 +1,52 @@
+-------------------------------------------------------------------
+Mgosoft PDF To PS Command Line 
+Homepage: http://www.mgosoft.com
+E-mail  : support@mgosoft.com
+Version : 8.3.8
+-------------------------------------------------------------------
+Usage: pdftops <-i PDF File> [options]
+
+-i <string>	:Specify input pdf file or folder.
+
+-o <string>	:Specify output ps or folder.
+
+-w <string>	:Set Open pdf file password (for encrypted files). 
+
+-s <string>	:Set paper size, default is original.
+		 Support: "A0, A1, A2, A3, A4, A5, A6, B5, letter, legal, ledger, P11x17", or set custom size. 
+		 e.g. -s "600x800" is set paper width 600, height 800.
+		 e.g. -s "A4" is set paper A4.
+
+-l <int>	:Set postscript level. 
+		 1 = Level 1 PostScript
+		 2 = Level 1 Separable PostScript
+		 3 = Level 2 PostScript (default)
+		 4 = Level 2 Separable PostScript 
+		 5 = Level 3 PostScript
+		 6 = Level 3 Separable PostScript
+		 7 = Encapsulated PostScript (EPS)
+
+-e		:Expand pages smaller than the paper size.
+
+-k		:Shrink pages larger than the paper size.
+
+-c		:Center pages smaller than the paper size.
+
+-d		:Enable duplex printing.
+
+-r <string>	:Register.
+
+-------------------------------------------------------------------
+Example:
+
+pdftops -i c:\input.pdf -o c:\output.ps -l 2 -c -k -s "600x800"
+
+pdftops -i c:\input.pdf -i "d:\in put\" -o c:\output\ -l 5 -w "password" -s "A4"  -e
+
+pdftops -i c:\input.pdf -o c:\outeps\ -l 7 -d 
+
+pdftops -r "yourlicensecode"
+
+-------------------------------------------------------------------
+Please notice, if your input parameter contain space(s), you must use quotation mark to include them, 
+for example: "C:\in put.pdf" "C:\out put\"

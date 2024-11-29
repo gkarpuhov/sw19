@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy Bypass -noprofile -file D:\__SWITCH\Flows\SI2\Tools\scripts\cleardisk.ps1

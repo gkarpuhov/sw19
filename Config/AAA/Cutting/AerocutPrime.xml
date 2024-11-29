@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DRPXML>
+<A N='ID'>AerocutPrime</A>
+	<S N='Description'>
+		<A N='Ru'>Автоматическая резка AeroСut Prime</A>
+		<A N='En'>Автоматическая резка AeroСut Prime</A>
+	</S>
+	<!-- Определяет  Margins файла продукта если неопределено -->	
+	<S N='Margins'>
+        <A N="Left">0</A>
+        <A N="Top">8</A>
+        <A N="Right">25</A>
+        <A N="Bottom">8</A>
+		<A N="MirrorLeftRight">true</A>		
+	</S>
+	<!-- Определяет  Bleeds файла продукта если неопределено -->
+	<S N="Bleeds">
+		<A N="UseTrimBox">true</A>
+        <A N="Left">3.5</A>
+        <A N="Top">2</A>
+        <A N="Right">3.5</A>
+        <A N="Bottom">2</A>
+        <A N="Horizontal">4</A>
+        <A N="Vertical">7</A>			
+		<A N="MirrorLeftRight">true</A>
+	</S>	
+	<S N='SubstrateList'>
+		<C N='Params'>
+			<A N='Filter' Type='Boolean'>true</A>
+		</C>
+		<C N='List'>
+			<A>.+</A>
+		</C>
+	</S>	
+</DRPXML>
