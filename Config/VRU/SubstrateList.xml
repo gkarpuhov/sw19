@@ -160,6 +160,11 @@ Sample for xPath or URI: file://Folder1/Folder2/
     <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
     <A N='Comment'>Высококачественная белая бумага для фотопроектов 330x482, 240 г/кв.м</A>
 </S>
+<S N='ULTIMATE_WHITE_260'>
+    <A N='Value'>ULTIMATE_WHITE_260.xml</A>
+    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+    <A N='Comment'>Высококачественная белая бумага для фотопроектов 330x482, 260 г/кв.м</A>
+</S>
 <S N='ULTIMATE_WHITE_330X700_135'>
     <A N='Value'>ULTIMATE_WHITE_330X700_135.xml</A>
     <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>

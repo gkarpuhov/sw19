@@ -278,7 +278,7 @@
 			<Include>
 				<Template/>
 				<Interval>
-					<Start date='' day='1' hour='19' min='0'></Start>
+					<Start date='' day='1' hour='15' min='0'></Start>
 					<Stop date='' day='7' hour='23' min='59'></Stop>
 				</Interval>
 				<Interval>
