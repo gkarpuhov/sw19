@@ -252,3 +252,153 @@
 03.12.2024 17:43:09 По файлу 12501626 создан заказ 12501641
 03.12.2024 17:43:09 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\565898-353118-q1-tFSP_LST-JSN.json
 03.12.2024 17:43:14 Завершение работы модуля
+03.12.2024 18:11:20 Начало работы модуля
+03.12.2024 18:11:55 По файлу 12501907 создан заказ 12501922
+03.12.2024 18:11:55 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5644861-352247-q1-tFSP_LST-JSN.json
+03.12.2024 18:12:30 По файлу 12501967 создан заказ 12501982
+03.12.2024 18:12:30 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5648371-352454-q1-tFSP_LST-JSN.json
+03.12.2024 18:13:04 По файлу 12502027 создан заказ 12502042
+03.12.2024 18:13:04 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5648372-352454-q1-tFSP_LST-JSN.json
+03.12.2024 18:13:39 По файлу 12502087 создан заказ 12502102
+03.12.2024 18:13:39 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5648373-352454-q1-tFSP_LST-JSN.json
+03.12.2024 18:14:17 По файлу 12502147 создан заказ 12502162
+03.12.2024 18:14:17 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5648374-352454-q1-tFSP_LST-JSN.json
+03.12.2024 18:14:22 Завершение работы модуля
+03.12.2024 18:16:21 Начало работы модуля
+03.12.2024 18:16:42 Ошибка создания заказа по строке 12502222Транзакция (идентификатор процесса 120) вызвала взаимоблокировку ресурсов блокировка с другим процессом и стала жертвой взаимоблокировки. Запустите транзакцию повторно
+03.12.2024 18:16:42 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\565884-353107-q1-tFSP_LST-JSN.json
+03.12.2024 18:17:17 По файлу 12502267 создан заказ 12502282
+03.12.2024 18:17:17 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\566039-353208-q1-tFSP_LST-JSN.json
+03.12.2024 18:17:39 Ошибка создания заказа по строке 12502342Транзакция (идентификатор процесса 120) вызвала взаимоблокировку ресурсов блокировка с другим процессом и стала жертвой взаимоблокировки. Запустите транзакцию повторно
+03.12.2024 18:17:39 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\566040-353208-q1-tFSP_LST-JSN.json
+03.12.2024 18:17:44 Завершение работы модуля
+03.12.2024 18:21:21 Начало работы модуля
+03.12.2024 18:21:52 По файлу 12502387 создан заказ 12502402
+03.12.2024 18:21:52 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\565884-353107-q1-tFSP_LST-JSN.json
+03.12.2024 18:22:29 По файлу 12502447 создан заказ 12502462
+03.12.2024 18:22:29 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\566040-353208-q1-tFSP_LST-JSN.json
+03.12.2024 18:22:34 Завершение работы модуля
+03.12.2024 19:06:25 Начало работы модуля
+03.12.2024 19:06:56 По файлу 12502742 создан заказ 12502757
+03.12.2024 19:06:56 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5644862-352247-q1-tFSP_LST-JSN.json
+03.12.2024 19:07:01 Завершение работы модуля
+04.12.2024 10:57:57 Начало работы модуля
+04.12.2024 10:58:31 По файлу 12504258 создан заказ 12504273
+04.12.2024 10:58:31 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\566117-353252-q1-tFSP_LST-JSN.json
+04.12.2024 10:59:05 По файлу 12504318 создан заказ 12504333
+04.12.2024 10:59:05 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\566118-353252-q1-tFSP_LST-JSN.json
+04.12.2024 10:59:39 По файлу 12504378 создан заказ 12504393
+04.12.2024 10:59:39 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\566119-353252-q1-tFSP_LST-JSN.json
+04.12.2024 11:00:14 По файлу 12504438 создан заказ 12504453
+04.12.2024 11:00:14 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\566120-353252-q1-tFSP_LST-JSN.json
+04.12.2024 11:00:19 Завершение работы модуля
+04.12.2024 15:03:21 Начало работы модуля
+04.12.2024 15:03:55 По файлу 12506139 создан заказ 12506154
+04.12.2024 15:03:55 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5654951-352867-q1-tFSP_LST-JSN.json
+04.12.2024 15:04:29 По файлу 12506199 создан заказ 12506214
+04.12.2024 15:04:29 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5654954-352867-q1-tFSP_LST-JSN.json
+04.12.2024 15:05:03 По файлу 12506259 создан заказ 12506274
+04.12.2024 15:05:03 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5654961-352867-q1-tFSP_LST-JSN.json
+04.12.2024 15:05:08 Завершение работы модуля
+04.12.2024 15:08:21 Начало работы модуля
+04.12.2024 15:08:51 По файлу 12506319 создан заказ 12506334
+04.12.2024 15:08:51 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5600611-349636-q1-tFSP_LST-JSN.json
+04.12.2024 15:09:25 По файлу 12506379 создан заказ 12506394
+04.12.2024 15:09:25 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5600614-349636-q1-tFSP_LST-JSN.json
+04.12.2024 15:10:07 По файлу 12506439 создан заказ 12506454
+04.12.2024 15:10:07 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5654911-352864-q1-tFSP_LST-JSN.json
+04.12.2024 15:10:41 По файлу 12506499 создан заказ 12506514
+04.12.2024 15:10:41 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5654912-352864-q1-tFSP_LST-JSN.json
+04.12.2024 15:11:19 По файлу 12506559 создан заказ 12506574
+04.12.2024 15:11:19 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5654913-352864-q1-tFSP_LST-JSN.json
+04.12.2024 15:11:53 По файлу 12506619 создан заказ 12506634
+04.12.2024 15:11:53 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5654914-352864-q1-tFSP_LST-JSN.json
+04.12.2024 15:12:27 По файлу 12506679 создан заказ 12506694
+04.12.2024 15:12:27 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5654964-352867-q1-tFSP_LST-JSN.json
+04.12.2024 15:13:01 По файлу 12506739 создан заказ 12506754
+04.12.2024 15:13:01 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5655431-352891-q1-tFSP_LST-JSN.json
+04.12.2024 15:13:41 По файлу 12506799 создан заказ 12506814
+04.12.2024 15:13:41 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5655432-352891-q1-tFSP_LST-JSN.json
+04.12.2024 15:14:05 Ошибка создания заказа по строке 12506874Транзакция (идентификатор процесса 77) вызвала взаимоблокировку ресурсов блокировка с другим процессом и стала жертвой взаимоблокировки. Запустите транзакцию повторно
+04.12.2024 15:14:05 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5655433-352891-q1-tFSP_LST-JSN.json
+04.12.2024 15:14:40 По файлу 12506919 создан заказ 12506934
+04.12.2024 15:14:40 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5655434-352891-q1-tFSP_LST-JSN.json
+04.12.2024 15:15:14 По файлу 12506979 создан заказ 12506994
+04.12.2024 15:15:14 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5656611-352956-q1-tFSP_LST-JSN.json
+04.12.2024 15:15:48 По файлу 12507039 создан заказ 12507054
+04.12.2024 15:15:48 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5656614-352956-q1-tFSP_LST-JSN.json
+04.12.2024 15:16:22 По файлу 12507099 создан заказ 12507114
+04.12.2024 15:16:22 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5657171-352995-q1-tFSP_LST-JSN.json
+04.12.2024 15:16:52 По файлу 12507159 создан заказ 12507174
+04.12.2024 15:16:52 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5657172-352995-q1-tFSP_LST-JSN.json
+04.12.2024 15:17:23 По файлу 12507219 создан заказ 12507234
+04.12.2024 15:17:23 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5657173-352995-q1-tFSP_LST-JSN.json
+04.12.2024 15:17:56 По файлу 12507279 создан заказ 12507294
+04.12.2024 15:17:56 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5657174-352995-q1-tFSP_LST-JSN.json
+04.12.2024 15:18:26 По файлу 12507339 создан заказ 12507354
+04.12.2024 15:18:26 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5657601-353018-q1-tFSP_LST-JSN.json
+04.12.2024 15:18:56 По файлу 12507399 создан заказ 12507414
+04.12.2024 15:18:56 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5657602-353018-q1-tFSP_LST-JSN.json
+04.12.2024 15:19:27 По файлу 12507459 создан заказ 12507474
+04.12.2024 15:19:27 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5657603-353018-q1-tFSP_LST-JSN.json
+04.12.2024 15:19:57 По файлу 12507519 создан заказ 12507534
+04.12.2024 15:19:57 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5657604-353018-q1-tFSP_LST-JSN.json
+04.12.2024 15:20:02 Завершение работы модуля
+04.12.2024 15:23:23 Начало работы модуля
+04.12.2024 15:23:49 По файлу 12507579 создан заказ 12507594
+04.12.2024 15:23:49 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5655433-352891-q1-tFSP_LST-JSN.json
+04.12.2024 15:23:54 Завершение работы модуля
+04.12.2024 16:15:03 Начало работы модуля
+04.12.2024 16:15:29 По файлу 12508190 создан заказ 12508205
+04.12.2024 16:15:29 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\566317-353361-q1-tFSP_LST-JSN.json
+04.12.2024 16:16:04 По файлу 12508250 создан заказ 12508265
+04.12.2024 16:16:04 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\566318-353361-q1-tFSP_LST-JSN.json
+04.12.2024 16:16:09 Завершение работы модуля
+04.12.2024 16:55:06 Начало работы модуля
+04.12.2024 16:55:38 По файлу 12508310 создан заказ 12508325
+04.12.2024 16:55:38 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\565842-353072-q1-tFSP_LST-JSN.json
+04.12.2024 16:55:43 Завершение работы модуля
+04.12.2024 17:05:07 Начало работы модуля
+04.12.2024 17:05:38 По файлу 12508499 создан заказ 12508514
+04.12.2024 17:05:38 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\566372-353395-q1-tFSP_LST-JSN.json
+04.12.2024 17:05:43 Завершение работы модуля
+04.12.2024 17:20:09 Начало работы модуля
+04.12.2024 17:20:39 По файлу 12508559 создан заказ 12508574
+04.12.2024 17:20:39 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5652691-352707-q1-tFSP_LST-JSN.json
+04.12.2024 17:21:17 По файлу 12508619 создан заказ 12508634
+04.12.2024 17:21:17 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5652694-352707-q1-tFSP_LST-JSN.json
+04.12.2024 17:21:51 По файлу 12508679 создан заказ 12508694
+04.12.2024 17:21:51 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5657581-353017-q1-tFSP_LST-JSN.json
+04.12.2024 17:22:25 По файлу 12508739 создан заказ 12508754
+04.12.2024 17:22:25 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5657583-353017-q1-tFSP_LST-JSN.json
+04.12.2024 17:23:02 По файлу 12508799 создан заказ 12508814
+04.12.2024 17:23:02 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5657584-353017-q1-tFSP_LST-JSN.json
+04.12.2024 17:23:44 По файлу 12508859 создан заказ 12508874
+04.12.2024 17:23:44 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5657591-353017-q1-tFSP_LST-JSN.json
+04.12.2024 17:24:19 По файлу 12508919 создан заказ 12508934
+04.12.2024 17:24:19 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5657592-353017-q1-tFSP_LST-JSN.json
+04.12.2024 17:24:53 По файлу 12508979 создан заказ 12508994
+04.12.2024 17:24:53 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5657593-353017-q1-tFSP_LST-JSN.json
+04.12.2024 17:25:31 По файлу 12509039 создан заказ 12509054
+04.12.2024 17:25:31 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5657594-353017-q1-tFSP_LST-JSN.json
+04.12.2024 17:25:36 Завершение работы модуля
+04.12.2024 17:40:10 Начало работы модуля
+04.12.2024 17:40:48 По файлу 12509099 создан заказ 12509114
+04.12.2024 17:40:48 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5657582-353017-q1-tFSP_LST-JSN.json
+04.12.2024 17:40:53 Завершение работы модуля
+04.12.2024 17:45:10 Начало работы модуля
+04.12.2024 17:45:39 По файлу 12509159 создан заказ 12509174
+04.12.2024 17:45:39 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5659081-353128-q1-tFSP_LST-JSN.json
+04.12.2024 17:46:13 По файлу 12509219 создан заказ 12509234
+04.12.2024 17:46:13 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5659084-353128-q1-tFSP_LST-JSN.json
+04.12.2024 17:46:47 По файлу 12509279 создан заказ 12509294
+04.12.2024 17:46:47 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5659861-353174-q1-tFSP_LST-JSN.json
+04.12.2024 17:47:21 По файлу 12509339 создан заказ 12509354
+04.12.2024 17:47:21 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5660311-353202-q1-tFSP_LST-JSN.json
+04.12.2024 17:47:55 По файлу 12509399 создан заказ 12509414
+04.12.2024 17:47:55 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5660312-353202-q1-tFSP_LST-JSN.json
+04.12.2024 17:48:29 По файлу 12509459 создан заказ 12509474
+04.12.2024 17:48:29 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5660313-353202-q1-tFSP_LST-JSN.json
+04.12.2024 17:49:03 По файлу 12509519 создан заказ 12509534
+04.12.2024 17:49:03 Загружен файл D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\5660314-353202-q1-tFSP_LST-JSN.json
+04.12.2024 17:49:08 Завершение работы модуля

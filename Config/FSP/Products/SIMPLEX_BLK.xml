@@ -150,6 +150,7 @@
         <A N="Default">MATT_170_MAX</A>
         <C N="List">
           <A>MATT_\w+</A>
+          <A>GLOSS_\w+</A>		  
           <A>OFSET_\w+</A>
           <A>CBOARD_\w+</A>	
         </C>
