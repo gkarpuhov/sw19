@@ -396,7 +396,7 @@
 
       </ITEMS>    </DICT>
 
-    <S N='XYWHList'>51.0236 116.2205 14.1732 184.252 </S>
+    <S N='XYWHList'>48.189 116.2205 14.1732 184.252 </S>
     </ITEMS>  </DICT>
 
   <DICT N='Provider'>    <ITEMS>
@@ -515,13 +515,13 @@
     <B N='AdvancedUI'>1</B>
     <S N='After'></S>
     <A N='Align'>TR</A>
-    <S N='Before'>[NASYSTEM][NTAOPIX]</S>
+    <S N='Before'>[NASYSTEM][NTAOPIX] | SHEETS: [SHEETSTOTAL]</S>
     <I N='EveryNPages'>1</I>
     <S N='FirstNum'>1</S>
     <S N='Font'>Helvetica,Bold;Arial,Bold;Arial-BoldMT</S>
     <B N='NoNum'>1</B>
-    <I N='PosX'>990</I>
-    <I N='PosY'>337</I>
+    <I N='PosX'>612</I>
+    <I N='PosY'>384</I>
     <B N='RegInk'>0</B>
     <I N='RepeatNumber'>1</I>
     <S N='Requires'>qi4alphabase[QI 4.0/QHI 4.0 alpha]</S>
@@ -536,7 +536,7 @@
       </ITEMS>    </DICT>
 
     <A N='UIFieldSel'>[Sys:ComputerName]</A>
-    <F N='XOff'>62.3622</F>
+    <F N='XOff'>59.5276</F>
     <F N='YOff'>127.5591</F>
     </ITEMS>  </DICT>
 
@@ -667,7 +667,7 @@
     <S N='3'>Origin: bottom right</S>
     <S N='4'>Offset: horizontal 28.35 points, vertical 79.37 points</S>
     <S N='5'>Scale: 100.00%</S>
-    <S N='6'>Rotate: 270Р вЂ™Р’В° CCW</S>
+    <S N='6'>Rotate: 270Р В РІР‚в„ўР вЂ™Р’В° CCW</S>
     </ITEMS>  </DICT>
 
   <DICT N='Params'>    <ITEMS>
@@ -709,7 +709,7 @@
 <DICT N='Stats'>  <ITEMS>
   <I N='Count'>2131</I>
   <S N='Created'>D:20130111235145</S>
-  <S N='Edited'>D:20240125085533</S>
+  <S N='Edited'>D:20241206133117</S>
   <S N='Updated'>D:20150212171754</S>
   </ITEMS></DICT>
 

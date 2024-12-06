@@ -184,6 +184,15 @@ Sample for xPath or URI: file://Folder1/Folder2/
     </C>
 </S>
 
+<S N='CRD2_300X450'>
+    <C N='BLK'><!-- Деталь продукта -->
+        <A N='Value'>CRD2_BLK.xml</A>
+        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+        <A N='Comment'>Блок продукта</A>
+    </C>
+</S>
+
 <S N='CRD2'>
     <C N='BLK'><!-- Деталь продукта -->
         <A N='Value'>DUPLEX_ACP_CRD2_BLK.xml</A>

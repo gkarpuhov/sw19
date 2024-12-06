@@ -38,17 +38,17 @@
       </C>
       <C N="SetCrop" DefaultCropW="" DefaultCropH="" CropPosition="">
         <A N="UseTrimBox">false</A>
-        <A N="Left">2</A>
-        <A N="Top">2</A>
-        <A N="Right">2</A>
-        <A N="Bottom">2</A>
+        <A N="Left">0</A>
+        <A N="Top">0</A>
+        <A N="Right">0</A>
+        <A N="Bottom">0</A>
         <A N="MirrorLeftRight">true</A>
       </C>
       <C N="SetTrim">
-        <A N="Left">3</A>
-        <A N="Top">3</A>
-        <A N="Right">3</A>
-        <A N="Bottom">3</A>
+        <A N="Left">5</A>
+        <A N="Top">5</A>
+        <A N="Right">5</A>
+        <A N="Bottom">5</A>
         <A N="MirrorLeftRight">true</A>
       </C>
     </C>
