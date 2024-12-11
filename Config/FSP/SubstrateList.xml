@@ -27,6 +27,16 @@ Sample for xPath or URI: file://Folder1/Folder2/
 		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
 		<A N='Comment'>Офисная бумага формата А4</A>
 	</S>
+	<S N='GLOSS_115_MAX'>
+		<A N='Value'>GLOSS_115_MAX.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Мелованная глянцевая бумага 482x330, 115 г/кв.м</A>
+	</S>	
+	<S N='GLOSS_130_MAX'>
+		<A N='Value'>GLOSS_130_MAX.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Мелованная глянцевая бумага 482x330, 130 г/кв.м</A>
+	</S>		
 	<S N='GLOSS_150_MAX'>
 		<A N='Value'>GLOSS_150_MAX.xml</A>
 		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
@@ -36,6 +46,11 @@ Sample for xPath or URI: file://Folder1/Folder2/
 		<A N='Value'>GLOSS_170_MAX.xml</A>
 		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
 		<A N='Comment'>Мелованная глянцевая бумага 482x330, 170 г/кв.м</A>
+	</S>		
+	<S N='GLOSS_200_MAX'>
+		<A N='Value'>GLOSS_200_MAX.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Мелованная глянцевая бумага 482x330, 200 г/кв.м</A>
 	</S>		
 	<S N='MATT_115_MAX'>
 		<A N='Value'>MATT_115_MAX.xml</A>
@@ -72,40 +87,30 @@ Sample for xPath or URI: file://Folder1/Folder2/
 		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
 		<A N='Comment'>Мелованная матовая бумага, 300 г/кв.м</A>
 	</S>
-	<S N='CBOARD_215_1S'>
-		<A N='Value'>CBOARD_215_1S.xml</A>
+	<S N='MATT_350_MAX'>
+		<A N='Value'>MATT_350_MAX.xml</A>
 		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-		<A N='Comment'>Картон печатный одностороннего мелования 330x482, 215 г/кв.м</A>
-	</S>
-	<S N='CBOARD_235_1S'>
-		<A N='Value'>CBOARD_235_1S.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-		<A N='Comment'>Картон печатный одностороннего мелования 330x482, 235 г/кв.м</A>
-	</S>
-	<S N='CBOARD_250_1S'>
-		<A N='Value'>CBOARD_250_1S.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-		<A N='Comment'>Картон печатный одностороннего мелования 330x482, 250 г/кв.м</A>
-	</S>
-	<S N='CBOARD_270_1S'>
-		<A N='Value'>CBOARD_270_1S.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-		<A N='Comment'>Картон печатный одностороннего мелования 330x482, 270 г/кв.м</A>
-	</S>
-	<S N='CBOARD_250_2S'>
-		<A N='Value'>CBOARD_250_2S.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-		<A N='Comment'>Картон печатный двухстороннего мелования 330x482, 250 г/кв.м</A>
-	</S>
+		<A N='Comment'>Мелованная матовая бумага, 350 г/кв.м</A>
+	</S>	
 	<S N='CBOARD_270_2S'>
 		<A N='Value'>CBOARD_270_2S.xml</A>
 		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
 		<A N='Comment'>Картон печатный двухстороннего мелования 330x482, 270 г/кв.м</A>
 	</S>
-	<S N='OFSET_120'>
-		<A N='Value'>OFSET_120.xml</A>
+	<S N='CBOARD_300_2S'>
+		<A N='Value'>CBOARD_300_2S.xml</A>
 		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-		<A N='Comment'>Офсетная бумага, 120 г/кв.м, 330x482 мм</A>
+		<A N='Comment'>Картон печатный двухстороннего мелования 330x482, 300 г/кв.м</A>
+	</S>	
+	<S N='OFSET_80'>
+		<A N='Value'>OFSET_80.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Офсетная бумага, 80 г/кв.м, 330x482 мм</A>
+	</S>	
+	<S N='OFSET_100'>
+		<A N='Value'>OFSET_100.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Офсетная бумага, 100 г/кв.м, 330x482 мм</A>
 	</S>
 	<S N='OFSET_160'>
 		<A N='Value'>OFSET_160.xml</A>
@@ -116,5 +121,10 @@ Sample for xPath or URI: file://Folder1/Folder2/
 		<A N='Value'>OFSET_190.xml</A>
 		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
 		<A N='Comment'>Офсетная бумага, 190 г/кв.м, 330x482 мм</A>
-	</S>		
+	</S>	
+	<S N='SA_MATT_80'>
+		<A N='Value'>SA_MATT_80.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Бумага самоклеющаяся матовая Adestor Mat, 80 г/кв.м</A>
+	</S>	
 </DRPXML>

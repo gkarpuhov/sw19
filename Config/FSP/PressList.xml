@@ -17,14 +17,24 @@ Sample for xPath or URI: file://Folder1/Folder2/
 -->
 
 <DRPXML>
-<S N='Null'>
-    <A N='Value'>Null.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Presses\</A>
-    <A N='Comment'>Без печати</A>
-</S>
-<S N='Konica14000'>
-    <A N='Value'>Konica14000.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Presses\</A>
-    <A N='Comment'>Konica Minolta AccurioPress C14000</A>
-</S>
+	<S N='Null'>
+		<A N='Value'>Null.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Presses\</A>
+		<A N='Comment'>Без печати</A>
+	</S>
+	<S N='Konica14000'>
+		<A N='Value'>Konica14000.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Presses\</A>
+		<A N='Comment'>Konica Minolta AccurioPress C14000</A>
+	</S>
+	  <S N='Indigo7600'>
+		<A N='Value'>Indigo7600.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Presses\</A>
+		<A N='Comment'>HP Indigo Digital Press 7600</A>
+	  </S>
+	  <S N='Indigo7900'>
+		<A N='Value'>Indigo7900.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Presses\</A>
+		<A N='Comment'>HP Indigo Digital Press 7900</A>
+	  </S> 
 </DRPXML>

@@ -104,16 +104,9 @@
 				<Template/>
 				<Interval>
 					<Start date='' day='' hour='2' min='0'></Start>
-					<Stop date='' day='' hour='3' min='10'></Stop>
+					<Stop date='' day='' hour='10' min='0'></Stop>
 				</Interval>
 			</Include>
-			<Include>
-				<Template/>
-				<Interval>
-					<Start date='' day='' hour='6' min='30'></Start>
-					<Stop date='' day='' hour='6' min='50'></Stop>
-				</Interval>
-			</Include>			
 		</Filter>		
 		<Filter level='AfterAS' enable='true' sourcelink='false' controlpoint='true'>
 			<Include>

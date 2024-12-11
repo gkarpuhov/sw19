@@ -73,7 +73,7 @@
         <A N="Value">true</A>
       </C>
       <C N="RotatePages">
-        <A N="Value" />
+        <A N="Value">R0</A>
       </C>
       <C N="MaxRows">
         <A N="Value">0</A>

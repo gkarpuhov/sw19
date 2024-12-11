@@ -140,7 +140,9 @@
         </C>
         <A N="Default">Konica14000</A>
         <C N="List">
-          <A>Konica14000</A>		  
+          <A>Konica14000</A>
+          <A>Indigo7600</A>
+          <A>Indigo7900</A>		  
         </C>
       </C>
       <C N="SubstrateList">
@@ -153,6 +155,7 @@
           <A>GLOSS_\w+</A>		  		  
           <A>OFSET_\w+</A>
           <A>CBOARD_\w+</A>	
+          <A>SA_\w+</A>			  
         </C>
       </C>
     </C>

@@ -149,10 +149,9 @@
         <C N="Params">
           <A N="Filter">true</A>
         </C>
-        <A N="Default">ULTIMATE_WHITE_720X520_260</A>
+        <A N="Default">MATT_720X520_250</A>
         <C N="List">
           <A>ULTIMATE_\w+</A>	
-          <A>ARCTIC_WHITE_250</A>
           <A>MATT_\w+</A>			  
         </C>
       </C>
