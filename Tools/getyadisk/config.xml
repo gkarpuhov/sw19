@@ -77,7 +77,7 @@
             <!-- log: 0 - без лога; 1 - только ошибки; 2 - все события -->
             <!-- namefilter: шаблон регулярного выражения для имени файла -->
             <!-- removesource: 0 - не удалять; 1 - переместить в корзину; 2 - полное удаление -->
-            <item id="VRU" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="3:00-4:00" removesource="1" log="2" overwiteexists="true" enabled="true">
+            <item id="VRU" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="16:00-17:00" removesource="1" log="2" overwiteexists="true" enabled="false">
                 <source>disk:/smartproj/vru_to_fap/fotocard</source>
 			    <dest>D:\__SWITCH\Flows\SI2\Hotfolders\Incoming\VRU</dest>
             </item>
