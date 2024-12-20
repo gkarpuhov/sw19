@@ -263,7 +263,7 @@
 				<Template/>
 				<Interval>
 					<Start date='' day='' hour='6' min='1'></Start>
-					<Stop date='' day='' hour='22' min='0'></Stop>
+					<Stop date='' day='' hour='23' min='0'></Stop>
 				</Interval>
 			</Include>
 		</Filter>	
@@ -272,11 +272,11 @@
 				<Template/>
 				<Interval>
 					<Start date='' day='1' hour='19' min='0'></Start>
-					<Stop date='' day='7' hour='23' min='59'></Stop>
+					<Stop date='' day='7' hour='23' min='0'></Stop>
 				</Interval>
 				<Interval>
 					<Start date='' day='1' hour='0' min='1'></Start>
-					<Stop date='' day='7' hour='11' min='0'></Stop>
+					<Stop date='' day='7' hour='9' min='0'></Stop>
 				</Interval>				
 			</Include>
 		</Filter>			

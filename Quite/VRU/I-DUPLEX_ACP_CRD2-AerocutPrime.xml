@@ -142,12 +142,12 @@
     <I N='FitAcross'>1</I>
     <I N='FitDown'>1</I>
     <F N='FixedScale'>0.7000</F>
-    <B N='Frames'>1</B>
+    <B N='Frames'>0</B>
     <S N='HSpace'>0 </S>
     <F N='LMgn'>0.0000</F>
     <B N='NewDoc'>0</B>
     <DICT N='Page'>      <ITEMS>
-      <S N='Created'>D:20230614151954</S>
+      <S N='Created'>D:20241219171150</S>
       <F N='Height'>70.8661</F>
       <A N='Type'>Blank</A>
       <F N='Width'>70.8661</F>
@@ -156,6 +156,7 @@
     <A N='PageOrientation'>Best</A>
     <I N='PosX'>1064</I>
     <I N='PosY'>460</I>
+    
     <F N='RMgn'>0.0000</F>
     <S N='Requires'>qi3alphabase[QI 3.0/QHI 3.0 alpha]</S>
     <A N='SheetAlign'>C</A>
@@ -709,7 +710,7 @@
 <DICT N='Stats'>  <ITEMS>
   <I N='Count'>2131</I>
   <S N='Created'>D:20130111235145</S>
-  <S N='Edited'>D:20241218154939</S>
+  <S N='Edited'>D:20241219171159</S>
   <S N='Updated'>D:20150212171754</S>
   </ITEMS></DICT>
 
