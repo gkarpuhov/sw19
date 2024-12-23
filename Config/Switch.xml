@@ -183,6 +183,26 @@
 	<Sheduler>
 		<Filter level='AfterAS' enable='true' sourcelink='true' controlpoint='false'>
 			<Include>
+				<Template>^STC</Template>
+				<Interval>
+					<Start date='' day='1' hour='1' min='0'></Start>
+					<Stop date='' day='5' hour='1' min='30'></Stop>
+					<Metadata>
+						<PrivateData key='SubmitPressBLK' value='Indigo7900'/>
+					</Metadata>						
+				</Interval>
+			</Include>		
+			<Include>
+				<Template>^73(W|MT|VMW|WN)</Template>
+				<Interval>
+					<Start date='' day='1' hour='1' min='0'></Start>
+					<Stop date='' day='5' hour='1' min='30'></Stop>
+					<Metadata>
+						<PrivateData key='SubmitPressCVR' value='Indigo7900'/>
+					</Metadata>						
+				</Interval>
+			</Include>		
+			<Include>
 				<Template>^([^C]|C[^A]|CA[^L])</Template>
 				<Interval>
 					<Start date='' day='1' hour='1' min='0'></Start>
@@ -201,7 +221,7 @@
 						<PrivateData key='SubmitImpositionCheck' value='Yes'/>
 					</Metadata>						
 				</Interval>
-			</Include>			
+			</Include>		
 		</Filter>	
 		<Filter level='Print' enable='true' sourcelink='false' controlpoint='true'>
 			<Include>
