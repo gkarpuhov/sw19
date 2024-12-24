@@ -203,6 +203,16 @@
 				</Interval>
 			</Include>		
 			<Include>
+				<Template>^CAL</Template>
+				<Interval>
+					<Start date='' day='1' hour='1' min='0'></Start>
+					<Stop date='' day='5' hour='1' min='30'></Stop>
+					<Metadata>
+						<PrivateData key='SubmitImpositionCheck' value='Yes'/>
+					</Metadata>						
+				</Interval>
+			</Include>				
+			<Include>
 				<Template>^([^C]|C[^A]|CA[^L])</Template>
 				<Interval>
 					<Start date='' day='1' hour='1' min='0'></Start>
@@ -212,16 +222,6 @@
 					</Metadata>						
 				</Interval>
 			</Include>
-			<Include>
-				<Template>^CAL</Template>
-				<Interval>
-					<Start date='' day='1' hour='1' min='0'></Start>
-					<Stop date='' day='5' hour='1' min='30'></Stop>
-					<Metadata>
-						<PrivateData key='SubmitImpositionCheck' value='Yes'/>
-					</Metadata>						
-				</Interval>
-			</Include>		
 		</Filter>	
 		<Filter level='Print' enable='true' sourcelink='false' controlpoint='true'>
 			<Include>

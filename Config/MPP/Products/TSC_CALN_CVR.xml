@@ -141,6 +141,7 @@
         <A N="Default">Konica14000</A>
         <C N="List">
           <A>Indigo7600</A>
+          <A>Indigo7900</A>		  
           <A>Konica14000</A>
         </C>
       </C>
@@ -151,9 +152,8 @@
         <A N="Default">MATT_250_MAX</A>
         <C N="List">
           <A>ULTIMATE_\w+</A>
-          <A>MATT_250_MAX</A>
+          <A>MATT_\w+</A>
           <A>PHOTOMATT_260</A>
-          <A>GLOSS_200_MAX</A>				  
         </C>
       </C>
     </C>

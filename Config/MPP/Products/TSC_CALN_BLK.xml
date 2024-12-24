@@ -141,6 +141,7 @@
         <A N="Default">Indigo7600</A>
         <C N="List">
           <A>Indigo7600</A>
+          <A>Indigo7900</A>		  		  
           <A>Konica14000</A>
         </C>
       </C>
@@ -151,10 +152,7 @@
         <A N="Default">ARCTIC_WHITE_250</A>
         <C N="List">
           <A>ULTIMATE_\w+</A>	
-          <A>MATT_250_MAX</A>
-          <A>GLOSS_250_MAX</A>
-          <A>ARCTIC_WHITE_150</A>
-          <A>ARCTIC_WHITE_250</A>
+          <A>MATT_\w+</A>
           <A>PHOTOPAPER_190</A>
           <A>PHOTOPAPER_260</A>
           <A>PHOTOMATT_260</A>
