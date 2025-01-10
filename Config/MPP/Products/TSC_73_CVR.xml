@@ -140,8 +140,6 @@
         </C>
         <A N="Default">Indigo12000</A>
         <C N="List">
-          <A>Canon8400_1</A>
-          <A>Canon8400_2</A>
           <A>Konica14000</A>
           <A>Indigo12000</A>			  
         </C>
@@ -152,9 +150,7 @@
         </C>
         <A N="Default">MATT_720X520_150</A>
         <C N="List">
-          <A>WHP_SAPP_180</A>
           <A>MATT_\w+</A>
-		  <A>ULTIMATE_WHITE_720X520_135</A>		  
         </C>
       </C>
     </C>

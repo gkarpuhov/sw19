@@ -141,6 +141,7 @@
         <A N="Default">Indigo12000</A>
         <C N="List">
           <A>Indigo7600</A>
+          <A>Indigo7900</A>		  
           <A>Indigo12000</A>		  
           <A>Konica14000</A>		  
         </C>
@@ -152,7 +153,6 @@
         <A N="Default">MATT_720X520_150</A>
         <C N="List">
           <A>MATT_\w+</A>
-		  <A>ULTIMATE_WHITE_135</A>		  
         </C>
       </C>
     </C>

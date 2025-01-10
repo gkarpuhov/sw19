@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DRPXML N='Switch'>
+<S N='PRD' Workflow='SI2 - MainFlow'>
+	<ColorManagment>
+		<CorrectionProfile/>
+		<ConversionWorkspace>CMYK</ConversionWorkspace>
+	</ColorManagment>
+	<Sheduler>
+		<Filter level='Input' enable='true' sourcelink='false' controlpoint='false'>
+			<Include>
+				<Template/>
+				<Interval>
+					<Start date='' day='1' hour='22' min='10'></Start>
+					<Stop date='' day='7' hour='23' min='59'></Stop>
+				</Interval>
+			</Include>
+			<Include>
+				<Template/>
+				<Interval>
+					<Start date='' day='1' hour='0' min='1'></Start>
+					<Stop date='' day='7' hour='0' min='15'></Stop>
+				</Interval>
+			</Include>				
+		</Filter>
+		<Filter level='AfterAS' enable='true' sourcelink='false' controlpoint='true'>
+			<Include>
+				<Template>^(73|30)(I|T)?_(150|190|200)X\d+</Template>
+				<Interval>
+					<Start date='' day='1' hour='7' min='30'></Start>
+					<Stop date='' day='7' hour='7' min='50'></Stop>
+					<Metadata>
+						<PrivateData key='SubmitPressBLK' value='Konica14000'/>
+					</Metadata>						
+				</Interval>
+			</Include>
+			<Include>
+				<Template>^73I_220X\d+</Template>
+				<Interval>
+					<Start date='' day='1' hour='7' min='30'></Start>
+					<Stop date='' day='7' hour='7' min='50'></Stop>
+					<Metadata>
+						<PrivateData key='SubmitPressCVR' value='Konica14000'/>
+						<PrivateData key='SubmitPressBLK' value='Konica14000'/>
+					</Metadata>					
+				</Interval>
+			</Include>
+			<Include>
+				<Template>^(53|73T)_220X\d+</Template>
+				<Interval>
+					<Start date='' day='1' hour='7' min='30'></Start>
+					<Stop date='' day='7' hour='7' min='50'></Stop>
+					<Metadata>
+						<PrivateData key='SubmitPressBLK' value='Konica14000'/>
+					</Metadata>					
+				</Interval>
+			</Include>			
+			<Include>
+				<Template>^(CRD|PLRD|CAL)</Template>
+				<Interval>
+					<Start date='' day='1' hour='7' min='30'></Start>
+					<Stop date='' day='7' hour='7' min='50'></Stop>
+					<Metadata>
+						<PrivateData key='SubmitPressBLK' value='Konica14000'/>
+					</Metadata>						
+				</Interval>
+			</Include>
+						<Include>
+				<Template>^(STC|FAMILYBOOK)</Template>
+				<Interval>
+					<Start date='' day='1' hour='7' min='30'></Start>
+					<Stop date='' day='7' hour='7' min='50'></Stop>
+				</Interval>
+			</Include>	
+		</Filter>
+		<Filter level='Otf' enable='true' sourcelink='false' controlpoint='false'>
+			<Include>
+				<Template/>
+				<Interval>
+					<Start date='' day='1' hour='9' min='0'></Start>
+					<Stop date='' day='7' hour='9' min='15'></Stop>
+				</Interval>
+			</Include>
+		</Filter>
+		<Filter level='Print' enable='true' sourcelink='false' controlpoint='true'>
+			<Include>
+				<Template/>
+				<Interval>
+					<Start date='' day='1' hour='10' min='30'></Start>
+					<Stop date='' day='7' hour='18' min='0'></Stop>
+				</Interval>
+			</Include>
+		</Filter>				
+	</Sheduler>
+</S>
+
+<S N='PPP' Workflow='SI2 - MainFlow'>
+	<ColorManagment>
+		<CorrectionProfile/>
+		<ConversionWorkspace>CMYK</ConversionWorkspace>
+	</ColorManagment>
+	<Sheduler>
+		<Filter level='Input' enable='true' sourcelink='false' controlpoint='false'>
+			<Include>
+				<Template/>
+				<Interval>
+					<Start date='' day='' hour='2' min='0'></Start>
+					<Stop date='' day='' hour='10' min='0'></Stop>
+				</Interval>
+			</Include>
+		</Filter>		
+		<Filter level='AfterAS' enable='true' sourcelink='false' controlpoint='true'>
+			<Include>
+				<Template/>
+				<Interval>
+					<Start date='' day='1' hour='8' min='0'></Start>
+					<Stop date='' day='7' hour='10' min='0'></Stop>
+				</Interval>
+			</Include>
+			<Include>
+				<Template>73_150X210</Template>
+				<Interval>
+					<Start date='' day='1' hour='8' min='0'></Start>
+					<Stop date='' day='7' hour='10' min='0'></Stop>
+				</Interval>
+			</Include>			
+		</Filter>
+		<Filter level='Otf' enable='true' sourcelink='false' controlpoint='false'>
+			<Include>
+				<Template/>
+				<Interval>
+					<Start date='' day='' hour='8' min='45'></Start>
+					<Stop date='' day='' hour='9' min='0'></Stop>
+				</Interval>
+			</Include>
+		</Filter>
+		<Filter level='Print' enable='true' sourcelink='false' controlpoint='true'>
+			<Include>
+				<Template/>
+				<Interval>
+					<Start date='' day='' hour='12' min='00'></Start>
+					<Stop date='' day='' hour='19' min='0'></Stop>
+				</Interval>
+			</Include>
+		</Filter>	
+	</Sheduler>
+</S>
+
+<S N='CBK' Workflow='SI2 - MainFlow'>
+	<ColorManagment>
+		<CorrectionProfile/>
+		<ConversionWorkspace>CMYK</ConversionWorkspace>
+	</ColorManagment>
+	<Sheduler>
+		<Filter level='AfterAS' enable='true' sourcelink='true' controlpoint='false'>
+			<Include>
+				<Template/>
+				<Interval>
+					<Start date='' day='1' hour='17' min='30'></Start>
+					<Stop date='' day='5' hour='18' min='50'></Stop>
+					<Metadata>
+						<PrivateData key='SubmitImpositionCheck' value='Yes'/>
+					</Metadata>						
+				</Interval>
+			</Include>
+		</Filter>	
+		<Filter level='Print' enable='true' sourcelink='false' controlpoint='true'>
+			<Include>
+				<Template/>
+				<Interval>
+					<Start date='' day='' hour='0' min='0'></Start>
+					<Stop date='' day='' hour='23' min='59'></Stop>
+				</Interval>
+			</Include>
+		</Filter>
+	</Sheduler>
+</S>
+
+<S N='MPP' Workflow='SI2 - MainFlow'>
+	<ColorManagment>
+		<CorrectionProfile/>
+		<ConversionWorkspace>CMYK</ConversionWorkspace>
+	</ColorManagment>
+	<Sheduler>
+		<Filter level='AfterAS' enable='true' sourcelink='true' controlpoint='false'>
+			<Include>
+				<Template>^CAL</Template>
+				<Interval>
+					<Start date='' day='1' hour='1' min='0'></Start>
+					<Stop date='' day='5' hour='1' min='30'></Stop>
+					<Metadata>
+						<PrivateData key='SubmitImpositionCheck' value='Yes'/>
+					</Metadata>						
+				</Interval>
+			</Include>				
+			<Include>
+				<Template>^([^C]|C[^A]|CA[^L])</Template>
+				<Interval>
+					<Start date='' day='1' hour='1' min='0'></Start>
+					<Stop date='' day='5' hour='1' min='30'></Stop>
+					<Metadata>
+						<PrivateData key='SubmitImpositionCheck' value='No'/>
+					</Metadata>						
+				</Interval>
+			</Include>
+		</Filter>	
+		<Filter level='Print' enable='true' sourcelink='false' controlpoint='true'>
+			<Include>
+				<Template/>
+				<Interval>
+					<Start date='' day='' hour='0' min='0'></Start>
+					<Stop date='' day='' hour='23' min='59'></Stop>
+				</Interval>
+			</Include>
+		</Filter>
+	</Sheduler>
+	<Events>
+		<File>
+			<Filter level='WaitToPlan' enable='true'>
+				<Comprasion countkey='PartsCount'>
+                    <PrivateKey></PrivateKey>
+					<FileName index='2'>^([Ф\-0]+)?(\d+)(-|\.|$)</FileName>
+                </Comprasion>
+			</Filter>		
+		</File>
+		<Message>
+			<Mail level='WaitToPlan' enable='true'>
+				<Adress>g.karpuhov@fineart-print.ru</Adress>
+			</Mail>
+		</Message>
+	</Events>	
+</S>
+
+<S N='FAP' Workflow='SI2 - MainFlow'>
+	<ColorManagment>
+		<CorrectionProfile/>
+		<ConversionWorkspace>CMYK</ConversionWorkspace>
+	</ColorManagment>
+	<Events>
+		<File>
+			<Filter level='WaitToPlan' enable='true'>
+				<Comprasion countkey='PartsCount'>
+                    <PrivateKey></PrivateKey>
+					<FileName index='2'>^([Ф\-0]+)?(\d+)(-|\.|$)</FileName>
+                </Comprasion>
+			</Filter>		
+		</File>
+		<Message>
+			<Mail level='WaitToPlan' enable='true'>
+				<Adress>g.karpuhov@fineart-print.ru</Adress>
+			</Mail>
+		</Message>
+	</Events>	
+</S>
+
+<S N='VRU' Workflow='SI2 - MainFlow'>
+	<ColorManagment>
+		<CorrectionProfile/>
+		<ConversionWorkspace>CMYK</ConversionWorkspace>
+	</ColorManagment>
+	<Sheduler>
+		<Filter level='Input' enable='true' sourcelink='false' controlpoint='false'>
+			<Include>
+				<Template/>
+				<Interval>
+					<Start date='' day='' hour='6' min='1'></Start>
+					<Stop date='' day='' hour='23' min='0'></Stop>
+				</Interval>
+			</Include>
+		</Filter>	
+		<Filter level='AfterAS' enable='true' sourcelink='true' controlpoint='false'>
+			<Include>
+				<Template/>
+				<Interval>
+					<Start date='' day='1' hour='19' min='0'></Start>
+					<Stop date='' day='7' hour='23' min='0'></Stop>
+				</Interval>
+				<Interval>
+					<Start date='' day='1' hour='0' min='1'></Start>
+					<Stop date='' day='7' hour='9' min='0'></Stop>
+				</Interval>				
+			</Include>
+		</Filter>			
+		<Filter level='Print' enable='true' sourcelink='false' controlpoint='true'>
+			<Include>
+				<Template/>
+				<Interval>
+					<Start date='' day='' hour='0' min='1'></Start>
+					<Stop date='' day='' hour='23' min='59'></Stop>
+				</Interval>
+			</Include>
+		</Filter>
+	</Sheduler>
+</S>
+<S N='RYD' Workflow='SI2 - MainFlow'>
+	<ColorManagment>
+		<CorrectionProfile/>
+		<ConversionWorkspace>CMYK</ConversionWorkspace>
+	</ColorManagment>
+	<Sheduler>
+		<Filter level='Input' enable='true' sourcelink='false' controlpoint='false'>
+			<Include>
+				<Template/>
+				<Interval>
+					<Start date='' day='' hour='6' min='45'></Start>
+					<Stop date='' day='' hour='7' min='0'></Stop>
+				</Interval>
+			</Include>
+		</Filter>	
+	</Sheduler>
+</S>
+</DRPXML>

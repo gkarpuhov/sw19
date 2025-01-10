@@ -23,10 +23,10 @@
     <A N='Height' Type='Float'>324</A>
 </S>
 <S N='UnprintableMargins'><!-- незапечатываемые поля, мм -->
-    <A N='Left' Type='Float'>9.8</A>
-    <A N='Top' Type='Float'>1.9</A>
-    <A N='Right' Type='Float'>9.8</A>
-    <A N='Bottom' Type='Float'>1.9</A>
+    <A N='Left' Type='Float'>10</A>
+    <A N='Top' Type='Float'>2</A>
+    <A N='Right' Type='Float'>10</A>
+    <A N='Bottom' Type='Float'>2</A>
 </S>
 <S N='Jdf'>
     <A N='Name'>Indigo7900</A>
