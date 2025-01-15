@@ -166,7 +166,7 @@
 				<Template>^([^E]|E[^C]|EC[^R]||ECR[^T])</Template>
 				<Interval>
 					<Start date='' day='1' hour='17' min='30'></Start>
-					<Stop date='' day='7' hour='18' min='50'></Stop>
+					<Stop date='' day='5' hour='18' min='50'></Stop>
 					<Metadata>
 						<PrivateData key='SubmitImpositionCheck' value='Yes'/>
 					</Metadata>						
@@ -223,28 +223,6 @@
 			</Include>
 		</Filter>
 	</Sheduler>
-	<Events>
-		<File>
-			<Filter level='WaitToPlan' enable='true'>
-				<Comprasion countkey='PartsCount'>
-                    <PrivateKey></PrivateKey>
-					<FileName index='2'>^([Ф\-0]+)?(\d+)(-|\.|$)</FileName>
-                </Comprasion>
-			</Filter>		
-		</File>
-		<Message>
-			<Mail level='WaitToPlan' enable='true'>
-				<Adress>g.karpuhov@fineart-print.ru</Adress>
-			</Mail>
-		</Message>
-	</Events>	
-</S>
-
-<S N='FAP' Workflow='SI2 - MainFlow'>
-	<ColorManagment>
-		<CorrectionProfile/>
-		<ConversionWorkspace>CMYK</ConversionWorkspace>
-	</ColorManagment>
 	<Events>
 		<File>
 			<Filter level='WaitToPlan' enable='true'>

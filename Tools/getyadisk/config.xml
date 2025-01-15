@@ -88,4 +88,23 @@
 		    <item>g.karpuhov@fineart-print.ru</item>
 	    </msg>		
     </vru>  	
+    <yacombine auth="y0_AgAEA7qkZbKiAAnuBgAAAAEIIhBdAADz9OzomQBLrbm5cZrLN78BeV8VyA" parallel="2" timeout="300">
+        <sync>
+            <!-- log: 0 - без лога; 1 - только ошибки; 2 - все события -->
+            <!-- namefilter: шаблон регулярного выражения для имени файла -->
+            <!-- removesource: 0 - не удалять; 1 - переместить в корзину; 2 - полное удаление -->
+            <item id="ASK" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="9:55-18:45" removesource="1" log="2" overwiteexists="true" enabled="true">
+                <source>disk:/Ask_ToPress</source>
+			    <dest>D:\__SWITCH\Flows\SI2\Hotfolders\Incoming\ASK</dest>
+				<colorcorrection>true</colorcorrection>
+				<bleed>3</bleed>
+				<removelevel>1</removelevel>
+            </item>
+        </sync>
+		<temp>D:\__SWITCH\Temp\ask457848</temp>
+		<resources></resources>		
+	    <msg>
+		    <item>g.karpuhov@fineart-print.ru</item>
+	    </msg>		
+    </yacombine> 	
 </root>
