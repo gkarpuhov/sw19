@@ -159,7 +159,8 @@
           <A>GLOSS_\w+</A>		  
           <A>ARCTIC_\w+</A>
           <A>OFSET_\w+</A>	
-          <A>KALCA</A>			  
+          <A>KALCA</A>	
+          <A>PERGRAPHICA_\w+</A>				  
         </C>
       </C>
     </C>

@@ -51,6 +51,16 @@ Sample for xPath or URI: file://Folder1/Folder2/
 		<A N='Value'>GLOSS_200_MAX.xml</A>
 		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
 		<A N='Comment'>Мелованная глянцевая бумага 482x330, 200 г/кв.м</A>
+	</S>	
+	<S N='GLOSS_250_MAX'>
+		<A N='Value'>GLOSS_250_MAX.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Мелованная глянцевая бумага 482x330, 250 г/кв.м</A>
+	</S>	
+	<S N='GLOSS_300_MAX'>
+		<A N='Value'>GLOSS_300_MAX.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Мелованная глянцевая бумага 482x330, 300 г/кв.м</A>
 	</S>		
 	<S N='MATT_115_MAX'>
 		<A N='Value'>MATT_115_MAX.xml</A>
