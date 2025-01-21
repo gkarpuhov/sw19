@@ -97,7 +97,7 @@
                 <source>disk:/Ask_ToPress</source>
 			    <dest>D:\__SWITCH\Flows\SI2\Hotfolders\Incoming\ASK</dest>
 				<colorcorrection>true</colorcorrection>
-				<bleed>3</bleed>
+				<bleed>-1</bleed>
 				<removelevel>1</removelevel>
             </item>
         </sync>
