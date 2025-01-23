@@ -19,7 +19,15 @@ Sample for xPath or URI: file://Folder1/Folder2/
 <DRPXML>
 <!-- Переменная %UCID% - Universal CID: универсальный CID для стандартных продуктов. -->
 <!-- Переменная %CID% указывает на непосредственный идентификатор  конфигурации -->
-
+	<S N='#'>
+		<C N='JOB' I='0'><!-- Деталь продукта -->
+			<A N='Template'>.+</A>
+			<A N='Value'>JOB.xml</A>
+			<A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+			<A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+			<A N='Comment'>Job Blank</A>
+		</C>		
+	</S>
 	<S N='7BVT'>
 		<C N='BLK'><!-- Деталь продукта -->
 			<A N='Value'>7BV_BLK.xml</A>

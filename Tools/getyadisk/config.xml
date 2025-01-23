@@ -72,13 +72,13 @@
 		    <item>g.karpuhov@fineart-print.ru</item>
 	    </msg>
     </fastprint>
-    <vru auth="y0_AgAEA7qkZbKiAAnuBgAAAAEIIhBdAADz9OzomQBLrbm5cZrLN78BeV8VyA" parallel="4" timeout="300">
+    <vru auth="y0__wgBELzGluIHGL_RNCChx-OLEgv2xG7icY_Ea0tUsMk9voeW72th" parallel="4" timeout="300">
         <sync>
             <!-- log: 0 - без лога; 1 - только ошибки; 2 - все события -->
             <!-- namefilter: шаблон регулярного выражения для имени файла -->
             <!-- removesource: 0 - не удалять; 1 - переместить в корзину; 2 - полное удаление -->
             <item id="VRU" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="18:00-18:45" removesource="1" log="2" overwiteexists="true" enabled="false">
-                <source>disk:/smartproj/vru_to_fap/fotocard</source>
+                <source>disk:/VruOrdersToPress</source>
 			    <dest>D:\__SWITCH\Flows\SI2\Hotfolders\Incoming\VRU</dest>
             </item>
         </sync>
@@ -88,13 +88,13 @@
 		    <item>g.karpuhov@fineart-print.ru</item>
 	    </msg>		
     </vru>  	
-    <yacombine auth="y0_AgAEA7qkZbKiAAnuBgAAAAEIIhBdAADz9OzomQBLrbm5cZrLN78BeV8VyA" parallel="2" timeout="300">
+    <yacombine auth="y0__wgBEP2IjeIHGITMNCDfqsuKEqM88ng6-YBX9gxjUZrMcniyh1W9" parallel="2" timeout="300">
         <sync>
             <!-- log: 0 - без лога; 1 - только ошибки; 2 - все события -->
             <!-- namefilter: шаблон регулярного выражения для имени файла -->
             <!-- removesource: 0 - не удалять; 1 - переместить в корзину; 2 - полное удаление -->
-            <item id="ASK" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="9:55-18:45" removesource="1" log="2" overwiteexists="true" enabled="true">
-                <source>disk:/Ask_ToPress</source>
+            <item id="ASK" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="9:55-18:45" removesource="1" log="2" overwiteexists="true" enabled="false">
+                <source>disk:/DvaKota_ToPress</source>
 			    <dest>D:\__SWITCH\Flows\SI2\Hotfolders\Incoming\ASK</dest>
 				<colorcorrection>true</colorcorrection>
 				<bleed>-1</bleed>
