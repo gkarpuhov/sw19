@@ -113,14 +113,14 @@
 				<Template/>
 				<Interval>
 					<Start date='' day='1' hour='8' min='0'></Start>
-					<Stop date='' day='7' hour='10' min='0'></Stop>
+					<Stop date='' day='7' hour='10' min='30'></Stop>
 				</Interval>
 			</Include>
 			<Include>
 				<Template>73_150X210</Template>
 				<Interval>
 					<Start date='' day='1' hour='8' min='0'></Start>
-					<Stop date='' day='7' hour='10' min='0'></Stop>
+					<Stop date='' day='7' hour='10' min='30'></Stop>
 				</Interval>
 			</Include>			
 		</Filter>
