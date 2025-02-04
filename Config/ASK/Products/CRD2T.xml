@@ -88,7 +88,7 @@
         <A N="Value">1</A>
       </C>
       <C N="FrontSafetySheet">
-        <A N="Value">true</A>
+        <A N="Value">false</A>
       </C>
       <C N="BackSafetySheet">
         <A N="Value">false</A>
@@ -148,7 +148,7 @@
         <C N="Params">
           <A N="Filter">true</A>
         </C>
-        <A N="Default">ULTIMATE_WHITE_330X700_260</A>
+        <A N="Default">ULTIMATE_WHITE_330X700_240</A>
         <C N="List">
           <A>ULTIMATE_\w+</A>		
           <A>MATT_\w+</A>				  

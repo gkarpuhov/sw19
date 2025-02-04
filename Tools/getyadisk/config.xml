@@ -77,7 +77,7 @@
             <!-- log: 0 - без лога; 1 - только ошибки; 2 - все события -->
             <!-- namefilter: шаблон регулярного выражения для имени файла -->
             <!-- removesource: 0 - не удалять; 1 - переместить в корзину; 2 - полное удаление -->
-            <item id="VRU" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="9:00-10:20" removesource="0" log="2" overwiteexists="true" enabled="false">
+            <item id="VRU" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="9:00-11:55" removesource="0" log="2" overwiteexists="true" enabled="false">
                 <source>disk:/VruOrdersToPress</source>
 			    <dest>D:\__SWITCH\Flows\SI2\Hotfolders\Incoming\VRU</dest>
             </item>
@@ -93,7 +93,7 @@
             <!-- log: 0 - без лога; 1 - только ошибки; 2 - все события -->
             <!-- namefilter: шаблон регулярного выражения для имени файла -->
             <!-- removesource: 0 - не удалять; 1 - переместить в корзину; 2 - полное удаление -->
-            <item id="ASK" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="9:55-18:45" removesource="1" log="2" overwiteexists="true" enabled="false">
+            <item id="ASK" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="9:55-15:50" removesource="0" log="2" overwiteexists="true" enabled="false">
                 <source>disk:/DvaKota_ToPress</source>
 			    <dest>D:\__SWITCH\Flows\SI2\Hotfolders\Incoming\ASK</dest>
 				<colorcorrection>true</colorcorrection>

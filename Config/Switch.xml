@@ -279,6 +279,41 @@
 		</Filter>
 	</Sheduler>
 </S>
+<S N='ASK' Workflow='SI2 - MainFlow'>
+	<ColorManagment>
+		<CorrectionProfile/>
+		<ConversionWorkspace>CMYK</ConversionWorkspace>
+	</ColorManagment>
+	<Sheduler>
+		<Filter level='Input' enable='true' sourcelink='false' controlpoint='false'>
+			<Include>
+				<Template/>
+				<Interval>
+					<Start date='' day='' hour='0' min='1'></Start>
+					<Stop date='' day='' hour='23' min='59'></Stop>
+				</Interval>
+			</Include>
+		</Filter>	
+		<Filter level='AfterAS' enable='true' sourcelink='true' controlpoint='false'>
+			<Include>
+				<Template/>
+				<Interval>
+					<Start date='' day='1' hour='10' min='0'></Start>
+					<Stop date='' day='7' hour='17' min='0'></Stop>
+				</Interval>
+			</Include>
+		</Filter>			
+		<Filter level='Print' enable='true' sourcelink='false' controlpoint='true'>
+			<Include>
+				<Template/>
+				<Interval>
+					<Start date='' day='' hour='0' min='1'></Start>
+					<Stop date='' day='' hour='23' min='59'></Stop>
+				</Interval>
+			</Include>
+		</Filter>
+	</Sheduler>
+</S>
 <S N='RYD' Workflow='SI2 - MainFlow'>
 	<ColorManagment>
 		<CorrectionProfile/>
