@@ -150,7 +150,7 @@
         <C N="Params">
           <A N="Filter">true</A>
         </C>
-        <A N="Default">OTHER</A>
+        <A N="Default">MATT_170_MAX</A>
         <C N="List">
           <A>OTHER</A>
           <A>MATT_\w+</A>
@@ -158,14 +158,9 @@
           <A>PERGRAPHICA_\w+</A>
           <A>PHOTO\w+</A>
           <A>OTHER\w*</A>
-          <A>B2_700X500</A>
-          <A>GARDAPAT_135</A>
-          <A>PURELD_190</A>
-          <A>ARCTIC_WHITE_\w+</A>
-          <A>ARCTIC_IVORY_\w+</A>
-          <A>MUNKEN_LYNX_\w+</A>
+          <A>ARCTIC_\w+</A>
+          <A>ULTIMATE_\w+</A>
           <A>PYRAMID_260</A>
-          <A>MHW_SMOOTH_350</A>
           <A>OFSET_\w+</A>
         </C>
       </C>
