@@ -1,0 +1,51 @@
+<root>
+  <Data TypeId="580870523">
+    <AppSettings TypeId="1326397565">
+      <AsystemAPIHost TypeId="1642033309">http://127.0.0.1:3000</AsystemAPIHost>
+      <AsystemAPITimeoutSec TypeId="1727199146">600</AsystemAPITimeoutSec>
+      <AsystemAPIKey TypeId="1642033309">key111</AsystemAPIKey>
+      <FontsPath TypeId="1642033309">
+      </FontsPath>
+      <TCSRemoteSources TypeId="2057915708">
+        <item TypeId="1421528889">
+          <Name TypeId="1642033309">CBK</Name>
+          <Key TypeId="1642033309">b6870ccf14a81d1badd2c9fce17d8c11</Key>
+          <Host TypeId="1642033309">https://couturebook.ru</Host>
+          <APITimeoutSec TypeId="1727199146">60</APITimeoutSec>
+        </item>
+        <item TypeId="1421528889">
+          <Name TypeId="1642033309">MPP</Name>
+          <Key TypeId="1642033309">3b6f02ff90f6d96b3d4b6f040eacf2c8</Key>
+          <Host TypeId="1642033309">https://myphotopages.ru</Host>
+          <APITimeoutSec TypeId="1727199146">60</APITimeoutSec>
+        </item>
+      </TCSRemoteSources>
+      <TKModuleList TypeId="323965846">
+        <item TypeId="-125099128">
+          <Name TypeId="1642033309">Boxberry</Name>
+          <DataSource TypeId="-1781949187">TCS</DataSource>
+          <EnabledCreateParcel TypeId="-491435614">False</EnabledCreateParcel>
+          <EnabledGetTicket TypeId="-491435614">False</EnabledGetTicket>
+          <APITimeoutSec TypeId="1727199146">60</APITimeoutSec>
+        </item>
+        <item TypeId="-1992988436">
+          <Name TypeId="1642033309">СДЭК</Name>
+          <DataSource TypeId="-1781949187">Home</DataSource>
+          <EnabledCreateParcel TypeId="-491435614">False</EnabledCreateParcel>
+          <EnabledGetTicket TypeId="-491435614">False</EnabledGetTicket>
+          <APITimeoutSec TypeId="1727199146">60</APITimeoutSec>
+        </item>
+      </TKModuleList>
+    </AppSettings>
+  </Data>
+  <Types>
+    <Workspace Id="580870523" Guid="(7a5a2693-c0c5-38dc-bac8-4fa453f7cb54)">jobticket.Program+Workspace, jobticket, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Workspace>
+    <Settings Id="1326397565" Guid="(39f3ce26-4539-3efe-a3b7-37648d4bb293)">jobticket.Program+Workspace+Settings, jobticket, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Settings>
+    <List-1 Id="2057915708" Guid="(5af00c2e-048b-3ab3-8ccd-548134771d38)">System.Collections.Generic.List`1[[jobticket.Program+Workspace+RemoteSource, jobticket, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</List-1>
+    <RemoteSource Id="1421528889" Guid="(c90e643d-302c-341b-91cb-4088d63e8242)">jobticket.Program+Workspace+RemoteSource, jobticket, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</RemoteSource>
+    <ModuleCollection Id="323965846" Guid="(f9f0a9fa-5268-3368-9567-c73f513a131b)">jobticket.Program+Workspace+ModuleCollection, jobticket, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</ModuleCollection>
+    <BoxberryTK Id="-125099128" Guid="(3b635d5a-ec28-3466-82fa-88bc682673ea)">jobticket.Program+Workspace+BoxberryTK, jobticket, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</BoxberryTK>
+    <CdekTK Id="-1992988436" Guid="(c14990e3-9cf9-36d9-aa3f-7e15e1dbb39b)">jobticket.Program+Workspace+CdekTK, jobticket, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</CdekTK>
+    <TKDataTypeEnum Id="-1781949187" Guid="(71f3820a-9aac-37bf-81d7-1e3b153ca764)">jobticket.TKDataTypeEnum, jobticket, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</TKDataTypeEnum>
+  </Types>
+</root>
