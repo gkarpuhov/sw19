@@ -38,7 +38,7 @@ Sample for xPath or URI: file://Folder1/Folder2/
     </C>	
     <C N='BLK' I='2'><!-- Деталь продукта -->
 	    <A N='Template'>^73T?1?_(290|145|150)X(145|200)</A>
-        <A N='Value'>TSC_73_BLK.xml</A>
+        <A N='Value'>TSC_73_JOB_BLK.xml</A>
         <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
         <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
         <A N='Comment'>Блок классика онлайн</A>
@@ -65,25 +65,11 @@ Sample for xPath or URI: file://Folder1/Folder2/
         <A N='Comment'>Обложка продукта 63</A>
     </C>	
     <C N='CVR' I='6'><!-- Деталь продукта -->
-	    <A N='Template'>^5(3|V|B)X?(FBL|FBS)?_\d+X\d+</A>		
+	    <A N='Template'>^5(3|V|B)X?_\d+X\d+</A>		
         <A N='Value'>TSC_53_CVR.xml</A>
         <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
         <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
         <A N='Comment'>Обложка продукта 53</A>
-    </C>	
-    <C N='BLK' I='7'><!-- Деталь продукта -->
-	    <A N='Template'>^(5|6|7)3FBLT?W?_\d+X\d+</A>
-        <A N='Value'>TSC_73FBL_JOB_BLK.xml</A>
-        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
-        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
-        <A N='Comment'>Блок FB длинный</A>
-    </C>
-    <C N='CVR' I='8'><!-- Деталь продукта -->
-	    <A N='Template'>^73FBL_\d+X\d+</A>
-        <A N='Value'>TSC_73_CVR_DUPLEX.xml</A>
-        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
-        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
-        <A N='Comment'>Обложка FB длинный</A>
     </C>	
     <C N='CVR' I='9'><!-- Деталь продукта -->
 	    <A N='Template'>^30_(150|200)X\d+</A>
@@ -108,17 +94,10 @@ Sample for xPath or URI: file://Folder1/Folder2/
     </C>	
     <C N='BLK' I='12'><!-- Деталь продукта -->
 	    <A N='Template'>^30_150X210</A>
-        <A N='Value'>TSC_30_BLK.xml</A>
+        <A N='Value'>TSC_30_JOB_BLK.xml</A>
         <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
         <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
         <A N='Comment'>Блок продукта 30</A>
-    </C>	
-    <C N='BLK' I='13'><!-- Деталь продукта -->
-	    <A N='Template'>^SLM2</A>
-        <A N='Value'>TSC_SLM2_BLK.xml</A>
-        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
-        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
-        <A N='Comment'>Карточки кашированные</A>
     </C>	
     <C N='BLK' I='14'><!-- Деталь продукта -->
 	    <A N='Template'>^CAN1</A>
@@ -134,20 +113,6 @@ Sample for xPath or URI: file://Folder1/Folder2/
         <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
         <A N='Comment'>Фотопостер</A>
     </C>	
-    <C N='BLK' I='16'><!-- Деталь продукта -->
-	    <A N='Template'>^FRM1</A>
-        <A N='Value'>TSC_PSTR1_BLK.xml</A>
-        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
-        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
-        <A N='Comment'>Фоторамка</A>
-    </C>
-    <C N='CVR' I='17'><!-- Деталь продукта -->
-	    <A N='Template'>^63FBL_\d+X\d+</A>
-        <A N='Value'>TSC_63FBL_CVR.xml</A>
-        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
-        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
-        <A N='Comment'>Обложка продукта 63</A>
-    </C>
     <C N='BLK' I='18'><!-- Деталь продукта -->
 	    <A N='Template'>^(5|7)BT?</A>
         <A N='Value'>TSC_7B_BLK.xml</A>
@@ -384,39 +349,6 @@ Sample for xPath or URI: file://Folder1/Folder2/
         <A N='Comment'>Обложка с окном</A>
     </C>
 </S>
-<S N='73FBLW_200X200'>
-    <C N='CVR'><!-- Деталь продукта -->
-        <A N='Value'>TSC_WINDOWS_FB_200X200_CVR.xml</A>
-        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
-        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
-        <A N='Comment'>Обложка с окном</A>
-    </C>
-</S>
-<S N='73FBLW_280X280'>
-    <C N='CVR'><!-- Деталь продукта -->
-        <A N='Value'>TSC_WINDOWS_FB_280X280_CVR.xml</A>
-        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
-        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
-        <A N='Comment'>Обложка с окном</A>
-    </C>
-</S>
-<S N='73FBLW_280X200'>
-    <C N='CVR'><!-- Деталь продукта -->
-        <A N='Value'>TSC_WINDOWS_FB_280X200_CVR.xml</A>
-        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
-        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
-        <A N='Comment'>Обложка с окном</A>
-    </C>
-</S>
-<S N='73FBLW_200X280'>
-    <C N='CVR'><!-- Деталь продукта -->
-        <A N='Value'>TSC_WINDOWS_FB_200X280_CVR.xml</A>
-        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
-        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
-        <A N='Comment'>Обложка с окном</A>
-    </C>
-</S>
-
 <S N='73MW1_200X200'>
     <C N='CVR'><!-- Деталь продукта -->
         <A N='Value'>TSC_MT2_200X200_CVR.xml</A>
@@ -480,21 +412,6 @@ Sample for xPath or URI: file://Folder1/Folder2/
         <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
         <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
         <A N='Comment'>Обложка с окном</A>
-    </C>
-</S>
-
-<S N='73FBLD'>
-    <C N='BLK'><!-- Деталь продукта -->
-        <A N='Value'>TSC_73FBLD_BLK.xml</A>
-        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
-        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
-        <A N='Comment'>Блок продукта</A>
-    </C>
-    <C N='CVR'><!-- Деталь продукта -->
-        <A N='Value'>TSC_73_CVR_INDIGO_DUPLEX.xml</A>
-        <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
-        <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
-        <A N='Comment'>Обложка продукта</A>
     </C>
 </S>
 </DRPXML>
