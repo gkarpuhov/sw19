@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<QUITEXML>
+<QUITEXML xmlns="http://www.quite.com/general/ns/quitexml/">
 <ITEMS>
 <DICT N='0'>  <ITEMS>
   <A N='Category'>OneCommand_V1</A>
@@ -109,7 +109,7 @@
   <DICT N='Desc'>    <ITEMS>
     <S N='0'>Action: Rotate pages</S>
     <S N='1'>Range: From page 1 to page 13</S>
-    <S N='2'>Rotate: 90Р’В° CCW</S>
+    <S N='2'>Rotate: 90В° CCW</S>
     <S N='3'>Rotate all selected</S>
     </ITEMS>  </DICT>
 
@@ -153,7 +153,7 @@
     <S N='3'>Origin: centre</S>
     <S N='4'>Offset: horizontal 0.00 points, vertical 0.00 points</S>
     <S N='5'>Scale: 100.00%</S>
-    <S N='6'>Rotate: 0Р’В°</S>
+    <S N='6'>Rotate: 0В°</S>
     </ITEMS>  </DICT>
 
   <DICT N='Params'>    <ITEMS>
@@ -215,7 +215,7 @@
 
       </ITEMS>    </DICT>
 
-    <S N='XYWHList'>11.3386 8.5039 192.7559 34.0157 </S>
+    <S N='XYWHList'>11.3386 2.8346 189.9213 36.8504 </S>
     </ITEMS>  </DICT>
 
   <DICT N='Provider'>    <ITEMS>
@@ -246,13 +246,13 @@
     <B N='AdvancedUI'>1</B>
     <S N='After'>[SAFETYSHEET]</S>
     <A N='Align'>BL</A>
-    <S N='Before'>[PRODUCTPARTCODE]  |  1stCut: [TRIMW]x[TRIMH]  Stack: [STACKNUM] </S>
+    <S N='Before'>[PRODUCTPARTCODE] | 1stCut: [TRIMW]x[TRIMH] | Stack: [STACKNUM] </S>
     <I N='EveryNPages'>1</I>
     <S N='FirstNum'>1</S>
     <S N='Font'>Helvetica,Bold;Arial,Bold;Arial-BoldMT</S>
     <B N='NoNum'>0</B>
     <I N='PosX'>630</I>
-    <I N='PosY'>480</I>
+    <I N='PosY'>463</I>
     <B N='RegInk'>0</B>
     <I N='RepeatNumber'>1</I>
     <S N='Requires'>qi4alphabase[QI 4.0/QHI 4.0 alpha]</S>
@@ -269,7 +269,7 @@
       </ITEMS>    </DICT>
 
     <A N='UIFieldSel'>[Sys:ComputerName]</A>
-    <F N='XOff'>19.8425</F>
+    <F N='XOff'>14.1732</F>
     <F N='YOff'>28.3465</F>
     </ITEMS>  </DICT>
 
@@ -301,7 +301,7 @@
     <B N='AdvancedUI'>1</B>
     <S N='After'>[SAFETYSHEET]</S>
     <A N='Align'>BL</A>
-    <S N='Before'>[CID]  |  [PRODUCTCODE]  Pages: [PAGES]  Qty: [QTY]</S>
+    <S N='Before'>[CID] | [PRODUCTCODE]</S>
     <I N='EveryNPages'>1</I>
     <S N='FirstNum'>1</S>
     <S N='Font'>Helvetica,Bold;Arial,Bold;Arial-BoldMT</S>
@@ -324,8 +324,8 @@
       </ITEMS>    </DICT>
 
     <A N='UIFieldSel'>[Sys:ComputerName]</A>
-    <F N='XOff'>19.8425</F>
-    <F N='YOff'>14.1732</F>
+    <F N='XOff'>14.1732</F>
+    <F N='YOff'>17.0079</F>
     </ITEMS>  </DICT>
 
   <DICT N='Provider'>    <ITEMS>
@@ -340,11 +340,66 @@
 
 <DICT N='8'>  <ITEMS>
   <A N='Category'>OneCommand_V1</A>
+  <A N='Command'>AddNumbers</A>
+  <DICT N='Desc'>    <ITEMS>
+    <S N='0'>Range: all pages</S>
+    <S N='1'>Font: Times-Roman (unembedded) 12.0 point</S>
+    <S N='2'>Origin: top left</S>
+    <S N='3'>Offset: horizontal 18.00 points, vertical 18.00 points</S>
+    <S N='4'>Colour: Default (black)</S>
+    <S N='5'>Prefix text: &apos;&apos;</S>
+    <S N='6'>Suffix text: &apos;&apos;</S>
+    </ITEMS>  </DICT>
+
+  <DICT N='Params'>    <ITEMS>
+    <I N='AdvanceNumber'>1</I>
+    <B N='AdvancedUI'>1</B>
+    <S N='After'>[SAFETYSHEET]</S>
+    <A N='Align'>BL</A>
+    <S N='Before'>Flyleaf: [FLYLEAF]</S>
+    <I N='EveryNPages'>1</I>
+    <S N='FirstNum'>1</S>
+    <S N='Font'>Helvetica,Bold;Arial,Bold;Arial-BoldMT</S>
+    <B N='NoNum'>1</B>
+    <I N='PosX'>1088</I>
+    <I N='PosY'>501</I>
+    <B N='RegInk'>0</B>
+    <I N='RepeatNumber'>1</I>
+    <S N='Requires'>qi4alphabase[QI 4.0/QHI 4.0 alpha]</S>
+    <A N='Rotate'>R0</A>
+    <F N='Size'>10.0000</F>
+    <DICT N='Source'>      <ITEMS>
+      <DICT N='Range'>        <ITEMS>
+        <A N='EvenOdd'>Both</A>
+        <I N='From'>1</I>
+        <A N='RangeType'>SubDoc</A>
+        <I N='To'>2</I>
+        </ITEMS>      </DICT>
+
+      </ITEMS>    </DICT>
+
+    <A N='UIFieldSel'>[Doc:FileName]</A>
+    <F N='XOff'>14.1732</F>
+    <F N='YOff'>5.6693</F>
+    </ITEMS>  </DICT>
+
+  <DICT N='Provider'>    <ITEMS>
+    <S N='Code'>QITE_QuiteImposingPlus5</S>
+    <S N='FullName'>Quite Imposing Plus 5.2</S>
+    <S N='Name'>Quite Imposing Plus 5</S>
+    <I N='Version'>1</I>
+    </ITEMS>  </DICT>
+
+  <I N='Version'>1</I>
+  </ITEMS></DICT>
+
+<DICT N='9'>  <ITEMS>
+  <A N='Category'>OneCommand_V1</A>
   <A N='Command'>PageTools</A>
   <DICT N='Desc'>    <ITEMS>
     <S N='0'>Action: Rotate pages</S>
     <S N='1'>Range: From page 13 to page 26</S>
-    <S N='2'>Rotate: 270Р’В° CCW</S>
+    <S N='2'>Rotate: 270В° CCW</S>
     <S N='3'>Rotate all selected</S>
     </ITEMS>  </DICT>
 
@@ -378,7 +433,7 @@
   <I N='Version'>1</I>
   </ITEMS></DICT>
 
-<DICT N='9'>  <ITEMS>
+<DICT N='10'>  <ITEMS>
   <A N='Category'>OneCommand_V1</A>
   <A N='Command'>StepAndRepeat</A>
   <DICT N='Desc'>    <ITEMS>
@@ -456,7 +511,7 @@
   <I N='Version'>1</I>
   </ITEMS></DICT>
 
-<DICT N='10'>  <ITEMS>
+<DICT N='11'>  <ITEMS>
   <A N='Category'>OneCommand_V1</A>
   <A N='Command'>StickOnPages</A>
   <DICT N='Desc'>    <ITEMS>
@@ -466,7 +521,7 @@
     <S N='3'>Origin: bottom centre</S>
     <S N='4'>Offset: horizontal 0.00 points, vertical 2.83 points</S>
     <S N='5'>Scale: 100.00%</S>
-    <S N='6'>Rotate: 0Р’В°</S>
+    <S N='6'>Rotate: 0В°</S>
     </ITEMS>  </DICT>
 
   <DICT N='Params'>    <ITEMS>
@@ -504,7 +559,7 @@
   <I N='Version'>1</I>
   </ITEMS></DICT>
 
-<DICT N='11'>  <ITEMS>
+<DICT N='12'>  <ITEMS>
   <A N='Category'>OneCommand_V1</A>
   <A N='Command'>StickOnPages</A>
   <DICT N='Desc'>    <ITEMS>
@@ -514,7 +569,7 @@
     <S N='3'>Origin: right</S>
     <S N='4'>Offset: horizontal 5.67 points, vertical 0.00 points</S>
     <S N='5'>Scale: 100.00%</S>
-    <S N='6'>Rotate: 0Р’В°</S>
+    <S N='6'>Rotate: 0В°</S>
     </ITEMS>  </DICT>
 
   <DICT N='Params'>    <ITEMS>
@@ -552,7 +607,7 @@
   <I N='Version'>1</I>
   </ITEMS></DICT>
 
-<DICT N='12'>  <ITEMS>
+<DICT N='13'>  <ITEMS>
   <A N='Category'>OneCommand_V1</A>
   <A N='Command'>AddMaskingTape</A>
   <DICT N='Desc'>    <ITEMS>
@@ -586,7 +641,7 @@
   <I N='Version'>1</I>
   </ITEMS></DICT>
 
-<DICT N='13'>  <ITEMS>
+<DICT N='14'>  <ITEMS>
   <A N='Category'>OneCommand_V1</A>
   <A N='Command'>AddMaskingTape</A>
   <DICT N='Desc'>    <ITEMS>
@@ -620,7 +675,7 @@
   <I N='Version'>1</I>
   </ITEMS></DICT>
 
-<DICT N='14'>  <ITEMS>
+<DICT N='15'>  <ITEMS>
   <A N='Category'>OneCommand_V1</A>
   <A N='Command'>AddNumbers</A>
   <DICT N='Desc'>    <ITEMS>
@@ -674,7 +729,7 @@
   <I N='Version'>1</I>
   </ITEMS></DICT>
 
-<DICT N='15'>  <ITEMS>
+<DICT N='16'>  <ITEMS>
   <A N='Category'>OneCommand_V1</A>
   <A N='Command'>AddNumbers</A>
   <DICT N='Desc'>    <ITEMS>
@@ -728,7 +783,7 @@
   <I N='Version'>1</I>
   </ITEMS></DICT>
 
-<DICT N='16'>  <ITEMS>
+<DICT N='17'>  <ITEMS>
   <A N='Category'>OneCommand_V1</A>
   <A N='Command'>AddNumbers</A>
   <DICT N='Desc'>    <ITEMS>
@@ -782,7 +837,7 @@
   <I N='Version'>1</I>
   </ITEMS></DICT>
 
-<DICT N='17'>  <ITEMS>
+<DICT N='18'>  <ITEMS>
   <A N='Category'>OneCommand_V1</A>
   <A N='Command'>AddNumbers</A>
   <DICT N='Desc'>    <ITEMS>
@@ -836,7 +891,7 @@
   <I N='Version'>1</I>
   </ITEMS></DICT>
 
-<DICT N='18'>  <ITEMS>
+<DICT N='19'>  <ITEMS>
   <A N='Category'>OneCommand_V1</A>
   <A N='Command'>StepAndRepeat</A>
   <DICT N='Desc'>    <ITEMS>
@@ -910,7 +965,7 @@
   <I N='Version'>1</I>
   </ITEMS></DICT>
 
-<DICT N='19'>  <ITEMS>
+<DICT N='20'>  <ITEMS>
   <A N='Category'>OneCommand_V1</A>
   <A N='Command'>AddMaskingTape</A>
   <DICT N='Desc'>    <ITEMS>
@@ -946,7 +1001,7 @@
   <I N='Version'>1</I>
   </ITEMS></DICT>
 
-<DICT N='20'>  <ITEMS>
+<DICT N='21'>  <ITEMS>
   <A N='Category'>OneCommand_V1</A>
   <A N='Command'>InsertBlanks</A>
   <DICT N='Desc'>    <ITEMS>
@@ -984,7 +1039,7 @@
   <I N='Version'>1</I>
   </ITEMS></DICT>
 
-<DICT N='21'>  <ITEMS>
+<DICT N='22'>  <ITEMS>
   <A N='Category'>OneCommand_V1</A>
   <A N='Command'>AddMaskingTape</A>
   <DICT N='Desc'>    <ITEMS>
@@ -1029,11 +1084,10 @@
 <DICT N='Stats'>  <ITEMS>
   <I N='Count'>2133</I>
   <S N='Created'>D:20130111235145</S>
-  <S N='Edited'>D:20250210094711</S>
+  <S N='Edited'>D:20250211182929</S>
   <S N='Updated'>D:20250210085900</S>
   </ITEMS></DICT>
 
 <A N='UIMode'>None</A>
 </ITEMS>
 </QUITEXML>
-
