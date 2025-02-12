@@ -55,12 +55,12 @@
     <C N="Imposition">
       <C N="Template">
         <C N="NUP">
-          <A N="Value">I-CVR-7X.xml</A>
+          <A N="Value">I-CVR-7XD.xml</A>
           <A N="Path">%DefaultFolder%\Quite\%UCID%\</A>
           <A N="Allow">true</A>
         </C>
         <C N="SNR">
-          <A N="Value">I-CVR-7X.xml</A>
+          <A N="Value">I-CVR-7XD.xml</A>
           <A N="Path">%DefaultFolder%\Quite\%UCID%\</A>
           <A N="Allow">true</A>
         </C>

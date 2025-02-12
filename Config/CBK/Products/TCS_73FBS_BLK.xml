@@ -55,13 +55,13 @@
     <C N="Imposition">
       <C N="Template">
         <C N="NUP">
-          <A N="Value">I-BLK-X3FBS.xml</A>
-          <A N="Path">%DefaultFolder%\Quite\%UCID%\</A>
+          <A N="Value">I-BLK-X3FBS_JOBLINK.xml</A>
+          <A N="Path">%DefaultFolder%\Quite\%CID%\</A>
           <A N="Allow">true</A>
         </C>
         <C N="SNR">
-          <A N="Value">I-BLK-X3FBS.xml</A>
-          <A N="Path">%DefaultFolder%\Quite\%UCID%\</A>
+          <A N="Value">I-BLK-X3FBS_JOBLINK.xml</A>
+          <A N="Path">%DefaultFolder%\Quite\%CID%\</A>
           <A N="Allow">true</A>
         </C>
       </C>

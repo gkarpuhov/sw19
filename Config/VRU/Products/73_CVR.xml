@@ -56,12 +56,12 @@
       <C N="Template">
         <C N="NUP">
           <A N="Value">I-CVR-7X.xml</A>
-          <A N="Path">%DefaultFolder%\Quite\%CID%\</A>
+          <A N="Path">%DefaultFolder%\Quite\%UCID%\</A>
           <A N="Allow">true</A>
         </C>
         <C N="SNR">
           <A N="Value">I-CVR-7X.xml</A>
-          <A N="Path">%DefaultFolder%\Quite\%CID%\</A>
+          <A N="Path">%DefaultFolder%\Quite\%UCID%\</A>
           <A N="Allow">true</A>
         </C>
       </C>
