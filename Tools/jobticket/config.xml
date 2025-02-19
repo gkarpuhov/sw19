@@ -3,6 +3,7 @@
     <AppSettings TypeId="1326397565">
       <AsystemAPIHost TypeId="1642033309">http://127.0.0.1:3000</AsystemAPIHost>
       <AsystemAPITimeoutSec TypeId="1727199146">600</AsystemAPITimeoutSec>
+      <ImagesCacheStoreMin TypeId="1727199146">2880</ImagesCacheStoreMin>			  
       <AsystemAPIKey TypeId="1642033309">key111</AsystemAPIKey>
       <FontsPath TypeId="1642033309">
       </FontsPath>
@@ -24,8 +25,8 @@
         <item TypeId="-125099128">
           <Name TypeId="1642033309">Boxberry</Name>
           <DataSource TypeId="-1781949187">TCS</DataSource>
-          <EnabledCreateParcel TypeId="-491435614">False</EnabledCreateParcel>
-          <EnabledGetTicket TypeId="-491435614">False</EnabledGetTicket>
+          <EnabledCreateParcel TypeId="-491435614">True</EnabledCreateParcel>
+          <EnabledGetTicket TypeId="-491435614">True</EnabledGetTicket>
           <APITimeoutSec TypeId="1727199146">60</APITimeoutSec>
         </item>
         <item TypeId="-1992988436">

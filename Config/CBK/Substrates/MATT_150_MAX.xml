@@ -53,6 +53,10 @@ Sample for xPath or URI: file://Folder1/Folder2/
     </C>
     <C N='List'>
         <A N='0' Type='String'>00</A>
+        <A N='1' Type='String'>G0</A>
+        <A N='2' Type='String'>M0</A>
+        <A N='3' Type='String'>V0</A>		
+        <A N='4' Type='String'>X3</A>
     </C>
     <A N='Comment'>Список идентификаторов (ID) из соответствующего каталога, доступных  или недоступных для данного материала (определяется в компоненте Params)</A>
 </S>
