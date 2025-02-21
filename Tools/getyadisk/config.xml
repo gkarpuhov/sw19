@@ -93,12 +93,19 @@
             <!-- log: 0 - без лога; 1 - только ошибки; 2 - все события -->
             <!-- namefilter: шаблон регулярного выражения для имени файла -->
             <!-- removesource: 0 - не удалять; 1 - переместить в корзину; 2 - полное удаление -->
+            <!-- layoutmode: 0 бит - чередовать горизонтальные и вертикальные; 1 бит - вставка по меньшей стороне; ... -->		
+            <!-- static: Список предопределенных имен файлов, которые необходимо поставить на нужную полосу; допускается использвать ["first", "last", integer] -->					
             <item id="ASK" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="9:55-17:48" removesource="0" log="2" overwiteexists="true" enabled="false">
                 <source>disk:/DvaKota_ToPress</source>
 			    <dest>D:\__SWITCH\Flows\SI2\Hotfolders\Incoming\ASK</dest>
 				<colorcorrection>true</colorcorrection>
 				<bleed>-1</bleed>
 				<removelevel>1</removelevel>
+				<suborderitem>false</suborderitem>
+				<layoutmode>2</layoutmode>
+				<static>
+					<item index='last'></item>
+				</static>
             </item>
         </sync>
 		<temp>D:\__SWITCH\Temp\ask457848</temp>
