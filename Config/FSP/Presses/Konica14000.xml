@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DRPXML>
+<A N='ID'>Konica14000</A><!-- код печатной машины (Press)-->
+<S N='Description'>
+    <A N='Ru'>Konica Minolta AccurioPress C14000</A>
+    <A N='En'>Konica Minolta AccurioPress C14000</A>
+</S>
+<S N='Media'>
+    <A N='Roll' Type='Boolean'>false</A><!-- тип: рулон (true) или лист (false) -->
+    <A N='IgnoreRoll' Type='Boolean'>false</A><!-- игнорировать тип рулон/лист : true или false -->
+    <A N='Duplex' Type='Boolean'>true</A><!-- возможность двухсторонней печати -->
+    <A N='MaxWidth' Type='Float'>760</A><!-- максимальная ширина, мм -->
+    <A N='MaxHeight' Type='Float'>330</A><!-- максимальная высота для листа или длина для рулона, мм -->
+    <A N='MinWidth' Type='Float'>210</A><!-- мин. ширина, мм -->
+    <A N='MinHeight' Type='Float'>297</A><!-- мин. высота для листа или длина для рулона, мм -->
+    <A N='MaxWeight' Type='Integer'>400</A><!-- макс. вес, gsm -->
+    <A N='MinWeight' Type='Integer'>80</A><!-- мин. вес, gsm -->
+    <A N='MaxThickness' Type='Float'>0,400</A><!-- макс. толщина, мм -->
+    <A N='MinThickness' Type='Float'>0,100</A><!-- мин. толщина, мм -->
+</S>
+<S N='PrintableArea'><!-- максимальная область печати, мм -->
+    <A N='Width' Type='Float'>758</A>
+    <A N='Height' Type='Float'>320</A>
+</S>
+<S N='UnprintableMargins'><!-- незапечатываемые поля, мм -->
+    <A N='Left' Type='Float'>2</A>
+    <A N='Top' Type='Float'>5</A>
+    <A N='Right' Type='Float'>2</A>
+    <A N='Bottom' Type='Float'>5</A>
+</S>
+<S N='Jdf'>
+    <A N='Name'>Konica14000</A>
+    <A N='OutputFolder'>Konica14000</A>
+    <A N='OutputFilename'>%ORDERNUMBER%-%ITEMID%-%JOBID%%VERSION%-t%CID%_%PRODUCTKEYCODE%-%PRODUCTPARTCODE%-s%SUBSTRATE%-%COATING%-%PRESSMODE%-N%ORDERSINCOMPOSITE%-Q%PRNQTY%%IMPSYMBOL%%EXT%%CRDFORMAT%</A>
+</S>
+<S N='Rip'>
+    <A N='Name'></A>
+    <A N='OutputFolder'>Konica14000</A>
+</S>
+<S N='DefaultColorManagement' Enabled='true'>
+	<A N='Convert' Action='' Key='Konica14000 CMYK Switch Coated' Type='Pitstop' Location='local'/>
+	<RIP>
+		<A N='CMYK'/>
+		<A N='RGB'/>
+		<A N='OUT'/>
+		<A N='DLP'/>
+	</RIP>
+</S>
+<S N='SubstrateList'>
+    <C N='Params'>
+        <A N='Filter' Type='Boolean'>true</A> <!-- true - использовать ТОЛЬКО позиции из ниже расположенного списка; false - использовать все позиции каталога, кроме включенных в спиcок -->
+    </C>
+    <C N='List'>
+        <A>.+</A>
+    </C>
+</S>
+</DRPXML>

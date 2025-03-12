@@ -28,6 +28,7 @@
           <EnabledCreateParcel TypeId="-491435614">False</EnabledCreateParcel>
           <EnabledGetTicket TypeId="-491435614">True</EnabledGetTicket>
           <APITimeoutSec TypeId="1727199146">60</APITimeoutSec>
+          <RepeatAfterFailCreating TypeId="1727199146">-1</RepeatAfterFailCreating>		  
         </item>
         <item TypeId="-1992988436">
           <RemoteLocation TypeId="1642033309">https://api.cdek.ru</RemoteLocation>
@@ -38,6 +39,7 @@
           <EnabledCreateParcel TypeId="-491435614">False</EnabledCreateParcel>
           <EnabledGetTicket TypeId="-491435614">True</EnabledGetTicket>
           <APITimeoutSec TypeId="1727199146">60</APITimeoutSec>
+          <RepeatAfterFailCreating TypeId="1727199146">3</RepeatAfterFailCreating>				  
         </item>
       </TKModuleList>
     </AppSettings>

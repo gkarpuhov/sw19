@@ -20,13 +20,13 @@
 </S>
 <S N='PrintableArea'><!-- максимальная область печати, мм -->
     <A N='Width' Type='Float'>758</A>
-    <A N='Height' Type='Float'>320</A>
+    <A N='Height' Type='Float'>322</A>
 </S>
 <S N='UnprintableMargins'><!-- незапечатываемые поля, мм -->
     <A N='Left' Type='Float'>2</A>
-    <A N='Top' Type='Float'>5</A>
+    <A N='Top' Type='Float'>4</A>
     <A N='Right' Type='Float'>2</A>
-    <A N='Bottom' Type='Float'>5</A>
+    <A N='Bottom' Type='Float'>4</A>
 </S>
 <S N='Jdf'>
     <A N='Name'>Konica14000</A>

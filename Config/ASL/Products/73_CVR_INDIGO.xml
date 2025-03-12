@@ -94,7 +94,7 @@
         <A N="Value">false</A>
       </C>
       <C N="IgnorePrintableArea">
-        <A N="Value">true</A>
+        <A N="Value">false</A>
       </C>
       <C N="UseOnlyStepAndRepeat">
         <A N="Value">false</A>
@@ -142,6 +142,7 @@
         <C N="List">
           <A>Indigo7600</A>
           <A>Konica14000</A>
+          <A>Indigo12000</A>		  
           <A>Indigo7900</A>
           <A>Canon8400_1</A>
           <A>Canon8400_2</A>
@@ -153,15 +154,10 @@
         </C>
         <A N="Default">MATT_170_MAX</A>
         <C N="List">
-          <A>W.+</A>
           <A>WHP_SAPP_180</A>
-          <A>MATT_200</A>
-          <A>MATT_200_MAX</A>
-          <A>OTHER\w*</A>
-          <A>^B2_*</A>
-          <A>MATT_170_MAX</A>
-          <A>MATT_330X700_170</A>
-          <A>CBOARD\w*</A>
+          <A>MATT_\w+</A>
+          <A>OTHER_\w+</A>
+          <A>CBOARD_\w+</A>
         </C>
       </C>
     </C>

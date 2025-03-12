@@ -207,9 +207,6 @@
 				<Interval>
 					<Start date='' day='1' hour='3' min='0'></Start>
 					<Stop date='' day='5' hour='3' min='30'></Stop>
-					<Metadata>
-						<PrivateData key='SubmitImpositionCheck' value='No'/>
-					</Metadata>						
 				</Interval>
 			</Include>			
 		</Filter>	

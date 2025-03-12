@@ -56,12 +56,12 @@
       <C N="Template">
         <C N="NUP">
           <A N="Value">I-DUPLEX_ACP_CRD2-%CUT%.xml</A>
-          <A N="Path">%DefaultFolder%\Quite\%UCID%\</A>
+          <A N="Path">%DefaultFolder%\Quite\%CID%\</A>
           <A N="Allow">true</A>
         </C>
         <C N="SNR">
           <A N="Value">I-DUPLEX_ACP_CRD2-%CUT%.xml</A>
-          <A N="Path">%DefaultFolder%\Quite\%UCID%\</A>
+          <A N="Path">%DefaultFolder%\Quite\%CID%\</A>
           <A N="Allow">true</A>
         </C>
       </C>
@@ -115,7 +115,9 @@
 		<C N='Margins'>
 			<A N="Top">3</A>
 			<A N="Bottom">3</A>
-		</C>	  
+			<A N="Right">20</A>		
+			<A N="Left">5</A>	
+		</C>		  
     </C>
     <C N="Press">
       <C N="Duplex">
