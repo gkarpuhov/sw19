@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<QUITEXML>
+<QUITEXML xmlns="http://www.quite.com/general/ns/quitexml/">
 <ITEMS>
 <DICT N='0'>  <ITEMS>
   <A N='Category'>OneCommand_V1</A>
@@ -1001,83 +1001,6 @@
   <I N='Version'>1</I>
   </ITEMS></DICT>
 
-<DICT N='21'>  <ITEMS>
-  <A N='Category'>OneCommand_V1</A>
-  <A N='Command'>InsertBlanks</A>
-  <DICT N='Desc'>    <ITEMS>
-    <S N='0'>Where: after last page</S>
-    <S N='1'>Number of pages: 2</S>
-    <S N='2'>Page size: same as page 1</S>
-    </ITEMS>  </DICT>
-
-  <DICT N='Params'>    <ITEMS>
-    <A N='Action'>Blanks</A>
-    <A N='Condition'>Always</A>
-    <I N='Count'>2</I>
-    <I N='PageNum'>1</I>
-    <I N='PosX'>1035</I>
-    <I N='PosY'>400</I>
-    <B N='Repeat'>0</B>
-    <I N='RepeatInterval'>1</I>
-    <S N='Requires'>qi3alphabase[QI 3.0/QHI 3.0 alpha]</S>
-    <I N='SizeAsPage'>1</I>
-    <DICT N='Source'>      <ITEMS>
-      <A N='SourceType'>None</A>
-      </ITEMS>    </DICT>
-
-    <A N='WhatSize'>SameAsPage</A>
-    <A N='Where'>AtEnd</A>
-    </ITEMS>  </DICT>
-
-  <DICT N='Provider'>    <ITEMS>
-    <S N='Code'>QITE_QuiteImposingPlus5</S>
-    <S N='FullName'>Quite Imposing Plus 5.2</S>
-    <S N='Name'>Quite Imposing Plus 5</S>
-    <I N='Version'>1</I>
-    </ITEMS>  </DICT>
-
-  <I N='Version'>1</I>
-  </ITEMS></DICT>
-
-<DICT N='22'>  <ITEMS>
-  <A N='Category'>OneCommand_V1</A>
-  <A N='Command'>AddMaskingTape</A>
-  <DICT N='Desc'>    <ITEMS>
-    <S N='0'>Range: From page LAST-1 to page LAST-1</S>
-    <S N='1'>Mask co-ordinates: Horizontal, vertical offset 0.00, 0.00 Width 1984.25 Height 935.43 points</S>
-    <S N='2'>Origin: centre</S>
-    <S N='3'>Colour: CMYK 20 0 60 0</S>
-    </ITEMS>  </DICT>
-
-  <DICT N='Params'>    <ITEMS>
-    <S N='MaskColour'>DeviceCMYK 0.200 0.000 0.600 0.000</S>
-    <A N='Origin'>C</A>
-    <I N='PosX'>1079</I>
-    <I N='PosY'>441</I>
-    <S N='Requires'>qi4alphabase[QI 4.0/QHI 4.0 alpha]</S>
-    <DICT N='Source'>      <ITEMS>
-      <DICT N='Range'>        <ITEMS>
-        <A N='EvenOdd'>Both</A>
-        <S N='From'>LAST-1</S>
-        <A N='RangeType'>SubDoc</A>
-        <S N='To'>LAST-1</S>
-        </ITEMS>      </DICT>
-
-      </ITEMS>    </DICT>
-
-    <S N='XYWHList'>0 0 1984.252 935.4331 </S>
-    </ITEMS>  </DICT>
-
-  <DICT N='Provider'>    <ITEMS>
-    <S N='Code'>QITE_QuiteImposingPlus5</S>
-    <S N='FullName'>Quite Imposing Plus 5.2</S>
-    <S N='Name'>Quite Imposing Plus 5</S>
-    <I N='Version'>1</I>
-    </ITEMS>  </DICT>
-
-  <I N='Version'>1</I>
-  </ITEMS></DICT>
-
 <A N='Category'>CommandList_V1</A>
 <B N='DoPrompt'>0</B>
 <S N='Requires'>qi2base</S>
@@ -1091,4 +1014,3 @@
 <A N='UIMode'>None</A>
 </ITEMS>
 </QUITEXML>
-

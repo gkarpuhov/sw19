@@ -150,11 +150,9 @@
         </C>
         <A N="Default">MATT_150_MAX</A>
         <C N="List">
-          <A>ARCTIC_WHITE_150</A>
-          <A>ARCTIC_IVORY_150</A>
+          <A>MATT_\w+</A>
+          <A>ULTIMATE_\w+</A>	
           <A>PHOTOPAPER_190</A>
-          <A>MATT_170_MAX</A>
-          <A>MATT_150_MAX</A>		  
         </C>
       </C>
     </C>
