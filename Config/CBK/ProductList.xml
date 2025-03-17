@@ -233,6 +233,15 @@ Sample for xPath or URI: file://Folder1/Folder2/
 		</C>			
 	</S>
 
+	<S N='73CRDW'>
+		<C N='CVR'>
+		  <A N='Value'>TSC_WINDOWS_SITOLPREMIUM_CVR.xml</A>
+		  <A N='Path'>%ConfigFolder%\%CID%\Products\</A>
+		  <A N='CheckID' type='Boolean'>false</A>
+		  <A N='Comment'>Мягкая обложка с логотипом</A>
+		</C>
+	</S>
+  
 	<S N='CRD1_210X148'>
 		<C N='BLK'><!-- Деталь продукта -->
 			<A N='Value'>TCS_CRD1_210X148.xml</A>

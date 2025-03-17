@@ -65,45 +65,15 @@ Sample for xPath or URI: file://Folder1/Folder2/
     <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
     <A N='Comment'>Офсетная бумага, 80 г/кв.м, 320x468 мм</A>
 </S>
-<S N='OFSET_80_MAX'>
-    <A N='Value'>OFSET_80_MAX.xml</A>
+<S N='OFSET_100'>
+    <A N='Value'>OFSET_80.xml</A>
     <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Офсетная бумага, 80 г/кв.м, 330x482 мм</A>
+    <A N='Comment'>Офсетная бумага, 80 г/кв.м, 320x468 мм</A>
 </S>
 <S N='OFSET_190'>
     <A N='Value'>OFSET_190.xml</A>
     <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
     <A N='Comment'>Офсетная бумага, 190 г/кв.м, 330x482 мм</A>
-</S>
-<S N='MATT_115'>
-    <A N='Value'>MATT_115.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Мелованная матовая бумага, 115 г/кв.м</A>
-</S>
-<S N='MATT_130'>
-    <A N='Value'>MATT_130.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Мелованная матовая бумага, 130 г/кв.м</A>
-</S>
-<S N='MATT_150'>
-    <A N='Value'>MATT_150.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Мелованная матовая бумага, 150 г/кв.м</A>
-</S>
-<S N='GLOSS_170'>
-    <A N='Value'>GLOSS_170.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Мелованная глянцевая бумага, 170 г/кв.м</A>
-</S>
-<S N='GLOSS_200'>
-    <A N='Value'>GLOSS_200.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Мелованная глянцевая бумага, 200 г/кв.м</A>
-</S>
-<S N='MATT_170'>
-    <A N='Value'>MATT_170.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Мелованная матовая бумага, 170 г/кв.м</A>
 </S>
 <S N='MATT_170_MAX'>
     <A N='Value'>MATT_170_MAX.xml</A>
@@ -132,16 +102,6 @@ Sample for xPath or URI: file://Folder1/Folder2/
 </S>
 <S N='MATT_300_MAX'>
     <A N='Value'>MATT_300_MAX.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Мелованная матовая бумага, 300 г/кв.м</A>
-</S>
-<S N='MATT_250'>
-    <A N='Value'>MATT_250.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Мелованная матовая бумага, 250 г/кв.м</A>
-</S>
-<S N='MATT_300'>
-    <A N='Value'>MATT_300.xml</A>
     <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
     <A N='Comment'>Мелованная матовая бумага, 300 г/кв.м</A>
 </S>
