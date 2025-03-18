@@ -84,14 +84,14 @@ Sample for xPath or URI: file://Folder1/Folder2/
 			<A N='Comment'>Обложка большого формата, которая не влезает в Индигу с учетом загибов. Сюда тоже попадут с окнами (W), где законтовка не нужна</A>
 		</C>	
 		<C N='CVR' I='9'><!-- Деталь продукта -->
-			<A N='Template'>^(5|7)(BD|BH)1?P?_\d+X\d+</A>
+			<A N='Template'>^(5|7)(BD|BH|BV)1?P?_\d+X\d+</A>
 			<A N='Value'>TCS_53_BD_CVR.xml</A>
 			<A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
 			<A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
 			<A N='Comment'>Обложка на все лицо с законтовкой</A>
 		</C>		
 		<C N='CVR' I='10'><!-- Деталь продукта -->
-			<A N='Template'>^(5|7)(BD|BH)1?P?W_\d+X\d+</A>
+			<A N='Template'>^(5|7)(BD|BH|BV)1?P?W_\d+X\d+</A>
 			<A N='Value'>TCS_BD_WINDOWS_CVR.xml</A>
 			<A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
 			<A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
@@ -119,7 +119,7 @@ Sample for xPath or URI: file://Folder1/Folder2/
 			<A N='Comment'>Обложка продукта 53FBLW</A>
 		</C>	
 		<C N='CVR' I='14'><!-- Деталь продукта -->
-			<A N='Template'>^5(BD|BH)P?(TW|WW)_\d+X\d+</A>
+			<A N='Template'>^5(BD|BH|BV)P?(TW|WW)_\d+X\d+</A>
 			<A N='Value'>TCS_BD_WINDOW_NOBLEED_CVR.xml</A>
 			<A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
 			<A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
@@ -147,7 +147,7 @@ Sample for xPath or URI: file://Folder1/Folder2/
 			<A N='Comment'>Калька</A>
 		</C>	
 		<C N='FRZ' I='18'><!-- Деталь продукта -->
-			<A N='Template'>^(5|7)BD1?P?(W|L|K|LK|TW)?C?T?_\d+X\d+</A>
+			<A N='Template'>^(5|7)(BD|BV)1?P?(W|L|K|LK|TW)?C?T?_\d+X\d+</A>
 			<A N='Value'>TCS_BD_KALKA.xml</A>
 			<A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
 			<A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
@@ -230,7 +230,14 @@ Sample for xPath or URI: file://Folder1/Folder2/
 			<A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
 			<A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
 			<A N='Comment'>Калька</A>
-		</C>			
+		</C>	
+		<C N='BLK' I='30'><!-- Деталь продукта -->
+			<A N='Template'>^(5|7)BVP(W|L|K|LK|TW)?C?T?_\d+X\d+</A>
+			<A N='Value'>TCS_7BVP_BLK.xml</A>
+			<A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
+			<A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
+			<A N='Comment'>LayFlat с паспарту</A>
+		</C>	
 	</S>
 
 	<S N='73CRDW'>
