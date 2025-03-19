@@ -140,7 +140,9 @@
         </C>
         <A N="Default">Indigo12000</A>
         <C N="List">
-          <A>Indigo12000</A>		  
+          <A>Indigo12000</A>	
+		  <A>Indigo7600</A>	
+          <A>Indigo7900</A>						
         </C>
       </C>
       <C N="SubstrateList">
@@ -150,6 +152,7 @@
         <A N="Default">PHOTOMATT_260</A>
         <C N="List">
           <A>PHOTOMATT_\w+</A>
+		  <A>ULTIMATE_\w+</A>
         </C>
       </C>
     </C>
