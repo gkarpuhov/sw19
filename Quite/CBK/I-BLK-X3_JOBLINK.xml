@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<QUITEXML xmlns="http://www.quite.com/general/ns/quitexml/">
+<QUITEXML>
 <ITEMS>
 <DICT N='0'>  <ITEMS>
   <A N='Category'>OneCommand_V1</A>
@@ -109,7 +109,7 @@
   <DICT N='Desc'>    <ITEMS>
     <S N='0'>Action: Rotate pages</S>
     <S N='1'>Range: From page 1 to page 13</S>
-    <S N='2'>Rotate: 90Р’В° CCW</S>
+    <S N='2'>Rotate: 90Р вЂ™Р’В° CCW</S>
     <S N='3'>Rotate all selected</S>
     </ITEMS>  </DICT>
 
@@ -153,7 +153,7 @@
     <S N='3'>Origin: centre</S>
     <S N='4'>Offset: horizontal 0.00 points, vertical 0.00 points</S>
     <S N='5'>Scale: 100.00%</S>
-    <S N='6'>Rotate: 0Р’В°</S>
+    <S N='6'>Rotate: 0Р вЂ™Р’В°</S>
     </ITEMS>  </DICT>
 
   <DICT N='Params'>    <ITEMS>
@@ -399,7 +399,7 @@
   <DICT N='Desc'>    <ITEMS>
     <S N='0'>Action: Rotate pages</S>
     <S N='1'>Range: From page 13 to page 26</S>
-    <S N='2'>Rotate: 270Р’В° CCW</S>
+    <S N='2'>Rotate: 270Р вЂ™Р’В° CCW</S>
     <S N='3'>Rotate all selected</S>
     </ITEMS>  </DICT>
 
@@ -521,7 +521,7 @@
     <S N='3'>Origin: bottom centre</S>
     <S N='4'>Offset: horizontal 0.00 points, vertical 2.83 points</S>
     <S N='5'>Scale: 100.00%</S>
-    <S N='6'>Rotate: 0Р’В°</S>
+    <S N='6'>Rotate: 0Р вЂ™Р’В°</S>
     </ITEMS>  </DICT>
 
   <DICT N='Params'>    <ITEMS>
@@ -569,7 +569,7 @@
     <S N='3'>Origin: right</S>
     <S N='4'>Offset: horizontal 5.67 points, vertical 0.00 points</S>
     <S N='5'>Scale: 100.00%</S>
-    <S N='6'>Rotate: 0Р’В°</S>
+    <S N='6'>Rotate: 0Р вЂ™Р’В°</S>
     </ITEMS>  </DICT>
 
   <DICT N='Params'>    <ITEMS>
@@ -1014,3 +1014,4 @@
 <A N='UIMode'>None</A>
 </ITEMS>
 </QUITEXML>
+

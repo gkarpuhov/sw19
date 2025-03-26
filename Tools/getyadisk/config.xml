@@ -96,10 +96,10 @@
             <!-- layoutmode: 0 бит - чередовать горизонтальные и вертикальные; 1 бит - вставка по меньшей стороне; ... -->		
 			<!-- Для предопределенных файлов тип позиционирования внутри страницы можно переопределить с помощью аттрибута 'shortfit' -->					
             <!-- static: Список предопределенных имен файлов, которые необходимо поставить на нужную полосу; допускается использвать ["first", "last", integer] -->					
-            <item id="ASK" auth="y0__wgBEP2IjeIHGITMNCDfqsuKEqM88ng6-YBX9gxjUZrMcniyh1W9" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="9:55-17:48" removesource="0" log="2" overwiteexists="true" enabled="false">
+            <item id="ASK" auth="y0__wgBEP2IjeIHGITMNCDfqsuKEqM88ng6-YBX9gxjUZrMcniyh1W9" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="9:55-12:52" removesource="1" log="2" overwiteexists="true" enabled="false">
                 <source>disk:/DvaKota_ToPress</source>
 			    <dest>D:\__SWITCH\Flows\SI2\Hotfolders\Incoming\ASK</dest>
-				<colorcorrection>true</colorcorrection>
+				<colorcorrection>false</colorcorrection>
 				<bleed>-1</bleed>
 				<removelevel>1</removelevel>
 				<suborderitem>false</suborderitem>
