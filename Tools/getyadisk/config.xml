@@ -77,7 +77,7 @@
             <!-- log: 0 - без лога; 1 - только ошибки; 2 - все события -->
             <!-- namefilter: шаблон регулярного выражения для имени файла -->
             <!-- removesource: 0 - не удалять; 1 - переместить в корзину; 2 - полное удаление -->
-            <item id="VRU" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="9:00-10:11" removesource="0" log="2" overwiteexists="true" enabled="false">
+            <item id="VRU" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="9:00-17:02" removesource="0" log="2" overwiteexists="true" enabled="false">
                 <source>disk:/VruOrdersToPress</source>
 			    <dest>D:\__SWITCH\Flows\SI2\Hotfolders\Incoming\VRU</dest>
             </item>
@@ -96,7 +96,7 @@
             <!-- layoutmode: 0 бит - чередовать горизонтальные и вертикальные; 1 бит - вставка по меньшей стороне; ... -->		
 			<!-- Для предопределенных файлов тип позиционирования внутри страницы можно переопределить с помощью аттрибута 'shortfit' -->					
             <!-- static: Список предопределенных имен файлов, которые необходимо поставить на нужную полосу; допускается использвать ["first", "last", integer] -->					
-            <item id="ASK" auth="y0__wgBEP2IjeIHGITMNCDfqsuKEqM88ng6-YBX9gxjUZrMcniyh1W9" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="9:55-12:52" removesource="1" log="2" overwiteexists="true" enabled="false">
+            <item id="ASK" auth="y0__wgBEP2IjeIHGITMNCDfqsuKEqM88ng6-YBX9gxjUZrMcniyh1W9" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="9:55-12:37" removesource="1" log="2" overwiteexists="true" enabled="false">
                 <source>disk:/DvaKota_ToPress</source>
 			    <dest>D:\__SWITCH\Flows\SI2\Hotfolders\Incoming\ASK</dest>
 				<colorcorrection>false</colorcorrection>
@@ -107,7 +107,7 @@
 				<static>
 				</static>
             </item>
-            <item id="VRU" auth="y0__wgBELzGluIHGL_RNCChx-OLEgv2xG7icY_Ea0tUsMk9voeW72th" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="7:55-11:05" removesource="0" log="2" overwiteexists="true" enabled="false">
+            <item id="VRU" auth="y0__wgBELzGluIHGL_RNCChx-OLEgv2xG7icY_Ea0tUsMk9voeW72th" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="7:55-16:04" removesource="1" log="2" overwiteexists="true" enabled="false">
                 <source>disk:/VruInput</source>
 			    <dest>D:\__SWITCH\Flows\SI2\Hotfolders\Incoming\VRU</dest>
 				<colorcorrection>true</colorcorrection>

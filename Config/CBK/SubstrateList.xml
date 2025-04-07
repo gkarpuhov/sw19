@@ -445,4 +445,9 @@ Sample for xPath or URI: file://Folder1/Folder2/
     <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
     <A N='Comment'>Матовая фотобумага Felix Schoeller 660x482, 260 г/кв.м</A>
   </S>
+	<S N='ART_CANVAS_GLOSS_380'>
+		<A N='Value'>ART_CANVAS_GLOSS_380.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Artist Canvas Fabric WP 380G (Gloss), 380 gsm</A>
+	</S>  
 </DRPXML>
