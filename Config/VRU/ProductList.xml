@@ -24,7 +24,7 @@ Sample for xPath or URI: file://Folder1/Folder2/
 
     <C N='CVR' I='0'><!-- Деталь продукта -->
 	    <A N='Template'>^7</A>
-        <A N='Value'>73_CVR.xml</A>
+        <A N='Value'>73_CVR_DUPLEX.xml</A>
         <A N='Path'>%ConfigFolder%\%CID%\Products\</A><!-- %UCID% - переменная идентификатора конфигурации -->
         <A N='CheckID' type='Boolean'>false</A><!-- если значение true, то будет проверяться в файле описания код продукта, иначе (false) не будет-->
         <A N='Comment'></A>

@@ -77,7 +77,8 @@
             <!-- log: 0 - без лога; 1 - только ошибки; 2 - все события -->
             <!-- namefilter: шаблон регулярного выражения для имени файла -->
             <!-- removesource: 0 - не удалять; 1 - переместить в корзину; 2 - полное удаление -->
-            <item id="VRU" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="9:00-17:02" removesource="0" log="2" overwiteexists="true" enabled="false">
+            <item id="VRU" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="9:00-13:37" removesource="0" log="2" overwiteexists="true" enabled="false">
+				<pathtemplate>[ORDERID]\[GROUPID]\[PERSONE]\[ANY]\[FORMAT]\[FILE]</pathtemplate>
                 <source>disk:/VruOrdersToPress</source>
 			    <dest>D:\__SWITCH\Flows\SI2\Hotfolders\Incoming\VRU</dest>
             </item>
@@ -107,7 +108,7 @@
 				<static>
 				</static>
             </item>
-            <item id="VRU" auth="y0__wgBELzGluIHGL_RNCChx-OLEgv2xG7icY_Ea0tUsMk9voeW72th" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="7:55-16:04" removesource="1" log="2" overwiteexists="true" enabled="false">
+            <item id="VRU" auth="y0__wgBELzGluIHGL_RNCChx-OLEgv2xG7icY_Ea0tUsMk9voeW72th" filter="\.jpe?g$" subfolder="true" refresh="600" jobtime="7:55-20:48" removesource="1" log="2" overwiteexists="true" enabled="false">
                 <source>disk:/VruInput</source>
 			    <dest>D:\__SWITCH\Flows\SI2\Hotfolders\Incoming\VRU</dest>
 				<colorcorrection>true</colorcorrection>
