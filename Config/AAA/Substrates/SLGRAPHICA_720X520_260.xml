@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DRPXML N='SLGRAPHICA_720X520_260' Version='2.0.1' Date='2018-03-15'>
+<A N='ID'>SLGRAPHICA_720X520_260</A><!-- код материала (Substrate)-->
+<S N='Description'>
+    <A N='Ru'>SL GRAPHICA Design paper 260 gsm</A>
+    <A N='En'>SL GRAPHICA Design paper 260 gsm</A>
+</S>
+<S N='Media'>
+    <A N='Roll' Type='Boolean'>false</A><!-- тип: рулон (true) или лист (false) -->
+    <A N='Duplex' Type='Boolean'>true</A><!-- возможность двухсторонней печати -->
+    <A N='Width' Type='Float'>720</A><!-- ширина, мм -->
+    <A N='Height' Type='Float'>520</A><!-- высота для листа или длина для рулона, мм -->
+    <A N='Weight' Type='Integer'>260</A><!-- вес, gsm -->
+    <A N='Thickness' Type='Float'>0,3</A><!-- толщина, мм -->
+    <A N='Coated' Type='Boolean'>false</A><!-- мелованная: true; немелованная: false-->
+    <A N='GlossLevel' RegExp='G|S|M'>M</A><!-- глянцевость поверхности: G - глянцевая (Glossy), S - полуматовая (Semi-matte), M -матовая (Matte)-->
+</S>
+<S N='UnprintableMargins'><!-- незапечатываемые поля, мм -->
+    <A N='Left' Type='Float'>0</A>
+    <A N='Top' Type='Float'>0</A>
+    <A N='Right' Type='Float'>0</A>
+    <A N='Bottom' Type='Float'>0</A>
+</S>
+<S N='Jdf'>
+    <A N='Name'>SLGRAPHICA_720X520_260</A>
+    <A N='OutputFolder'>SLGRAPHICA_720X520_260</A>
+</S>
+<S N='ColorManagement'>
+    <A N='Required' Type='Boolean'>false</A><!-- требуется ли нестандартный CMS-->
+    <A N='OutputProfile'>EuroscaleCoated.icc</A><!-- выходной профиль -->
+</S>
+<S N='CoatingList'>
+    <C N='Params'>
+        <A N='Filter' Type='Boolean'>true</A> <!-- true - использовать ТОЛЬКО позиции из ниже расположенного списка; false - использовать все позиции каталога, кроме включенных в спиcок -->
+    </C>
+    <C N='List'>
+        <A>00</A>
+    </C>
+    <A N='Comment'>Список идентификаторов (ID) из соответствующего каталога, доступных  или недоступных для данного материала (определяется в компоненте Params)</A>
+</S>
+<S N='Price'>
+    <A N='Value' Type='Float'>0,14</A>
+    <A N='Currency'>USD</A>
+    <A N='Measure' >UNIT</A>
+</S>
+
+</DRPXML>

@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- 
-Basic tags: 
-S : SECTION
-C : COMPONENT
-A : ATTRIBUTE 
-
-Basic attributes:
-N : NAME
-Type: TYPE OF CONTENT (Integer, Float, Boolean or other)
-RegExp: REGULAR EXPRESSION (for check content if nessary)
-
-A string of path without filename should always ending slash (for Windows backslash,  for xPath and URI - normal slash)!
-Sample for Windows: C:\Folder1\Folder2\
-Sample for xPath or URI: file://Folder1/Folder2/
-
--->
-
 <DRPXML>
 	<S N='PLAIN'>
-		<A N='Value'>PLAIN.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Value'>Plain.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Офисная бумага формата А4</A>
 	</S>
 	<S N='JOB_PPP'>
@@ -29,39 +12,44 @@ Sample for xPath or URI: file://Folder1/Folder2/
 	</S>
 	<S N='MATT_115_MAX'>
 		<A N='Value'>MATT_115_MAX.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Мелованная матовая бумага, 115 г/кв.м</A>
 	</S>
 	<S N='MATT_130_MAX'>
 		<A N='Value'>MATT_130_MAX.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Мелованная матовая бумага, 130 г/кв.м</A>
 	</S>
 	<S N='MATT_150_MAX'>
 		<A N='Value'>MATT_150_MAX.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Мелованная матовая бумага, 150 г/кв.м</A>
 	</S>
 	<S N='MATT_170_MAX'>
 		<A N='Value'>MATT_170_MAX.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Мелованная матовая бумага, 170 г/кв.м</A>
 	</S>
 	<S N='MATT_200_MAX'>
 		<A N='Value'>MATT_200_MAX.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Мелованная матовая бумага, 200 г/кв.м</A>
 	</S>
 	<S N='MATT_250_MAX'>
 		<A N='Value'>MATT_250_MAX.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Мелованная матовая бумага, 250 г/кв.м</A>
 	</S>
 	<S N='MATT_300_MAX'>
 		<A N='Value'>MATT_300_MAX.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Мелованная матовая бумага, 300 г/кв.м</A>
 	</S>
+	<S N='MATT_350_MAX'>
+		<A N='Value'>MATT_350_MAX.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Мелованная матовая бумага, 350 г/кв.м</A>
+	</S>	
 	<S N='MATT_330X700_115'>
 		<A N='Value'>MATT_330X700_115.xml</A>
 		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
@@ -97,75 +85,80 @@ Sample for xPath or URI: file://Folder1/Folder2/
 		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
 		<A N='Comment'>Бумага мелованная матовая 330x700, 300 г/кв.м</A>
 	</S>
-	<S N='MATT_720X520_150'>
-		<A N='Value'>MATT_720X520_150.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-		<A N='Comment'>Бумага мелованная матовая 720x520, 150 г/кв.м</A>
-	</S>
 	<S N='MATT_720X520_115'>
 		<A N='Value'>MATT_720X520_115.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Бумага мелованная матовая 720x520, 115 г/кв.м</A>
-	</S>
+	</S>	
 	<S N='MATT_720X520_130'>
 		<A N='Value'>MATT_720X520_130.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Бумага мелованная матовая 720x520, 130 г/кв.м</A>
-	</S>
+	</S>	
 	<S N='MATT_720X520_150'>
 		<A N='Value'>MATT_720X520_150.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Бумага мелованная матовая 720x520, 150 г/кв.м</A>
 	</S>
 	<S N='MATT_720X520_170'>
 		<A N='Value'>MATT_720X520_170.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Бумага мелованная матовая 720x520, 170 г/кв.м</A>
 	</S>
 	<S N='MATT_720X520_200'>
 		<A N='Value'>MATT_720X520_200.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Бумага мелованная матовая 720x520, 200 г/кв.м</A>
 	</S>
 	<S N='MATT_720X520_250'>
 		<A N='Value'>MATT_720X520_250.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Бумага мелованная матовая 720x520, 250 г/кв.м</A>
 	</S>
 	<S N='MATT_720X520_300'>
 		<A N='Value'>MATT_720X520_300.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Бумага мелованная матовая 720x520, 300 г/кв.м</A>
 	</S>
+	<S N='MATT_720X520_350'>
+		<A N='Value'>MATT_720X520_350.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Бумага мелованная матовая 720x520, 350 г/кв.м</A>
+	</S>	
 	<S N='CBOARD_215_1S'>
 		<A N='Value'>CBOARD_215_1S.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Картон печатный одностороннего мелования 330x482, 215 г/кв.м</A>
 	</S>
 	<S N='CBOARD_235_1S'>
 		<A N='Value'>CBOARD_235_1S.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Картон печатный одностороннего мелования 330x482, 235 г/кв.м</A>
-	</S>
+	</S>	
 	<S N='CBOARD_250_1S'>
 		<A N='Value'>CBOARD_250_1S.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Картон печатный одностороннего мелования 330x482, 250 г/кв.м</A>
 	</S>
 	<S N='CBOARD_270_1S'>
 		<A N='Value'>CBOARD_270_1S.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Картон печатный одностороннего мелования 330x482, 270 г/кв.м</A>
 	</S>
 	<S N='CBOARD_250_2S'>
 		<A N='Value'>CBOARD_250_2S.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Картон печатный двухстороннего мелования 330x482, 250 г/кв.м</A>
 	</S>
 	<S N='CBOARD_270_2S'>
 		<A N='Value'>CBOARD_270_2S.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Картон печатный двухстороннего мелования 330x482, 270 г/кв.м</A>
+	</S>	
+	<S N='CBOARD_300_2S'>
+		<A N='Value'>CBOARD_300_2S.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Картон печатный двухстороннего мелования 330x482, 300 г/кв.м</A>
 	</S>	
 	<S N='CBOARD_330X700_215_1S'>
 		<A N='Value'>CBOARD_330X700_215_1S.xml</A>
@@ -199,47 +192,62 @@ Sample for xPath or URI: file://Folder1/Folder2/
 	</S>	
 	<S N='CBOARD_720X520_215_1S'>
 		<A N='Value'>CBOARD_720X520_215_1S.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Картон печатный одностороннего мелования 720x520, 215 г/кв.м</A>
 	</S>
 	<S N='CBOARD_720X520_235_1S'>
 		<A N='Value'>CBOARD_720X520_235_1S.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Картон печатный одностороннего мелования 720x520, 235 г/кв.м</A>
 	</S>
 	<S N='CBOARD_720X520_250_1S'>
 		<A N='Value'>CBOARD_720X520_250_1S.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Картон печатный одностороннего мелования 720x520, 250 г/кв.м</A>
 	</S>
 	<S N='CBOARD_720X520_270_1S'>
 		<A N='Value'>CBOARD_720X520_270_1S.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Картон печатный одностороннего мелования 720x520, 270 г/кв.м</A>
 	</S>
 	<S N='CBOARD_720X520_250_2S'>
 		<A N='Value'>CBOARD_720X520_250_2S.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Картон печатный двухстороннего мелования 720x520, 250 г/кв.м</A>
 	</S>
 	<S N='CBOARD_720X520_270_2S'>
 		<A N='Value'>CBOARD_720X520_270_2S.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Картон печатный двухстороннего мелования 720x520, 270 г/кв.м</A>
+	</S>
+		<S N='CBOARD_720X520_300_2S'>
+		<A N='Value'>CBOARD_720X520_300_2S.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Картон печатный двухстороннего мелования 720x520, 300 г/кв.м</A>
+	</S>	
+	<S N='OFSET_80'>
+		<A N='Value'>OFSET_80.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Офсетная бумага, 80 г/кв.м, 330x482 мм</A>
+	</S>	
+	<S N='OFSET_100'>
+		<A N='Value'>OFSET_100.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Офсетная бумага, 100 г/кв.м, 330x482 мм</A>
 	</S>	
 	<S N='OFSET_120'>
 		<A N='Value'>OFSET_120.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Офсетная бумага, 120 г/кв.м, 330x482 мм</A>
 	</S>
 	<S N='OFSET_160'>
 		<A N='Value'>OFSET_160.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Офсетная бумага, 160 г/кв.м, 330x482 мм</A>
 	</S>
 	<S N='OFSET_190'>
 		<A N='Value'>OFSET_190.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Офсетная бумага, 190 г/кв.м, 330x482 мм</A>
 	</S>	
 	<S N='OFSET_330X700_120'>
@@ -257,30 +265,65 @@ Sample for xPath or URI: file://Folder1/Folder2/
 		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
 		<A N='Comment'>Офсетная бумага, 190 г/кв.м, 330x700 мм</A>
 	</S>	
+	<S N='OFSET_520X720_80'>
+		<A N='Value'>OFSET_520X720_80.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Офсетная бумага, 80 г/кв.м, 520x720 мм</A>
+	</S>
+	<S N='OFSET_520X720_100'>
+		<A N='Value'>OFSET_520X720_100.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Офсетная бумага, 100 г/кв.м, 520x720 мм</A>
+	</S>	
 	<S N='OFSET_520X720_120'>
 		<A N='Value'>OFSET_520X720_120.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Офсетная бумага, 120 г/кв.м, 520x720 мм</A>
 	</S>
 	<S N='OFSET_520X720_160'>
 		<A N='Value'>OFSET_520X720_160.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Офсетная бумага, 160 г/кв.м, 520x720 мм</A>
 	</S>
 	<S N='OFSET_520X720_190'>
 		<A N='Value'>OFSET_520X720_190.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Офсетная бумага, 190 г/кв.м, 520x720 мм</A>
 	</S>	
+	<S N='GLOSS_115_MAX'>
+		<A N='Value'>GLOSS_115_MAX.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Мелованная глянцевая бумага 482x330, 115 г/кв.м</A>
+	</S>	
+	<S N='GLOSS_130_MAX'>
+		<A N='Value'>GLOSS_130_MAX.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Мелованная глянцевая бумага 482x330, 130 г/кв.м</A>
+	</S>		
 	<S N='GLOSS_150_MAX'>
 		<A N='Value'>GLOSS_150_MAX.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Мелованная глянцевая бумага 482x330, 150 г/кв.м</A>
 	</S>
 	<S N='GLOSS_170_MAX'>
 		<A N='Value'>GLOSS_170_MAX.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Мелованная глянцевая бумага 482x330, 170 г/кв.м</A>
+	</S>		
+	<S N='GLOSS_200_MAX'>
+		<A N='Value'>GLOSS_200_MAX.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Мелованная глянцевая бумага 482x330, 200 г/кв.м</A>
+	</S>	
+	<S N='GLOSS_250_MAX'>
+		<A N='Value'>GLOSS_250_MAX.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Мелованная глянцевая бумага 482x330, 250 г/кв.м</A>
+	</S>	
+	<S N='GLOSS_300_MAX'>
+		<A N='Value'>GLOSS_300_MAX.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Мелованная глянцевая бумага 482x330, 300 г/кв.м</A>
 	</S>	
 	<S N='GLOSS_330X700_150'>
 		<A N='Value'>GLOSS_330X700_150.xml</A>
@@ -292,14 +335,169 @@ Sample for xPath or URI: file://Folder1/Folder2/
 		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
 		<A N='Comment'>Мелованная глянцевая бумага 700x330, 170 г/кв.м</A>
 	</S>	
+	<S N='GLOSS_720X520_115'>
+		<A N='Value'>GLOSS_720X520_115.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Мелованная глянцевая бумага 720x520, 115 г/кв.м</A>
+	</S>
+	<S N='GLOSS_720X520_130'>
+		<A N='Value'>GLOSS_720X520_130.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Мелованная глянцевая бумага 720x520, 130 г/кв.м</A>
+	</S>	
 	<S N='GLOSS_720X520_150'>
 		<A N='Value'>GLOSS_720X520_150.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Мелованная глянцевая бумага 720x520, 150 г/кв.м</A>
 	</S>
 	<S N='GLOSS_720X520_170'>
 		<A N='Value'>GLOSS_720X520_170.xml</A>
-		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Мелованная глянцевая бумага 720x520, 170 г/кв.м</A>
+	</S>
+	<S N='GLOSS_720X520_200'>
+		<A N='Value'>GLOSS_720X520_200.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Мелованная глянцевая бумага 720x520, 200 г/кв.м</A>
+	</S>
+	<S N='GLOSS_720X520_250'>
+		<A N='Value'>GLOSS_720X520_250.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Мелованная глянцевая бумага 720x520, 250 г/кв.м</A>
+	</S>
+	<S N='GLOSS_720X520_300'>
+		<A N='Value'>GLOSS_720X520_300.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Мелованная глянцевая бумага 720x520, 300 г/кв.м</A>
+	</S>
+	<S N='PERGRAPHICA_120'>
+		<A N='Value'>PERGRAPHICA_120.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Pergraphica дизайнерская бумага, 120 gsm</A>
+	</S>
+	<S N='PERGRAPHICA_150'>
+		<A N='Value'>PERGRAPHICA_150.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Pergraphica дизайнерская бумага, 150 gsm</A>
+	</S>
+	<S N='PERGRAPHICA_240'>
+		<A N='Value'>PERGRAPHICA_240.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Pergraphica дизайнерская бумага, 240 gsm</A>
+	</S>
+	<S N='PERGRAPHICA_300'>
+		<A N='Value'>PERGRAPHICA_300.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Pergraphica дизайнерская бумага, 300 gsm</A>
 	</S>	
+	<S N='PERGRAPHICA_720X520_120'>
+		<A N='Value'>PERGRAPHICA_720X520_120.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Pergraphica дизайнерская бумага 720x520, 120 gsm</A>
+	</S>
+	<S N='PERGRAPHICA_720X520_150'>
+		<A N='Value'>PERGRAPHICA_720X520_150.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Pergraphica дизайнерская бумага 720x520, 150 gsm</A>
+	</S>
+	<S N='PERGRAPHICA_720X520_240'>
+		<A N='Value'>PERGRAPHICA_720X520_240.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Pergraphica дизайнерская бумага 720x520, 240 gsm</A>
+	</S>
+	<S N='PERGRAPHICA_720X520_300'>
+		<A N='Value'>PERGRAPHICA_720X520_300.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Pergraphica дизайнерская бумага 720x520, 300 gsm</A>
+	</S>	
+	<S N='SLGRAPHICA_120'>
+		<A N='Value'>SLGRAPHICA_120.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>SL GRAPHICA дизайнерская бумага, 120 gsm</A>
+	</S>
+	<S N='SLGRAPHICA_150'>
+		<A N='Value'>SLGRAPHICA_150.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>SL GRAPHICA дизайнерская бумага, 150 gsm</A>
+	</S>
+	<S N='SLGRAPHICA_170'>
+		<A N='Value'>SLGRAPHICA_170.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>SL GRAPHICA дизайнерская бумага, 170 gsm</A>
+	</S>
+	<S N='SLGRAPHICA_180'>
+		<A N='Value'>SLGRAPHICA_180.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>SL GRAPHICA дизайнерская бумага, 180 gsm</A>
+	</S>
+	<S N='SLGRAPHICA_220'>
+		<A N='Value'>SLGRAPHICA_220.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>SL GRAPHICA дизайнерская бумага, 220 gsm</A>
+	</S>
+	<S N='SLGRAPHICA_230'>
+		<A N='Value'>SLGRAPHICA_230.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>SL GRAPHICA дизайнерская бумага, 230 gsm</A>
+	</S>
+	<S N='SLGRAPHICA_240'>
+		<A N='Value'>SLGRAPHICA_240.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>SL GRAPHICA дизайнерская бумага, 240 gsm</A>
+	</S>
+	<S N='SLGRAPHICA_260'>
+		<A N='Value'>SLGRAPHICA_260.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>SL GRAPHICA дизайнерская бумага, 260 gsm</A>
+	</S>
+	<S N='SLGRAPHICA_300'>
+		<A N='Value'>SLGRAPHICA_300.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>SL GRAPHICA дизайнерская бумага, 300 gsm</A>
+	</S>
+	<S N='SLGRAPHICA_720X520_120'>
+		<A N='Value'>SLGRAPHICA_720X520_120.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>SL GRAPHICA дизайнерская бумага 720x520, 120 gsm</A>
+	</S>
+	<S N='SLGRAPHICA_720X520_150'>
+		<A N='Value'>SLGRAPHICA_720X520_150.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>SL GRAPHICA дизайнерская бумага 720x520, 150 gsm</A>
+	</S>
+	<S N='SLGRAPHICA_720X520_170'>
+		<A N='Value'>SLGRAPHICA_720X520_170.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>SL GRAPHICA дизайнерская бумага 720x520, 170 gsm</A>
+	</S>
+	<S N='SLGRAPHICA_720X520_180'>
+		<A N='Value'>SLGRAPHICA_720X520_180.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>SL GRAPHICA дизайнерская бумага 720x520, 180 gsm</A>
+	</S>
+	<S N='SLGRAPHICA_720X520_220'>
+		<A N='Value'>SLGRAPHICA_720X520_220.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>SL GRAPHICA дизайнерская бумага 720x520, 220 gsm</A>
+	</S>
+	<S N='SLGRAPHICA_720X520_230'>
+		<A N='Value'>SLGRAPHICA_720X520_230.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>SL GRAPHICA дизайнерская бумага 720x520, 230 gsm</A>
+	</S>
+	<S N='SLGRAPHICA_720X520_240'>
+		<A N='Value'>SLGRAPHICA_720X520_240.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>SL GRAPHICA дизайнерская бумага 720x520, 240 gsm</A>
+	</S>
+	<S N='SLGRAPHICA_720X520_260'>
+		<A N='Value'>SLGRAPHICA_720X520_260.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>SL GRAPHICA дизайнерская бумага 720x520, 260 gsm</A>
+	</S>
+	<S N='SLGRAPHICA_720X520_300'>
+		<A N='Value'>SLGRAPHICA_720X520_300.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>SL GRAPHICA дизайнерская бумага 720x520, 300 gsm</A>
+	</S>
 </DRPXML>

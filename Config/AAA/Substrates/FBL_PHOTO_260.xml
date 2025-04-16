@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- 
-Basic tags: 
-S : SECTION
-C : COMPONENT
-A : ATTRIBUTE 
-
-Basic attributes:
-N : NAME
-Type: TYPE OF CONTENT (Integer, Float , Boolean or other)
-RegExp: REGULAR EXPRESSION (for check content if nessary)
-
-A string of path without filename should always ending slash (for Windows backslash,  for xPath and URI - normal slash)!
-Sample for Windows: C:\Folder1\Folder2\
-Sample for xPath or URI: file://Folder1/Folder2/
-
--->
-
-<DRPXML N='FBL_PHOTO_250' Version='2.0.1' Date='2017-11-22'>
+<DRPXML N='FBL_PHOTO_260' Version='2.0.1' Date='2017-11-22'>
 <A N='ID'>FBL_PHOTO_260</A><!-- код материала (Substrate)-->
 <S N='Description'>
     <A N='Ru'>Бумага FlexBind E-Photo Lustre, 250 г/кв.м, с одним длинным шлицом вдоль длинной стороны</A>
@@ -39,9 +22,8 @@ Sample for xPath or URI: file://Folder1/Folder2/
     <A N='Bottom' Type='Float'>0</A>
 </S>
 <S N='Jdf'>
-    <A N='Name'>FBL_PHOTO_250</A>
-    <A N='OutputFolder'>FlexBind</A>
-
+    <A N='Name'>FBL_PHOTO_260</A>
+    <A N='OutputFolder'>FBL_PHOTO_260</A>
 </S>
 <S N='ColorManagement'>
     <A N='Required' Type='Boolean'>false</A><!-- требуется ли нестандартный CMS-->
@@ -52,8 +34,7 @@ Sample for xPath or URI: file://Folder1/Folder2/
         <A N='Filter' Type='Boolean'>true</A> <!-- true - использовать ТОЛЬКО позиции из ниже расположенного списка; false - использовать все позиции каталога, кроме включенных в спиcок -->
     </C>
     <C N='List'>
-        <A N='0' Type='String'>00</A>
-        <A N='1' Type='String'>X3</A>
+        <A>00</A>
     </C>
     <A N='Comment'>Список идентификаторов (ID) из соответствующего каталога, доступных  или недоступных для данного материала (определяется в компоненте Params)</A>
 </S>

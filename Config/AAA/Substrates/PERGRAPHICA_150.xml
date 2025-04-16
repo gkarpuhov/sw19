@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- 
-Basic tags: 
-S : SECTION
-C : COMPONENT
-A : ATTRIBUTE 
-
-Basic attributes:
-N : NAME
-Type: TYPE OF CONTENT (Integer, Float , Boolean or other)
-RegExp: REGULAR EXPRESSION (for check content if nessary)
-
-A string of path without filename should always ending slash (for Windows backslash,  for xPath and URI - normal slash)!
-Sample for Windows: C:\Folder1\Folder2\
-Sample for xPath or URI: file://Folder1/Folder2/
-
--->
-
-<DRPXML N='PERGRAPHICA_150' Version='2.0.0' Date='2015-09-04'>
+<DRPXML N='PERGRAPHICA_150' Version='2.0.1' Date='2018-03-15'>
 <A N='ID'>PERGRAPHICA_150</A><!-- код материала (Substrate)-->
 <S N='Description'>
-    <A N='Ru'>Pergraphica - дизайнерская бумага, 150 г/кв.м</A>
-    <A N='En'>Pergraphica Paper, 150 gsm</A>
+    <A N='Ru'>Pergraphica Design paper 150 gsm</A>
+    <A N='En'>Pergraphica Design paper 150 gsm</A>
 </S>
 <S N='Media'>
     <A N='Roll' Type='Boolean'>false</A><!-- тип: рулон (true) или лист (false) -->
@@ -28,9 +11,9 @@ Sample for xPath or URI: file://Folder1/Folder2/
     <A N='Width' Type='Float'>482</A><!-- ширина, мм -->
     <A N='Height' Type='Float'>330</A><!-- высота для листа или длина для рулона, мм -->
     <A N='Weight' Type='Integer'>150</A><!-- вес, gsm -->
-    <A N='Thickness' Type='Float'>0,300</A><!-- толщина, мм -->
-    <A N='Coated' Type='Boolean'>true</A><!-- мелованная: true; немелованная: false-->
-    <A N='GlossLevel' RegExp='G|S|M'>S</A><!-- глянцевость поверхности: G - глянцевая (Glossy), S - полуматовая (Semi-matte), M -матовая (Matte)-->
+    <A N='Thickness' Type='Float'>0,2</A><!-- толщина, мм -->
+    <A N='Coated' Type='Boolean'>false</A><!-- мелованная: true; немелованная: false-->
+    <A N='GlossLevel' RegExp='G|S|M'>M</A><!-- глянцевость поверхности: G - глянцевая (Glossy), S - полуматовая (Semi-matte), M -матовая (Matte)-->
 </S>
 <S N='UnprintableMargins'><!-- незапечатываемые поля, мм -->
     <A N='Left' Type='Float'>0</A>
@@ -39,8 +22,8 @@ Sample for xPath or URI: file://Folder1/Folder2/
     <A N='Bottom' Type='Float'>0</A>
 </S>
 <S N='Jdf'>
-    <A N='Name'>300 Oyster Shell</A>
-    <A N='OutputFolder'>Other</A>
+    <A N='Name'>PERGRAPHICA_150</A>
+    <A N='OutputFolder'>PERGRAPHICA_150</A>
 </S>
 <S N='ColorManagement'>
     <A N='Required' Type='Boolean'>false</A><!-- требуется ли нестандартный CMS-->
@@ -51,8 +34,7 @@ Sample for xPath or URI: file://Folder1/Folder2/
         <A N='Filter' Type='Boolean'>true</A> <!-- true - использовать ТОЛЬКО позиции из ниже расположенного списка; false - использовать все позиции каталога, кроме включенных в спиcок -->
     </C>
     <C N='List'>
-        <A N='0' Type='String'>00</A>
-        <A N='1' Type='String'>X3</A>
+        <A>00</A>
     </C>
     <A N='Comment'>Список идентификаторов (ID) из соответствующего каталога, доступных  или недоступных для данного материала (определяется в компоненте Params)</A>
 </S>

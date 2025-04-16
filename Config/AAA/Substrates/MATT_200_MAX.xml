@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- 
-Basic tags: 
-S : SECTION
-C : COMPONENT
-A : ATTRIBUTE 
-
-Basic attributes:
-N : NAME
-Type: TYPE OF CONTENT (Integer, Float , Boolean or other)
-RegExp: REGULAR EXPRESSION (for check content if nessary)
-
-A string of path without filename should always ending slash (for Windows backslash,  for xPath and URI - normal slash)!
-Sample for Windows: C:\Folder1\Folder2\
-Sample for xPath or URI: file://Folder1/Folder2/
-
--->
-
-<DRPXML N='MATT_200_MAX' Version='2.0.0' Date='2015-09-04'>
+<DRPXML N='MATT_200_MAX' Version='2.0.1' Date='2018-03-15'>
 <A N='ID'>MATT_200_MAX</A><!-- код материала (Substrate)-->
 <S N='Description'>
-    <A N='Ru'>Бумага мелованная матовая, 200 г/кв.м</A>
-    <A N='En'>Coated Matte Paper, 200 gsm</A>
+    <A N='Ru'>Бумага мелованная матовая 330x482, 200 г/кв.м</A>
+    <A N='En'>Coated Matte Paper 330x482, 200 gsm</A>
 </S>
 <S N='Media'>
     <A N='Roll' Type='Boolean'>false</A><!-- тип: рулон (true) или лист (false) -->
@@ -28,7 +11,7 @@ Sample for xPath or URI: file://Folder1/Folder2/
     <A N='Width' Type='Float'>482</A><!-- ширина, мм -->
     <A N='Height' Type='Float'>330</A><!-- высота для листа или длина для рулона, мм -->
     <A N='Weight' Type='Integer'>200</A><!-- вес, gsm -->
-    <A N='Thickness' Type='Float'>0,165</A><!-- толщина, мм -->
+    <A N='Thickness' Type='Float'>0,16</A><!-- толщина, мм -->
     <A N='Coated' Type='Boolean'>true</A><!-- мелованная: true; немелованная: false-->
     <A N='GlossLevel' RegExp='G|S|M'>S</A><!-- глянцевость поверхности: G - глянцевая (Glossy), S - полуматовая (Semi-matte), M -матовая (Matte)-->
 </S>
@@ -39,9 +22,8 @@ Sample for xPath or URI: file://Folder1/Folder2/
     <A N='Bottom' Type='Float'>0</A>
 </S>
 <S N='Jdf'>
-    <A N='Name'>200 Matt Max</A>
-    <A N='OutputFolder'>Coated_MAX</A>
-
+    <A N='Name'>MATT_200_MAX</A>
+    <A N='OutputFolder'>MATT_200_MAX</A>
 </S>
 <S N='ColorManagement'>
     <A N='Required' Type='Boolean'>false</A><!-- требуется ли нестандартный CMS-->
@@ -52,20 +34,7 @@ Sample for xPath or URI: file://Folder1/Folder2/
         <A N='Filter' Type='Boolean'>true</A> <!-- true - использовать ТОЛЬКО позиции из ниже расположенного списка; false - использовать все позиции каталога, кроме включенных в спиcок -->
     </C>
     <C N='List'>
-        <A N='0' Type='String'>00</A>
-        <A N='1' Type='String'>GG</A>
-        <A N='2' Type='String'>G0</A>
-        <A N='3' Type='String'>0G</A>
-        <A N='4' Type='String'>MM</A>
-        <A N='5' Type='String'>M0</A>
-        <A N='6' Type='String'>0M</A>
-        <A N='7' Type='String'>VV</A>
-        <A N='8' Type='String'>V0</A>
-        <A N='9' Type='String'>0V</A>
-        <A N='10' Type='String'>SS</A>
-        <A N='11' Type='String'>S0</A>
-        <A N='12' Type='String'>0S</A>
-        <A N='13' Type='String'>X3</A>
+        <A>(MM|GG|VV|M0|G0|V0|X3|00)</A>
     </C>
     <A N='Comment'>Список идентификаторов (ID) из соответствующего каталога, доступных  или недоступных для данного материала (определяется в компоненте Params)</A>
 </S>

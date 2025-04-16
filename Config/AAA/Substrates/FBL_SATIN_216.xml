@@ -1,21 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- 
-Basic tags: 
-S : SECTION
-C : COMPONENT
-A : ATTRIBUTE 
-
-Basic attributes:
-N : NAME
-Type: TYPE OF CONTENT (Integer, Float , Boolean or other)
-RegExp: REGULAR EXPRESSION (for check content if nessary)
-
-A string of path without filename should always ending slash (for Windows backslash,  for xPath and URI - normal slash)!
-Sample for Windows: C:\Folder1\Folder2\
-Sample for xPath or URI: file://Folder1/Folder2/
-
--->
-
 <DRPXML N='FBL_SATIN_216' Version='2.0.0' Date='2015-09-04'>
 <A N='ID'>FBL_SATIN_216</A><!-- код материала (Substrate)-->
 <S N='Description'>
@@ -40,9 +23,7 @@ Sample for xPath or URI: file://Folder1/Folder2/
 </S>
 <S N='Jdf'>
     <A N='Name'>FBL_SATIN_216</A>
-    <A N='OutputFolder'>FlexBind</A>
-
-
+    <A N='OutputFolder'>FBL_SATIN_216</A>
 </S>
 <S N='ColorManagement'>
     <A N='Required' Type='Boolean'>false</A><!-- требуется ли нестандартный CMS-->
@@ -53,12 +34,9 @@ Sample for xPath or URI: file://Folder1/Folder2/
         <A N='Filter' Type='Boolean'>true</A> <!-- true - использовать ТОЛЬКО позиции из ниже расположенного списка; false - использовать все позиции каталога, кроме включенных в спиcок -->
     </C>
     <C N='List'>
-        <A N='0' Type='String'>00</A>
-        <A N='1' Type='String'>GG</A>
-        <A N='2' Type='String'>MM</A>
-        <A N='3' Type='String'>VV</A>
-        <A N='4' Type='String'>SS</A>
-        <A N='5' Type='String'>X3</A>
+        <A>00</A>
+        <A>GG</A>
+        <A>VV</A>
     </C>
     <A N='Comment'>Список идентификаторов (ID) из соответствующего каталога, доступных  или недоступных для данного материала (определяется в компоненте Params)</A>
 </S>
