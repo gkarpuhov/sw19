@@ -159,11 +159,9 @@
         <C N="Params">
           <A N="Filter">true</A>
         </C>
-        <A N="Default">00</A>
+        <A N="Default">X3</A>
         <C N="List">
-          <A>00</A>
-          <A>G0</A>
-          <A>M0</A>
+          <A AllowColorCorrection="true">(G|M|X)(0|3)</A>	
         </C>
       </C>
       <C N="CuttingList">

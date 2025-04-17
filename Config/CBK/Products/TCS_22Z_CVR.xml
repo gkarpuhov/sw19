@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <DRPXML>
   <S>
-    <A N="RequiredRegistration">3</A>
     <C N="Layout">
       <C N="Duplex">
         <A N="Value">true</A>
@@ -163,9 +162,7 @@
         </C>
         <A N="Default">00</A>
         <C N="List">
-          <A>00</A>
-          <A>M0</A>		
-	      <A>G0</A>				  
+          <A AllowColorCorrection="true">(G|M|0)0</A>			  
         </C>
       </C>
       <C N="CuttingList">

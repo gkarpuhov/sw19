@@ -1,0 +1,116 @@
+{
+    "data": {
+        "product": {
+            "143": "197157460",
+            "169": "",
+            "id": "1206",
+            "name": "\u041b\u0438\u0441\u0442\u043e\u0432\u0430\u044f \u043f\u0435\u0447\u0430\u0442\u044c B2  \u0422\u0415\u0421\u0422 \u043d\u043e\u0432\u044b\u0439",
+            "sku": "TCS_LSTG",
+            "vendorCode": ""
+        },
+        "productParameters": {
+            "accessories": [
+            ],
+            "additionalServices": [
+            ],
+            "packaging": [
+            ],
+            "parts": [
+                {
+                    "countPrintingSides": 1,
+                    "id": 2,
+                    "isEditor": "0",
+                    "isMultiPage": "1",
+                    "modId": "3689",
+                    "name": "\u0421\u043f\u0443\u0441\u043a",
+                    "pageCount": 1,
+                    "print": {
+                        "paper": {
+                            "height": "720",
+                            "width": "1040"
+                        }
+                    },
+                    "printingSides": "5",
+                    "size": {
+                        "comment": null,
+                        "cutZoneHeight": "0.00",
+                        "cutZoneWidth": "0.00",
+                        "finishedHeight": "520.00",
+                        "finishedWidth": "720.00",
+                        "height": "520.00",
+                        "id": "12010",
+                        "rapportGap": "0.00",
+                        "safeZone": "0.00",
+                        "streamGap": "0.00",
+                        "width": "720.00"
+                    }
+                }
+            ],
+            "postPress": [
+                {
+                    "143": "",
+                    "169": "",
+                    "count": 0,
+                    "name": "\u0412 \u043f\u043e\u0434\u0431\u043e\u0440",
+                    "partId": "36",
+                    "partName": "\u0421\u043f\u0443\u0441\u043a",
+                    "sku": ""
+                },
+                {
+                    "143": "",
+                    "169": "",
+                    "count": 0,
+                    "name": "\u0420\u0435\u0437\u043a\u0430",
+                    "partId": "36",
+                    "partName": "\u0421\u043f\u0443\u0441\u043a",
+                    "sku": ""
+                }
+            ],
+            "press": [
+                {
+                    "143": "239",
+                    "169": "",
+                    "color": "4 + 4",
+                    "material": {
+                        "143": "",
+                        "169": "",
+                        "format": "720x1040 | 720x1040 | (720 x 1040 \u043c\u043c)  |  150.000 \u0433",
+                        "name": "\u041c\u0435\u043b\u043e\u0432\u0430\u043d\u043d\u0430\u044f \u0433\u043b\u044f\u043d\u0446\u0435\u0432\u0430\u044f",
+                        "size": {
+                            "height": "720",
+                            "width": "1040"
+                        },
+                        "sku": "531320"
+                    },
+                    "name": "\u0426\u0438\u0444\u0440\u043e\u0432\u043e\u0439 \u043e\u0444\u0441\u0435\u0442 Indigo 12000 (online) \u041d\u041e\u0412\u042b\u0419",
+                    "partId": "2",
+                    "partName": "\u0421\u043f\u0443\u0441\u043a",
+                    "sku": "10"
+                }
+            ],
+            "size": {
+                "comment": null,
+                "constId": null,
+                "cutZoneHeight": "0.00",
+                "cutZoneWidth": "0.00",
+                "finishedHeight": "520.00",
+                "finishedWidth": "720.00",
+                "height": "520.00",
+                "id": "12010",
+                "label": "720\u0445520",
+                "maxSize": null,
+                "minSide": null,
+                "minSize": null,
+                "rapport_gap": "0.00",
+                "safeZone": "0.00",
+                "stream_gap": "0.00",
+                "type": "1",
+                "typeLayout": "1",
+                "width": "720.00"
+            },
+            "souvenirGoods": [
+            ]
+        },
+        "quantity": 1
+    }
+}

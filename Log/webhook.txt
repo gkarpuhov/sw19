@@ -1,1 +1,2 @@
-2025-04-16T16:58:36: TCS 45.138.160.19 => Error: Invalid 'sku' property in 'material' press section for detail '36'
+2025-04-17T12:40:01: TCS 45.138.160.19 => Error: System error -12
+2025-04-17T15:15:41: TCS 45.138.160.19 => Error: System error -12
