@@ -163,8 +163,7 @@
         </C>
         <A N="Default">M0</A>
         <C N="List">
-          <A>G0</A>
-          <A>M0</A>
+          <A AllowColorCorrection="true">(G|M)0</A>
         </C>
       </C>
       <C N="CuttingList">

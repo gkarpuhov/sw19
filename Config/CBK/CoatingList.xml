@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- 
-Basic tags: 
-S : SECTION
-C : COMPONENT
-A : ATTRIBUTE 
-
-Basic attributes:
-N : NAME
-Type: TYPE OF CONTENT (Integer, Float, Boolean or other)
-RegExp: REGULAR EXPRESSION (for check content if nessary)
-
-A string of path without filename should always ending slash (for Windows backslash,  for xPath and URI - normal slash)!
-Sample for Windows: C:\Folder1\Folder2\
-Sample for xPath or URI: file://Folder1/Folder2/
-
--->
-
-<DRPXML N='CoatingList_CBK' Version='2.0.0' Date='2015-09-04'>
-  <!-- Переменная %UCID% - Universal CID: универсальный CID для стандартных продуктов. -->
-  <!-- Переменная %CID% указывает на непосредственный идентификатор  конфигурации -->
-
+<DRPXML>
   <S N='00'>
     <A N='Value'>00.xml</A>
     <A N='Path'>%ConfigFolder%\%UCID%\Coating\</A>
@@ -55,5 +35,4 @@ Sample for xPath or URI: file://Folder1/Folder2/
     <A N='Path'>%ConfigFolder%\%UCID%\Coating\</A>
     <A N='Comment'>Неизвестно</A>
   </S>
-
 </DRPXML>
