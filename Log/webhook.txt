@@ -1,4 +1,0 @@
-2025-04-18T15:45:22: TCS 45.138.160.19 => Error: Not found product code in '143' property
-2025-04-18T16:17:00: TCS 45.138.160.19 => Error: System error -12
-2025-04-21T11:02:56: TCS 45.138.160.19 => Error: Invalid 'sku' property in 'press' section for detail '36'
-2025-04-22T12:45:16: TCS 45.138.160.19 => Error: System error -12

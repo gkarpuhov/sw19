@@ -257,10 +257,10 @@
 				<Template/>
 				<Interval>
 					<Start date='' day='1' hour='19' min='0'></Start>
-					<Stop date='' day='5' hour='21' min='0'></Stop>
+					<Stop date='' day='5' hour='23' min='59'></Stop>
 				</Interval>
 				<Interval>
-					<Start date='' day='1' hour='5' min='1'></Start>
+					<Start date='' day='1' hour='7' min='0'></Start>
 					<Stop date='' day='5' hour='10' min='0'></Stop>
 				</Interval>				
 			</Include>
