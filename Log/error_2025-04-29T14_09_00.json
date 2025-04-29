@@ -1,0 +1,154 @@
+{
+    "data": {
+        "product": {
+            "143": "197157460",
+            "169": "",
+            "id": "16970",
+            "name": "\u041b\u0438\u0441\u0442\u043e\u0432\u0430\u044f \u043f\u0435\u0447\u0430\u0442\u044c B2 c \u043e\u0442\u0434\u0435\u043b\u043a\u043e\u0439",
+            "sku": "TCS_LSTG",
+            "vendorCode": ""
+        },
+        "productParameters": {
+            "accessories": [
+            ],
+            "additionalServices": [
+            ],
+            "packaging": [
+            ],
+            "parts": [
+                {
+                    "countPrintingSides": 1,
+                    "id": "36",
+                    "isEditor": "0",
+                    "isMultiPage": "1",
+                    "modId": "255",
+                    "name": "\u0421\u043f\u0443\u0441\u043a",
+                    "pageCount": 1,
+                    "print": {
+                        "paper": {
+                            "height": "520",
+                            "width": "720"
+                        }
+                    },
+                    "printingSides": "5",
+                    "size": {
+                        "comment": null,
+                        "cutZoneHeight": "0.00",
+                        "cutZoneWidth": "0.00",
+                        "finishedHeight": "520.00",
+                        "finishedWidth": "720.00",
+                        "height": "520.00",
+                        "id": "547",
+                        "rapportGap": "0.00",
+                        "safeZone": "0.00",
+                        "streamGap": "0.00",
+                        "width": "720.00"
+                    }
+                },
+                {
+                    "id": "2",
+                    "isEditor": "0",
+                    "isMultiPage": "1",
+                    "modId": "256",
+                    "name": "\u041e\u0431\u043b\u043e\u0436\u043a\u0430",
+                    "pageCount": 0.5,
+                    "print": [
+                    ],
+                    "size": {
+                        "comment": null,
+                        "cutZoneHeight": "0.00",
+                        "cutZoneWidth": "0.00",
+                        "finishedHeight": "520.00",
+                        "finishedWidth": "720.00",
+                        "height": "520.00",
+                        "id": "547",
+                        "rapportGap": "0.00",
+                        "safeZone": "0.00",
+                        "streamGap": "0.00",
+                        "width": "720.00"
+                    }
+                }
+            ],
+            "postPress": [
+                {
+                    "143": "FAP-1",
+                    "169": "FAP-2",
+                    "count": 0,
+                    "name": "\u0420\u0435\u0437\u043a\u0430 (FAP)",
+                    "partId": "36",
+                    "partName": "\u0421\u043f\u0443\u0441\u043a",
+                    "sku": "FAP"
+                },
+                {
+                    "143": "",
+                    "169": "",
+                    "count": 0,
+                    "countSide": "\u041e\u0434\u043d\u043e\u0441\u0442\u043e\u0440\u043e\u043d\u043d\u044f\u044f",
+                    "material": {
+                        "143": "",
+                        "169": "",
+                        "format": "\u041b\u0430\u043c\u0438\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 520\u0445720 | (520 x 720 \u043c\u043c)  |  28.000 \u0433  |  0.028 \u043c\u043c",
+                        "name": "\u041c\u0430\u0442\u043e\u0432\u0430\u044f",
+                        "size": {
+                            "height": "520",
+                            "width": "720"
+                        },
+                        "sku": "286705"
+                    },
+                    "name": "\u041b\u0430\u043c\u0438\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 (FAP)",
+                    "partId": "36",
+                    "partName": "\u0421\u043f\u0443\u0441\u043a",
+                    "sku": "24"
+                },
+                {
+                    "143": "",
+                    "169": "",
+                    "count": 0,
+                    "name": "\u0412 \u043f\u043e\u0434\u0431\u043e\u0440",
+                    "partId": "36",
+                    "partName": "\u0421\u043f\u0443\u0441\u043a",
+                    "sku": ""
+                },
+                {
+                    "143": "",
+                    "169": "",
+                    "accessory": {
+                        "143": "",
+                        "169": "",
+                        "count": 1,
+                        "name": "\u0417\u043e\u043b\u043e\u0442\u043e",
+                        "sku": "87878"
+                    },
+                    "count": 0,
+                    "name": "\u0424\u043e\u043b\u044c\u0433\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0437\u043e\u043b\u043e\u0442\u043e\u043c",
+                    "partId": "36",
+                    "partName": "\u0421\u043f\u0443\u0441\u043a",
+                    "sku": "1245"
+                }
+            ],
+            "size": {
+                "comment": null,
+                "constId": null,
+                "cutZoneHeight": "0.00",
+                "cutZoneWidth": "0.00",
+                "finishedHeight": "520.00",
+                "finishedWidth": "720.00",
+                "height": "520.00",
+                "id": "547",
+                "label": "720\u0445520",
+                "maxSize": null,
+                "minSide": null,
+                "minSize": null,
+                "rapport_gap": "0.00",
+                "safeZone": "0.00",
+                "stream_gap": "0.00",
+                "type": "1",
+                "typeLayout": null,
+                "width": "720.00"
+            },
+            "souvenirGoods": [
+            ]
+        },
+        "quantity": 1
+    }
+}

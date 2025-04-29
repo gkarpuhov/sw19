@@ -1,14 +1,21 @@
 <root>
   <Data TypeId="-160624269">
+    <PitstopVersionId TypeId="1730729433">22</PitstopVersionId>
+    <PitstopPath TypeId="1730729433">C:\Program Files\Enfocus\Enfocus PitStop Server 22</PitstopPath>
+    <PitstopVersion TypeId="1730729433">10</PitstopVersion>
     <Parameters TypeId="884062000">
-      <Settings TypeId="-1790254482">
+      <Settings TypeId="770426088">
         <item TypeId="-368291481">
-          <Name TypeId="-2109259101">default</Name>
-          <FileType TypeId="-2109259101">pdf</FileType>
+          <Name TypeId="1730729433">default</Name>
+          <FileType TypeId="1730729433">pdf</FileType>
         </item>
         <item TypeId="-368291481">
-          <Name TypeId="-2109259101">switch</Name>
-          <FileType TypeId="-2109259101">zip</FileType>
+          <Name TypeId="1730729433">vru</Name>
+          <FileType TypeId="1730729433">zip</FileType>
+        </item>
+        <item TypeId="-368291481">
+          <Name TypeId="1730729433">switch</Name>
+          <FileType TypeId="1730729433">zip</FileType>
         </item>
       </Settings>
     </Parameters>
@@ -16,7 +23,7 @@
   <Types>
     <WorkflowItem Id="-160624269" Guid="(a740d1b5-8cfe-3132-a144-91ab3fe13a4f)">Cube6coreSpace.WorkflowItem, cube6core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</WorkflowItem>
     <ApplicationSettings Id="884062000" Guid="(82714b82-882e-36c7-a312-bae4a3ccff22)">Cube6coreSpace.ApplicationSettings, cube6core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</ApplicationSettings>
-    <List-1 Id="-1790254482" Guid="(57533c0b-2fc7-33ca-8752-665cba7344a1)">System.Collections.Generic.List`1[[Cube6coreSpace.ChannelSettings, cube6core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e</List-1>
+    <List-1 Id="770426088" Guid="(26dc6e25-1eee-3a7d-a1a1-deb05e597b46)">System.Collections.Generic.List`1[[Cube6coreSpace.ChannelSettings, cube6core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e</List-1>
     <ChannelSettings Id="-368291481" Guid="(3dfe878e-b7f0-372d-9a44-1e882bc6a2d7)">Cube6coreSpace.ChannelSettings, cube6core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</ChannelSettings>
   </Types>
 </root>

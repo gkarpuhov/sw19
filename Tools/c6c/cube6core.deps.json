@@ -1,20 +1,21 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v6.0/win-x64",
+    "name": ".NETCoreApp,Version=v8.0/win-x64",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v6.0": {},
-    ".NETCoreApp,Version=v6.0/win-x64": {
+    ".NETCoreApp,Version=v8.0": {},
+    ".NETCoreApp,Version=v8.0/win-x64": {
       "cube6core/1.0.0": {
         "dependencies": {
           "Grigory.Common": "1.0.0",
-          "Magick.NET.SystemWindowsMedia": "7.3.0",
-          "Microsoft.NETCore.ILDAsm": "8.0.0",
-          "System.CodeDom": "8.0.0",
-          "System.Drawing.Common": "8.0.8",
-          "System.Windows.Extensions": "8.0.0",
+          "Magick.NET.SystemWindowsMedia": "8.0.6",
+          "Microsoft.NETCore.ILDAsm": "9.0.4",
+          "System.CodeDom": "9.0.4",
+          "System.Drawing.Common": "9.0.4",
+          "System.Text.Encoding.CodePages": "9.0.4",
+          "System.Windows.Extensions": "9.0.4",
           "lcmsNET": "1.1.0",
           "GdPicture.NET.14.Core": "14.1.0.81",
           "Interop.Photoshop": "1.0.0.0"
@@ -28,102 +29,115 @@
           "System.Memory": "4.5.5"
         },
         "runtime": {
-          "lib/netstandard2.0/lcmsNET.dll": {
+          "lib/net8.0/lcmsNET.dll": {
             "assemblyVersion": "1.1.0.0",
             "fileVersion": "1.1.0.0"
           }
         }
       },
-      "Magick.NET.Core/13.10.0": {
+      "Magick.NET.Core/14.6.0": {
         "runtime": {
-          "lib/netstandard21/Magick.NET.Core.dll": {
-            "assemblyVersion": "13.10.0.0",
-            "fileVersion": "13.10.0.0"
+          "lib/net8.0/Magick.NET.Core.dll": {
+            "assemblyVersion": "14.6.0.0",
+            "fileVersion": "14.6.0.0"
           }
         }
       },
-      "Magick.NET.SystemWindowsMedia/7.3.0": {
+      "Magick.NET.SystemWindowsMedia/8.0.6": {
         "dependencies": {
-          "Magick.NET.Core": "13.10.0"
+          "Magick.NET.Core": "14.6.0"
         },
         "runtime": {
-          "lib/netcoreapp3.1/Magick.NET.SystemWindowsMedia.dll": {
-            "assemblyVersion": "7.3.0.0",
-            "fileVersion": "7.3.0.0"
-          }
-        }
-      },
-      "Microsoft.NETCore.ILDAsm/8.0.0": {
-        "dependencies": {
-          "runtime.win-x64.Microsoft.NETCore.ILDAsm": "8.0.0"
-        }
-      },
-      "Microsoft.Win32.SystemEvents/8.0.0": {
-        "runtime": {
-          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+          "lib/net8.0/Magick.NET.SystemWindowsMedia.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+            "fileVersion": "8.0.6.0"
           }
         }
       },
-      "runtime.win-x64.Microsoft.NETCore.ILDAsm/8.0.0": {
+      "Microsoft.NETCore.ILDAsm/9.0.4": {
+        "dependencies": {
+          "runtime.win-x64.Microsoft.NETCore.ILDAsm": "9.0.4"
+        }
+      },
+      "Microsoft.Win32.SystemEvents/9.0.4": {
+        "runtime": {
+          "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "runtime.win-x64.Microsoft.NETCore.ILDAsm/9.0.4": {
         "native": {
           "runtimes/win-x64/native/ildasm.exe": {
-            "fileVersion": "8.0.23.53103"
+            "fileVersion": "9.0.425.16305"
           }
         }
       },
-      "System.CodeDom/8.0.0": {
+      "System.CodeDom/9.0.4": {
         "runtime": {
-          "lib/net6.0/System.CodeDom.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+          "lib/net8.0/System.CodeDom.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
           }
         }
       },
-      "System.Drawing.Common/8.0.8": {
+      "System.Drawing.Common/9.0.4": {
         "dependencies": {
-          "Microsoft.Win32.SystemEvents": "8.0.0"
+          "Microsoft.Win32.SystemEvents": "9.0.4"
         },
         "runtime": {
-          "lib/net6.0/System.Drawing.Common.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.824.36606"
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16312"
+          },
+          "lib/net8.0/System.Private.Windows.Core.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16312"
           }
         }
       },
-      "System.Management/8.0.0": {
+      "System.Management/9.0.4": {
         "dependencies": {
-          "System.CodeDom": "8.0.0"
+          "System.CodeDom": "9.0.4"
         },
         "runtime": {
-          "runtimes/win/lib/net6.0/System.Management.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+          "runtimes/win/lib/net8.0/System.Management.dll": {
+            "assemblyVersion": "9.0.0.4",
+            "fileVersion": "9.0.425.16305"
           }
         }
       },
       "System.Memory/4.5.5": {},
-      "System.Windows.Extensions/8.0.0": {
+      "System.Text.Encoding.CodePages/9.0.4": {
         "runtime": {
-          "runtimes/win/lib/net6.0/System.Windows.Extensions.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+          "runtimes/win/lib/net8.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "System.Windows.Extensions/9.0.4": {
+        "runtime": {
+          "runtimes/win/lib/net8.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
           }
         }
       },
       "Grigory.Common/1.0.0": {
         "dependencies": {
-          "Magick.NET.SystemWindowsMedia": "7.3.0",
-          "Microsoft.NETCore.ILDAsm": "8.0.0",
-          "System.Drawing.Common": "8.0.8",
-          "System.Management": "8.0.0",
-          "System.Windows.Extensions": "8.0.0",
+          "Magick.NET.SystemWindowsMedia": "8.0.6",
+          "Microsoft.NETCore.ILDAsm": "9.0.4",
+          "System.Drawing.Common": "9.0.4",
+          "System.Management": "9.0.4",
+          "System.Text.Encoding.CodePages": "9.0.4",
+          "System.Windows.Extensions": "9.0.4",
           "lcmsNET": "1.1.0"
         },
         "runtime": {
           "Grigory.Common.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -159,61 +173,61 @@
       "path": "lcmsnet/1.1.0",
       "hashPath": "lcmsnet.1.1.0.nupkg.sha512"
     },
-    "Magick.NET.Core/13.10.0": {
+    "Magick.NET.Core/14.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qss+Y4/K6SiGwbyCThqTl9ykevnSzFuT4AMIaymq8jN+6kimKjMHf4rvtagLWQ+vPH9xU1+pX6MmBOZe+D+fyA==",
-      "path": "magick.net.core/13.10.0",
-      "hashPath": "magick.net.core.13.10.0.nupkg.sha512"
+      "sha512": "sha512-hyXMoLiq6iHooL54iTYzKtiWOAQOiwrwVMeoglGifwYAduAzVfeG+/BxgIz1SaxfczBfQFlcWKTrRU0RNBucUw==",
+      "path": "magick.net.core/14.6.0",
+      "hashPath": "magick.net.core.14.6.0.nupkg.sha512"
     },
-    "Magick.NET.SystemWindowsMedia/7.3.0": {
+    "Magick.NET.SystemWindowsMedia/8.0.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ThpdQbRPPhJ7VBudevqI+fSM6NspB+uVuJFEc3dm+2QijluPJoqE1PWI+mLsm7lu0xJptBGw2UNbvSUcxt0zLw==",
-      "path": "magick.net.systemwindowsmedia/7.3.0",
-      "hashPath": "magick.net.systemwindowsmedia.7.3.0.nupkg.sha512"
+      "sha512": "sha512-YcbG/FHqdVZwsJpUf6cweqmdKNYJPblmfZSLqFwnuOVzjmh9WA6cy3tD8qa8AahXRi09Reg5e43nrGAOYsD1Bg==",
+      "path": "magick.net.systemwindowsmedia/8.0.6",
+      "hashPath": "magick.net.systemwindowsmedia.8.0.6.nupkg.sha512"
     },
-    "Microsoft.NETCore.ILDAsm/8.0.0": {
+    "Microsoft.NETCore.ILDAsm/9.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hYjpT+EBA9lofXJidHFVSaxH11FwothwNAzYOfp62+4pt4HX4Cj4q5Hor97hSU2N8aIOu/5UEBaaTOf+RV2+uw==",
-      "path": "microsoft.netcore.ildasm/8.0.0",
-      "hashPath": "microsoft.netcore.ildasm.8.0.0.nupkg.sha512"
+      "sha512": "sha512-IxRZ3yPEkoWFOx3Y35QlDSkCEYSqeEk52TDUtzGJUSGRIfMOpmW7vRPv2qB7S5AQjBdFdZ6zpR5wNpGKfsulSg==",
+      "path": "microsoft.netcore.ildasm/9.0.4",
+      "hashPath": "microsoft.netcore.ildasm.9.0.4.nupkg.sha512"
     },
-    "Microsoft.Win32.SystemEvents/8.0.0": {
+    "Microsoft.Win32.SystemEvents/9.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
-      "path": "microsoft.win32.systemevents/8.0.0",
-      "hashPath": "microsoft.win32.systemevents.8.0.0.nupkg.sha512"
+      "sha512": "sha512-kHgtAkXhNEP8oGuAVe3Q5admxsdMlSdWE2rXcA9FfeGDZJQawPccmZgnOswgW3ugUPSJt7VH+TMQPz65mnhGSQ==",
+      "path": "microsoft.win32.systemevents/9.0.4",
+      "hashPath": "microsoft.win32.systemevents.9.0.4.nupkg.sha512"
     },
-    "runtime.win-x64.Microsoft.NETCore.ILDAsm/8.0.0": {
+    "runtime.win-x64.Microsoft.NETCore.ILDAsm/9.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/RrEkj8XW2C2yVq46TwfG4Rq2mVCXax5+UZLTXqTeWU+nE+vg9qNtRkB4ljcoQaJUYDC32NEHjYvP1yIDWsQUg==",
-      "path": "runtime.win-x64.microsoft.netcore.ildasm/8.0.0",
-      "hashPath": "runtime.win-x64.microsoft.netcore.ildasm.8.0.0.nupkg.sha512"
+      "sha512": "sha512-U/DKdd4hygvXDCk4zFXBVjoARSUwGOMoOO2xmTAVlDtYJVoCWeRORqfz/cIOQyAmJLD1LBqKL1nvuXKkyhQOvA==",
+      "path": "runtime.win-x64.microsoft.netcore.ildasm/9.0.4",
+      "hashPath": "runtime.win-x64.microsoft.netcore.ildasm.9.0.4.nupkg.sha512"
     },
-    "System.CodeDom/8.0.0": {
+    "System.CodeDom/9.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WTlRjL6KWIMr/pAaq3rYqh0TJlzpouaQ/W1eelssHgtlwHAH25jXTkUphTYx9HaIIf7XA6qs/0+YhtLEQRkJ+Q==",
-      "path": "system.codedom/8.0.0",
-      "hashPath": "system.codedom.8.0.0.nupkg.sha512"
+      "sha512": "sha512-aJdv7Z87PoPW8ijvGIincocooYRbH3Umtlz7OrJKf6GDInbdu1bvk5X1fFlmbl7WP+9ntoIBd7NjKz+siVFdHA==",
+      "path": "system.codedom/9.0.4",
+      "hashPath": "system.codedom.9.0.4.nupkg.sha512"
     },
-    "System.Drawing.Common/8.0.8": {
+    "System.Drawing.Common/9.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4ZM1wvLjz9nVVExsfPAaSl/qOvU+QNedJL5rQ+2Wbow+iGeyO0e7XN07707rMBgaffEeeLrCZBwC0oHUuvRdPw==",
-      "path": "system.drawing.common/8.0.8",
-      "hashPath": "system.drawing.common.8.0.8.nupkg.sha512"
+      "sha512": "sha512-SbtusMUT1bCxZ14904ZPo2GZyelze0rwUni9wXrp8KX9Zlsda8idqpxra1RBvOA85WM0wW+fCI4GLrlCTYiE6A==",
+      "path": "system.drawing.common/9.0.4",
+      "hashPath": "system.drawing.common.9.0.4.nupkg.sha512"
     },
-    "System.Management/8.0.0": {
+    "System.Management/9.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jrK22i5LRzxZCfGb+tGmke2VH7oE0DvcDlJ1HAKYU8cPmD8XnpUT0bYn2Gy98GEhGjtfbR/sxKTVb+dE770pfA==",
-      "path": "system.management/8.0.0",
-      "hashPath": "system.management.8.0.0.nupkg.sha512"
+      "sha512": "sha512-MfY9+SrkSvchAoFiChTkhQYCAjBaQQ9u3LwiKmho7oTbujucnxCzORlPgLhId/ChLSptsQ/1UmtPGLZaKYVdsA==",
+      "path": "system.management/9.0.4",
+      "hashPath": "system.management.9.0.4.nupkg.sha512"
     },
     "System.Memory/4.5.5": {
       "type": "package",
@@ -222,12 +236,19 @@
       "path": "system.memory/4.5.5",
       "hashPath": "system.memory.4.5.5.nupkg.sha512"
     },
-    "System.Windows.Extensions/8.0.0": {
+    "System.Text.Encoding.CodePages/9.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Obg3a90MkOw9mYKxrardLpY2u0axDMrSmy4JCdq2cYbelM2cUwmUir5Bomvd1yxmPL9h5LVHU1tuKBZpUjfASg==",
-      "path": "system.windows.extensions/8.0.0",
-      "hashPath": "system.windows.extensions.8.0.0.nupkg.sha512"
+      "sha512": "sha512-2lmgWFN1nRaLqIQvbPeL/N0h2SFftmRyckEM9kHO3eRDniN+07nPDepC1HEPgeD+Nzihyi0r8VGTErj6WTO9KQ==",
+      "path": "system.text.encoding.codepages/9.0.4",
+      "hashPath": "system.text.encoding.codepages.9.0.4.nupkg.sha512"
+    },
+    "System.Windows.Extensions/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LBfgiBxCpJWch0PI7h55FyzlCdSXxBZM2/B/H+v1SBkhux/Da8L3fIP+r7WFwNuTfKiClNfB0Ne3BL12xiCEGw==",
+      "path": "system.windows.extensions/9.0.4",
+      "hashPath": "system.windows.extensions.9.0.4.nupkg.sha512"
     },
     "Grigory.Common/1.0.0": {
       "type": "project",

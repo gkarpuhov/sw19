@@ -1,0 +1,12 @@
+2025-04-29T12:59:05: TCS 45.138.160.19 => Error: Not found detail with id=2 in 'parts' section
+2025-04-29T13:12:17: TCS 45.138.160.19 => Error: Invalid 'color' property in 'press' section for detail '3'
+2025-04-29T14:08:49: TCS 87.228.8.95 => Error: Trying to access undefined member 'press'
+2025-04-29T14:08:57: TCS 87.228.8.95 => Error: Trying to access undefined member 'press'
+2025-04-29T14:09:00: TCS 87.228.8.95 => Error: Trying to access undefined member 'press'
+2025-04-29T14:09:33: TCS 87.228.8.95 => Error: Trying to access undefined member 'press'
+2025-04-29T14:09:48: TCS 87.228.8.95 => Error: Trying to access undefined member 'press'
+2025-04-29T14:10:04: TCS 87.228.8.95 => Error: Trying to access undefined member 'press'
+2025-04-29T14:12:12: TCS 87.228.8.95 => Error: Not found detail with id=36 in 'parts' section
+2025-04-29T14:27:45: TCS 87.228.8.95 => Error: Not found detail with id=36 in 'parts' section
+2025-04-29T14:28:06: TCS 87.228.8.95 => Error: Not found detail with id=36 in 'parts' section
+2025-04-29T14:29:10: TCS 87.228.8.95 => Error: Not found detail with id=36 in 'parts' section

@@ -1,0 +1,22 @@
+<root>
+  <Data TypeId="-1440169245">
+    <UnsharpAmount TypeId="1253434692">180</UnsharpAmount>
+    <UnsharpRadius TypeId="1253434692">1</UnsharpRadius>
+    <ShadowHighlight TypeId="-644303932">13 40 50 0 50 30 20 0 0 0</ShadowHighlight>
+    <PixelsLowLimit TypeId="1283936006">30000</PixelsLowLimit>
+    <MidToneRange TypeId="1039813582">64 192</MidToneRange>
+    <RangesLimit TypeId="-644303932">0.01 0.07 0.07 0.05</RangesLimit>
+    <TRC_L TypeId="-644303932">0 1 0 1</TRC_L>
+    <TRC_a TypeId="-644303932">0 1 0 1</TRC_a>
+    <TRC_b TypeId="-644303932">0 1 0 1</TRC_b>
+    <TRC_R TypeId="-1103178874">0 1 0 1</TRC_R>
+    <TRC_G TypeId="-1103178874">0 1 0 1</TRC_G>
+    <TRC_B TypeId="-1103178874">0 1 0 1</TRC_B>
+  </Data>
+  <Types>
+    <JobSettings Id="-1440169245" Guid="(186ee42c-dc22-3bbc-8e9a-3581eba07df4)">Cube6coreSpace.JobSettings, cube6core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</JobSettings>
+    <Single__ Id="-644303932" Guid="(00000000-0000-0000-0000-000000000000)">System.Single[], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e</Single__>
+    <Int32__ Id="1039813582" Guid="(00000000-0000-0000-0000-000000000000)">System.Int32[], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e</Int32__>
+    <Byte__ Id="-1103178874" Guid="(00000000-0000-0000-0000-000000000000)">System.Byte[], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e</Byte__>
+  </Types>
+</root>
