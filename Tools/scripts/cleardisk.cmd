@@ -9,7 +9,7 @@ SET ASVRU=D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\VRU\Succes
 SET ASTCS=D:\__SWITCH\Flows\SI2\Hotfolders\Outgoing\AsystemJsonImport\TCS\Success
 SET SWITCHDS=D:\Switch Server\datasets
 SET JOBSTMP=D:\__SWITCH\Flows\SI2\Temp\Jobs
-forfiles.exe /p "%KONICA%" /s /m *.pdf /d -7 /c "cmd /c del /q /f @file"
+forfiles.exe /p "%KONICA%" /s /m *.pdf /d -14 /c "cmd /c del /q /f @file"
 forfiles.exe /p "%NORITSU%" /s /m *.pdf /d -30 /c "cmd /c del /q /f @file"
 forfiles.exe /p "%INDIGO%" /s /m *.pdf /d -7 /c "cmd /c del /q /f @file"
 forfiles.exe /p "%FUJIUV%" /s /m *.pdf /d -14 /c "cmd /c del /q /f @file"

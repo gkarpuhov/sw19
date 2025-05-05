@@ -20,419 +20,399 @@ Sample for xPath or URI: file://Folder1/Folder2/
 <!-- Переменная %UCID% - Universal CID: универсальный CID для стандартных продуктов. -->
 <!-- Переменная %CID% указывает на непосредственный идентификатор  конфигурации -->
 
-<S N='Null'>
-    <A N='Value'>Null.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Отсутствующий материал</A>
-</S>
-<S N='PLAIN'>
-    <A N='Value'>PLAIN.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Офисная бумага формата А4</A>
-</S>
-<S N='JOB_TAOPIX'>
-    <A N='Value'>JOB_TAOPIX.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Офисная бумага формата А4</A>
-</S>
-<S N='JOB_PPK'>
-    <A N='Value'>JOB_PPK.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Офисная бумага формата А4</A>
-</S>
-<S N='JOB_PRT'>
-    <A N='Value'>JOB_PRT.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Офисная бумага формата А4</A>
-</S>
-<S N='SA_MATT_80'>
-    <A N='Value'>SA_MATT_80.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Бумага самоклеющаяся матовая Adestor Mat, 80 г/кв.м</A>
-</S>
-<S N='OTHER'>
-    <A N='Value'>OTHER.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Неизвестный материал</A>
-</S>
-<S N='OTHER_MAX'>
-    <A N='Value'>OTHER_MAX.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Неизвестный материал, 330x482 мм</A>
-</S>
-<S N='OFSET_80'>
-    <A N='Value'>OFSET_80.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Офсетная бумага, 80 г/кв.м, 320x468 мм</A>
-</S>
-<S N='OFSET_100'>
-    <A N='Value'>OFSET_80.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Офсетная бумага, 80 г/кв.м, 320x468 мм</A>
-</S>
-<S N='OFSET_190'>
-    <A N='Value'>OFSET_190.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Офсетная бумага, 190 г/кв.м, 330x482 мм</A>
-</S>
-<S N='MATT_170_MAX'>
-    <A N='Value'>MATT_170_MAX.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Мелованная матовая бумага, 170 г/кв.м</A>
-</S>
-<S N='MATT_150_MAX'>
-    <A N='Value'>MATT_150_MAX.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Мелованная матовая бумага, 150 г/кв.м</A>
-</S>
-<S N='MATT_200'>
-    <A N='Value'>MATT_200.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Мелованная матовая бумага, 200 г/кв.м</A>
-</S>
-<S N='MATT_200_MAX'>
-    <A N='Value'>MATT_200_MAX.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Мелованная матовая бумага, 200 г/кв.м</A>
-</S>
-<S N='MATT_250_MAX'>
-    <A N='Value'>MATT_250_MAX.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Мелованная матовая бумага, 250 г/кв.м</A>
-</S>
-<S N='MATT_300_MAX'>
-    <A N='Value'>MATT_300_MAX.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Мелованная матовая бумага, 300 г/кв.м</A>
-</S>
-<S N='FBL_MATT_176'>
-    <A N='Value'>FBL_MATT_176.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>FlexBind Matte Cover (Long Hinge), 176 gsm</A>
-</S>
-<S N='FBL_SATIN_216'>
-    <A N='Value'>FBL_SATIN_216.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>FlexBind Satin Cover (Long Hinge), 216 gsm</A>
-</S>
-<S N='FBS_SATIN_216'>
-    <A N='Value'>FBS_SATIN_216.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>FlexBind Satin Cover (Short Hinge), 216 gsm</A>
-</S>
-<S N='FBL_PHOTO_250'>
-    <A N='Value'>FBL_PHOTO_250.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>FlexBind E-Photo Lustre (Long Hinge), 250 gsm</A>
-</S>
-<S N='FBL_PHOTO_260'>
-    <A N='Value'>FBL_PHOTO_260.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>FlexBind E-Photo Lustre (Long Hinge), 260 gsm</A>
-</S>
-<S N='FBLD_PHOTO_250'>
-    <A N='Value'>FBLD_PHOTO_250.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>FlexBind E-Photo Lustre (Dual Long Hinge), 250 gsm</A>
-</S>
-<S N='FBLD_SATIN_216'>
-    <A N='Value'>FBLD_SATIN_216.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>FlexBind Satin Cover (Dual Long Hinge), 216 gsm</A>
-</S>
-<S N='WHP_SAPP_180'>
-    <A N='Value'>WHP_SAPP_180.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Self-Adhesive Polipropylene, 180 mkm</A>
-</S>
-<S N='WHP_MATT_210'>
-    <A N='Value'>WHP_MATT_210.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Wide-format inkjet matt paper, 210 gsm</A>
-</S>
-<S N='PHOTOMATT_190'>
-    <A N='Value'>PHOTOMATT_190.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Матовая бумага Felix Schoeller, 190 г/кв.м</A>
-</S>
-<S N='PHOTOMATT_260'>
-    <A N='Value'>PHOTOMATT_260.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Матовая бумага Felix Schoeller, 260 г/кв.м</A>
-</S>
-<S N='PHOTOPAPER_190'>
-    <A N='Value'>PHOTOPAPER_190.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>E-Photo Lustre - бумага Felix Schoeller, 190 г/кв.м</A>
-</S>
-<S N='PHOTOPAPER_260'>
-    <A N='Value'>PHOTOPAPER_260.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>E-Photo Lustre - бумага Felix Schoeller, 260 г/кв.м</A>
-</S>
-<S N='PHOTOPAPER_320X650_260'>
-    <A N='Value'>PHOTOPAPER_320X650_260.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>E-Photo Lustre - бумага Felix Schoeller, 260 г/кв.м</A>
-</S>
-<S N='PYRAMID_260'>
-    <A N='Value'>PYRAMID_260.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Pyramid - бумага Felix Schoeller, 260 г/кв.м</A>
-</S>
-<S N='CANVAS_260'>
-    <A N='Value'>CANVAS_260.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Canvas - бумага Felix Schoeller, 260 г/кв.м</A>
-</S>
-<S N='SILVER_210'>
-    <A N='Value'>SILVER_210.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Silver (Metallic) - бумага Felix Schoeller, 210 г/кв.м</A>
-</S>
-<S N='PERGRAPHICA_150'>
-    <A N='Value'>PERGRAPHICA_150.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Pergraphica - дизайнерская бумага, 150 г/кв.м</A>
-</S>
-<S N='PERGRAPHICA_330X700_150'>
-    <A N='Value'>PERGRAPHICA_330X700_150.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Pergraphica - дизайнерская бумага 330x700, 150 г/кв.м</A>
-</S>
-<S N='PERGRAPHICA_300'>
-    <A N='Value'>PERGRAPHICA_300.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Pergraphica - дизайнерская бумага, 300 г/кв.м</A>
-</S>
-<S N='CBOARD_220_2S'>
-    <A N='Value'>CBOARD_220_2S.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Картон печатный двухстороннего мелования 330x482, 220 г/кв.м</A>
-</S>
-<S N='CBOARD_240_1S'>
-    <A N='Value'>CBOARD_240_1S.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Картон печатный одностороннего мелования (320x468), 240 г/кв.м</A>
-</S>
-<S N='CBOARD_215_1S'>
-    <A N='Value'>CBOARD_215_1S.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Картон печатный одностороннего мелования, 215 г/кв.м</A>
-</S>
-<S N='CBOARD_240_2S'>
-    <A N='Value'>CBOARD_240_2S.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Картон печатный двухстороннего мелования (320X468), 240 г/кв.м</A>
-</S>
-<S N='CBOARD_240_1S_MAX'>
-    <A N='Value'>CBOARD_240_1S_MAX.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Картон печатный одностороннего мелования (330x482), 240 г/кв.м</A>
-</S>
-<S N='CBOARD_240_2S_MAX'>
-    <A N='Value'>CBOARD_240_2S_MAX.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Картон печатный двухстороннего мелования (330x482), 240 г/кв.м</A>
-</S>
-<S N='CBOARD_280_1S'>
-    <A N='Value'>CBOARD_280_1S.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Картон печатный одностороннего мелования (320x468), 280 г/кв.м</A>
-</S>
-<S N='CBOARD_280_2S'>
-    <A N='Value'>CBOARD_280_2S.xml</A>
-    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
-    <A N='Comment'>Картон печатный двухстороннего мелования (320X468), 280 г/кв.м</A>
-</S>
-<S N='MATT_330X700_170'>
-    <A N='Value'>MATT_330x700_170.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Бумага мелованная матовая 330x700, 170 г/кв.м</A>
-</S>
-<S N='MATT_330X700_300'>
-    <A N='Value'>MATT_330x700_300.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Бумага мелованная матовая 330x700, 300 г/кв.м</A>
-</S>
-<S N='MATT_330X760_170'>
-    <A N='Value'>MATT_330x760_170.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Бумага мелованная матовая 330x760, 170 г/кв.м</A>
-</S>
-<S N='MATT_330X1000_170'>
-    <A N='Value'>MATT_330X1000_170.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Бумага мелованная матовая 330x1000, 170 г/кв.м</A>
-</S>
-<S N='MATT_720X520_150'>
-    <A N='Value'>MATT_720X520_150.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Бумага мелованная матовая 720x520, 150 г/кв.м</A>
-</S>
-<S N='MATT_720X520_170'>
-    <A N='Value'>MATT_720X520_170.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Бумага мелованная матовая 720x520, 170 г/кв.м</A>
-</S>
-<S N='MATT_720X520_200'>
-    <A N='Value'>MATT_720X520_200.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Бумага мелованная матовая 720x520, 200 г/кв.м</A>
-</S>
-<S N='MATT_720X520_250'>
-    <A N='Value'>MATT_720X520_250.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Бумага мелованная матовая 720x520, 250 г/кв.м</A>
-</S>
-<S N='MATT_720X520_300'>
-    <A N='Value'>MATT_720X520_300.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Бумага мелованная матовая 720x520, 300 г/кв.м</A>
-</S>
-<S N='GARDAPAT_135'>
-    <A N='Value'>GARDAPAT_135.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'></A>
-</S>
-<S N='CBOARD_330X700_220_2S'>
-    <A N='Value'>CBOARD_330x700_220_2S.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Картон печатный двухстороннего мелования 330x700, 220 gsm</A>
-</S>
-<S N='CBOARD_330X700_215_1S'>
-    <A N='Value'>CBOARD_330X700_215_1S.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Картон печатный одностороннего мелования 330x700, 215 gsm</A>
-</S>
-  <S N='KALKA'>
-    <A N='Value'>KALKA.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Калька для книги в твердом переплете на любой бумаге</A>
-  </S>
-<S N='ARCTIC_IVORY_150'>
-    <A N='Value'>ARCTIC_IVORY_150.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Дизайнерская бумага. Натуральная белая, 150 г/кв.м</A>
-</S>
-<S N='ARCTIC_WHITE_200'>
-    <A N='Value'>ARCTIC_WHITE_200.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Дизайнерская бумага. Белая, 200 г/кв.м</A>
-</S>
-<S N='ARCTIC_WHITE_150'>
-    <A N='Value'>ARCTIC_WHITE_150.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Дизайнерская бумага. Белая, 150 г/кв.м</A>
-</S>  
-<S N='ARCTIC_WHITE_115'>
-    <A N='Value'>ARCTIC_WHITE_115.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Дизайнерская бумага. Белая, 115 г/кв.м</A>
-</S> 
-<S N='MUNKEN_LYNX_150'>
-    <A N='Value'>MUNKEN_LYNX_150.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Дизайнерская бумага. Натуральная белая, 150 г/кв.м</A>
-</S>  
-<S N='MUNKEN_LYNX_300'>
-    <A N='Value'>MUNKEN_LYNX_300.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Дизайнерская бумага. Натуральная белая, 300 г/кв.м</A>
-</S>  
-<S N='ARCTIC_WHITE_250'>
-    <A N='Value'>ARCTIC_WHITE_250.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Дизайнерская бумага. Белая, 250 г/кв.м</A>
-</S>  
-<S N='HNM_BARYTASILK_310'>
-    <A N='Value'>HNM_BARYTASILK_310.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Hahnemühle Photo Silk Baryta, 310 gsm</A>
-  </S>
-<S N='MHW_OLDMILL_300'>
-    <A N='Value'>MHW_OLDMILL_300.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'></A>
-</S>
-<S N='MHW_CAMBRIC_300'>
-    <A N='Value'>MHW_CAMBRIC_300.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Mohawk Cambric - бумага, 300 г/кв.м</A>
-  </S>
- <S N='MHW_SMOOTH_350'>
-    <A N='Value'>MHW_SMOOTH_350.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Mohawk Cambric - бумага, 300 г/кв.м</A>
-  </S>
-<S N='PERGRAPHICA_240'>
-    <A N='Value'>PERGRAPHICA_240.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Pergraphica Natural white Rough 240 gsm</A>
-</S>
-<S N='BETULLA_285'>
-    <A N='Value'>BETULLA_285.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'> BETULLA_285 gsm</A>
-</S>
-<S N='ULTIMATE_WHITE_135'>
-    <A N='Value'>ULTIMATE_WHITE_135.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Высококачественная белая бумага для фотопроектов 330x482, 135 г/кв.м</A>
-</S>
-<S N='ULTIMATE_WHITE_170'>
-    <A N='Value'>ULTIMATE_WHITE_170.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Высококачественная белая бумага для фотопроектов 330x482, 170 г/кв.м</A>
-</S>
-<S N='ULTIMATE_WHITE_240'>
-    <A N='Value'>ULTIMATE_WHITE_240.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Высококачественная белая бумага для фотопроектов 330x482, 240 г/кв.м</A>
-</S>
-<S N='ULTIMATE_WHITE_260'>
-    <A N='Value'>ULTIMATE_WHITE_260.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Высококачественная белая бумага для фотопроектов 330x482, 260 г/кв.м</A>
-</S>
-<S N='ULTIMATE_WHITE_330X700_135'>
-    <A N='Value'>ULTIMATE_WHITE_330X700_135.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Высококачественная белая бумага для фотопроектов 330x700, 135 г/кв.м</A>
-</S>
-<S N='ULTIMATE_WHITE_330X700_170'>
-    <A N='Value'>ULTIMATE_WHITE_330X700_170.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Высококачественная белая бумага для фотопроектов 330x700, 170 г/кв.м</A>
-</S>
-<S N='ULTIMATE_WHITE_330X700_240'>
-    <A N='Value'>ULTIMATE_WHITE_330X700_240.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Высококачественная белая бумага для фотопроектов 330x700, 240 г/кв.м</A>
-</S>
-<S N='ULTIMATE_WHITE_330X700_260'>
-    <A N='Value'>ULTIMATE_WHITE_330X700_260.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Высококачественная белая бумага для фотопроектов 330x700, 260 г/кв.м</A>
-</S>
-<S N='ULTIMATE_WHITE_720X520_135'>
-    <A N='Value'>ULTIMATE_WHITE_720X520_135.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Высококачественная белая бумага для фотопроектов 720x520, 135 г/кв.м</A>
-</S>
-<S N='ULTIMATE_WHITE_720X520_170'>
-    <A N='Value'>ULTIMATE_WHITE_720X520_170.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Высококачественная белая бумага для фотопроектов 720x520, 170 г/кв.м</A>
-</S>
-<S N='ULTIMATE_WHITE_720X520_240'>
-    <A N='Value'>ULTIMATE_WHITE_720X520_240.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Высококачественная белая бумага для фотопроектов 720x520, 240 г/кв.м</A>
-</S>
-<S N='ULTIMATE_WHITE_720X520_260'>
-    <A N='Value'>ULTIMATE_WHITE_720X520_260.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
-    <A N='Comment'>Высококачественная белая бумага для фотопроектов 720x520, 260 г/кв.м</A>
-</S>
+	<S N='Null'>
+		<A N='Value'>Null.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Отсутствующий материал</A>
+	</S>
+	<S N='PLAIN'>
+		<A N='Value'>PLAIN.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Офисная бумага формата А4</A>
+	</S>
+	<S N='JOB_TAOPIX'>
+		<A N='Value'>JOB_TAOPIX.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Офисная бумага формата А4</A>
+	</S>
+	<S N='JOB_PPK'>
+		<A N='Value'>JOB_PPK.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Офисная бумага формата А4</A>
+	</S>
+	<S N='JOB_PRT'>
+		<A N='Value'>JOB_PRT.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Офисная бумага формата А4</A>
+	</S>
+	<S N='SA_MATT_80'>
+		<A N='Value'>SA_MATT_80.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Бумага самоклеющаяся матовая Adestor Mat, 80 г/кв.м</A>
+	</S>
+	<S N='OTHER'>
+		<A N='Value'>OTHER.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Неизвестный материал</A>
+	</S>
+	<S N='OTHER_MAX'>
+		<A N='Value'>OTHER_MAX.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Неизвестный материал, 330x482 мм</A>
+	</S>
+	<S N='OFSET_80'>
+		<A N='Value'>OFSET_80.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Офсетная бумага, 80 г/кв.м, 320x468 мм</A>
+	</S>
+	<S N='OFSET_100'>
+		<A N='Value'>OFSET_100.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Офсетная бумага, 80 г/кв.м, 320x468 мм</A>
+	</S>
+	<S N='OFSET_190'>
+		<A N='Value'>OFSET_190.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Офсетная бумага, 190 г/кв.м, 330x482 мм</A>
+	</S>
+	<S N='MATT_170_MAX'>
+		<A N='Value'>MATT_170_MAX.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Мелованная матовая бумага, 170 г/кв.м</A>
+	</S>
+	<S N='MATT_150_MAX'>
+		<A N='Value'>MATT_150_MAX.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Мелованная матовая бумага, 150 г/кв.м</A>
+	</S>
+	<S N='MATT_200_MAX'>
+		<A N='Value'>MATT_200_MAX.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Мелованная матовая бумага, 200 г/кв.м</A>
+	</S>
+	<S N='MATT_250_MAX'>
+		<A N='Value'>MATT_250_MAX.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Мелованная матовая бумага, 250 г/кв.м</A>
+	</S>
+	<S N='MATT_300_MAX'>
+		<A N='Value'>MATT_300_MAX.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Мелованная матовая бумага, 300 г/кв.м</A>
+	</S>
+	<S N='FBL_MATT_176'>
+		<A N='Value'>FBL_MATT_176.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>FlexBind Matte Cover (Long Hinge), 176 gsm</A>
+	</S>
+	<S N='FBL_SATIN_216'>
+		<A N='Value'>FBL_SATIN_216.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>FlexBind Satin Cover (Long Hinge), 216 gsm</A>
+	</S>
+	<S N='FBS_SATIN_216'>
+		<A N='Value'>FBS_SATIN_216.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>FlexBind Satin Cover (Short Hinge), 216 gsm</A>
+	</S>
+	<S N='FBL_PHOTO_260'>
+		<A N='Value'>FBL_PHOTO_260.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>FlexBind E-Photo Lustre (Long Hinge), 260 gsm</A>
+	</S>
+	<S N='FBLD_SATIN_216'>
+		<A N='Value'>FBLD_SATIN_216.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>FlexBind Satin Cover (Dual Long Hinge), 216 gsm</A>
+	</S>
+	<S N='WHP_SAPP_180'>
+		<A N='Value'>WHP_SAPP_180.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Self-Adhesive Polipropylene, 180 mkm</A>
+	</S>
+	<S N='WHP_MATT_210'>
+		<A N='Value'>WHP_MATT_210.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Wide-format inkjet matt paper, 210 gsm</A>
+	</S>
+	<S N='PHOTOMATT_190'>
+		<A N='Value'>PHOTOMATT_190.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Матовая бумага Felix Schoeller, 190 г/кв.м</A>
+	</S>
+	<S N='PHOTOMATT_260'>
+		<A N='Value'>PHOTOMATT_260.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Матовая бумага Felix Schoeller, 260 г/кв.м</A>
+	</S>
+	<S N='PHOTOPAPER_190'>
+		<A N='Value'>PHOTOPAPER_190.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>E-Photo Lustre - бумага Felix Schoeller, 190 г/кв.м</A>
+	</S>
+	<S N='PHOTOPAPER_260'>
+		<A N='Value'>PHOTOPAPER_260.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>E-Photo Lustre - бумага Felix Schoeller, 260 г/кв.м</A>
+	</S>
+	<S N='PHOTOPAPER_320X650_260'>
+		<A N='Value'>PHOTOPAPER_320X650_260.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>E-Photo Lustre - бумага Felix Schoeller, 260 г/кв.м</A>
+	</S>
+	<S N='PYRAMID_260'>
+		<A N='Value'>PYRAMID_260.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Pyramid - бумага Felix Schoeller, 260 г/кв.м</A>
+	</S>
+	<S N='CANVAS_260'>
+		<A N='Value'>CANVAS_260.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Canvas - бумага Felix Schoeller, 260 г/кв.м</A>
+	</S>
+	<S N='SILVER_210'>
+		<A N='Value'>SILVER_210.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Silver (Metallic) - бумага Felix Schoeller, 210 г/кв.м</A>
+	</S>
+	<S N='PERGRAPHICA_150'>
+		<A N='Value'>PERGRAPHICA_150.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Pergraphica - дизайнерская бумага, 150 г/кв.м</A>
+	</S>
+	<S N='PERGRAPHICA_330X700_150'>
+		<A N='Value'>PERGRAPHICA_330X700_150.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Pergraphica - дизайнерская бумага 330x700, 150 г/кв.м</A>
+	</S>
+	<S N='PERGRAPHICA_300'>
+		<A N='Value'>PERGRAPHICA_300.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Pergraphica - дизайнерская бумага, 300 г/кв.м</A>
+	</S>
+	<S N='CBOARD_240_1S'>
+		<A N='Value'>CBOARD_240_1S.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Картон печатный одностороннего мелования (320x468), 240 г/кв.м</A>
+	</S>
+	<S N='CBOARD_215_1S'>
+		<A N='Value'>CBOARD_215_1S.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Картон печатный одностороннего мелования, 215 г/кв.м</A>
+	</S>
+	<S N='CBOARD_240_2S'>
+		<A N='Value'>CBOARD_240_2S.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Картон печатный двухстороннего мелования (320X468), 240 г/кв.м</A>
+	</S>
+	<S N='CBOARD_280_1S'>
+		<A N='Value'>CBOARD_280_1S.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Картон печатный одностороннего мелования (320x468), 280 г/кв.м</A>
+	</S>
+	<S N='CBOARD_280_2S'>
+		<A N='Value'>CBOARD_280_2S.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Картон печатный двухстороннего мелования (320X468), 280 г/кв.м</A>
+	</S>
+	<S N='MATT_330X700_170'>
+		<A N='Value'>MATT_330x700_170.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Бумага мелованная матовая 330x700, 170 г/кв.м</A>
+	</S>
+	<S N='MATT_330X700_300'>
+		<A N='Value'>MATT_330x700_300.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Бумага мелованная матовая 330x700, 300 г/кв.м</A>
+	</S>
+	<S N='MATT_330X760_170'>
+		<A N='Value'>MATT_330x760_170.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Бумага мелованная матовая 330x760, 170 г/кв.м</A>
+	</S>
+	<S N='MATT_330X1000_170'>
+		<A N='Value'>MATT_330X1000_170.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Бумага мелованная матовая 330x1000, 170 г/кв.м</A>
+	</S>
+	<S N='MATT_720X520_150'>
+		<A N='Value'>MATT_720X520_150.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Бумага мелованная матовая 720x520, 150 г/кв.м</A>
+	</S>
+	<S N='MATT_720X520_170'>
+		<A N='Value'>MATT_720X520_170.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Бумага мелованная матовая 720x520, 170 г/кв.м</A>
+	</S>
+	<S N='MATT_720X520_200'>
+		<A N='Value'>MATT_720X520_200.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Бумага мелованная матовая 720x520, 200 г/кв.м</A>
+	</S>
+	<S N='MATT_720X520_250'>
+		<A N='Value'>MATT_720X520_250.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Бумага мелованная матовая 720x520, 250 г/кв.м</A>
+	</S>
+	<S N='MATT_720X520_300'>
+		<A N='Value'>MATT_720X520_300.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Бумага мелованная матовая 720x520, 300 г/кв.м</A>
+	</S>
+	<S N='CBOARD_330X700_220_2S'>
+		<A N='Value'>CBOARD_330x700_220_2S.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Картон печатный двухстороннего мелования 330x700, 220 gsm</A>
+	</S>
+	<S N='CBOARD_330X700_215_1S'>
+		<A N='Value'>CBOARD_330X700_215_1S.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Картон печатный одностороннего мелования 330x700, 215 gsm</A>
+	</S>
+	  <S N='KALKA'>
+		<A N='Value'>KALKA.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Калька для книги в твердом переплете на любой бумаге</A>
+	  </S>
+	<S N='ARCTIC_IVORY_150'>
+		<A N='Value'>ARCTIC_IVORY_150.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Дизайнерская бумага. Натуральная белая, 150 г/кв.м</A>
+	</S>
+	<S N='ARCTIC_WHITE_200'>
+		<A N='Value'>ARCTIC_WHITE_200.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Дизайнерская бумага. Белая, 200 г/кв.м</A>
+	</S>
+	<S N='ARCTIC_WHITE_150'>
+		<A N='Value'>ARCTIC_WHITE_150.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Дизайнерская бумага. Белая, 150 г/кв.м</A>
+	</S>  
+	<S N='ARCTIC_WHITE_115'>
+		<A N='Value'>ARCTIC_WHITE_115.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Дизайнерская бумага. Белая, 115 г/кв.м</A>
+	</S> 
+	<S N='MUNKEN_LYNX_150'>
+		<A N='Value'>MUNKEN_LYNX_150.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Дизайнерская бумага. Натуральная белая, 150 г/кв.м</A>
+	</S>  
+	<S N='MUNKEN_LYNX_300'>
+		<A N='Value'>MUNKEN_LYNX_300.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Дизайнерская бумага. Натуральная белая, 300 г/кв.м</A>
+	</S>  
+	<S N='ARCTIC_WHITE_250'>
+		<A N='Value'>ARCTIC_WHITE_250.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Дизайнерская бумага. Белая, 250 г/кв.м</A>
+	</S>  
+	<S N='HNM_BARYTASILK_310'>
+		<A N='Value'>HNM_BARYTASILK_310.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Hahnemühle Photo Silk Baryta, 310 gsm</A>
+	  </S>
+	<S N='MHW_OLDMILL_300'>
+		<A N='Value'>MHW_OLDMILL_300.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'></A>
+	</S>
+	<S N='MHW_CAMBRIC_300'>
+		<A N='Value'>MHW_CAMBRIC_300.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Mohawk Cambric - бумага, 300 г/кв.м</A>
+	  </S>
+	 <S N='MHW_SMOOTH_350'>
+		<A N='Value'>MHW_SMOOTH_350.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Mohawk Cambric - бумага, 300 г/кв.м</A>
+	  </S>
+	<S N='PERGRAPHICA_240'>
+		<A N='Value'>PERGRAPHICA_240.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Pergraphica Natural white Rough 240 gsm</A>
+	</S>
+	<S N='BETULLA_285'>
+		<A N='Value'>BETULLA_285.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'> BETULLA_285 gsm</A>
+	</S>
+	<S N='ULTIMATE_WHITE_135'>
+		<A N='Value'>ULTIMATE_WHITE_135.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Высококачественная белая бумага для фотопроектов 330x482, 135 г/кв.м</A>
+	</S>
+	<S N='ULTIMATE_WHITE_170'>
+		<A N='Value'>ULTIMATE_WHITE_170.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Высококачественная белая бумага для фотопроектов 330x482, 170 г/кв.м</A>
+	</S>
+	<S N='ULTIMATE_WHITE_240'>
+		<A N='Value'>ULTIMATE_WHITE_240.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Высококачественная белая бумага для фотопроектов 330x482, 240 г/кв.м</A>
+	</S>
+	<S N='ULTIMATE_WHITE_260'>
+		<A N='Value'>ULTIMATE_WHITE_260.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Высококачественная белая бумага для фотопроектов 330x482, 260 г/кв.м</A>
+	</S>
+	<S N='ULTIMATE_WHITE_330X700_135'>
+		<A N='Value'>ULTIMATE_WHITE_330X700_135.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Высококачественная белая бумага для фотопроектов 330x700, 135 г/кв.м</A>
+	</S>
+	<S N='ULTIMATE_WHITE_330X700_170'>
+		<A N='Value'>ULTIMATE_WHITE_330X700_170.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Высококачественная белая бумага для фотопроектов 330x700, 170 г/кв.м</A>
+	</S>
+	<S N='ULTIMATE_WHITE_330X700_240'>
+		<A N='Value'>ULTIMATE_WHITE_330X700_240.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Высококачественная белая бумага для фотопроектов 330x700, 240 г/кв.м</A>
+	</S>
+	<S N='ULTIMATE_WHITE_330X700_260'>
+		<A N='Value'>ULTIMATE_WHITE_330X700_260.xml</A>
+		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+		<A N='Comment'>Высококачественная белая бумага для фотопроектов 330x700, 260 г/кв.м</A>
+	</S>
+	<S N='ULTIMATE_WHITE_720X520_135'>
+		<A N='Value'>ULTIMATE_WHITE_720X520_135.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Высококачественная белая бумага для фотопроектов 720x520, 135 г/кв.м</A>
+	</S>
+	<S N='ULTIMATE_WHITE_720X520_170'>
+		<A N='Value'>ULTIMATE_WHITE_720X520_170.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Высококачественная белая бумага для фотопроектов 720x520, 170 г/кв.м</A>
+	</S>
+	<S N='ULTIMATE_WHITE_720X520_240'>
+		<A N='Value'>ULTIMATE_WHITE_720X520_240.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Высококачественная белая бумага для фотопроектов 720x520, 240 г/кв.м</A>
+	</S>
+	<S N='ULTIMATE_WHITE_720X520_260'>
+		<A N='Value'>ULTIMATE_WHITE_720X520_260.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Высококачественная белая бумага для фотопроектов 720x520, 260 г/кв.м</A>
+	</S>
+	<S N='PERGRAPHICA_720X520_150'>
+		<A N='Value'>PERGRAPHICA_720X520_150.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Pergraphica дизайнерская бумага 720x520, 150 gsm</A>
+	</S>
+	<S N='PERGRAPHICA_720X520_240'>
+		<A N='Value'>PERGRAPHICA_720X520_240.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Pergraphica дизайнерская бумага 720x520, 240 gsm</A>
+	</S>
+	<S N='PERGRAPHICA_720X520_300'>
+		<A N='Value'>PERGRAPHICA_720X520_300.xml</A>
+		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+		<A N='Comment'>Pergraphica дизайнерская бумага 720x520, 300 gsm</A>
+	</S>	
 </DRPXML>
