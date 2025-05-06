@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export author="sa" dateExport="06.05.2025">
+  <order id="214082263" date_recept="06.05.2025" name="Фотообложка LayFlat" order_num="Ф-0407812" order_type="Выпускные" order_cost_final="1431.0000000">
+    <customer id_customer="60680" name="Ткачук ОКСАНА">
+      <property propcode="1001" propname="Наименование контрагента" value="Ткачук ОКСАНА"/>
+      <property propcode="15001" propname="Контактные телефоны" value="79035930380"/>
+      <property propcode="15002" propname="e-mail" value="ovt01@mail.ru"/>
+    </customer>
+    <orderProperty>
+      <property propcode="5004" propname="Формат изделия" value="400X280"/>
+      <property propcode="5023" propname="Номер заказа" value="Ф-0407812"/>
+      <property propcode="5024" propname="Наименование заказа" value="Фотообложка LayFlat"/>
+      <property propcode="5025" propname="Дата оформления заказа" value="06.05.2025"/>
+      <property propcode="5026" propname="Менеджер" value="Менеджер Фотопроектов"/>
+      <property propcode="5027" propname="Дата отгрузки заказа" value="13.05.2025 15:00"/>
+      <property propcode="5061" propname="Исполнитель" value="778"/>
+      <property propcode="5086" propname="Комментарий к заказу"/>
+      <property propcode="5516" propname="Бренд фотопроекта" value="МоиФотоСтраницы"/>
+      <property propcode="5521" propname="SKUCODE продукта" value="MPP_7B"/>
+      <property propcode="5523" propname="Номер с сайта" value="21331"/>
+      <property propcode="5537" propname="Номер заказа TCS" value="26317_38990"/>
+      <property propcode="5538" propname="Позиция в заказе TCS" value="3/3"/>
+      <property propcode="5540" propname="Код дополнительной услуги" value="trc"/>
+      <property propcode="5559" propname="Наценка менеджера" value="0"/>
+      <property propcode="5560" propname="Сумма налога" value="0"/>
+      <property propcode="5561" propname="Компенсация" value="0"/>
+      <property propcode="8651" propname="Высота поля печати (мм)" value="0"/>
+      <property propcode="17011" propname="Вид оплаты" value="Яндекс касса"/>
+      <property propcode="32002" propname="Идентификатор для фильтрации операций в ASystemTouch" value="MPP"/>
+      <property propcode="32501" propname="Вид заказа" value="Фото"/>
+      <property propcode="32505" propname="Логистика_" value="Нет определения"/>
+      <property propcode="32538" propname="Срочность заказа_" value="Строго ко времени"/>
+      <property propcode="32543" propname="R_R Min дата начала выполнения заказа" value="05.03.2025 04:01"/>
+      <property propcode="32574" propname="Тираж листов заказа" value="4"/>
+    </orderProperty>
+    <orderDetail>
+      <detail id="214082264" name="Выпускной альбом" tir="1" is_compound="1" is_complect="0" vformat="200.0000000" hformat="280.0000000">
+        <detailProperty>
+          <property propcode="32504" propname="Кол-во для подбора_" value="2"/>
+          <property propcode="32508" propname="Толщина_(мм)" value="0.824"/>
+          <property propcode="32533" propname="Ламинирование_" value="Нет"/>
+          <property propcode="32553" propname="Площадь детали_(м2)" value="0.056"/>
+          <property propcode="32555" propname="Объем_" value="46.144"/>
+          <property propcode="32561" propname="Кол-во отрезков скотча на угол_" value="0"/>
+          <property propcode="32563" propname="Max кол-во " value="1"/>
+          <property propcode="32564" propname="Тираж детали верхнего уровня" value="1"/>
+          <property propcode="32569" propname="Кол-во полосок скотча на торец коробки_" value="0"/>
+          <property propcode="32573" propname="Вес детали кг_" value="0.095648"/>
+          <property propcode="6523" propname="Ссылка на файл" value="https://fineart-print.ru/siteCache/sites/245/editorLayout/6d2e3c0d66b4a9c3924972825e3f71a8.zip"/>
+        </detailProperty>
+      </detail>
+      <detail id="214082265" name="Блок" tir="1" is_compound="1" is_complect="0" id_parent_detail="214082264" vformat="200.0000000" hformat="280.0000000">
+        <detailProperty>
+          <property propcode="32504" propname="Кол-во для подбора_" value="3"/>
+          <property propcode="32508" propname="Толщина_(мм)" value="0.69"/>
+          <property propcode="32533" propname="Ламинирование_" value="Нет"/>
+          <property propcode="32553" propname="Площадь детали_(м2)" value="0.056"/>
+          <property propcode="32555" propname="Объем_" value="38.64"/>
+          <property propcode="32561" propname="Кол-во отрезков скотча на угол_" value="0"/>
+          <property propcode="32563" propname="Max кол-во " value="3"/>
+          <property propcode="32564" propname="Тираж детали верхнего уровня" value="1"/>
+          <property propcode="32569" propname="Кол-во полосок скотча на торец коробки_" value="0"/>
+          <property propcode="32573" propname="Вес детали кг_" value="0.08064"/>
+        </detailProperty>
+      </detail>
+      <detail id="214082266" name="Листы блока" tir="3" is_compound="0" is_complect="0" id_parent_detail="214082265" vformat="280.0000000" hformat="400.0000000" color="4+1">
+        <detailProperty>
+          <property propcode="32504" propname="Кол-во для подбора_" value="1"/>
+          <property propcode="32508" propname="Толщина_(мм)" value="0.23"/>
+          <property propcode="32516" propname="Материал_" value="Диз Бумага Белая"/>
+          <property propcode="32531" propname="Класс сложности_" value="A"/>
+          <property propcode="32532" propname="Плотность материала_" value="240"/>
+          <property propcode="32533" propname="Ламинирование_" value="Нет"/>
+          <property propcode="32553" propname="Площадь детали_(м2)" value="0.112"/>
+          <property propcode="32555" propname="Объем_" value="25.76"/>
+          <property propcode="32561" propname="Кол-во отрезков скотча на угол_" value="0"/>
+          <property propcode="32563" propname="Max кол-во " value="0"/>
+          <property propcode="32564" propname="Тираж детали верхнего уровня" value="1"/>
+          <property propcode="32569" propname="Кол-во полосок скотча на торец коробки_" value="0"/>
+          <property propcode="32573" propname="Вес детали кг_" value="0.02688"/>
+          <property propcode="6522" propname="ID детали" value="2"/>
+        </detailProperty>
+      </detail>
+      <detail id="214082267" name="Обложка" tir="1" is_compound="1" is_complect="0" id_parent_detail="214082264" vformat="200.0000000" hformat="280.0000000">
+        <detailProperty>
+          <property propcode="32504" propname="Кол-во для подбора_" value="1"/>
+          <property propcode="32508" propname="Толщина_(мм)" value="0.134"/>
+          <property propcode="32533" propname="Ламинирование_" value="Нет"/>
+          <property propcode="32553" propname="Площадь детали_(м2)" value="0.056"/>
+          <property propcode="32555" propname="Объем_" value="7.504"/>
+          <property propcode="32561" propname="Кол-во отрезков скотча на угол_" value="0"/>
+          <property propcode="32563" propname="Max кол-во " value="1"/>
+          <property propcode="32564" propname="Тираж детали верхнего уровня" value="1"/>
+          <property propcode="32569" propname="Кол-во полосок скотча на торец коробки_" value="0"/>
+          <property propcode="32573" propname="Вес детали кг_" value="0.015008"/>
+        </detailProperty>
+      </detail>
+      <detail id="214082268" name="Лайнер обложка" tir="1" is_compound="0" is_complect="0" id_parent_detail="214082267" vformat="242.0000000" hformat="443.0000000" color="4+0">
+        <detailProperty>
+          <property propcode="32504" propname="Кол-во для подбора_" value="1"/>
+          <property propcode="32508" propname="Толщина_(мм)" value="0.134"/>
+          <property propcode="32516" propname="Материал_" value="Бумага Мелованная Матовая"/>
+          <property propcode="32531" propname="Класс сложности_" value="A"/>
+          <property propcode="32532" propname="Плотность материала_" value="140"/>
+          <property propcode="32533" propname="Ламинирование_" value="Нет"/>
+          <property propcode="32553" propname="Площадь детали_(м2)" value="0.107"/>
+          <property propcode="32555" propname="Объем_" value="14.365604"/>
+          <property propcode="32561" propname="Кол-во отрезков скотча на угол_" value="0"/>
+          <property propcode="32563" propname="Max кол-во " value="0"/>
+          <property propcode="32564" propname="Тираж детали верхнего уровня" value="1"/>
+          <property propcode="32569" propname="Кол-во полосок скотча на торец коробки_" value="0"/>
+          <property propcode="32573" propname="Вес детали кг_" value="0.015008"/>
+          <property propcode="6522" propname="ID детали" value="3"/>
+        </detailProperty>
+      </detail>
+    </orderDetail>
+    <orderSheet>
+      <sheet id="214082273" name="Л-Листы блока" is_compound="0" is_complect="0">
+        <sheetStruct id_detail="214082266" detail_name="Листы блока" qtyOnSheet="1"/>
+        <sheetProperty>
+          <property propcode="32508" propname="Толщина_(мм)" value="0.23"/>
+          <property propcode="32512" propname="Площадь деталей_(м2)" value="0.112"/>
+          <property propcode="32513" propname="Кол-во деталей на листе_" value="1"/>
+          <property propcode="32516" propname="Материал_" value="Диз Бумага Белая"/>
+          <property propcode="32529" propname="Периметр деталей_(м)" value="1.36"/>
+          <property propcode="32531" propname="Класс сложности_" value="A"/>
+          <property propcode="32532" propname="Плотность материала_" value="240"/>
+          <property propcode="32533" propname="Ламинирование_" value="Нет"/>
+          <property propcode="32537" propname="Лист/Роль_" value="Листовой материал"/>
+          <property propcode="32554" propname="Площадь листа_(м2)" value="0.159"/>
+          <property propcode="32555" propname="Объем_" value="36.5838"/>
+          <property propcode="32557" propname="Каш Кол-во прогонов" value="0"/>
+          <property propcode="32560" propname="Периметр деталей (мм)" value="1360"/>
+          <property propcode="32570" propname="Средняя ширина детали на листе_" value="400"/>
+          <property propcode="32571" propname="Средний периметр деталей (мм)_" value="1360.000000"/>
+          <property propcode="7503" propname="Автоматический выбор печати" value="Нет"/>
+        </sheetProperty>
+      </sheet>
+      <sheet id="214082274" name="Л - Лайнер обложка" is_compound="0" is_complect="0">
+        <sheetStruct id_detail="214082268" detail_name="Лайнер обложка" qtyOnSheet="2"/>
+        <sheetProperty>
+          <property propcode="32508" propname="Толщина_(мм)" value="0.134"/>
+          <property propcode="32512" propname="Площадь деталей_(м2)" value="0.214"/>
+          <property propcode="32513" propname="Кол-во деталей на листе_" value="2"/>
+          <property propcode="32516" propname="Материал_" value="Бумага Мелованная Матовая"/>
+          <property propcode="32529" propname="Периметр деталей_(м)" value="2.74"/>
+          <property propcode="32531" propname="Класс сложности_" value="A"/>
+          <property propcode="32532" propname="Плотность материала_" value="140"/>
+          <property propcode="32533" propname="Ламинирование_" value="Нет"/>
+          <property propcode="32537" propname="Лист/Роль_" value="Листовой материал"/>
+          <property propcode="32554" propname="Площадь листа_(м2)" value="0.374"/>
+          <property propcode="32555" propname="Объем_" value="50.1696"/>
+          <property propcode="32557" propname="Каш Кол-во прогонов" value="0"/>
+          <property propcode="32560" propname="Периметр деталей (мм)" value="1370"/>
+          <property propcode="32570" propname="Средняя ширина детали на листе_" value="443"/>
+          <property propcode="32571" propname="Средний периметр деталей (мм)_" value="1370.000000"/>
+          <property propcode="7503" propname="Автоматический выбор печати" value="Нет"/>
+        </sheetProperty>
+      </sheet>
+    </orderSheet>
+    <orderOperations>
+      <operation id="214082292" name="online | Цифровой офсет (Л)" id_norm_operation="10" objectid="239" objecttype="10" itemid="214082274" itemtype="3" item_name="Л - Лайнер обложка" itemtype_description="sheet" operation_cost="190.1400000" operation_primecost="146.2600000" qty="1.0000000" duration="0:03">
+        <operationProperty>
+          <property propcode="8030" propname="Красочность операции" value="4+0"/>
+          <property propcode="32502" propname="Красочность_" value="4+0"/>
+        </operationProperty>
+      </operation>
+      <operation id="214082286" name="online | Цифровая печать Тонер (Л)" id_norm_operation="511" objectid="218" objecttype="10" itemid="214082273" itemtype="3" item_name="Л-Листы блока" itemtype_description="sheet" operation_cost="39.7400000" operation_primecost="30.5700000" qty="3.0000000" duration="0:01">
+        <operationProperty>
+          <property propcode="8030" propname="Красочность операции" value="4+1"/>
+        </operationProperty>
+      </operation>
+      <operation id="214082293" name="online | Ламинирование (С)" id_norm_operation="24" objectid="65" objecttype="10" itemid="214082277" itemtype="4" item_name="Л - Лайнер обложка  (Л)" itemtype_description="sheet face" operation_cost="31.1900000" operation_primecost="23.9900000" qty="1.0000000" duration="0:01">
+        <operationProperty>
+          <property propcode="6522" propname="ID детали" value="3"/>
+          <property propcode="8573" propname="Сторона подачи &quot;Широкая&quot;" value="Узкая"/>
+          <property propcode="32507" propname="Ламинация_" value="Матовая"/>
+          <property propcode="32522" propname="Пленка_" value="30 мкм 520 мм"/>
+        </operationProperty>
+      </operation>
+      <operation id="214082294" name="online | Биговка | Перфорация (Д)" id_norm_operation="988" objectid="224" objecttype="10" itemid="214082266" itemtype="2" item_name="Листы блока" itemtype_description="detail" operation_cost="44.4700000" operation_primecost="34.2100000" qty="3.0000000" duration="0:02">
+        <operationProperty>
+          <property propcode="8524" propname="Кол-во операций" value="1"/>
+        </operationProperty>
+      </operation>
+      <operation id="214082295" name="online | Фальцовка (Д)" id_norm_operation="990" objectid="45" objecttype="9" itemid="214082266" itemtype="2" item_name="Листы блока" itemtype_description="detail" operation_cost="19.9000000" operation_primecost="15.3100000" qty="3.0000000" duration="0:01">
+        <operationProperty>
+          <property propcode="8006" propname="Количество фальцев" value="1"/>
+          <property propcode="8024" propname="Количество исполнителей" value="1"/>
+          <property propcode="8573" propname="Сторона подачи &quot;Широкая&quot;" value="Узкая"/>
+        </operationProperty>
+      </operation>
+      <operation id="214082283" name="РО | Листоподбор (Д)" id_norm_operation="306" objectid="45" objecttype="9" itemid="214082265" itemtype="2" item_name="Блок" itemtype_description="detail" operation_cost="69.7600000" operation_primecost="42.2800000" qty="5.0000000" duration="0:03">
+        <operationProperty>
+          <property propcode="8024" propname="Количество исполнителей" value="1"/>
+          <property propcode="8569" propname="Кол-во подборов" value="1"/>
+          <property propcode="8570" propname="Кол-во листов (тетрадей) в подборе" value="5"/>
+        </operationProperty>
+      </operation>
+      <operation id="214082288" name="online | Сборка блока LayFlat (Д)" id_norm_operation="295" objectid="223" objecttype="10" itemid="214082265" itemtype="2" item_name="Блок" itemtype_description="detail" operation_cost="112.2200000" operation_primecost="86.3300000" qty="1.0000000" duration="0:04"/>
+      <operation id="214082290" name="online | Изготовление переплетной крышки (Д)" id_norm_operation="22" objectid="137" objecttype="10" itemid="214082267" itemtype="2" item_name="Обложка" itemtype_description="detail" operation_cost="51.3400000" operation_primecost="39.4900000" qty="1.0000000" duration="0:02"/>
+      <operation id="214082291" name="online | Вставка блока в крышку (Д)" id_norm_operation="60" objectid="97" objecttype="10" itemid="214082264" itemtype="2" item_name="Выпускной альбом" itemtype_description="detail" operation_cost="23.1500000" operation_primecost="17.8100000" qty="1.0000000" duration="0:01"/>
+      <operation id="214082282" name="online | Штриховка изделия (Д)" id_norm_operation="72" objectid="28" objecttype="163" itemid="214082264" itemtype="2" item_name="Выпускной альбом" itemtype_description="detail" operation_cost="22.2000000" operation_primecost="17.0800000" qty="1.0000000" duration="0:01">
+        <operationProperty>
+          <property propcode="8510" propname="Сторона" value="Высота"/>
+        </operationProperty>
+      </operation>
+      <operation id="214082285" name="online | Упаковка для фотобизнеса (Д) " id_norm_operation="543" objectid="210" objecttype="10" itemid="214082264" itemtype="2" item_name="Выпускной альбом" itemtype_description="detail" operation_cost="21.8700000" operation_primecost="16.8200000" qty="1.0000000" duration="0:01">
+        <operationProperty>
+          <property propcode="8562" propname="Кол-во в коробе (шт)" value="25"/>
+          <property propcode="32548" propname="Гофрокороб_" value="Есть"/>
+        </operationProperty>
+      </operation>
+      <operation id="214082284" name="online | Логистика (Д)" id_norm_operation="209" objectid="112" objecttype="10" itemid="214082264" itemtype="2" item_name="Выпускной альбом" itemtype_description="detail" operation_cost="0.0000000" operation_primecost="0.0000000" qty="100.0000000" duration="1666:39">
+        <operationProperty>
+          <property propcode="8553" propname="Кто доставляет" value="Служба доставки Boxberry"/>
+          <property propcode="8554" propname="Регион доставки" value="Москва"/>
+          <property propcode="8563" propname="Кол-во доставок" value="1"/>
+        </operationProperty>
+      </operation>
+    </orderOperations>
+    <orderPaper>
+      <paper id="558982" name="240 г/м2, 787х1092 мм | ULTIMATE-PRINT P7013 (Высоко-Белый) " paper_type="41" id_sheet="214082273" qty_final="1.0000000" meaunit="л." qty_in_leaf="1.0000000" qty_in_m2="0.1590600" price_norm="93.8900000" price_selling="112.6700000" format_cutting="482x330" qty_in_kg="0.2070000" XML_SKUCODE="ULTIMATE_WHITE_240" id_cls="1272"/>
+      <paper id="535055" name="140 г/м2, (EU=150 г/м2), 720х1040 мм | Мелованная (SNOW EAGLE SILK RW) | Матовая (Белый) " paper_type="41" id_sheet="214082274" qty_final="1.0000000" meaunit="л." qty_in_leaf="1.0000000" qty_in_m2="0.3744000" price_norm="15.7000000" price_selling="18.8400000" format_cutting="720x520" qty_in_kg="0.1050000" XML_SKUCODE="MATT_150_MAX" id_cls="1275"/>
+    </orderPaper>
+    <orderMaterials>
+      <material id="1309" type="47" name="Каптал" id_techoper="214082288" qty="0.0100000" measunit="м"/>
+      <material id="2057" type="47" name="Проставки" id_techoper="214082288" qty="2.0000000"/>
+      <material id="7424" type="41" name="Клей Technomelt DM 6540 - Горячее нанесение Латекс •DM COOL 2888U / DM COOL 1101• &lt;кг&gt;" id_techoper="214082291" qty="0.0120000" measunit="кг" price_norm="840" price_selling="1008" id_cls="1317"/>
+      <material id="7427" type="41" name="Клей Брикол КЖ-109 - Горячее нанесение Желатиновый (Кашировка) &lt;кг&gt;" id_techoper="214082290" qty="0.0020000" measunit="кг" price_norm="266" price_selling="319.2" id_cls="1317"/>
+      <material id="7804" type="41" name="Гофрокороб &quot;Т-22&quot; Профиль: B (Бурый) (Большой) 315х230х300 мм " id_techoper="214082285" qty="1.0000000" measunit="шт" price_norm="35" price_selling="42" id_cls="1347"/>
+      <material id="7961" type="41" name="Пленка термоусадочная ТУ ПОФ 350 мм " id_techoper="214082285" qty="0.5000000" measunit="м" price_norm="4" price_selling="4.8" id_cls="1344"/>
+      <material id="12918" type="41" name="MPP | 200х280_КБС | Сторонка (2,5 мм) | 195х286 мм " id_techoper="214082290" qty="2.0000000" measunit="шт" price_norm="17" price_selling="22.1" id_cls="2046"/>
+      <material id="342176" type="41" name="КЛИК AccurioPress C14000 (1 красочный)" id_techoper="214082286" qty="6.0000000" measunit="клик" price_norm="1.5" price_selling="1.95" id_cls="1582"/>
+      <material id="342177" type="41" name="КЛИК AccurioPress C14000 (4-х красочный)" id_techoper="214082286" qty="24.0000000" measunit="клик" price_norm="0.85" price_selling="1.105" id_cls="1582"/>
+      <material id="390011" type="41" name="Клей EUKALIN 619 DD A - Горячее нанесение Желатиновый (бабочки) &lt;кг&gt;" id_techoper="214082288" qty="0.0020000" measunit="кг" price_norm="884" price_selling="1060.8" id_cls="1317"/>
+      <material id="531088" type="41" name="КЛИК HP Indigo 12000 (4-х красочный)" id_techoper="214082292" qty="4.0000000" measunit="клик" price_norm="5" price_selling="6.5" id_cls="1582"/>
+      <material id="531319" type="41" name="030 мкм, Матовая PP &quot;ANTI-SCUFF&quot;, 520 мм х 2000 м " id_techoper="214082293" qty="0.3700000" measunit="м2" price_norm="56.52" price_selling="67.82" XML_SKUCODE="M" id_cls="1320"/>
+    </orderMaterials>
+    <orderPaint>
+      <paint id="342172" name="Краска Konica C14000 Black (Черный) •3,264 кг• &lt;кг&gt; " id_techoper="214082286" qty="0.0006160" measunit="кг" price_norm="0" price_selling="0" id_cls="1810"/>
+      <paint id="342173" name="Краска Konica C14000 Cyan (Голубой) •3,264 кг• &lt;кг&gt; " id_techoper="214082286" qty="0.0003080" measunit="кг" price_norm="0" price_selling="0" id_cls="1810"/>
+      <paint id="342174" name="Краска Konica C14000 Magenta (Пурпурный) •3,264 кг• &lt;кг&gt; " id_techoper="214082286" qty="0.0003080" measunit="кг" price_norm="0" price_selling="0" id_cls="1810"/>
+      <paint id="342175" name="Краска Konica C14000 Yellow (Желтый) •3,264 кг• &lt;кг&gt; " id_techoper="214082286" qty="0.0003080" measunit="кг" price_norm="0" price_selling="0" id_cls="1810"/>
+      <paint id="531082" name="Краска HP ElectroInk 12000 Black (Черный) &lt;кг&gt; " id_techoper="214082292" qty="0.0006600" measunit="кг" price_norm="0" price_selling="0" id_cls="1364"/>
+      <paint id="531083" name="Краска HP ElectroInk 12000 Cyan (Голубой) &lt;кг&gt; " id_techoper="214082292" qty="0.0006600" measunit="кг" price_norm="0" price_selling="0" id_cls="1364"/>
+      <paint id="531084" name="Краска HP ElectroInk 12000 Magenta (Пурпурный) &lt;кг&gt; " id_techoper="214082292" qty="0.0006600" measunit="кг" price_norm="0" price_selling="0" id_cls="1364"/>
+      <paint id="531085" name="Краска HP ElectroInk 12000 Yellow (Желтый) &lt;кг&gt; " id_techoper="214082292" qty="0.0006600" measunit="кг" price_norm="0" price_selling="0" id_cls="1364"/>
+    </orderPaint>
+  <information count="3"><order id="1">407810 - Фотообложка LayFlat</order><order id="2">407811 - Фотообложка LayFlat</order><order id="3">407812 - Фотообложка LayFlat</order></information></order>
+</export>
