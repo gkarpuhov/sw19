@@ -94,7 +94,7 @@
                 },
                 {
                     "id": 232382,
-                    "name": "0,5 \u043c\u043c, 700\u04451000 \u043c\u043c | \u041f\u043b\u0430\u0441\u0442\u0438\u043a PET | \u0413\u043b\u044f\u043d\u0446/\u0413\u043b\u044f\u043d\u0446 | (\u041f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0439) | PET GAG PENTACLEAR GAG BX-CG6GF04 \u0441 \u0437\u0430\u0449\u0438\u0442\u043d\u044b\u043c \u0441\u043b\u043e\u0435\u043c"
+                    "name": "0,5 \u043c\u043c, 700\u04451000 \u043c\u043c | \u041f\u043b\u0430\u0441\u0442\u0438\u043a PET | \u0413\u043b\u044f\u043d\u0446/\u0413\u043b\u044f\u043d\u0446 | (\u041f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0439) | PET GAG PENTACLEAR GAG BX-CG6GF04 "
                 },
                 {
                     "id": 444105,
@@ -325,8 +325,8 @@
             "propdatatype": "s",
             "propname": "SKUCODE \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430",
             "propshortname": "Scucode \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430",
-            "value": "TCS_LSTG_A3",
-            "visvalue": "TCS_LSTG_A3",
+            "value": "TCS_LSTG",
+            "visvalue": "TCS_LSTG",
             "wizardid": 0
         },
         {
@@ -902,6 +902,32 @@
             "hidedetails": null,
             "hidematerials": null,
             "id": 986,
+            "propsoff": null,
+            "propson": null
+        },
+        {
+            "answerchoice": [
+                {
+                    "answer": "\u0414\u0430",
+                    "answerid": 1071,
+                    "hidedetails": null,
+                    "hidematerials": null,
+                    "propson": null
+                },
+                {
+                    "answer": "\u041d\u0435\u0442",
+                    "answerid": 1072,
+                    "hidedetails": null,
+                    "hidematerials": null,
+                    "propson": null
+                }
+            ],
+            "comment": "",
+            "defaultanswer": 1072,
+            "formula": "\u041d\u0443\u0436\u043d\u0430 \u0440\u0435\u0437\u043a\u0430",
+            "hidedetails": null,
+            "hidematerials": null,
+            "id": 1070,
             "propsoff": null,
             "propson": null
         }
