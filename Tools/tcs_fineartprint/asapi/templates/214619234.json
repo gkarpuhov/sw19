@@ -20,8 +20,8 @@
                 "title": ""
             },
             "paper": {
-                "id": 490578,
-                "name": "157 \u0433/\u043c2, (EU=170 \u0433/\u043c2), 720\u04451040 \u043c\u043c | \u041c\u0435\u043b\u043e\u0432\u0430\u043d\u043d\u0430\u044f (SNOW EAGLE SILK RW) | \u041c\u0430\u0442\u043e\u0432\u0430\u044f (\u0411\u0435\u043b\u044b\u0439) "
+                "id": 7363,
+                "name": "100 \u0433/\u043c2, 320\u0445464 \u043c\u043c | Arena Extra White Smooth (Fedrigoni) | (\u0411\u0435\u043b\u044b\u0439) "
             },
             "paperlist": [
                 {
@@ -225,8 +225,8 @@
                     "name": "080 \u0433/\u043c2, 700\u04451000 \u043c\u043c | \u041a\u043d\u0438\u0436\u043d\u043e-\u0436\u0443\u0440\u043d\u0430\u043b\u044c\u043d\u0430\u044f  | \u041c\u0430\u0442\u043e\u0432\u0430\u044f (\u041a\u0440\u0435\u043c\u043e\u0432\u044b\u0439) "
                 },
                 {
-                    "id": 490578,
-                    "name": "157 \u0433/\u043c2, (EU=170 \u0433/\u043c2), 720\u04451040 \u043c\u043c | \u041c\u0435\u043b\u043e\u0432\u0430\u043d\u043d\u0430\u044f (SNOW EAGLE SILK RW) | \u041c\u0430\u0442\u043e\u0432\u0430\u044f (\u0411\u0435\u043b\u044b\u0439) "
+                    "id": 7363,
+                    "name": "100 \u0433/\u043c2, 320\u0445464 \u043c\u043c | Arena Extra White Smooth (Fedrigoni) | (\u0411\u0435\u043b\u044b\u0439) "
                 }
             ],
             "sheetcomment": "",
@@ -836,50 +836,8 @@
                     "answer": "\u0411\u0435\u0437 \u043e\u0442\u0434\u0435\u043b\u043a\u0438",
                     "answerid": 1086,
                     "hidedetails": null,
-                    "hidematerials": [
-                        {
-                            "clsid": 1037,
-                            "clsname": "online | \u041b\u0430\u043c\u0438\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 (\u0421) – \u041f\u043b\u0435\u043d\u043a\u0430 \u0434\u043b\u044f \u043b\u0430\u043c\u0438\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f",
-                            "initid": 285267,
-                            "list": [
-                                {
-                                    "id": 7623,
-                                    "name": "025 \u043c\u043a\u043c, \u0413\u043b\u044f\u043d\u0446\u0435\u0432\u0430\u044f PP 460 \u043c\u043c \u0445 3000 \u043c"
-                                },
-                                {
-                                    "id": 285266,
-                                    "name": "028 \u043c\u043a\u043c, \u041c\u0430\u0442\u043e\u0432\u0430\u044f PP 460 \u043c\u043c \u0445 3000 \u043c"
-                                },
-                                {
-                                    "id": 7597,
-                                    "name": "030 \u043c\u043a\u043c, \u0412\u0435\u043b\u044c\u0432\u0435\u0442 PP 460 \u043c\u043c \u0445 2000 \u043c"
-                                }
-                            ],
-                            "material": {
-                                "id": 285267,
-                                "name": "028 \u043c\u043a\u043c, \u041c\u0430\u0442\u043e\u0432\u0430\u044f PP 480 \u043c\u043c \u0445 3000 \u043c "
-                            },
-                            "operid": 214619243
-                        }
-                    ],
-                    "propson": [
-                        {
-                            "comment": "",
-                            "datatype": 2,
-                            "listofvalues": null,
-                            "listtype": 1,
-                            "maxv": 0,
-                            "minv": 0,
-                            "opid": 214619243,
-                            "propcode": 6522,
-                            "propdatatype": "u",
-                            "propname": "online | \u041b\u0430\u043c\u0438\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 (\u0421) – ID \u0434\u0435\u0442\u0430\u043b\u0438",
-                            "propshortname": "",
-                            "value": "2",
-                            "visvalue": "2",
-                            "wizardid": 1251
-                        }
-                    ]
+                    "hidematerials": null,
+                    "propson": null
                 },
                 {
                     "answer": "\u041b\u0438\u0446\u043e",

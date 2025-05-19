@@ -1,51 +1,6 @@
 {
     "details": [
         {
-            "assembly": [
-                {
-                    "comment": "",
-                    "detailid": 213516225,
-                    "id": 201,
-                    "qty": 2,
-                    "title": "\u0411\u0440\u043e\u0448\u044e\u0440\u0430 – \u041e\u0431\u043b\u043e\u0436\u043a\u0430"
-                }
-            ],
-            "comment": "",
-            "detailid": 213516224,
-            "detailname": "\u0411\u0440\u043e\u0448\u044e\u0440\u0430",
-            "hidetype": 0,
-            "inc": {
-                "comment": "",
-                "id": 0,
-                "incback": 0,
-                "incface": 0,
-                "title": ""
-            },
-            "pages": {
-                "comment": "",
-                "id": 0,
-                "pages": 0,
-                "title": ""
-            },
-            "paper": {
-                "id": 0,
-                "name": ""
-            },
-            "paperlist": null,
-            "sheetcomment": "",
-            "sheetid": 0,
-            "size": {
-                "comment": "",
-                "h": 0,
-                "hbleed": 0,
-                "id": 0,
-                "sizename": "",
-                "title": "",
-                "w": 0,
-                "wbleed": 0
-            }
-        },
-        {
             "assembly": null,
             "comment": "",
             "detailid": 213515937,
@@ -542,6 +497,51 @@
             "comment": "",
             "detailid": 213515936,
             "detailname": "\u0411\u043b\u043e\u043a",
+            "hidetype": 0,
+            "inc": {
+                "comment": "",
+                "id": 0,
+                "incback": 0,
+                "incface": 0,
+                "title": ""
+            },
+            "pages": {
+                "comment": "",
+                "id": 0,
+                "pages": 0,
+                "title": ""
+            },
+            "paper": {
+                "id": 0,
+                "name": ""
+            },
+            "paperlist": null,
+            "sheetcomment": "",
+            "sheetid": 0,
+            "size": {
+                "comment": "",
+                "h": 0,
+                "hbleed": 0,
+                "id": 0,
+                "sizename": "",
+                "title": "",
+                "w": 0,
+                "wbleed": 0
+            }
+        },
+        {
+            "assembly": [
+                {
+                    "comment": "",
+                    "detailid": 213516225,
+                    "id": 201,
+                    "qty": 2,
+                    "title": "\u0411\u0440\u043e\u0448\u044e\u0440\u0430 – \u041e\u0431\u043b\u043e\u0436\u043a\u0430"
+                }
+            ],
+            "comment": "",
+            "detailid": 213516224,
+            "detailname": "\u0411\u0440\u043e\u0448\u044e\u0440\u0430",
             "hidetype": 0,
             "inc": {
                 "comment": "",
