@@ -989,8 +989,8 @@
                             "propdatatype": "u",
                             "propname": "online | 3D \u043b\u0430\u043a\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 (C) – \u0422\u043e\u043b\u0449\u0438\u043d\u0430 \u043b\u0430\u043a\u0430, \u043c\u043a\u043c",
                             "propshortname": "",
-                            "value": "28",
-                            "visvalue": "28",
+                            "value": "",
+                            "visvalue": "",
                             "wizardid": 1219
                         },
                         {
@@ -1078,8 +1078,8 @@
                             "propdatatype": "u",
                             "propname": "online | 3D \u0444\u043e\u043b\u044c\u0433\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 (C) – \u041f\u043b\u043e\u0449\u0430\u0434\u044c \u0437\u0430\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f \u043b\u0438\u0441\u0442\u0430, % (2)",
                             "propshortname": "",
-                            "value": "15",
-                            "visvalue": "15",
+                            "value": "",
+                            "visvalue": "",
                             "wizardid": 1246
                         },
                         {
@@ -1235,8 +1235,8 @@
                             "propdatatype": "u",
                             "propname": "online | 3D \u0444\u043e\u043b\u044c\u0433\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 (C) – \u041f\u043b\u043e\u0449\u0430\u0434\u044c \u0437\u0430\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f \u043b\u0438\u0441\u0442\u0430, % (1)",
                             "propshortname": "",
-                            "value": "15",
-                            "visvalue": "15",
+                            "value": "",
+                            "visvalue": "",
                             "wizardid": 1242
                         },
                         {
@@ -1349,8 +1349,8 @@
                             "propdatatype": "u",
                             "propname": "online | 3D \u0444\u043e\u043b\u044c\u0433\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 (C) – \u0422\u043e\u043b\u0449\u0438\u043d\u0430 \u043b\u0430\u043a\u0430, \u043c\u043a\u043c (1)",
                             "propshortname": "",
-                            "value": "42",
-                            "visvalue": "42",
+                            "value": "",
+                            "visvalue": "",
                             "wizardid": 1245
                         }
                     ]
@@ -1395,7 +1395,7 @@
     "templcur": "RUR",
     "templid": 213277580,
     "templmes": "\u0448\u0442",
-    "templname": "\u041b\u0438\u0441\u0442\u043e\u0432\u0430\u044f \u043f\u0435\u0447\u0430\u0442\u044c \u0418\u043d\u0434\u0438\u0433\u043e 12000 | MGI I \u0422\u0415\u0421\u0422",
+    "templname": "TCS I \u041b\u0438\u0441\u0442\u043e\u0432\u0430\u044f \u043f\u0435\u0447\u0430\u0442\u044c \u0418\u043d\u0434\u0438\u0433\u043e 12000 | MGI",
     "toorder": {
         "customerid": 0,
         "managerid": 0,
