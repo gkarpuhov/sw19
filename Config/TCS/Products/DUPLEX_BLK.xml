@@ -53,6 +53,10 @@
       </C>
     </C>
     <C N="Imposition">
+      <C N="Allow">
+        <A N="Value">#%ProductCode%=!?([a-zA-Z0-9_]+)?MGI.*</A>
+        <A N="Folder">\\fs2\Orders\_ONLINE</A>				
+      </C>	
       <C N="Template">
         <C N="NUP">
           <A N="Value">I-DUPLEX.xml</A>

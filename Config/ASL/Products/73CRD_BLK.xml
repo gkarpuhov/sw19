@@ -160,7 +160,7 @@
           <A>OTHER\w*</A>
           <A>ARCTIC_\w+</A>
           <A>ULTIMATE_\w+</A>
-          <A>PYRAMID_260</A>
+          <A>CBOARD_\w+</A>
           <A>OFSET_\w+</A>
         </C>
       </C>
