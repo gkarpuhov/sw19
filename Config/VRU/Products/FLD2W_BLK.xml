@@ -138,9 +138,10 @@
         <C N="Params">
           <A N="Filter">true</A>
         </C>
-        <A N="Default">Indigo7600</A>
+        <A N="Default">Indigo7900</A>
         <C N="List">
           <A>Indigo7600</A>
+	      <A>Indigo7900</A>
           <A>Konica14000</A>
         </C>
       </C>
