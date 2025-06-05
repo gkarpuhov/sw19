@@ -138,18 +138,19 @@
         <C N="Params">
           <A N="Filter">true</A>
         </C>
-        <A N="Default">Konica14000</A>
+        <A N="Default">Indigo12000</A>
         <C N="List">
           <A>Konica14000</A>
+          <A>Indigo12000</A>			  
         </C>
       </C>
       <C N="SubstrateList">
         <C N="Params">
           <A N="Filter">true</A>
         </C>
-        <A N="Default">MATT_330X700_170</A>
+        <A N="Default">MATT_720X520_150</A>
         <C N="List">
-          <A>MATT_330X700_170</A>
+          <A>MATT_\w+</A>
         </C>
       </C>
     </C>

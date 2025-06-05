@@ -1,17 +1,62 @@
 {
     "details": [
         {
+            "assembly": [
+                {
+                    "comment": "",
+                    "detailid": 214564539,
+                    "id": 202,
+                    "qty": 1,
+                    "title": "\u041b\u0438\u0441\u0442\u0430\u0436 – \u041b\u0438\u0441\u0442\u044b"
+                }
+            ],
+            "comment": "",
+            "detailid": 214564538,
+            "detailname": "\u041b\u0438\u0441\u0442\u0430\u0436",
+            "hidetype": 0,
+            "inc": {
+                "comment": "",
+                "id": 0,
+                "incback": 0,
+                "incface": 0,
+                "title": ""
+            },
+            "pages": {
+                "comment": "",
+                "id": 0,
+                "pages": 0,
+                "title": ""
+            },
+            "paper": {
+                "id": 0,
+                "name": ""
+            },
+            "paperlist": null,
+            "sheetcomment": "",
+            "sheetid": 0,
+            "size": {
+                "comment": "",
+                "h": 0,
+                "hbleed": 0,
+                "id": 0,
+                "sizename": "",
+                "title": "",
+                "w": 0,
+                "wbleed": 0
+            }
+        },
+        {
             "assembly": null,
             "comment": "",
-            "detailid": 213515937,
-            "detailname": "\u041b\u0438\u0441\u0442\u044b \u0431\u043b\u043e\u043a\u0430",
+            "detailid": 214564539,
+            "detailname": "\u041b\u0438\u0441\u0442\u044b",
             "hidetype": 1,
             "inc": {
                 "comment": "",
-                "id": 1012,
+                "id": 1075,
                 "incback": 4,
                 "incface": 4,
-                "title": "\u041a\u0440\u0430\u0441\u043e\u0447\u043d\u043e\u0441\u0442\u044c \u043f\u0435\u0447\u0430\u0442\u0438 (\u0411\u043b\u043e\u043a)"
+                "title": "\u041a\u0440\u0430\u0441\u043e\u0447\u043d\u043e\u0441\u0442\u044c \u043f\u0435\u0447\u0430\u0442\u0438"
             },
             "pages": {
                 "comment": "",
@@ -230,430 +275,22 @@
                 }
             ],
             "sheetcomment": "",
-            "sheetid": 213515939,
+            "sheetid": 214564541,
             "size": {
                 "comment": "",
                 "h": 210,
                 "hbleed": 4,
-                "id": 1011,
+                "id": 1074,
                 "sizename": "",
-                "title": "\u0424\u043e\u0440\u043c\u0430\u0442 \u0434\u0435\u0442\u0430\u043b\u0435\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446 (\u0411\u043b\u043e\u043a)",
+                "title": "\u0424\u043e\u0440\u043c\u0430\u0442 \u0434\u0435\u0442\u0430\u043b\u0435\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446",
                 "w": 297,
                 "wbleed": 4
-            }
-        },
-        {
-            "assembly": null,
-            "comment": "",
-            "detailid": 213516225,
-            "detailname": "\u041e\u0431\u043b\u043e\u0436\u043a\u0430",
-            "hidetype": 1,
-            "inc": {
-                "comment": "",
-                "id": 1064,
-                "incback": 4,
-                "incface": 4,
-                "title": "\u041a\u0440\u0430\u0441\u043e\u0447\u043d\u043e\u0441\u0442\u044c \u043f\u0435\u0447\u0430\u0442\u0438 (\u041e\u0431\u043b\u043e\u0436\u043a\u0430)"
-            },
-            "pages": {
-                "comment": "",
-                "id": 0,
-                "pages": 0,
-                "title": ""
-            },
-            "paper": {
-                "id": 534828,
-                "name": "270 \u0433/\u043c2, (EU=300 \u0433/\u043c2), 720\u04451040 \u043c\u043c | \u041c\u0435\u043b\u043e\u0432\u0430\u043d\u043d\u0430\u044f (SNOW EAGLE SILK RW) | \u041c\u0430\u0442\u043e\u0432\u0430\u044f (\u0411\u0435\u043b\u044b\u0439) "
-            },
-            "paperlist": [
-                {
-                    "id": 10011,
-                    "name": "0,04 \u043c\u043c, 148\u0445210 \u043c\u043c | \u0424\u0430\u0439\u043b \u04105 | \u0413\u043b\u044f\u043d\u0446/\u0413\u043b\u044f\u043d\u0446 | (\u041f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0439) "
-                },
-                {
-                    "id": 7531,
-                    "name": "0,04 \u043c\u043c, 210\u0445297 \u043c\u043c | \u0424\u0430\u0439\u043b \u04104 (\u041f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0439) "
-                },
-                {
-                    "id": 262120,
-                    "name": "0,15 \u043c\u043c, 700\u04451000 \u043c\u043c | \u041f\u043b\u0430\u0441\u0442\u0438\u043a PET | \u0413\u043b\u044f\u043d\u0446/\u0413\u043b\u044f\u043d\u0446 | (\u041f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0439) | PR 107 4D 2020 (PVC) "
-                },
-                {
-                    "id": 7528,
-                    "name": "0,2 \u043c\u043c, 297\u0445420 \u043c\u043c | \u041e\u0431\u043b\u043e\u0436\u043a\u0430 \u043f\u043b\u0430\u0441\u0442\u0438\u043a\u043e\u0432\u0430\u044f | \u0413\u043b\u044f\u043d\u0446/\u0413\u043b\u044f\u043d\u0446 | (\u041f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0439) "
-                },
-                {
-                    "id": 54897,
-                    "name": "0,2 \u043c\u043c, 700\u04451000 \u043c\u043c | \u041f\u043b\u0430\u0441\u0442\u0438\u043a \u041f\u0412\u0425 | \u041c\u0430\u0442/\u041c\u0430\u0442 | (\u0411\u0435\u043b\u044b\u0439) | PR 315 4D 505R (PVC) "
-                },
-                {
-                    "id": 181212,
-                    "name": "0,25 \u043c\u043c, 700\u04451000 \u043c\u043c | \u041f\u043b\u0430\u0441\u0442\u0438\u043a PET | \u0413\u043b\u044f\u043d\u0446/\u0413\u043b\u044f\u043d\u0446 | (\u041f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0439) | GAG BX-CG6GF04 (Pentaclear) "
-                },
-                {
-                    "id": 445782,
-                    "name": "0,3 \u043c\u043c, 700\u04451000 \u043c\u043c | \u041f\u043b\u0430\u0441\u0442\u0438\u043a \u041f\u0412\u0425 | \u0413\u043b\u044f\u043d\u0446/\u0413\u043b\u044f\u043d\u0446 | (\u0411\u0435\u043b\u044b\u0439) (Pentaprint) "
-                },
-                {
-                    "id": 235228,
-                    "name": "0,3 \u043c\u043c, 700\u04451000 \u043c\u043c | \u041f\u043b\u0430\u0441\u0442\u0438\u043a \u041f\u0412\u0425 | \u0413\u043b\u044f\u043d\u0446/\u0413\u043b\u044f\u043d\u0446 | (\u041f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0439) | PR 107 4D 2020 (PVC) "
-                },
-                {
-                    "id": 71440,
-                    "name": "0,3 \u043c\u043c, 700\u04451000 \u043c\u043c | \u041f\u043b\u0430\u0441\u0442\u0438\u043a \u041f\u0412\u0425 | \u041c\u0430\u0442/\u041c\u0430\u0442 | (\u0411\u0435\u043b\u044b\u0439) | PR 315 4D 505R (PVC) "
-                },
-                {
-                    "id": 136297,
-                    "name": "0,3 \u043c\u043c, 700\u04451000 \u043c\u043c | \u041f\u043b\u0430\u0441\u0442\u0438\u043a \u041f\u0412\u0425 | \u041c\u0430\u0442/\u041c\u0430\u0442 | (\u041f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0439) | PR 107 4D 2022 (PVC) "
-                },
-                {
-                    "id": 7538,
-                    "name": "0,3 \u043c\u043c, 700\u04451000 \u043c\u043c | \u041f\u043b\u0430\u0441\u0442\u0438\u043a PET | \u0413\u043b\u044f\u043d\u0446/\u0413\u043b\u044f\u043d\u0446 | (\u041f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0439) | PET GAG PENTACLEAR GAG BX-CG6GF04 "
-                },
-                {
-                    "id": 21070,
-                    "name": "0,3 \u043c\u043c, 700\u04451000 \u043c\u043c | \u041f\u043b\u0430\u0441\u0442\u0438\u043a PS | \u041c\u0430\u0442/\u041c\u0430\u0442 | (\u0411\u0435\u043b\u044b\u0439) (Corona Zuroprint) "
-                },
-                {
-                    "id": 7456,
-                    "name": "0,4 \u043c\u043c, 620 \u043c\u043c \u0445 30,5 \u043c  | \u041c\u0430\u0433\u043d\u0438\u0442\u043d\u044b\u0439 \u0432\u0438\u043d\u0438\u043b |  \u041a\u043b \u0441\u043b\u043e\u0439: \u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442 "
-                },
-                {
-                    "id": 7451,
-                    "name": "0,4 \u043c\u043c, 620 \u043c\u043c \u0445 30,5 \u043c  | \u041c\u0430\u0433\u043d\u0438\u0442\u043d\u044b\u0439 \u0432\u0438\u043d\u0438\u043b |  \u041a\u043b. \u0441\u043b\u043e\u0439: \u041f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0439"
-                },
-                {
-                    "id": 13157,
-                    "name": "0,4 \u043c\u043c, 620 \u043c\u043c \u0445 30,5 \u043c  | \u041c\u044f\u0433\u043a\u043e\u0435 \u0436\u0435\u043b\u0435\u0437\u043e |  \u041a\u043b \u0441\u043b\u043e\u0439: \u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442 "
-                },
-                {
-                    "id": 13156,
-                    "name": "0,4 \u043c\u043c, 620\u04451000 \u043c\u043c  | \u041c\u044f\u0433\u043a\u043e\u0435 \u0436\u0435\u043b\u0435\u0437\u043e |  \u041a\u043b \u0441\u043b\u043e\u0439: \u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442 "
-                },
-                {
-                    "id": 71441,
-                    "name": "0,5 \u043c\u043c, 700\u04451000 \u043c\u043c | \u041f\u043b\u0430\u0441\u0442\u0438\u043a \u041f\u0412\u0425 | \u041c\u0430\u0442/\u041c\u0430\u0442 | (\u0411\u0435\u043b\u044b\u0439) | PR 315 4D 505R (PVC) "
-                },
-                {
-                    "id": 232382,
-                    "name": "0,5 \u043c\u043c, 700\u04451000 \u043c\u043c | \u041f\u043b\u0430\u0441\u0442\u0438\u043a PET | \u0413\u043b\u044f\u043d\u0446/\u0413\u043b\u044f\u043d\u0446 | (\u041f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0439) | PET GAG PENTACLEAR GAG BX-CG6GF04 "
-                },
-                {
-                    "id": 444105,
-                    "name": "0,5 \u043c\u043c, 700\u04451000 \u043c\u043c | \u041f\u043b\u0430\u0441\u0442\u0438\u043a PP | \u041c\u0430\u0442/\u041c\u0430\u0442 | (\u041f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0439) •\u043f\u0435\u0441\u043e\u043a/\u043f\u0435\u0441\u043e\u043a• "
-                },
-                {
-                    "id": 19237,
-                    "name": "0,7 \u043c\u043c, 620 \u043c\u043c \u0445 30,5 \u043c  | \u041c\u0430\u0433\u043d\u0438\u0442\u043d\u044b\u0439 \u0432\u0438\u043d\u0438\u043b |  \u041a\u043b \u0441\u043b\u043e\u0439: \u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442 "
-                },
-                {
-                    "id": 8340,
-                    "name": "0,7 \u043c\u043c, 620 \u043c\u043c \u0445 30,5 \u043c  | \u041c\u0430\u0433\u043d\u0438\u0442\u043d\u044b\u0439 \u0432\u0438\u043d\u0438\u043b |  \u041a\u043b. \u0441\u043b\u043e\u0439: \u041f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0439"
-                },
-                {
-                    "id": 169583,
-                    "name": "0,7 \u043c\u043c, 700\u04451000 \u043c\u043c | \u041f\u043b\u0430\u0441\u0442\u0438\u043a \u041f\u0412\u0425 | \u0413\u043b\u044f\u043d\u0446/\u0413\u043b\u044f\u043d\u0446 | (\u0411\u0435\u043b\u044b\u0439) | PR 315 4D 505R (PVC) "
-                },
-                {
-                    "id": 174703,
-                    "name": "0,7 \u043c\u043c, 700\u04451000 \u043c\u043c | \u041f\u043b\u0430\u0441\u0442\u0438\u043a \u041f\u0412\u0425 | \u041c\u0430\u0442/\u041c\u0430\u0442 | (\u0411\u0435\u043b\u044b\u0439) | PR 316 4D 505R (PVC) "
-                },
-                {
-                    "id": 345641,
-                    "name": "0,8 \u043c\u043c, 700\u04451000 \u043c\u043c | \u041f\u043b\u0430\u0441\u0442\u0438\u043a \u041f\u0412\u0425 | \u0413\u043b\u044f\u043d\u0446/\u041c\u0430\u0442 | (\u041f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0439) | \u043f\u0435\u0441\u043e\u043a (PVC) "
-                },
-                {
-                    "id": 7454,
-                    "name": "0,9 \u043c\u043c, 310\u0445450 \u043c\u043c  | \u041c\u0430\u0433\u043d\u0438\u0442\u043d\u044b\u0439 \u0432\u0438\u043d\u0438\u043b |  \u041a\u043b \u0441\u043b\u043e\u0439: \u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442 "
-                },
-                {
-                    "id": 7452,
-                    "name": "0,9 \u043c\u043c, 310\u0445450 \u043c\u043c  | \u041c\u0430\u0433\u043d\u0438\u0442\u043d\u044b\u0439 \u0432\u0438\u043d\u0438\u043b |  \u041a\u043b. \u0441\u043b\u043e\u0439: \u041f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0439"
-                },
-                {
-                    "id": 7455,
-                    "name": "0,9 \u043c\u043c, 620 \u043c\u043c \u0445 30,5 \u043c  | \u041c\u0430\u0433\u043d\u0438\u0442\u043d\u044b\u0439 \u0432\u0438\u043d\u0438\u043b |  \u041a\u043b. \u0441\u043b\u043e\u0439: \u041f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0439"
-                },
-                {
-                    "id": 7089,
-                    "name": "017 \u0433/\u043c2, 500\u0445660 \u043c\u043c | \u0422\u0438\u0448\u044c\u044e (\u0411\u0435\u043b\u044b\u0439) "
-                },
-                {
-                    "id": 47515,
-                    "name": "017 \u0433/\u043c2, 500\u0445760 \u043c\u043c | \u0422\u0438\u0448\u044c\u044e (\u0411\u0435\u043b\u044b\u0439) "
-                },
-                {
-                    "id": 57122,
-                    "name": "017 \u0433/\u043c2, 500\u0445760 \u043c\u043c | \u0422\u0438\u0448\u044c\u044e (\u0420\u043e\u0437\u043e\u0432\u044b\u0439) "
-                },
-                {
-                    "id": 7090,
-                    "name": "017 \u0433/\u043c2, 550\u0445660 \u043c\u043c | \u0422\u0438\u0448\u044c\u044e (\u0427\u0435\u0440\u043d\u044b\u0439) "
-                },
-                {
-                    "id": 441751,
-                    "name": "070 \u0433/\u043c2, 720\u04451020 \u043c\u043c | Munken Kraft (\u0411\u0435\u043b\u044b\u0439) "
-                },
-                {
-                    "id": 313099,
-                    "name": "070 \u0433/\u043c2, 840\u04451060 \u043c\u043c | Starkraft Shopper Ribbed (\u0411\u0435\u043b\u044b\u0439) "
-                },
-                {
-                    "id": 432484,
-                    "name": "072 \u043c\u043a\u043c, 320\u0445450 \u043c\u043c | \u041f\u043b\u0435\u043d\u043a\u0430 D-DRY PP 51 gloss clear, (Muflon) | (\u041f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0439) | \u041a\u043b \u0441\u043b\u043e\u0439: \u041f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0439 "
-                },
-                {
-                    "id": 432483,
-                    "name": "072 \u043c\u043a\u043c, 320\u0445450 \u043c\u043c | \u041f\u043b\u0435\u043d\u043a\u0430 D-DRY PP 51 gloss white, (Muflon) | (\u0411\u0435\u043b\u044b\u0439) | \u041a\u043b \u0441\u043b\u043e\u0439: \u041f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0439 "
-                },
-                {
-                    "id": 343509,
-                    "name": "072 \u043c\u043a\u043c, 320\u0445450 \u043c\u043c | \u041f\u043b\u0435\u043d\u043a\u0430 Raflatac Polylaser gloss white, (UPM) | (\u0411\u0435\u043b\u044b\u0439) | \u041a\u043b \u0441\u043b\u043e\u0439: \u041f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0439 "
-                },
-                {
-                    "id": 294724,
-                    "name": "075 \u043c\u043a\u043c, 320\u0445450 \u043c\u043c | \u041f\u043b\u0435\u043d\u043a\u0430 Raflatac Polylaser matt white score printed, (UPM) | (\u0411\u0435\u043b\u044b\u0439) | \u041a\u043b \u0441\u043b\u043e\u0439: \u041f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0439 •\u0441 \u043f\u0440\u043e\u0441\u0435\u0447\u043a\u0430\u043c\u0438• "
-                },
-                {
-                    "id": 6573,
-                    "name": "075 \u043c\u043a\u043c, 320\u0445450 \u043c\u043c | \u041f\u043b\u0435\u043d\u043a\u0430 Raflatac Polylaser matt white solid unprinted, (UPM) | (\u0411\u0435\u043b\u044b\u0439) | \u041a\u043b \u0441\u043b\u043e\u0439: \u041f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0439 •\u0431\u0435\u0437 \u043f\u0440\u043e\u0441\u0435\u0447\u0435\u043a• "
-                },
-                {
-                    "id": 8068,
-                    "name": "075 \u043c\u043a\u043c, 320\u0445450 \u043c\u043c | \u041f\u043b\u0435\u043d\u043a\u0430 Raflatac Polylaser matt white, (UPM) | (\u0411\u0435\u043b\u044b\u0439) | \u041a\u043b \u0441\u043b\u043e\u0439: \u0421\u044a\u0435\u043c\u043d\u044b\u0439 "
-                },
-                {
-                    "id": 8069,
-                    "name": "075 \u043c\u043a\u043c, 320\u0445450 \u043c\u043c | \u041f\u043b\u0435\u043d\u043a\u0430 | Raflatac Polylaser gloss clear | \u041a\u043b \u0441\u043b\u043e\u0439: \u041f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0439 | (\u041f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0439) •\u041d\u0410 \u0418\u043d\u0434\u0438\u0433\u0435 - \u043d\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c!!!• "
-                },
-                {
-                    "id": 81857,
-                    "name": "080 \u0433/\u043c2, 297\u0445420 \u043c\u043c | IQ COLOR | \u041c\u0430\u0442\u043e\u0432\u0430\u044f (\u041b\u0438\u043c\u043e\u043d\u043d\u043e-\u0416\u0435\u043b\u0442\u044b\u0439) "
-                },
-                {
-                    "id": 7675,
-                    "name": "080 \u0433/\u043c2, 320\u0445450 \u043c\u043c | \u0411\u0443\u043c SA (MACtab) | \u0413\u043b\u044f\u043d\u0446\u0435\u0432\u0430\u044f | \u041a\u043b \u0441\u043b\u043e\u0439: \u041f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0439 (\u0411\u0435\u043b\u044b\u0439) "
-                },
-                {
-                    "id": 28271,
-                    "name": "080 \u0433/\u043c2, 320\u0445450 \u043c\u043c | \u0411\u0443\u043c SA (MACtab) | \u041c\u0430\u0442\u043e\u0432\u0430\u044f | \u041a\u043b \u0441\u043b\u043e\u0439: \u041f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0439 (\u0411\u0435\u043b\u044b\u0439) "
-                },
-                {
-                    "id": 343507,
-                    "name": "080 \u0433/\u043c2, 320\u0445450 \u043c\u043c | \u0411\u0443\u043c SA Raflatac Lasergloss  | \u0413\u043b\u044f\u043d\u0446\u0435\u0432\u0430\u044f | \u041a\u043b \u0441\u043b\u043e\u0439: \u041f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0439 (\u0411\u0435\u043b\u044b\u0439) "
-                },
-                {
-                    "id": 21556,
-                    "name": "080 \u0433/\u043c2, 320\u0445460 \u043c\u043c | \u0411\u0443\u043c SA (Mastertac Digital Vellum M IL) | \u041c\u0430\u0442\u043e\u0432\u0430\u044f | \u041a\u043b \u0441\u043b\u043e\u0439: \u041f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0439 (\u0411\u0435\u043b\u044b\u0439) "
-                },
-                {
-                    "id": 6646,
-                    "name": "080 \u0433/\u043c2, 500\u0445700 \u043c\u043c | \u0411\u0443\u043c SA Semigloss  | \u041f\u043e\u043b\u0443\u0433\u043b\u044f\u043d\u0446\u0435\u0432\u0430\u044f | \u041a\u043b \u0441\u043b\u043e\u0439: \u041f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u0439 (\u0411\u0435\u043b\u044b\u0439)  •MGI \u0441 \u043d\u0430\u0434\u0441\u0435\u0447\u043a\u0430\u043c\u0438• "
-                },
-                {
-                    "id": 14237,
-                    "name": "080 \u0433/\u043c2, 620\u0445940 \u043c\u043c | \u041c\u0435\u043b\u043e\u0432\u0430\u043d\u043d\u0430\u044f (Idem Label) | \u0413\u043b\u044f\u043d\u0446\u0435\u0432\u0430\u044f (\u0411\u0435\u043b\u044b\u0439) •\u042d\u0442\u0438\u043a\u0435\u0442\u043e\u0447\u043d\u0430\u044f• "
-                },
-                {
-                    "id": 146288,
-                    "name": "080 \u0433/\u043c2, 640\u0445900 \u043c\u043c | Paperline 100 Ivory (\u0421\u043b\u043e\u043d\u043e\u0432\u0430\u044f \u043a\u043e\u0441\u0442\u044c) "
-                },
-                {
-                    "id": 29517,
-                    "name": "080 \u0433/\u043c2, 700\u04451000 \u043c\u043c | \u041a\u043d\u0438\u0436\u043d\u043e-\u0436\u0443\u0440\u043d\u0430\u043b\u044c\u043d\u0430\u044f  | \u041c\u0430\u0442\u043e\u0432\u0430\u044f (\u041a\u0440\u0435\u043c\u043e\u0432\u044b\u0439) "
-                },
-                {
-                    "id": 6492,
-                    "name": "\u041e\u0444\u0441\u0435\u0442\u043d\u0430\u044f, 80 \u0433/\u043c2"
-                },
-                {
-                    "id": 534828,
-                    "name": "270 \u0433/\u043c2, (EU=300 \u0433/\u043c2), 720\u04451040 \u043c\u043c | \u041c\u0435\u043b\u043e\u0432\u0430\u043d\u043d\u0430\u044f (SNOW EAGLE SILK RW) | \u041c\u0430\u0442\u043e\u0432\u0430\u044f (\u0411\u0435\u043b\u044b\u0439) "
-                }
-            ],
-            "sheetcomment": "",
-            "sheetid": 213516228,
-            "size": {
-                "comment": "",
-                "h": 210,
-                "hbleed": 4,
-                "id": 1065,
-                "sizename": "",
-                "title": "\u0424\u043e\u0440\u043c\u0430\u0442 \u0434\u0435\u0442\u0430\u043b\u0435\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446 (\u041e\u0431\u043b\u043e\u0436\u043a\u0430)",
-                "w": 297,
-                "wbleed": 4
-            }
-        },
-        {
-            "assembly": [
-                {
-                    "comment": "",
-                    "detailid": 213516225,
-                    "id": 201,
-                    "qty": 2,
-                    "title": "\u0411\u0440\u043e\u0448\u044e\u0440\u0430 – \u041e\u0431\u043b\u043e\u0436\u043a\u0430"
-                }
-            ],
-            "comment": "",
-            "detailid": 213516224,
-            "detailname": "\u0411\u0440\u043e\u0448\u044e\u0440\u0430",
-            "hidetype": 1,
-            "inc": {
-                "comment": "",
-                "id": 0,
-                "incback": 0,
-                "incface": 0,
-                "title": ""
-            },
-            "pages": {
-                "comment": "",
-                "id": 0,
-                "pages": 0,
-                "title": ""
-            },
-            "paper": {
-                "id": 0,
-                "name": ""
-            },
-            "paperlist": null,
-            "sheetcomment": "",
-            "sheetid": 0,
-            "size": {
-                "comment": "",
-                "h": 210,
-                "hbleed": 0,
-                "id": 1185,
-                "sizename": "",
-                "title": "\u0424\u043e\u0440\u043c\u0430\u0442 \u0431\u0440\u043e\u0448\u044e\u0440\u044b",
-                "w": 297,
-                "wbleed": 0
-            }
-        },
-        {
-            "assembly": [
-                {
-                    "comment": "",
-                    "detailid": 213515937,
-                    "id": 195,
-                    "qty": 10,
-                    "title": "\u0411\u043b\u043e\u043a – \u041b\u0438\u0441\u0442\u044b \u0431\u043b\u043e\u043a\u0430"
-                }
-            ],
-            "comment": "",
-            "detailid": 213515936,
-            "detailname": "\u0411\u043b\u043e\u043a",
-            "hidetype": 1,
-            "inc": {
-                "comment": "",
-                "id": 0,
-                "incback": 0,
-                "incface": 0,
-                "title": ""
-            },
-            "pages": {
-                "comment": "",
-                "id": 0,
-                "pages": 0,
-                "title": ""
-            },
-            "paper": {
-                "id": 0,
-                "name": ""
-            },
-            "paperlist": null,
-            "sheetcomment": "",
-            "sheetid": 0,
-            "size": {
-                "comment": "",
-                "h": 210,
-                "hbleed": 0,
-                "id": 1186,
-                "sizename": "",
-                "title": "\u0424\u043e\u0440\u043c\u0430\u0442 \u0431\u043b\u043e\u043a\u0430",
-                "w": 297,
-                "wbleed": 0
             }
         }
     ],
     "materials": null,
     "note": "",
-    "operprops": [
-        {
-            "comment": "",
-            "datatype": 1,
-            "listofvalues": [
-                {
-                    "value": "\u0423\u0437\u043a\u0430\u044f",
-                    "visvalue": "\u0423\u0437\u043a\u0430\u044f"
-                },
-                {
-                    "value": "\u0428\u0438\u0440\u043e\u043a\u0430\u044f",
-                    "visvalue": "\u0428\u0438\u0440\u043e\u043a\u0430\u044f"
-                }
-            ],
-            "listtype": 2,
-            "maxv": 0,
-            "minv": 0,
-            "opid": 215726030,
-            "propcode": 8573,
-            "propdatatype": "s",
-            "propname": "online I \u0420\u041e \u0420\u0435\u0437\u043a\u0430 \u043f\u0440\u0443\u0436\u0438\u043d\u044b (\u0414) – \u0421\u0442\u043e\u0440\u043e\u043d\u0430 \u043f\u043e\u0434\u0430\u0447\u0438 \"\u0428\u0438\u0440\u043e\u043a\u0430\u044f\"",
-            "propshortname": "",
-            "value": "\u0423\u0437\u043a\u0430\u044f",
-            "visvalue": "\u0423\u0437\u043a\u0430\u044f",
-            "wizardid": 1298
-        },
-        {
-            "comment": "",
-            "datatype": 1,
-            "listofvalues": [
-                {
-                    "value": "\u0423\u0437\u043a\u0430\u044f",
-                    "visvalue": "\u0423\u0437\u043a\u0430\u044f"
-                },
-                {
-                    "value": "\u0428\u0438\u0440\u043e\u043a\u0430\u044f",
-                    "visvalue": "\u0428\u0438\u0440\u043e\u043a\u0430\u044f"
-                }
-            ],
-            "listtype": 2,
-            "maxv": 0,
-            "minv": 0,
-            "opid": 213516247,
-            "propcode": 8573,
-            "propdatatype": "s",
-            "propname": "online | \u0411\u0440\u043e\u0448\u044e\u0440\u043e\u0432\u043a\u0430 \u043d\u0430 \u043f\u0440\u0443\u0436\u0438\u043d\u0443 (\u0414) – \u0421\u0442\u043e\u0440\u043e\u043d\u0430 \u043f\u043e\u0434\u0430\u0447\u0438 \"\u0428\u0438\u0440\u043e\u043a\u0430\u044f\"",
-            "propshortname": "",
-            "value": "\u0423\u0437\u043a\u0430\u044f",
-            "visvalue": "\u0423\u0437\u043a\u0430\u044f",
-            "wizardid": 1299
-        },
-        {
-            "comment": "",
-            "datatype": 1,
-            "listofvalues": [
-                {
-                    "value": "\u0423\u0437\u043a\u0430\u044f",
-                    "visvalue": "\u0423\u0437\u043a\u0430\u044f"
-                },
-                {
-                    "value": "\u0428\u0438\u0440\u043e\u043a\u0430\u044f",
-                    "visvalue": "\u0428\u0438\u0440\u043e\u043a\u0430\u044f"
-                }
-            ],
-            "listtype": 2,
-            "maxv": 0,
-            "minv": 0,
-            "opid": 215726575,
-            "propcode": 8573,
-            "propdatatype": "s",
-            "propname": "online | \u0411\u0440\u043e\u0448\u044e\u0440\u043e\u0432\u043a\u0430 \u043d\u0430 \u043f\u0440\u0443\u0436\u0438\u043d\u0443 (\u0414) – \u0421\u0442\u043e\u0440\u043e\u043d\u0430 \u043f\u043e\u0434\u0430\u0447\u0438 \"\u0428\u0438\u0440\u043e\u043a\u0430\u044f\"",
-            "propshortname": "",
-            "value": "",
-            "visvalue": "",
-            "wizardid": 1300
-        }
-    ],
+    "operprops": null,
     "orderprops": [
         {
             "comment": "",
@@ -688,8 +325,8 @@
             "propdatatype": "s",
             "propname": "SKUCODE \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430",
             "propshortname": "Scucode \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430",
-            "value": "TCS_WIRE",
-            "visvalue": "TCS_WIRE",
+            "value": "TCS_LST",
+            "visvalue": "TCS_LST",
             "wizardid": 0
         },
         {
@@ -810,6 +447,10 @@
                     "visvalue": "\u0410\u0440\u043e\u043d\u043e\u0432\u0430 \u0415\u043b\u0435\u043d\u0430 "
                 },
                 {
+                    "value": "330",
+                    "visvalue": "\u0410\u0448\u0443\u0440\u043e\u0432 \u0418\u0441\u043c\u043e\u0439\u0438\u043b\u0436\u043e\u043d \u0410\u0434\u0445\u0430\u043c\u0436\u043e\u043d\u043e\u0432\u0438\u0447"
+                },
+                {
                     "value": "289",
                     "visvalue": "\u0411\u0435\u0433\u0438\u043c\u0430\u043b\u044b \u043a\u044b\u0437\u044b \u0410\u0441\u044b\u043b\u0437\u0430\u0442 "
                 },
@@ -906,6 +547,10 @@
                     "visvalue": "\u041a\u0430\u043d\u0436\u0430\u0440\u0431\u0435\u043a\u0443\u043b\u044b \u0420\u0443\u0441\u0442\u0430\u043c "
                 },
                 {
+                    "value": "224",
+                    "visvalue": "\u041a\u0430\u0440\u0430\u043f\u0435\u0442\u044f\u043d \u0421\u0442\u0435\u043f\u0430\u043d "
+                },
+                {
                     "value": "109",
                     "visvalue": "\u041a\u0430\u0440\u043f\u0435\u043d\u0447\u0443\u043a \u0410\u043b\u0435\u043d\u0430 "
                 },
@@ -924,6 +569,10 @@
                 {
                     "value": "372",
                     "visvalue": "\u041a\u043e\u0432\u0430\u043b\u0435\u0432\u0430 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u043d\u0430"
+                },
+                {
+                    "value": "361",
+                    "visvalue": "\u041a\u043e\u0437\u043b\u043e\u0432 \u041e\u043b\u0435\u0433 \u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432\u0438\u0447"
                 },
                 {
                     "value": "11",
@@ -1175,13 +824,13 @@
             "wizardid": 0
         }
     ],
-    "quantity": 10,
+    "quantity": 1,
     "questions": [
         {
             "answerchoice": [
                 {
                     "answer": "\u0411\u0435\u0437 \u043e\u0442\u0434\u0435\u043b\u043a\u0438",
-                    "answerid": 1013,
+                    "answerid": 1077,
                     "hidedetails": null,
                     "hidematerials": [
                         {
@@ -1206,7 +855,7 @@
                                 "id": 285267,
                                 "name": "028 \u043c\u043a\u043c, \u041c\u0430\u0442\u043e\u0432\u0430\u044f PP 480 \u043c\u043c \u0445 3000 \u043c "
                             },
-                            "operid": 213515944
+                            "operid": 214564546
                         }
                     ],
                     "propson": [
@@ -1217,126 +866,72 @@
                             "listtype": 1,
                             "maxv": 0,
                             "minv": 0,
-                            "opid": 213515944,
+                            "opid": 214564546,
                             "propcode": 6522,
                             "propdatatype": "u",
                             "propname": "online | \u041b\u0430\u043c\u0438\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 (\u0421) – ID \u0434\u0435\u0442\u0430\u043b\u0438",
                             "propshortname": "",
-                            "value": "2",
-                            "visvalue": "2",
-                            "wizardid": 1222
+                            "value": "1",
+                            "visvalue": "1",
+                            "wizardid": 1250
                         }
                     ]
                 },
                 {
                     "answer": "\u041b\u0438\u0446\u043e",
-                    "answerid": 1014,
+                    "answerid": 1078,
                     "hidedetails": null,
                     "hidematerials": null,
                     "propson": null
                 },
                 {
                     "answer": "\u041b\u0438\u0446\u043e+\u041e\u0431\u043e\u0440\u043e\u0442",
-                    "answerid": 1015,
+                    "answerid": 1079,
                     "hidedetails": null,
                     "hidematerials": null,
                     "propson": null
                 }
             ],
             "comment": "",
-            "defaultanswer": 1013,
-            "formula": "\u041d\u0443\u0436\u043d\u0430 \u043b\u0430\u043c\u0438\u043d\u0430\u0446\u0438\u044f (\u041e\u0431\u043b\u043e\u0436\u043a\u0430)",
+            "defaultanswer": 1077,
+            "formula": "\u041d\u0443\u0436\u043d\u0430 \u043b\u0430\u043c\u0438\u043d\u0430\u0446\u0438\u044f",
             "hidedetails": null,
             "hidematerials": null,
-            "id": 1010,
+            "id": 1073,
             "propsoff": null,
             "propson": null
         },
         {
-            "answerchoice": null,
-            "comment": "",
-            "defaultanswer": 1,
-            "formula": "\u0420\u0443\u0447\u043d\u0430\u044f \u0431\u0440\u043e\u0448\u044e\u0440\u043e\u0432\u043a\u0430 934 (\u0418\u0437\u0434\u0435\u043b\u0438\u0435)",
-            "hidedetails": null,
-            "hidematerials": [
+            "answerchoice": [
                 {
-                    "clsid": 1361,
-                    "clsname": "online I \u0420\u041e \u0420\u0435\u0437\u043a\u0430 \u043f\u0440\u0443\u0436\u0438\u043d\u044b (\u0414) – \u041f\u0440\u0443\u0436\u0438\u043d\u044b Wire-O",
-                    "initid": 7030,
-                    "list": [
-                        {
-                            "id": 6982,
-                            "name": "\u041f\u0440\u0443\u0436\u0438\u043d\u0430 Wire-O 1/2\" 3:1, (\u0411\u0435\u043b\u044b\u0439) \u0434\u043e 11,1 \u043c\u043c <\u043f\u0442\u043b>"
-                        },
-                        {
-                            "id": 97242,
-                            "name": "\u041f\u0440\u0443\u0436\u0438\u043d\u0430 Wire-O 1/2\" 3:1, (\u0411\u0440\u043e\u043d\u0437\u043e\u0432\u044b\u0439) \u0434\u043e 11,1 \u043c\u043c <\u043f\u0442\u043b>"
-                        },
-                        {
-                            "id": 6905,
-                            "name": "\u041f\u0440\u0443\u0436\u0438\u043d\u0430 Wire-O 1/2\" 3:1, (\u0421\u0435\u0440\u0435\u0431\u0440\u0438\u0441\u0442\u044b\u0439) \u0434\u043e 11,1 \u043c\u043c <\u043f\u0442\u043b>"
-                        },
-                        {
-                            "id": 7005,
-                            "name": "\u041f\u0440\u0443\u0436\u0438\u043d\u0430 Wire-O 1/2\" 3:1, (\u0427\u0435\u0440\u043d\u044b\u0439) \u0434\u043e 11,1 \u043c\u043c <\u043f\u0442\u043b>"
-                        }
-                    ],
-                    "material": {
-                        "id": 7030,
-                        "name": "\u041f\u0440\u0443\u0436\u0438\u043d\u0430 Wire-O 1/4\" 3:1, (\u0411\u0440\u043e\u043d\u0437\u043e\u0432\u044b\u0439) \u0434\u043e 4,8 \u043c\u043c <\u043f\u0442\u043b> "
-                    },
-                    "operid": 215726030
+                    "answer": "\u0414\u0430",
+                    "answerid": 1080,
+                    "hidedetails": null,
+                    "hidematerials": null,
+                    "propson": null
+                },
+                {
+                    "answer": "\u041d\u0435\u0442",
+                    "answerid": 1081,
+                    "hidedetails": null,
+                    "hidematerials": null,
+                    "propson": null
                 }
             ],
-            "id": 1152,
-            "propsoff": null,
-            "propson": null
-        },
-        {
-            "answerchoice": null,
             "comment": "",
-            "defaultanswer": 0,
-            "formula": "\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0431\u0440\u043e\u0448\u044e\u0440\u043e\u0432\u043a\u0430 934 (\u0418\u0437\u0434\u0435\u043b\u0438\u0435)",
+            "defaultanswer": 1081,
+            "formula": "\u041d\u0443\u0436\u043d\u0430 \u0440\u0435\u0437\u043a\u0430",
             "hidedetails": null,
-            "hidematerials": [
-                {
-                    "clsid": 1361,
-                    "clsname": "online | \u0411\u0440\u043e\u0448\u044e\u0440\u043e\u0432\u043a\u0430 \u043d\u0430 \u043f\u0440\u0443\u0436\u0438\u043d\u0443 (\u0414) – \u041f\u0440\u0443\u0436\u0438\u043d\u044b Wire-O",
-                    "initid": 7030,
-                    "list": [
-                        {
-                            "id": 6982,
-                            "name": "\u041f\u0440\u0443\u0436\u0438\u043d\u0430 Wire-O 1/2\" 3:1, (\u0411\u0435\u043b\u044b\u0439) \u0434\u043e 11,1 \u043c\u043c <\u043f\u0442\u043b>"
-                        },
-                        {
-                            "id": 97242,
-                            "name": "\u041f\u0440\u0443\u0436\u0438\u043d\u0430 Wire-O 1/2\" 3:1, (\u0411\u0440\u043e\u043d\u0437\u043e\u0432\u044b\u0439) \u0434\u043e 11,1 \u043c\u043c <\u043f\u0442\u043b>"
-                        },
-                        {
-                            "id": 6905,
-                            "name": "\u041f\u0440\u0443\u0436\u0438\u043d\u0430 Wire-O 1/2\" 3:1, (\u0421\u0435\u0440\u0435\u0431\u0440\u0438\u0441\u0442\u044b\u0439) \u0434\u043e 11,1 \u043c\u043c <\u043f\u0442\u043b>"
-                        },
-                        {
-                            "id": 7005,
-                            "name": "\u041f\u0440\u0443\u0436\u0438\u043d\u0430 Wire-O 1/2\" 3:1, (\u0427\u0435\u0440\u043d\u044b\u0439) \u0434\u043e 11,1 \u043c\u043c <\u043f\u0442\u043b>"
-                        }
-                    ],
-                    "material": {
-                        "id": 7030,
-                        "name": "\u041f\u0440\u0443\u0436\u0438\u043d\u0430 Wire-O 1/4\" 3:1, (\u0411\u0440\u043e\u043d\u0437\u043e\u0432\u044b\u0439) \u0434\u043e 4,8 \u043c\u043c <\u043f\u0442\u043b> "
-                    },
-                    "operid": 215726575
-                }
-            ],
-            "id": 1184,
+            "hidematerials": null,
+            "id": 1076,
             "propsoff": null,
             "propson": null
         }
     ],
     "templcur": "RUR",
-    "templid": 213515935,
+    "templid": 214564537,
     "templmes": "\u0448\u0442",
-    "templname": "\u0411\u0440\u043e\u0448\u044e\u0440\u0430 \u043d\u0430 \u043f\u0440\u0443\u0436\u0438\u043d\u0443 7600 | \u0422\u0415\u0421\u0422",
+    "templname": "TCS I \u041b\u0438\u0441\u0442\u043e\u0432\u0430\u044f \u043f\u0440\u043e\u0434\u0443\u043a\u0446\u0438\u044f I \u041b\u0438\u0441\u0442\u043e\u0432\u043a\u0438 \u0438 \u0444\u043b\u0430\u0435\u0440\u044b",
     "toorder": {
         "customerid": 0,
         "managerid": 0,
