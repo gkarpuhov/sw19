@@ -1,0 +1,1 @@
+C:\Users\admin>exiftool -j -t -l -m -G:0 -ALL -ALL# C:\Temp\y.jpeg

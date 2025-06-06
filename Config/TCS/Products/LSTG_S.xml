@@ -83,7 +83,7 @@
         <A N="Value">false</A>
       </C>
       <C N="RotatePages">
-        <A N="Value" />
+        <A N="Value"></A>
       </C>
       <C N="MaxRows">
         <A N="Value">0</A>
@@ -104,7 +104,7 @@
         <A N="Value">false</A>
       </C>
       <C N="IgnorePrintableArea">
-        <A N="Value">false</A>
+        <A N="Value">true</A>
       </C>
       <C N="UseOnlyStepAndRepeat">
         <A N="Value">false</A>

@@ -1,51 +1,6 @@
 {
     "details": [
         {
-            "assembly": [
-                {
-                    "comment": "",
-                    "detailid": 216562950,
-                    "id": 217,
-                    "qty": 1,
-                    "title": "\u0411\u0440\u043e\u0448\u044e\u0440\u0430 – \u041e\u0431\u043b\u043e\u0436\u043a\u0430"
-                }
-            ],
-            "comment": "",
-            "detailid": 216562951,
-            "detailname": "\u0411\u0440\u043e\u0448\u044e\u0440\u0430",
-            "hidetype": 0,
-            "inc": {
-                "comment": "",
-                "id": 0,
-                "incback": 0,
-                "incface": 0,
-                "title": ""
-            },
-            "pages": {
-                "comment": "",
-                "id": 0,
-                "pages": 0,
-                "title": ""
-            },
-            "paper": {
-                "id": 0,
-                "name": ""
-            },
-            "paperlist": null,
-            "sheetcomment": "",
-            "sheetid": 0,
-            "size": {
-                "comment": "",
-                "h": 0,
-                "hbleed": 0,
-                "id": 0,
-                "sizename": "",
-                "title": "",
-                "w": 0,
-                "wbleed": 0
-            }
-        },
-        {
             "assembly": null,
             "comment": "",
             "detailid": 216562949,
@@ -295,10 +250,10 @@
             "hidetype": 1,
             "inc": {
                 "comment": "",
-                "id": 0,
-                "incback": 0,
-                "incface": 0,
-                "title": ""
+                "id": 1197,
+                "incback": 4,
+                "incface": 4,
+                "title": "\u041a\u0440\u0430\u0441\u043e\u0447\u043d\u043e\u0441\u0442\u044c \u043f\u0435\u0447\u0430\u0442\u0438 (\u041e\u0431\u043b\u043e\u0436\u043a\u0430)"
             },
             "pages": {
                 "comment": "",
@@ -533,16 +488,23 @@
             "assembly": [
                 {
                     "comment": "",
-                    "detailid": 216562949,
-                    "id": 215,
-                    "qty": 14,
-                    "title": "\u0411\u043b\u043e\u043a – \u041b\u0438\u0441\u0442\u044b \u0431\u043b\u043e\u043a\u0430"
+                    "detailid": 216562950,
+                    "id": 217,
+                    "qty": 1,
+                    "title": "\u0411\u0440\u043e\u0448\u044e\u0440\u0430 – \u041e\u0431\u043b\u043e\u0436\u043a\u0430"
+                },
+                {
+                    "comment": "",
+                    "detailid": 216562952,
+                    "id": 216,
+                    "qty": 1,
+                    "title": "\u0411\u0440\u043e\u0448\u044e\u0440\u0430 – \u0411\u043b\u043e\u043a"
                 }
             ],
             "comment": "",
-            "detailid": 216562952,
-            "detailname": "\u0411\u043b\u043e\u043a",
-            "hidetype": 0,
+            "detailid": 216562951,
+            "detailname": "\u0411\u0440\u043e\u0448\u044e\u0440\u0430",
+            "hidetype": 1,
             "inc": {
                 "comment": "",
                 "id": 0,
@@ -565,12 +527,57 @@
             "sheetid": 0,
             "size": {
                 "comment": "",
-                "h": 0,
+                "h": 200,
                 "hbleed": 0,
-                "id": 0,
+                "id": 1195,
                 "sizename": "",
-                "title": "",
-                "w": 0,
+                "title": "\u0411\u0440\u043e\u0448\u044e\u0440\u0430",
+                "w": 280,
+                "wbleed": 0
+            }
+        },
+        {
+            "assembly": [
+                {
+                    "comment": "",
+                    "detailid": 216562949,
+                    "id": 215,
+                    "qty": 14,
+                    "title": "\u0411\u043b\u043e\u043a – \u041b\u0438\u0441\u0442\u044b \u0431\u043b\u043e\u043a\u0430"
+                }
+            ],
+            "comment": "",
+            "detailid": 216562952,
+            "detailname": "\u0411\u043b\u043e\u043a",
+            "hidetype": 1,
+            "inc": {
+                "comment": "",
+                "id": 0,
+                "incback": 0,
+                "incface": 0,
+                "title": ""
+            },
+            "pages": {
+                "comment": "",
+                "id": 0,
+                "pages": 0,
+                "title": ""
+            },
+            "paper": {
+                "id": 0,
+                "name": ""
+            },
+            "paperlist": null,
+            "sheetcomment": "",
+            "sheetid": 0,
+            "size": {
+                "comment": "",
+                "h": 200,
+                "hbleed": 0,
+                "id": 1196,
+                "sizename": "",
+                "title": "\u0411\u043b\u043e\u043a",
+                "w": 280,
                 "wbleed": 0
             }
         }
@@ -579,6 +586,120 @@
     "note": "",
     "operprops": null,
     "orderprops": [
+        {
+            "comment": "",
+            "datatype": 5,
+            "listofvalues": null,
+            "listtype": 1,
+            "maxv": 0,
+            "minv": 0,
+            "opid": 0,
+            "propcode": 5094,
+            "propdatatype": "f",
+            "propname": "\u0424\u0430\u0439\u043b\u044b \u0437\u0430\u043a\u0430\u0437\u0430",
+            "propshortname": "",
+            "value": "",
+            "visvalue": "",
+            "wizardid": 0
+        },
+        {
+            "comment": "",
+            "datatype": 1,
+            "listofvalues": [
+                {
+                    "value": "FAP_LST",
+                    "visvalue": "FAP_LST"
+                }
+            ],
+            "listtype": 3,
+            "maxv": 0,
+            "minv": 0,
+            "opid": 0,
+            "propcode": 5521,
+            "propdatatype": "s",
+            "propname": "SKUCODE \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430",
+            "propshortname": "Scucode \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430",
+            "value": "TCS_30",
+            "visvalue": "TCS_30",
+            "wizardid": 0
+        },
+        {
+            "comment": "",
+            "datatype": 1,
+            "listofvalues": [
+                {
+                    "value": "\u041c\u043e\u0438\u0424\u043e\u0442\u043e\u0421\u0442\u0440\u0430\u043d\u0438\u0446\u044b",
+                    "visvalue": "\u041c\u043e\u0438\u0424\u043e\u0442\u043e\u0421\u0442\u0440\u0430\u043d\u0438\u0446\u044b"
+                },
+                {
+                    "value": "\u0414\u0432\u0430 \u043a\u043e\u0442\u0430",
+                    "visvalue": "\u0414\u0432\u0430 \u043a\u043e\u0442\u0430"
+                },
+                {
+                    "value": "FastPrint",
+                    "visvalue": "FastPrint"
+                },
+                {
+                    "value": "CoutureBook",
+                    "visvalue": "CoutureBook"
+                },
+                {
+                    "value": "Vypuskru",
+                    "visvalue": "Vypuskru"
+                },
+                {
+                    "value": "Rydkin",
+                    "visvalue": "Rydkin"
+                },
+                {
+                    "value": "TCS",
+                    "visvalue": "TCS"
+                },
+                {
+                    "value": "\u041c\u043e\u0441\u043a\u0432\u0430\u0440\u0438\u0443\u043c",
+                    "visvalue": "\u041c\u043e\u0441\u043a\u0432\u0430\u0440\u0438\u0443\u043c"
+                },
+                {
+                    "value": "\u041e\u043d\u043b\u0430\u0439\u043d FineArtPrint",
+                    "visvalue": "\u041e\u043d\u043b\u0430\u0439\u043d FineArtPrint"
+                },
+                {
+                    "value": "Periodika",
+                    "visvalue": "Periodika"
+                },
+                {
+                    "value": "\u041f\u043e\u043f\u0430\u043b \u0432 \u043f\u0435\u0440\u0435\u043f\u043b\u0435\u0442",
+                    "visvalue": "\u041f\u043e\u043f\u0430\u043b \u0432 \u043f\u0435\u0440\u0435\u043f\u043b\u0435\u0442"
+                }
+            ],
+            "listtype": 2,
+            "maxv": 0,
+            "minv": 0,
+            "opid": 0,
+            "propcode": 5516,
+            "propdatatype": "s",
+            "propname": "\u0411\u0440\u0435\u043d\u0434 \u0444\u043e\u0442\u043e\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+            "propshortname": "",
+            "value": "TCS",
+            "visvalue": "TCS",
+            "wizardid": 0
+        },
+        {
+            "comment": "",
+            "datatype": 2,
+            "listofvalues": null,
+            "listtype": 1,
+            "maxv": 0,
+            "minv": 0,
+            "opid": 0,
+            "propcode": 5533,
+            "propdatatype": "u",
+            "propname": "\u0421\u0440\u043e\u043a \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+            "propshortname": "",
+            "value": "",
+            "visvalue": "",
+            "wizardid": 0
+        },
         {
             "comment": "",
             "datatype": 1,

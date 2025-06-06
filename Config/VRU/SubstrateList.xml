@@ -177,7 +177,12 @@ Sample for xPath or URI: file://Folder1/Folder2/
 </S>
 <S N='MATT_720X520_150'>
     <A N='Value'>MATT_720X520_150.xml</A>
-    <A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
+    <A N='Comment'>Бумага мелованная матовая 720x520, 150 г/кв.м</A>
+</S>
+<S N='MATT_720X520_170'>
+    <A N='Value'>MATT_720X520_170.xml</A>
+    <A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
     <A N='Comment'>Бумага мелованная матовая 720x520, 150 г/кв.м</A>
 </S>
 </DRPXML>

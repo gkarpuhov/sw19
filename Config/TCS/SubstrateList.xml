@@ -265,28 +265,28 @@
 		<A N='Path'>%ConfigFolder%\%CID%\Substrates\</A>
 		<A N='Comment'>Офсетная бумага, 190 г/кв.м, 330x700 мм</A>
 	</S>	
-	<S N='OFSET_520X720_80'>
-		<A N='Value'>OFSET_520X720_80.xml</A>
+	<S N='OFSET_720X520_80'>
+		<A N='Value'>OFSET_720X520_80.xml</A>
 		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Офсетная бумага, 80 г/кв.м, 520x720 мм</A>
 	</S>
-	<S N='OFSET_520X720_100'>
-		<A N='Value'>OFSET_520X720_100.xml</A>
+	<S N='OFSET_720X520_100'>
+		<A N='Value'>OFSET_720X520_100.xml</A>
 		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Офсетная бумага, 100 г/кв.м, 520x720 мм</A>
 	</S>	
-	<S N='OFSET_520X720_120'>
-		<A N='Value'>OFSET_520X720_120.xml</A>
+	<S N='OFSET_720X520_120'>
+		<A N='Value'>OFSET_720X520_120.xml</A>
 		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Офсетная бумага, 120 г/кв.м, 520x720 мм</A>
 	</S>
-	<S N='OFSET_520X720_160'>
-		<A N='Value'>OFSET_520X720_160.xml</A>
+	<S N='OFSET_720X520_160'>
+		<A N='Value'>OFSET_720X520_160.xml</A>
 		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Офсетная бумага, 160 г/кв.м, 520x720 мм</A>
 	</S>
-	<S N='OFSET_520X720_190'>
-		<A N='Value'>OFSET_520X720_190.xml</A>
+	<S N='OFSET_720X520_190'>
+		<A N='Value'>OFSET_720X520_190.xml</A>
 		<A N='Path'>%ConfigFolder%\%UCID%\Substrates\</A>
 		<A N='Comment'>Офсетная бумага, 190 г/кв.м, 520x720 мм</A>
 	</S>	

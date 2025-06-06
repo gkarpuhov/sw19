@@ -19,8 +19,8 @@
     <A N='MinThickness' Type='Float'>0,100</A><!-- мин. толщина, мм -->
 </S>
 <S N='PrintableArea'><!-- максимальная область печати, мм -->
-    <A N='Width' Type='Float'>710</A>
-    <A N='Height' Type='Float'>500</A>
+    <A N='Width' Type='Float'>720</A>
+    <A N='Height' Type='Float'>520</A>
 </S>
 <S N='UnprintableMargins'><!-- незапечатываемые поля, мм -->
     <A N='Left' Type='Float'>5</A>
