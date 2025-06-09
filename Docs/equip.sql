@@ -1,0 +1,1 @@
+select id_norm_operation, operation_name from norm_operation where parentid is null
