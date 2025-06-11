@@ -166,7 +166,7 @@
 				<Template>^([^E]|E[^C]|EC[^R]||ECR[^T])</Template>
 				<Interval>
 					<Start date='' day='1' hour='17' min='30'></Start>
-					<Stop date='' day='5' hour='18' min='50'></Stop>
+					<Stop date='' day='7' hour='18' min='50'></Stop>
 					<Metadata>
 						<PrivateData key='SubmitImpositionCheck' value='Yes'/>
 					</Metadata>						
@@ -206,7 +206,7 @@
 				<Template>^([^E]|E[^C]|EC[^R]||ECR[^T])</Template>
 				<Interval>
 					<Start date='' day='1' hour='3' min='0'></Start>
-					<Stop date='' day='5' hour='3' min='30'></Stop>
+					<Stop date='' day='7' hour='3' min='30'></Stop>
 				</Interval>
 			</Include>			
 		</Filter>	
@@ -257,11 +257,11 @@
 				<Template/>
 				<Interval>
 					<Start date='' day='1' hour='19' min='0'></Start>
-					<Stop date='' day='5' hour='23' min='59'></Stop>
+					<Stop date='' day='7' hour='23' min='59'></Stop>
 				</Interval>
 				<Interval>
 					<Start date='' day='1' hour='7' min='0'></Start>
-					<Stop date='' day='5' hour='10' min='0'></Stop>
+					<Stop date='' day='7' hour='10' min='0'></Stop>
 				</Interval>				
 			</Include>
 		</Filter>			

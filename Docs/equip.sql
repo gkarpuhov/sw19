@@ -1,1 +1,2 @@
 select id_norm_operation, operation_name from norm_operation where parentid is null
+exec proc_api_get_equip_list

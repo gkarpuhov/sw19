@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<QUITEXML xmlns="http://www.quite.com/general/ns/quitexml/">
+<QUITEXML>
 <ITEMS>
 <DICT N='0'>  <ITEMS>
   <A N='Category'>OneCommand_V1</A>
@@ -715,3 +715,4 @@
 <A N='UIMode'>None</A>
 </ITEMS>
 </QUITEXML>
+
